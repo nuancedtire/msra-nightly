@@ -1,3 +1,135 @@
-# Welcome to Nextra
+import MCQGroup from '../components/MCQGroup'
 
-Hello, world!
+# Acute Coronary Syndrome (ACS)
+
+Acute coronary syndrome (ACS) refers to a continuum of disease in which there is acute ischaemia or infarction of the myocardium. There are three types:
+  - **Unstable angina (UA)**: Evidence of myocardial damage (e.g. chest pain at rest) in the absence of changes to cardiac biomarkers.
+  - **Non ST-elevation myocardial infarction (NSTEMI)**: Evidence of myocardial damage with elevated cardiac biomarkers but no ST elevation on ECG. It represents a partial-thickness infarct.
+  - **ST-elevation myocardial infarction (STEMI)**: Evidence of myocardial damage with elevated cardiac biomarkers and persistent ST elevation on ECG. It represents a full-thickness infarct.
+
+## Risk Factors
+
+### Modifiable
+  - Smoking
+  - Type 2 diabetes
+  - Hypertension
+  - Hypercholesterolaemia
+  - Obesity
+  - Sedentary lifestyle
+  - Cocaine use
+
+### Non-modifiable
+  - Increasing age
+  - Male gender
+  - Family history
+
+## Clinical Presentation
+
+Common symptoms include:
+  - Central or left-sided "crushing" chest pain which may radiate to jaw or left arm
+  - Shortness of breath
+  - Sweating
+  - Nausea & Vomiting
+
+*Note: Atypical presentations (e.g. dyspepsia, absence of chest pain) may occur in females, diabetics or the elderly.*
+
+## Investigations
+
+### Bedside
+  - Basic observations
+  - Serial ECGs
+    - STEMI: ST-elevation in certain leads depending on area of infarction
+    - NSTEMI or UA: T-wave inversion or ST-depression
+
+### Heart Territory and ECG Changes
+
+| Territory | Coronary Artery | ECG Leads |
+|-----------|----------------|------------|
+| Lateral | Left circumflex | I, aVL, V5, V6 |
+| Anteroseptal | Left anterior descending | V1 – V4 |
+| Inferior | Posterior descending* | II, III, aVF |
+| Posterior | Posterior descending* | Reciprocal changes in V1-V4 |
+
+*From right coronary (80%) or left circumflex (20%)
+
+### Blood Tests
+  - Serial troponin (elevated 4-6 hours after injury)
+  - FBC, U&E
+  - Blood glucose and lipid profile
+
+### Imaging
+  - Coronary angiogram (diagnostic investigation of choice)
+  - Chest X-ray
+  - ECHO
+
+## Initial Management
+
+All ACS patients should receive:
+  - Oxygen if SpO2 `<94%`
+  - Morphine for analgesia
+  - Glyceryl trinitrate
+  - Aspirin 300mg
+
+## Management Based on Type
+
+### STEMI Management
+  - If `<12` hours since symptom onset and PCI available within 120 minutes:
+    - Give anticoagulants and proceed to PCI
+  - If `<12` hours since symptom onset and PCI not available in 120 minutes:
+    - Give anticoagulants and start thrombolysis
+  - If `>12` hours since symptom onset:
+    - Medical management with antiplatelet therapy
+
+### NSTEMI/UA Management
+  - Risk stratification using GRACE score
+  - Low risk: Consider conservative management
+  - High risk: Consider immediate angiography if unstable
+  - Otherwise: Consider angiography within 72 hours
+
+## Long-term Management
+  - Beta blocker (often bisoprolol)
+  - ACE-inhibitor
+  - Dual antiplatelet therapy for 1 year
+  - High dose statin
+  - Risk factor modification
+
+<MCQGroup 
+  questions={[
+    {
+      question: "A 62-year-old man presents to the emergency department with crushing chest pain radiating to his left arm. His ECG shows ST-elevation in leads II, III, and aVF. His troponin levels are elevated. Which coronary artery is most likely occluded?",
+      options: [
+        "Left anterior descending artery",
+        "Left circumflex artery",
+        "Right coronary artery",
+        "Left main coronary artery"
+      ],
+      correctAnswer: 2,
+      correctFeedback: "Correct! ST-elevation in leads II, III, and aVF indicates an inferior wall MI, which is most commonly (80%) supplied by the right coronary artery via its posterior descending branch.",
+      incorrectFeedback: "Review the ECG lead territories and their corresponding blood supply. Think about which leads represent the inferior wall of the heart."
+    },
+    {
+      question: "A 58-year-old diabetic woman presents with fatigue and mild epigastric discomfort for the past 2 hours. Her initial troponin is negative, but rises to 2.1 ng/mL (normal <0.04) after 6 hours. Her ECG shows T-wave inversions in V1-V4. What is the most appropriate next step in management?",
+      options: [
+        "Immediate thrombolysis",
+        "Risk stratification using GRACE score",
+        "Discharge with follow-up",
+        "Immediate cardiac catheterization without risk stratification"
+      ],
+      correctAnswer: 1,
+      correctFeedback: "Correct! This patient has NSTEMI (elevated troponins without ST elevation). The next step is risk stratification using the GRACE score to determine the timing of invasive management.",
+      incorrectFeedback: "Consider the ECG findings and biomarker pattern. What type of ACS is this, and what does the guidelines recommend as the first step in management for this type?"
+    },
+    {
+      question: "A 45-year-old man undergoes successful PCI for STEMI. Which of the following medications should be prescribed for secondary prevention?",
+      options: [
+        "Aspirin alone",
+        "Warfarin and clopidogrel",
+        "Dual antiplatelet therapy for 1 year, then aspirin indefinitely",
+        "Triple therapy with aspirin, clopidogrel, and rivaroxaban"
+      ],
+      correctAnswer: 2,
+      correctFeedback: "Correct! Standard therapy after PCI for STEMI includes dual antiplatelet therapy (DAPT) for 1 year, followed by aspirin indefinitely, unless there are specific contraindications.",
+      incorrectFeedback: "Think about the balance between preventing stent thrombosis and minimizing bleeding risk. What is the standard duration of antiplatelet therapy after coronary stenting?"
+    }
+  ]}
+/>

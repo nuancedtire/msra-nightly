@@ -1,7 +1,12 @@
 export default {
-  logo: <span>My Nextra Documentation</span>,
+  logo: <span>Medical Notes</span>,
   project: {
-    link: 'https://github.com/shuding/nextra'
+    link: 'https://github.com/yourusername/yourrepo'
+  },
+  docsRepositoryBase: 'https://github.com/yourusername/yourrepo',
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – Medical Notes'
+    }
   }
-  // ... other theme options
 }
