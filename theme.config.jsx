@@ -8,5 +8,8 @@ export default {
     return {
       titleTemplate: '%s – MSRA Study Notes'
     }
+  },
+  footer: {
+    component: null
   }
 }
