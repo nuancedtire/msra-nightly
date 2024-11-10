@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useTheme } from 'nextra-theme-docs'
 import MCQ from './MCQ'
 
@@ -15,9 +15,14 @@ interface MCQGroupProps {
 }
 
 const MCQGroup = ({ questions }: MCQGroupProps) => {
-  const { resolvedTheme } = useTheme()
-  const isDark = resolvedTheme === 'dark'
+  const { resolvedTheme, theme } = useTheme()
+  const [isDark, setIsDark] = useState(false)
   const [answeredCount, setAnsweredCount] = useState(0)
+
+  useEffect(() => {
+    // Update isDark when theme changes or on initial load
+    setIsDark(resolvedTheme === 'dark' || theme === 'dark')
+  }, [resolvedTheme, theme])
 
   const styles = {
     container: `mt-12 space-y-8`,

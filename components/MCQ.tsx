@@ -1,5 +1,5 @@
 import { useTheme } from 'nextra-theme-docs'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 interface MCQProps {
   question: string
@@ -20,10 +20,15 @@ const MCQ = ({
   onAnswer,
   questionNumber 
 }: MCQProps) => {
-  const { resolvedTheme } = useTheme()
-  const isDark = resolvedTheme === 'dark'
+  const { resolvedTheme, theme } = useTheme()
+  const [isDark, setIsDark] = useState(false)
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null)
   const [isCorrect, setIsCorrect] = useState(false)
+
+  useEffect(() => {
+    // Update isDark when theme changes or on initial load
+    setIsDark(resolvedTheme === 'dark' || theme === 'dark')
+  }, [resolvedTheme, theme])
 
   const styles = {
     container: `
