@@ -1,0 +1,151 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Schistosomiasis (Bilharzia)
+
+Schistosomiasis, also known as bilharzia, is a parasitic disease caused by Schistosoma trematodes (blood flukes). These parasites are transmitted by aquatic snails. Infection often begins in childhood but can present much later in life when the disease becomes chronic. The majority of cases are found in sub-Saharan Africa, with the disease's geographical distribution depending on the snail host's location and the specific Schistosoma species involved.
+
+## Diagnosis
+
+Schistosomiasis is contracted by coming into contact with freshwater containing infected snails. The main risk factors include:
+
+- **Occupational Exposure:** Activities like fishing, irrigation, and canal cleaning.
+- **Non-occupational Exposure:** Activities such as swimming and washing clothes.
+
+For individuals in the UK, traveling to endemic regions like Africa and the Middle East is the primary way to contract schistosomiasis.
+
+### Stages of Disease
+
+The progression of schistosomiasis can be categorized based on the time elapsed since exposure to infected larvae:
+
+- **Initial Stage (Cercarial Dermatitis):**
+  - **Timeframe:** Days to weeks.
+  - **Mechanism:** Reaction to larvae penetrating the skin.
+  - **Symptoms:** Transient itching known as “swimmer’s itch” at the entry points.
+
+- **Acute Stage:**
+  - **Timeframe:** Weeks to months.
+  - **Mechanism:** Acute immune response to eggs deposited in tissues.
+  - **Symptoms:** Fever, fatigue, muscle pain, abdominal discomfort, facial swelling, and hives.
+
+- **Chronic Stage:**
+  - **Timeframe:** Up to 20 years.
+  - **Mechanism:** Granulomatous inflammation at parasite localization sites.
+  - **Symptoms:** Organ dysfunction such as abdominal pain, diarrhea, hepatosplenomegaly for intestinal schistosomiasis, or urinary issues like blood in urine and genital lesions for urogenital schistosomiasis.
+
+Different Schistosoma species are responsible for the two main forms of the disease:
+
+| Form               | Species                                   | Regions                                      |
+|--------------------|-------------------------------------------|----------------------------------------------|
+| Intestinal         | _S. mansoni_, _S. intercalatum_, _S. japonicum_ | Africa, Middle East, South America, Caribbean |
+| Urogenital         | _S. haematobium_                          | Africa, Middle East                           |
+
+## Investigations
+
+A comprehensive approach is necessary for diagnosing schistosomiasis and assessing complications.
+
+- **Bedside Tests:**
+  - **Stool/Urine Microscopy:** Essential for visualizing and quantifying eggs and identifying species by morphology.
+    - Repeat tests may be needed for low-level disease.
+    - If negative, consider tissue biopsy.
+    - In resource-limited settings without microscopy, use urinary circulating anodic antigen tests for urinary schistosomiasis.
+  - **Urinalysis:** Checks for blood, leukocytes, or nitrites indicating a secondary bacterial infection.
+
+- **Blood Tests:**
+  - **Full Blood Count:** May show eosinophilia during the acute stage or anemia.
+  - **ELISA:** Used for serological testing.
+
+- **Imaging:**
+  - **Abdominal Ultrasound, CT, or MRI:** To assess organ involvement and complications.
+
+## Emergency Management
+
+Emergencies in schistosomiasis arise from granulomas or fibrosis in affected organs:
+
+- **Urinary System:** Bladder cancer may require surgery and chemotherapy.
+- **Gynaecological System:** Ectopic pregnancy might need methotrexate or surgical intervention.
+- **Portal System:** Oesophageal varices could necessitate vasoactive drugs or endoscopic ligation.
+- **Intestinal System:** Bowel obstruction might require nasogastric decompression or surgery.
+- **Central Nervous System:** Spinal cord compression may require corticosteroids or surgical intervention.
+
+<Callout emoji="⚠️">
+**Warning:** Monitor patients closely for signs of organ dysfunction or emergency complications.
+</Callout>
+
+## Treatment
+
+### Pharmacological Management
+
+- **First-line Treatment:** Praziquantel is effective for all Schistosoma species.
+  - **Dosing:** 20 mg/kg, three times daily for _S. japonicum/S. mekongi_, or twice daily for _S. mansoni/S. intercalatum/S. haematobium_, administered for one day.
+  - A second round may be needed if symptoms persist a month after initial treatment.
+- **Adjunctive Therapy:** Corticosteroids can be used at the initial or acute stage for symptom relief.
+
+### Non-pharmacological Management
+
+While schistosomiasis is primarily treated with medication, certain complications may require surgical intervention. This includes procedures like tumor resection or radical cystectomy for bladder cancer, possibly in combination with chemotherapy or immunotherapy, depending on disease severity.
+
+## References
+
+1. BMJ Best Practice. [Schistosomiasis](https://bestpractice.bmj.com/topics/en-gb/809). Accessed August 8, 2021.
+
+2. BNF. [Helminth infections](https://bnf.nice.org.uk/treatment-summary/helminth-infections.html). Accessed August 8, 2021.
+
+3. WHO. [Schistosomiasis](https://www.who.int/news-room/fact-sheets/detail/schistosomiasis). Accessed August 8, 2021.
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 35-year-old man returns from a trip to sub-Saharan Africa and presents with abdominal pain, diarrhea, and blood in his urine. Stool microscopy reveals Schistosoma eggs. Which species of Schistosoma is most likely responsible for his urinary symptoms?",
+    options: [
+      "Schistosoma mansoni",
+      "Schistosoma intercalatum",
+      "Schistosoma japonicum",
+      "Schistosoma haematobium",
+      "Schistosoma mekongi"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Schistosoma haematobium is associated with urogenital schistosomiasis, which includes symptoms such as blood in the urine.",
+    incorrectFeedback: "Consider the different Schistosoma species and their associated disease presentations. Which species is known for causing urinary symptoms?"
+  },
+  {
+    question: "A 50-year-old farmer from Egypt presents with hepatosplenomegaly and eosinophilia. He reports frequent contact with freshwater while working. Which diagnostic test would best confirm a diagnosis of schistosomiasis in this patient?",
+    options: [
+      "Urinalysis",
+      "Stool microscopy",
+      "ELISA serology",
+      "Abdominal ultrasound",
+      "MRI of the abdomen"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Stool microscopy is essential for visualizing Schistosoma eggs and confirming the diagnosis of intestinal schistosomiasis.",
+    incorrectFeedback: "Think about which test specifically allows for the visualization of Schistosoma eggs to confirm infection."
+  },
+  {
+    question: "A 12-year-old girl in Kenya presents with fever, muscle pain, and facial swelling weeks after swimming in a local river. Which stage of schistosomiasis is she most likely experiencing?",
+    options: [
+      "Initial stage (Cercarial dermatitis)",
+      "Acute stage",
+      "Chronic stage",
+      "Latent stage",
+      "Reactivation stage"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The symptoms and timeframe suggest she is in the acute stage, characterized by an immune response to eggs in tissues.",
+    incorrectFeedback: "Consider the timing of her symptoms and the mechanism of the disease. Which stage corresponds with these acute immune responses?"
+  },
+  {
+    question: "A 45-year-old woman is diagnosed with schistosomiasis and started on praziquantel. What is the primary mechanism of action of this medication?",
+    options: [
+      "Inhibition of parasite protein synthesis",
+      "Disruption of parasite cell membrane integrity",
+      "Inhibition of parasite nucleic acid synthesis",
+      "Interference with parasite glucose metabolism",
+      "Inhibition of parasite neurotransmitter function"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Praziquantel works by disrupting the cell membrane integrity of the parasite, leading to paralysis and death of the parasite.",
+    incorrectFeedback: "Consider how praziquantel affects the physical structure of the parasite. What does it disrupt to cause the parasite's death?"
+  }
+]} />

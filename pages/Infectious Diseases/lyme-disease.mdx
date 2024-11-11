@@ -1,0 +1,143 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Comprehensive Guide to Lyme Disease
+
+Lyme disease is a vector-borne illness caused by the bacterium _Borrelia burgdorferi_. Transmitted through tick bites, the tick must remain attached to the skin for at least 36 hours to facilitate transmission. The disease progresses through three stages: early localized, early disseminated, and late disseminated, with overlapping symptoms.
+
+## Stages of Lyme Disease
+
+### Early Localized Infection
+
+This initial stage occurs when the infection is confined to the site of the tick bite. **Erythema migrans**, a distinctive red rash resembling a bull's-eye, typically appears about a week after the tick bite.
+
+![Erythema migrans](https://medibuddy.co.uk/wp-content/uploads/2021/09/PLAB-Lyme-Disease-1.jpg)
+*Figure 1: Erythema migrans. This rash can resemble a bull’s-eye and may feel warm to the touch but is rarely itchy or painful.*
+
+### Early Disseminated Infection
+
+At this stage, the infection may disseminate via the lymphatic system or bloodstream.
+
+### Late Disseminated Infection
+
+Months after the initial infection, chronic symptoms affecting multiple body systems may develop.
+
+## Diagnosis
+
+**Key Symptoms:**
+- **Early Symptoms:** 
+  - Fever
+  - Headache
+  - Muscle and joint pain
+  - Tiredness and malaise
+
+- **Chronic Symptoms:**
+  - Pain and joint swelling
+  - Neuralgia or peripheral neuropathy
+  - Cardiac issues such as carditis
+  - Encephalomyelitis
+
+Diagnosis is largely clinical, based on presenting symptoms. If the characteristic rash is absent, antibody tests against _Borrelia burgdorferi_ in the blood may be employed.
+
+## Investigations
+
+After infection, **IgM** and **IgG antibodies** emerge at 2-4 and 4-6 weeks, peaking at 6-8 weeks. 
+
+- **Neuroborreliosis:** CSF and lymphocyte testing may be performed. A significant protein increase in CSF is typical, whereas glucose levels remain normal. MRI may reveal periventricular white matter lesions, enlarged ventricles, and cortical atrophy.
+
+- **Peripheral Nervous System Involvement:** Nerve conduction studies can be informative.
+
+- **Cardiac Complications:** ECG and echocardiogram are conducted if myocardial dysfunction is suspected.
+
+## Management
+
+### Pharmacological Treatments
+
+- **Early Localized Infection:** A 10-14 day course of oral antibiotics, such as:
+  - Doxycycline, amoxicillin, or cefuroxime for adults and children
+  - Cefuroxime and amoxicillin for pregnant or breastfeeding women
+
+- **Central Nervous System Involvement:** Intravenous antibiotics are necessary.
+
+- **Lyme Carditis:** One-third of affected patients may require a pacemaker.
+
+- **Pain and Arthritis:** Managed with NSAIDs.
+
+### Non-Pharmacological Approaches
+
+Chronic symptoms like fatigue, sleep disturbances, and pain are managed conservatively. **Physiotherapy** and **exercise** are crucial for regaining mobility. Cognitive impairments may persist for months to years.
+
+**Prevention Tips:**
+- Avoid tick-prone areas.
+- Use insect repellents.
+- Wear protective clothing.
+
+<Callout emoji="⚠️">
+**Warning:** Always monitor vital signs continuously during the procedure.
+</Callout>
+
+## References
+
+1. [Healthline on Lyme Disease](https://www.healthline.com/health/lyme-disease#lyme-disease)
+2. [CDC: Signs and Symptoms of Lyme Disease](https://www.cdc.gov/lyme/signs_symptoms/index.html)
+3. [Mayo Clinic: Lyme Disease Overview](https://www.mayoclinic.org/diseases-conditions/lyme-disease/symptoms-causes/syc-20374651)
+```
+
+This MDX document is structured to provide a comprehensive, concise, and readable medical article on Lyme disease suitable for a Nextra documentation website. The content is thoroughly paraphrased while retaining all essential information from the original text.
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 45-year-old man presents with a red rash on his thigh, which he noticed a week after a camping trip in an area known for ticks. The rash has a bull's-eye appearance. He also reports mild fever and joint pain. What is the most appropriate initial treatment?",
+    options: [
+      "Topical hydrocortisone",
+      "Oral doxycycline",
+      "Intravenous ceftriaxone",
+      "Oral acyclovir",
+      "Oral ibuprofen"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Oral doxycycline is the first-line treatment for early localized Lyme disease, especially when erythema migrans is present.",
+    incorrectFeedback: "Consider the typical presentation of early localized Lyme disease and the appropriate antibiotic treatment for Borrelia burgdorferi."
+  },
+  {
+    question: "A 35-year-old woman comes to the clinic with a history of a tick bite 2 months ago. She now reports fatigue, palpitations, and shortness of breath. An ECG shows third-degree heart block. Which of the following is the most appropriate next step in management?",
+    options: [
+      "Start oral amoxicillin",
+      "Refer for temporary pacemaker insertion",
+      "Administer intravenous ceftriaxone",
+      "Perform cardiac catheterization",
+      "Prescribe oral metoprolol"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Intravenous ceftriaxone is indicated for Lyme carditis with significant cardiac involvement such as third-degree heart block.",
+    incorrectFeedback: "Think about the treatment protocol for Lyme disease when cardiac symptoms are present and severe."
+  },
+  {
+    question: "A patient diagnosed with Lyme neuroborreliosis is showing signs of encephalomyelitis. What finding is most likely to be observed in the cerebrospinal fluid (CSF) analysis?",
+    options: [
+      "Decreased protein levels",
+      "Decreased glucose levels",
+      "Increased white blood cell count with predominance of neutrophils",
+      "Increased protein levels with normal glucose levels",
+      "Presence of oligoclonal bands"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Lyme neuroborreliosis typically presents with increased protein levels and normal glucose levels in CSF.",
+    incorrectFeedback: "Consider the typical CSF profile associated with Lyme neuroborreliosis and how it differs from bacterial meningitis."
+  },
+  {
+    question: "A 50-year-old woman, who is pregnant, presents with erythema migrans and flu-like symptoms after a recent hiking trip. She is diagnosed with early localized Lyme disease. Which antibiotic is appropriate for her treatment?",
+    options: [
+      "Doxycycline",
+      "Amoxicillin",
+      "Azithromycin",
+      "Ciprofloxacin",
+      "Trimethoprim-sulfamethoxazole"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Amoxicillin is the recommended antibiotic for treating Lyme disease in pregnant women.",
+    incorrectFeedback: "Consider the safety profile of antibiotics during pregnancy and their effectiveness against Borrelia burgdorferi."
+  }
+]} />

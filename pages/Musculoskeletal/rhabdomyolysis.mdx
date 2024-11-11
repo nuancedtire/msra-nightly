@@ -1,0 +1,113 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Rhabdomyolysis
+
+Rhabdomyolysis is an acute medical condition characterized by the breakdown of skeletal muscle fibers, leading to the release of muscle cell contents into the bloodstream. This leakage includes substances such as potassium, phosphate ions, myoglobin, creatine kinase, and urate, which can result in dangerous complications including electrolyte imbalances, acidosis, disseminated intravascular coagulation (DIC), renal failure, and potentially multi-organ failure.
+
+## Causes of Rhabdomyolysis
+
+Rhabdomyolysis can be triggered by a variety of factors:
+
+- **Alcohol abuse**
+- **Muscle overexertion** (e.g., marathon running)
+- **Traumatic crush injuries**
+- **Genetic disorders**: such as Duchenne’s muscular dystrophy
+- **Seizures and status epilepticus**
+- **Infections**: including influenza, HIV, and _Legionella_ species
+- **Medications**: particularly statins
+- **Toxins**: like snakebites
+- **Endocrine disorders**: such as hypothyroidism
+
+## Diagnosis
+
+### Clinical Presentation
+
+Diagnosing rhabdomyolysis often starts with clinical suspicion based on patient history and symptoms, which can be non-specific. Patients may exhibit:
+
+- Muscle pain, swelling, and tenderness
+- Systemic symptoms such as dark urine, fever, malaise, nausea, and confusion
+
+### Investigations
+
+- **Serum Creatine Kinase**: A key diagnostic marker; levels are typically more than five times the normal range and may exceed 50 times in severe cases.
+- **Urine Dipstick**: May show false-positive results for blood due to myoglobin presence.
+- **Serum Transaminases**: Often elevated, especially aspartate transaminase (AST).
+- **Muscle Biopsy**: Considered when a genetic cause is suspected, especially in recurrent cases.
+
+## Emergency Management
+
+The most severe complication of rhabdomyolysis is acute kidney injury (AKI), which arises from myoglobin obstructing renal tubules.
+
+<Callout emoji="⚠️">
+**Warning:** AKI requires urgent intervention, following the advanced life support protocol (ABCDE) and addressing complications like fluid overload, hyperkalemia, acidosis, and uremia. Dialysis may be necessary for severe cases.
+</Callout>
+
+### Additional Complications
+
+- **Disseminated Intravascular Coagulation (DIC)**: Characterized by widespread clotting and bleeding due to platelet depletion. Treatment focuses on the underlying cause, but transfusions may be required in rapid-onset cases.
+- **Severe Hyperkalemia**: Caused by potassium release from damaged muscles, potentially leading to cardiac arrhythmias. Treatment includes intravenous calcium gluconate to stabilize cardiac membranes, followed by insulin and dextrose infusion to reduce serum potassium.
+
+## Non-Prescriptive Management
+
+The cornerstone of rhabdomyolysis treatment is aggressive hydration to facilitate renal clearance of toxins. Intravenous crystalloids, such as Hartmann's solution, are preferred. Diuretics like furosemide may also be employed to enhance toxin excretion.
+
+## References
+
+- Goldman-Cecil Medicine 2020
+- Kumar and Clark’s Clinical Medicine 2017
+- BMJ Best Practice. _Rhabdomyolysis._
+- AAFP. _Rhabdomyolysis._ Available at: [AAFP Article](https://www.aafp.org/afp/2002/0301/p907.html)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 25-year-old marathon runner presents to the emergency department with muscle pain, dark urine, and malaise after completing a race. His serum creatine kinase level is markedly elevated. Which of the following is the most likely complication of his condition if left untreated?",
+    options: [
+      "Hypocalcemia",
+      "Acute kidney injury (AKI)",
+      "Hyperglycemia",
+      "Pulmonary embolism"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Acute kidney injury (AKI) is a common and serious complication of rhabdomyolysis due to myoglobin-induced renal tubular obstruction.",
+    incorrectFeedback: "Consider the systemic effects of muscle breakdown products on the kidneys. Which organ system is most directly impacted by these products?"
+  },
+  {
+    question: "A 52-year-old man with a history of statin use presents with muscle tenderness and weakness. Laboratory tests reveal a serum creatine kinase level 10 times the upper limit of normal. Which of the following additional findings would best support a diagnosis of rhabdomyolysis?",
+    options: [
+      "Elevated serum calcium",
+      "Increased serum transaminases",
+      "Decreased serum potassium",
+      "Normal urine myoglobin"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Increased serum transaminases, particularly AST, are commonly elevated in rhabdomyolysis due to muscle damage.",
+    incorrectFeedback: "Focus on laboratory findings that reflect muscle cell damage and systemic effects of muscle breakdown."
+  },
+  {
+    question: "A 45-year-old woman with a history of hypothyroidism presents with muscle swelling and dark urine. She is diagnosed with rhabdomyolysis. Which of the following is the most appropriate initial management step?",
+    options: [
+      "Initiate hemodialysis",
+      "Administer intravenous calcium gluconate",
+      "Aggressive intravenous fluid resuscitation",
+      "Perform emergency fasciotomy"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Aggressive intravenous fluid resuscitation is the cornerstone of rhabdomyolysis management to prevent acute kidney injury by diluting myoglobin concentration and maintaining renal perfusion.",
+    incorrectFeedback: "Consider the primary goals in the early management of rhabdomyolysis, particularly in preventing renal complications."
+  },
+  {
+    question: "A patient with suspected rhabdomyolysis has a urine dipstick test that is positive for blood, but microscopic examination shows no red blood cells. What substance is most likely causing the dipstick result?",
+    options: [
+      "Hemoglobin",
+      "Myoglobin",
+      "Bilirubin",
+      "Urobilinogen"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Myoglobin, released from damaged muscle cells, can cause a false-positive dipstick test for blood because it is similar to hemoglobin.",
+    incorrectFeedback: "Think about muscle breakdown products that would appear in urine in rhabdomyolysis. Which one resembles hemoglobin?"
+  }
+]} />

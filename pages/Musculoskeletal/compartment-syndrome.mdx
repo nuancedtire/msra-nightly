@@ -1,0 +1,106 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Compartment Syndrome
+
+Compartment syndrome occurs due to increased tissue pressure within a closed osteofascial space. This condition often arises after injuries such as long bone fractures, hemorrhages, or direct soft-tissue damage. The buildup of pressure restricts capillary blood flow, which, if not addressed swiftly, can lead to tissue death (necrosis).
+
+## Diagnosis
+
+Diagnosing compartment syndrome is primarily clinical and requires a high level of suspicion for prompt identification. The syndrome is characterized by the traditional **6 Ps**:
+
+- **P**ain
+- **P**oikilothermia (inability to regulate temperature)
+- **P**araesthesia (tingling or numbness)
+- **P**aralysis
+- **P**ulselessness
+- **P**allor (paleness)
+
+<Callout emoji="⚠️">
+**Note:** The last three symptoms—paralysis, pulselessness, and pallor—are rare and usually appear later. The most common signs include disproportionate pain and increased pain with passive movement, along with a sensation of pressure within the affected compartment.
+</Callout>
+
+Common sites for compartment syndrome include the leg compartments, particularly the anterior and deep posterior compartments, and the volar compartment of the forearm. These conditions may occur after tibial shaft and supracondylar fractures, respectively.
+
+## Investigations
+
+In cases where diagnosis is uncertain, measuring intracompartmental pressure can be useful. Additionally, serum creatine kinase and urine myoglobin levels should be assessed as they indicate muscle necrosis.
+
+## Management
+
+Compartment syndrome is a medical emergency and requires immediate intervention:
+
+- **Dressing Release**: If the patient is in a cast or has tight dressings, these should be removed immediately.
+- **Fasciotomy**: This is the primary treatment for patients without dressings.
+- **Supportive Care**: This includes providing analgesics (e.g., morphine) and intravenous fluids.
+- **Debridement and Amputation**: In cases where muscle necrosis is evident, as indicated by muscles failing to contract upon electrocoagulation, these procedures may be necessary.
+
+Post-fasciotomy care involves diligent wound management, using skin grafts when necessary, and engaging in physical and occupational therapy. It is also crucial to address the underlying cause, such as a fracture.
+
+<details>
+<summary>Detailed Pathophysiology</summary>
+
+Compartment syndrome results from an imbalance between the volume of the compartment and the space available within it. As pressure increases, it surpasses the venous pressure, impeding venous outflow and eventually affecting arterial inflow, leading to ischemia and potential necrosis if untreated.
+
+</details>
+
+## References
+
+- [BMJ Best Practice: Compartment Syndrome of Extremities](https://bestpractice.bmj.com/topics/en-gb/3000116)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 25-year-old man presents to the emergency department with severe pain in his right leg after a motorbike accident. He has a mid-shaft tibial fracture. Upon examination, there is swelling and the skin is tense. Which of the following findings would most strongly suggest the presence of compartment syndrome?",
+    options: [
+      "Diminished pulses",
+      "Poikilothermia",
+      "Disproportionate pain on passive stretch",
+      "Pallor of the skin",
+      "Paralysis of the foot"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Disproportionate pain on passive stretch is a hallmark early sign of compartment syndrome and should prompt immediate evaluation and management.",
+    incorrectFeedback: "While diminished pulses, poikilothermia, pallor, and paralysis can occur, they are late signs. Consider the early indicators of compartment syndrome."
+  },
+  {
+    question: "A 30-year-old female presents with increasing pain and a sensation of tightness in her forearm following a supracondylar fracture treated with a cast. Her pain is not relieved by analgesics and increases with passive finger extension. What is the most appropriate next step in management?",
+    options: [
+      "Increase the dose of analgesics",
+      "Perform an immediate fasciotomy",
+      "Measure serum creatine kinase levels",
+      "Remove the cast immediately",
+      "Obtain a Doppler ultrasound of the extremity"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Removing the cast immediately is crucial in alleviating the pressure responsible for compartment syndrome and should be done before considering surgical options.",
+    incorrectFeedback: "Immediate action to relieve pressure, such as removing the cast, is critical before proceeding to more invasive procedures or further investigations."
+  },
+  {
+    question: "A patient with compartment syndrome underwent a successful fasciotomy. Which of the following is an essential component of post-operative care to ensure optimal recovery?",
+    options: [
+      "Immediate skin grafting",
+      "Early initiation of physical and occupational therapy",
+      "Continuous intravenous antibiotics",
+      "Strict limb immobilization",
+      "Daily wound irrigation"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Early initiation of physical and occupational therapy is vital to restore function and prevent joint stiffness post-fasciotomy.",
+    incorrectFeedback: "Consider interventions that promote healing and function restoration post-fasciotomy."
+  },
+  {
+    question: "Which of the following laboratory findings is indicative of muscle necrosis in a patient suspected of having compartment syndrome?",
+    options: [
+      "Elevated serum creatinine",
+      "Low serum bicarbonate",
+      "Elevated serum creatine kinase",
+      "High white blood cell count",
+      "Low hemoglobin level"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Elevated serum creatine kinase is a marker of muscle necrosis, which can occur in untreated compartment syndrome.",
+    incorrectFeedback: "Focus on laboratory findings that directly reflect muscle damage."
+  }
+]} />

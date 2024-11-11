@@ -1,0 +1,125 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Rabies: Prevention, Diagnosis, and Management
+
+Rabies is a preventable viral disease that affects both humans and animals, primarily transmitted through dog bites. It is more prevalent in regions such as Asia and Africa. Once rabies symptoms manifest, the disease is almost invariably fatal, with a 99-100% fatality rate. The incubation period typically ranges from 1-3 months, but it can be shorter depending on the virus's travel distance to the central nervous system via peripheral nerves. Global vaccination and animal control efforts have significantly lowered rabies incidence. The same vaccine is used for both pre-exposure and post-exposure immunization.
+
+## Diagnosis
+
+Rabies presents in two forms: **furious rabies** and **paralytic rabies**, the latter constituting 20% of human cases.
+
+### Furious Rabies Symptoms
+
+- **Hyperactivity**
+- **Hydrophobia** (fear of water), **aerophobia** (fear of fresh air or drafts)
+- **Paranoia** and **terror**
+- **Hallucinations**
+- Death due to cardio-respiratory arrest
+
+### Paralytic Rabies Symptoms
+
+- **Paralysis**
+- **Delirium**
+- Coma followed by death
+
+![Dog with paralytic form of rabies. Appears depressed and lethargic](https://medibuddy.co.uk/wp-content/uploads/2021/09/PLAB-Rabies-1.jpg)
+
+<Callout emoji="⚠️">
+**Note:** Clinical diagnosis can be challenging unless specific symptoms like hydrophobia and aerophobia are evident, as other symptoms might resemble encephalitis.
+</Callout>
+
+## Investigations
+
+The gold standard for diagnosing rabies is the **fluorescent antibody test (FAT)**, an immunohistochemistry procedure. This test uses a detector molecule that binds to the rabies-specific antibody, forming a conjugate. The conjugate then binds to the rabies antigen and can be visualized using fluorescent microscopy.
+
+## Management (Prescribing)
+
+### Post-Exposure Prophylaxis
+
+Immediate post-exposure treatment is crucial to prevent the virus from reaching the central nervous system. Treatment includes:
+
+1. Extensive wound washing for at least ``15 minutes``
+2. Immediate administration of the rabies vaccine
+3. Rabies immunoglobulin if indicated
+
+The World Health Organization (WHO) categorizes contact with rabid animals and suggests corresponding post-exposure measures:
+
+| Categories of contact with rabid animals | Post-exposure prophylaxis measures                    |
+|------------------------------------------|-------------------------------------------------------|
+| Category 1 – touching, but no exposure   | Washing only                                          |
+| Category 2 – nibbling of uncovered skin  | Washing with immediate vaccination                    |
+| Category 3 – transdermal bite            | Washing, immediate vaccination, and rabies immunoglobulin |
+
+## Management (Non-Prescribing)
+
+The most effective prevention method is vaccination. Additional preventive measures include:
+
+- **Vaccination of dogs** against rabies
+- **Supervising pets** to prevent exposure
+- Avoid handling stray dogs
+- Contact animal control if an animal is acting suspiciously
+
+## References
+
+- [World Health Organization Rabies Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/rabies)
+```
+
+This MDX article presents a comprehensive overview of rabies, covering its prevention, diagnosis, and management while maintaining readability and clarity.
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 25-year-old man presents to the emergency department after being bitten on the hand by a stray dog while jogging in a rural area known for rabies. The bite is deep and bleeding. Which of the following is the most appropriate initial step in managing this patient?",
+    options: [
+      "Administer rabies immunoglobulin",
+      "Administer the rabies vaccine",
+      "Extensive wound washing for at least 15 minutes",
+      "Start antibiotics to prevent secondary infection",
+      "Observe the patient for rabies symptoms"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The first step in post-exposure management of a potential rabies bite is extensive wound washing. This can significantly reduce the risk of rabies transmission by removing the virus from the site of entry.",
+    incorrectFeedback: "Consider what immediate action can reduce the viral load at the site of exposure before any other medical interventions are applied."
+  },
+  {
+    question: "A 30-year-old woman is planning a trip to a rural area in Africa where rabies is endemic. She asks about pre-exposure prophylaxis. Which of the following statements about rabies vaccination is correct?",
+    options: [
+      "Pre-exposure vaccination eliminates the need for post-exposure prophylaxis if bitten.",
+      "The same vaccine is used for both pre-exposure and post-exposure immunization.",
+      "Pre-exposure vaccination is only recommended for veterinarians.",
+      "Pre-exposure vaccination guarantees complete immunity against rabies.",
+      "Pre-exposure vaccination requires a booster every six months."
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The rabies vaccine used for both pre-exposure and post-exposure prophylaxis is the same. However, even with pre-exposure vaccination, post-exposure prophylaxis is recommended if an exposure occurs.",
+    incorrectFeedback: "Think about the role of pre-exposure vaccination in reducing risk and how it complements, rather than replaces, post-exposure measures."
+  },
+  {
+    question: "A 50-year-old farmer presents with progressive paralysis and delirium two months after being bitten by a bat. Which form of rabies is he most likely experiencing, and what is the prognosis?",
+    options: [
+      "Furious rabies; high chance of recovery with prompt treatment",
+      "Paralytic rabies; poor prognosis with high mortality",
+      "Furious rabies; poor prognosis but treatable with aggressive therapy",
+      "Paralytic rabies; good prognosis with supportive care",
+      "Furious rabies; moderate prognosis with antiviral medication"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The patient is likely experiencing paralytic rabies, characterized by paralysis and delirium. Unfortunately, once symptoms appear, the prognosis is poor, with almost 100% mortality.",
+    incorrectFeedback: "Consider the types of rabies and their typical presentations, as well as the known outcomes once symptoms manifest."
+  },
+  {
+    question: "Which of the following is the gold standard diagnostic test for confirming rabies in a suspected case?",
+    options: [
+      "Polymerase chain reaction (PCR) of blood",
+      "Enzyme-linked immunosorbent assay (ELISA) of saliva",
+      "Magnetic resonance imaging (MRI) of the brain",
+      "Fluorescent antibody test (FAT)",
+      "Serum rabies antibody titer"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! The fluorescent antibody test (FAT) is considered the gold standard for diagnosing rabies, as it allows visualization of the rabies antigen using fluorescent microscopy.",
+    incorrectFeedback: "Think about which test allows for direct visualization of the rabies virus in tissue samples."
+  }
+]} />

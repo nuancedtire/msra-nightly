@@ -1,0 +1,109 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Reactive Arthritis (Reiter's Syndrome)
+
+Reactive arthritis, also known as Reiter’s syndrome, is an inflammatory condition that typically emerges one to three weeks following a bacterial infection of the genitourinary or gastrointestinal tract. Common bacterial causes include _Chlamydia trachomatis_, _Salmonella enteritidis_, _Campylobacter jejuni_, and _Shigella dysenteriae_. Although it can affect individuals of any age, it predominantly occurs in men aged 20-40 years. This condition belongs to the group of spondyloarthropathies, alongside ankylosing spondylitis, psoriatic arthritis, and enteropathic arthritis, all of which are linked to the HLA-B27 genetic marker. Most patients experience a single episode lasting up to six months, with potential for full recovery, but some may have recurrent episodes characterized by chronic remitting and relapsing arthritis.
+
+## Diagnosis
+
+Reactive arthritis is characterized by a classical triad of **arthritis**, **urethritis**, and **conjunctivitis**. Additional symptoms may include:
+
+- **Keratoderma blenorrhagicum**: Hard, tender lumps and blistering on the soles.
+- **Circinate balanitis**: Rash on the penis head.
+- **Enthesitis**: Inflammation at the tendon-bone insertion, such as plantar fasciitis.
+- **Dactylitis**: Swelling of a finger or toe, often called a 'sausage' digit.
+- Recurrent mouth ulcers on the tongue, lips, and gums.
+- Nail dystrophy with subungual hyperkeratosis.
+- General symptoms like fever, fatigue, and weight loss.
+
+Typically, urethritis is the initial symptom, presenting as burning dysuria during urination. However, arthritis is the most prevalent symptom, affecting about 95% of patients. It usually presents as an asymmetrical peripheral oligoarthritis and may include sacroiliitis, which manifests as non-specific lower back pain and morning stiffness. Ocular inflammation, such as conjunctivitis, appears as redness, pain, and blurred vision, often with sterile purulent discharge.
+
+## Investigations
+
+Diagnosis is generally clinical, based on history and examination, but the following tests can be supportive:
+
+- Elevated **ESR** and **CRP** during acute inflammation.
+- Negative **ANA** and **rheumatoid factor** tests can exclude other arthritis forms.
+- A positive **HLA-B27** genetic marker aids in assessing long-term prognosis and recurrence risk.
+
+## Management (Prescribing)
+
+Treatment focuses on symptom relief and preventing joint damage.
+
+1. **NSAIDs**: First-line treatment for reducing inflammation and managing pain, with options like indomethacin or naproxen.
+2. **Corticosteroids**: Oral or intra-articular administration is considered if NSAIDs are ineffective, depending on the number of joints involved.
+3. **DMARDs**: Medications like sulfasalazine or methotrexate are used in cases of relapsing conditions or to prevent radiographic joint destruction.
+
+## Management (Non-Prescribing)
+
+- **Physiotherapy**: Engaging in strengthening and range-of-motion exercises helps develop muscles around the affected joints, increase flexibility, and reduce stiffness. It is recommended as a complementary treatment for most patients.
+
+<Callout emoji="⚠️">
+**Warning:** Continuous monitoring of symptoms is crucial to prevent complications and manage the condition effectively.
+</Callout>
+
+## References
+
+1. Davidson’s Principles and Practice of Medicine 2018.
+2. Kumar and Clark’s Clinical Medicine 2017.
+3. BMJ Best Practice. _Reactive arthritis._
+4. DermNet NZ. _Reiter syndrome._ [DermNet](https://dermnetnz.org/topics/reiter-syndrome)
+5. AAFP. _Reactive Arthritis (Reiter’s syndrome)._ [AAFP](https://www.aafp.org/afp/1999/0801/p499.html)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 28-year-old male presents to the clinic with joint pain, eye redness, and painful urination. He reports a recent episode of diarrhea two weeks ago. Physical examination reveals an inflamed right knee, conjunctival injection, and tenderness over the Achilles tendon. Which of the following pathogens is most likely responsible for these symptoms?",
+    options: [
+      "Streptococcus pyogenes",
+      "Chlamydia trachomatis",
+      "Mycobacterium tuberculosis",
+      "Borrelia burgdorferi",
+      "Neisseria gonorrhoeae"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Chlamydia trachomatis is a common causative pathogen of reactive arthritis, particularly following genitourinary infections.",
+    incorrectFeedback: "Consider the temporal relationship between the recent infection and the onset of symptoms, as well as the typical pathogens associated with reactive arthritis."
+  },
+  {
+    question: "A 35-year-old man with known reactive arthritis presents with worsening joint pain and stiffness unresponsive to NSAIDs. Examination shows dactylitis of the fingers and enthesitis at the Achilles tendon. Which is the next best step in management?",
+    options: [
+      "Start high-dose corticosteroids",
+      "Initiate methotrexate therapy",
+      "Begin antibiotic therapy",
+      "Recommend physical therapy alone",
+      "Increase NSAID dosage"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Methotrexate is a DMARD used in cases of persistent or relapsing reactive arthritis when NSAIDs are insufficient.",
+    incorrectFeedback: "Consider the need for a treatment that addresses the underlying inflammatory process when NSAIDs are not effective."
+  },
+  {
+    question: "A 40-year-old male with a history of reactive arthritis presents with new-onset eye discomfort and blurred vision. Slit lamp examination reveals anterior uveitis. Which of the following is the most appropriate immediate management for his ocular symptoms?",
+    options: [
+      "Oral NSAIDs",
+      "Topical corticosteroids",
+      "Antibiotic eye drops",
+      "Systemic corticosteroids",
+      "Methotrexate"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Topical corticosteroids are the treatment of choice for anterior uveitis to reduce inflammation and prevent vision loss.",
+    incorrectFeedback: "Focus on local treatment to manage the inflammation in the eye effectively and swiftly."
+  },
+  {
+    question: "Which of the following laboratory findings is most likely to be present in a patient with reactive arthritis?",
+    options: [
+      "Positive ANA",
+      "Negative rheumatoid factor",
+      "Elevated serum uric acid",
+      "Positive anti-CCP",
+      "Decreased ESR"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Reactive arthritis typically presents with a negative rheumatoid factor, helping differentiate it from rheumatoid arthritis.",
+    incorrectFeedback: "Consider the common laboratory findings used to exclude other types of arthritis in the diagnosis of reactive arthritis."
+  }
+]} />

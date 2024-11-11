@@ -1,0 +1,151 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Viral Meningitis
+
+Meningitis refers to the inflammation of the meninges, the protective membranes covering the brain and spinal cord. This condition can be classified based on its causative agent, such as bacterial, viral, tuberculous, or fungal meningitis. Among these, **viral meningitis** is the most common and least severe, often resolving with conservative management. Notably, there is no specific treatment available for viral meningitis.
+
+## Causes of Viral Meningitis
+
+Viruses responsible for viral meningitis include:
+
+- Cytomegalovirus (CMV)
+- Herpes Simplex Virus (HSV)
+- Varicella Zoster Virus (VZV)
+- Human Enteroviruses
+- Mumps Virus
+
+The prevalence of these viruses varies worldwide, with human enteroviruses frequently being the most common cause, primarily spread through the fecal-oral route.
+
+> **Key Point:** It is crucial to differentiate viral meningitis from bacterial meningitis, which is potentially life-threatening and requires urgent treatment.
+
+## Diagnosis
+
+### Symptoms and Signs
+
+The symptoms of viral meningitis can include:
+
+- **Headache**: The most common symptom
+- **Photophobia**: Sensitivity to light
+- **Neck Stiffness**
+- **Fever**
+- **Nausea and Vomiting**
+- **Purpuric Rash**
+- **Kernig’s Sign**: Inability to straighten the leg when the hip is flexed
+- **Brudzinski’s Sign**: Involuntary flexion of hips and knees when the neck is flexed
+
+<Callout emoji="⚠️">
+**Warning:** A non-blanching rash may suggest bacterial meningitis (meningococcal septicaemia). Due to the high risk associated with bacterial meningitis, patients with meningism and a non-blanching rash should receive empirical antibiotic treatment immediately.
+</Callout>
+
+### Differential Diagnosis
+
+When assessing a patient with a headache, consider other acute and potentially life-threatening conditions, such as:
+
+- Intracranial hemorrhage (e.g., subarachnoid hemorrhage)
+- Malignancy (brain tumors)
+- Eclampsia and preeclampsia (in pregnant women)
+- Migraines (not life-threatening)
+
+## Investigations
+
+Key investigations for meningitis include:
+
+- **Blood Cultures**: Typically collected in three sets from different sites.
+- **Lumbar Puncture**: To collect cerebrospinal fluid (CSF) for analysis.
+- **Blood Tests**: Including full blood count, inflammatory markers, and urea and electrolytes.
+
+Brain imaging, such as CT or MRI scans, may help visualize structural changes or rule out other neurological conditions.
+
+### CSF Analysis
+
+CSF analysis involves examining:
+
+- **Opening Pressure**
+- **Appearance**
+- **White Blood Cell Count (WCC)**
+- **Predominant White Cell Type**
+- **C-reactive Protein (CRP)**
+- **Protein Levels**
+- **Glucose Levels**
+- **Lactate**
+
+Culturing CSF can identify and quantify any pathogens present. The table below illustrates typical CSF findings in different types of meningitis:
+
+| Test                      | Viral                 | Bacterial                  | Fungal/Tuberculous   |
+|---------------------------|-----------------------|----------------------------|----------------------|
+| Opening Pressure          | Normal/slightly raised| Raised                     | Normal/raised        |
+| Appearance                | Clear                 | Cloudy/turbid/purulent     | Fibrin web           |
+| WCC                       | Normal/slightly raised| Raised                     | Normal/slightly raised|
+| Predominant White Cell Type| Lymphocytes           | Polymorphs                 | Lymphocytes          |
+| Protein                   | Normal/slightly raised| Raised                     | Normal               |
+| Glucose                   | Normal                | Decreased                  | Normal/slightly decreased|
+
+## Management
+
+For patients presenting with meningism, **empirical antibiotics** should be administered promptly. Ideally, a lumbar puncture should precede antibiotic therapy, but if delays occur, prioritize antibiotic administration.
+
+If investigations confirm a viral cause, antibiotics can be discontinued. Herpes simplex virus-induced meningitis may be treated with acyclovir, as advised by specialists. Most patients can be managed conservatively with bed rest and analgesics like paracetamol or ibuprofen. Clinically stable patients may be discharged home.
+
+## References
+
+- [BMJ Best Practice](https://bestpractice.bmj.com/topics/en-gb/3000242)
+- [NHS Meningitis Information](https://www.nhs.uk/conditions/meningitis/)
+- [CSF Analysis - Life in the Fast Lane](https://litfl.com/csf-analysis/)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 25-year-old man presents with headache, fever, neck stiffness, and photophobia. The lumbar puncture reveals clear cerebrospinal fluid (CSF) with a normal opening pressure, slightly raised white blood cell count with lymphocyte predominance, normal protein, and normal glucose levels. Which of the following is the most likely diagnosis?",
+    options: [
+      "Bacterial meningitis",
+      "Viral meningitis",
+      "Fungal meningitis",
+      "Tuberculous meningitis",
+      "Subarachnoid hemorrhage"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The CSF findings of clear fluid, normal opening pressure, lymphocyte predominance, and normal glucose levels are indicative of viral meningitis.",
+    incorrectFeedback: "Consider the CSF profile: a normal opening pressure, lymphocytic predominance, and normal glucose levels are characteristic of viral, not bacterial, fungal, or tuberculous meningitis."
+  },
+  {
+    question: "Which of the following viruses is most commonly associated with viral meningitis worldwide?",
+    options: [
+      "Cytomegalovirus (CMV)",
+      "Herpes Simplex Virus (HSV)",
+      "Varicella Zoster Virus (VZV)",
+      "Human Enteroviruses",
+      "Mumps Virus"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Human enteroviruses are the most common cause of viral meningitis globally.",
+    incorrectFeedback: "Reconsider the common routes of transmission and prevalence of these viruses. Human enteroviruses are frequently transmitted through the fecal-oral route and are the most prevalent cause."
+  },
+  {
+    question: "A 30-year-old female presents with fever, purpuric rash, and neck stiffness. While awaiting lumbar puncture results, what is the most appropriate immediate management step?",
+    options: [
+      "Administer antiviral therapy",
+      "Administer empirical antibiotic therapy",
+      "Administer corticosteroids",
+      "Observe and wait for lumbar puncture results",
+      "Start analgesics and bed rest"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Due to the high risk associated with potential bacterial meningitis, empirical antibiotic therapy should be administered immediately.",
+    incorrectFeedback: "Consider the urgency of treating bacterial meningitis due to its life-threatening nature. Immediate empirical antibiotic therapy is warranted in this scenario."
+  },
+  {
+    question: "A patient with confirmed viral meningitis is stable and ready for discharge. What is the recommended management approach for this patient?",
+    options: [
+      "Prescribe a course of antibiotics",
+      "Prescribe antiviral therapy for all viral meningitis cases",
+      "Recommend bed rest and analgesics",
+      "Admit for intravenous fluids and monitoring",
+      "Schedule follow-up for repeat lumbar puncture"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Most cases of viral meningitis can be managed conservatively with bed rest and analgesics such as paracetamol or ibuprofen.",
+    incorrectFeedback: "Remember that viral meningitis often resolves with conservative management. Consider the stable condition of the patient and the self-limiting nature of the illness."
+  }
+]} />

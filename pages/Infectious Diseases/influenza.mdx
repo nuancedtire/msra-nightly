@@ -1,0 +1,165 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Comprehensive Guide to Influenza
+
+Influenza, commonly referred to as the flu, is a highly contagious respiratory illness caused by viruses from the Orthomyxoviridae family. This infection spreads primarily through droplets from respiratory secretions or contact with contaminated surfaces. In medical environments, it can also be transmitted via aerosol-generating procedures (AGPs) like intubation or bronchoscopy.
+
+Influenza should be distinguished from the common cold, which is generally caused by other viruses such as respiratory syncytial virus (RSV), rhinoviruses, or parainfluenza. While the common cold results in milder symptoms and a longer duration, influenza can lead to more severe symptoms and complications.
+
+## Seasonal Patterns and Evolution
+
+- **Seasonality:** Influenza exhibits seasonal peaks, particularly in winter months in countries like the UK.
+- **Virus Evolution:** Due to rapid evolution, often through antigenic shift, influenza viruses are challenging to track and prevent, historically causing severe pandemics like the 1918 Spanish flu.
+
+## Types of Influenza
+
+Influenza viruses are classified into four main types: A, B, C, and D.
+
+- **Influenza A and B:** Primarily infect humans, with type A responsible for pandemics.
+- **Influenza C and D:** Can affect other animal species.
+
+### Zoonotic Transmission
+
+Though rare, some influenza strains can transmit from animals to humans, such as:
+- **Avian Influenza (A(H5N1)):** Spread from birds.
+- **Swine Flu (A(H1N1)):** Spread from pigs.
+
+## Diagnosis
+
+### Symptoms
+
+The incubation period for influenza typically ranges from 1 to 3 days. Common symptoms include:
+- Fever
+- Headache
+- Myalgia (muscle pain)
+- Arthralgia (joint pain)
+- Fatigue
+- Lymphadenopathy (swollen lymph nodes)
+- Sore throat
+- Dry cough
+- Gastrointestinal symptoms (diarrhea, vomiting)
+- Ocular symptoms (conjunctivitis)
+
+### Risk Factors for Complicated Infection
+
+Certain groups are at higher risk for severe influenza, requiring hospitalization:
+- Individuals over 65 years old
+- Children under 2 years old
+- Pregnant women
+- Those with chronic diseases (lung, kidney, liver, heart)
+- Immunocompromised individuals (e.g., cancer, HIV, splenic disease)
+- Residents of long-term care facilities
+
+### Differential Diagnosis
+
+Influenza should be differentiated from other respiratory infections like:
+- COVID-19
+- Bacterial pneumonia
+- Respiratory syncytial virus (RSV)
+- Parainfluenza virus
+
+## Investigations
+
+While clinical diagnosis often suffices, especially during outbreaks, additional tests can confirm complicated or atypical cases. These include:
+- **Viral Cultures:** To confirm diagnosis or rule out other infections.
+- **Laboratory Tests:** Include direct immunofluorescent antibody staining, serology, and enzyme immunoassay (EIA).
+
+All hospitalized patients with suspected influenza should undergo a chest x-ray, which may reveal infiltrates in cases involving pneumonia.
+
+### Sample Collection for Testing
+
+For laboratory testing, samples may be taken from:
+- Sputum
+- Nasopharyngeal swabs
+- Throat swabs
+- Bronchial washings
+
+## Management of Influenza
+
+### Red Flags and Emergency Management
+
+Complicated influenza may present with:
+- Pneumonia
+- Hypoxia
+- Neurological signs (central nervous system involvement)
+- Exacerbation of comorbidities
+
+<Callout emoji="⚠️">
+**Warning:** Patients showing signs of hypoxia may require oxygen therapy and possibly escalation to intensive care for advanced monitoring.
+</Callout>
+
+### General Management
+
+- **Uncomplicated Cases:** Typically resolve without hospitalization; recommend hydration, rest, and analgesia (paracetamol or ibuprofen).
+- **Complicated Cases:** Antiviral treatment with neuraminidase inhibitors (oseltamivir or zanamivir) should commence within 48 hours of symptom onset. Treatment regimens depend on local policy.
+
+Antibiotics may be necessary for secondary bacterial infections, such as bacterial pneumonia.
+
+## Prevention
+
+- **Vaccination:** Annual influenza vaccination is crucial for high-risk groups and healthcare workers. While not foolproof, it reduces symptom severity.
+  
+  - **Vaccine Types:** Available in inactivated or live attenuated forms, tailored to age and immune status. For instance, the live attenuated nasal spray is suitable for children aged 2 to 17.
+
+Outbreaks in healthcare settings require strict infection control measures, including hand hygiene, personal protective equipment, environmental cleaning, and patient cohorting.
+
+## References
+
+- [Patient.info - Influenza](https://patient.info/doctor/influenza)
+- [NHS - Flu](https://www.nhs.uk/conditions/flu/)
+- [NICE - Influenza Diagnosis](https://cks.nice.org.uk/topics/influenza-seasonal/diagnosis/diagnosis/)
+- [WHO - Influenza (Avian and Other Zoonotic)](https://www.who.int/news-room/fact-sheets/detail/influenza-(avian-and-other-zoonotic))
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 45-year-old male presents with fever, headache, myalgia, and a dry cough. He works at a poultry farm. Which type of influenza is he most likely at risk of contracting, given his occupation?",
+    options: [
+      "Influenza A (H1N1)",
+      "Influenza B",
+      "Avian Influenza (A(H5N1))",
+      "Influenza D"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Avian Influenza (A(H5N1)) is known to spread from birds to humans, particularly in individuals who work closely with poultry.",
+    incorrectFeedback: "Consider the occupational exposure to poultry, which increases the risk of avian influenza."
+  },
+  {
+    question: "Which of the following patients is at the highest risk for severe complications from influenza?",
+    options: [
+      "A 30-year-old healthy male",
+      "A 2-year-old child with asthma",
+      "A 50-year-old female with controlled hypertension",
+      "A 28-year-old pregnant woman"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Pregnant women are among the high-risk groups for severe influenza complications.",
+    incorrectFeedback: "Reconsider the patient's age and any underlying conditions or special circumstances that increase susceptibility to severe influenza complications."
+  },
+  {
+    question: "During an influenza outbreak in a hospital setting, which of the following measures is NOT typically recommended to prevent transmission?",
+    options: [
+      "Hand hygiene",
+      "Use of personal protective equipment (PPE)",
+      "Vaccination of healthcare workers",
+      "Routine use of antibiotics for all patients"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Routine use of antibiotics is not recommended for viral infections like influenza and should be reserved for confirmed secondary bacterial infections.",
+    incorrectFeedback: "Consider the nature of influenza as a viral infection and the appropriate measures to prevent its spread in healthcare settings."
+  },
+  {
+    question: "A 60-year-old man with chronic obstructive pulmonary disease (COPD) presents with symptoms of influenza. Which diagnostic test is most appropriate to confirm the presence of a secondary bacterial infection?",
+    options: [
+      "Nasopharyngeal swab for viral culture",
+      "Serology for influenza antibodies",
+      "Sputum culture",
+      "Chest X-ray"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! A sputum culture can help identify bacterial pathogens causing secondary infections, such as bacterial pneumonia.",
+    incorrectFeedback: "Consider what diagnostic tests would differentiate between viral and bacterial causes of respiratory symptoms."
+  }
+]} />

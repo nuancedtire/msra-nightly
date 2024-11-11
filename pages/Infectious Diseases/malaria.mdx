@@ -1,0 +1,161 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Comprehensive Guide to Malaria
+
+Malaria is a parasitic disease caused by the protozoan *Plasmodium* species, primarily transmitted through the bite of the female *Anopheles* mosquito. Among the five species implicated, *Plasmodium falciparum* and *Plasmodium vivax* are the most prevalent. *P. falciparum* is notably responsible for the majority of malaria-related morbidity and mortality. Most cases occur in Africa and Asia, and those identified in the UK often have a history of travel to these regions.
+
+## Diagnosis
+
+### Risk Factors
+
+Risk factors for malaria are generally related to travel to endemic areas and insufficient protective measures, like not using chemoprophylaxis or insecticide-treated nets. Once malaria develops, severe disease risk factors are often non-modifiable, such as age and baseline immune status. Individuals at the extremes of age or those with compromised immunity due to lack of prior exposure are more susceptible to severe disease.
+
+### Clinical Findings
+
+Common symptoms include:
+
+- Fever (may follow a periodic pattern, e.g., every 2-3 days)
+- Rigors
+- Sweats
+- Headache
+- Myalgia/arthralgia
+- *Hepatosplenomegaly* (rare in early stages)
+
+Suspicion for *falciparum* disease, which is often associated with severe cases, may arise with:
+
+- Seizures or impaired consciousness
+- Jaundice
+- Hypotension
+- Oliguria
+
+## Investigations
+
+A variety of tests can help determine disease severity and identify complications.
+
+### Diagnostic Tests
+
+- **Gold Standard: Thick and Thin Blood Smears** (Giemsa stained)
+  - Thick film: Detects parasites
+  - Thin film: Identifies species and parasitaemia level
+- **Resource-Limited Settings:** Rapid Diagnostic Tests (RDTs)
+
+### Additional Tests
+
+- **Bedside:** Urinalysis (for *falciparum*: hemoglobinuria or proteinuria)
+- **Blood Tests:**
+  - Full Blood Count (FBC): Thrombocytopenia, anemia
+  - Urea and Electrolytes (U&Es): Low sodium, potential renal failure (severe infection)
+  - Liver Function Tests (LFTs): Hyperbilirubinemia (unconjugated), elevated aminotransferases
+  - Polymerase Chain Reaction (PCR): Specialist test used when microscopy is inconclusive (low parasitaemia or challenging species identification)
+- **Imaging:** CT of the head (for *falciparum* cases with seizures or impaired consciousness)
+
+## Emergency Management
+
+Malaria is a medical emergency. All cases require urgent consultation with an infectious disease specialist. Patients at high risk of severe disease (e.g., suspected *falciparum* infection, extremes of age, or pregnancy) should be admitted to the hospital immediately.
+
+### Complications
+
+The most frequent complication is acute kidney injury (AKI), often due to hypovolemia or acute tubular necrosis. Management includes adequate fluid replacement and renal support for severe cases.
+
+## Treatment
+
+### Medical Management
+
+Treatment depends on whether *P. falciparum* is involved, given its association with severe disease. Even partial involvement or unknown species necessitates treatment as *P. falciparum*.
+
+#### Uncomplicated *Falciparum* Disease
+
+- **Artemisinin Combination Therapy** (e.g., artemether with lumefantrine)
+  - *Pregnancy:* Suitable for 2nd/3rd trimesters only
+- **Alternative:** Quinine plus doxycycline
+  - *Pregnancy:* Quinine plus clindamycin for all trimesters
+
+#### Complicated/Severe *Falciparum* Disease
+
+- **Intravenous (IV) Artesunate**
+  - *Pregnancy:* Suitable for all trimesters (alternative: IV quinine plus clindamycin)
+- Transition to uncomplicated *falciparum* treatment upon improvement
+
+#### Uncomplicated Non-*Falciparum* Disease
+
+- **Artemisinin Combination Therapy**
+  - *Pregnancy:* Suitable for 2nd/3rd trimesters only
+- **Alternative:** Chloroquine (with primaquine for radical cure if *P. vivax* or *P. ovale* detected)
+  - *Chloroquine in Pregnancy:* Safe for all trimesters
+  - *Primaquine in Pregnancy:* Deferred until after pregnancy/breastfeeding (weekly chloroquine prophylaxis instead)
+  - *Primaquine in General:* Requires screening for Glucose-6-Phosphate Dehydrogenase (G6PD) deficiency
+
+#### Complicated/Severe Non-*Falciparum* Disease
+
+- Managed as per severe *falciparum* disease
+
+### Non-Prescribing Management
+
+Malaria is a notifiable disease, and all cases must be reported to Public Health England. Severe or complicated cases require management in a high dependency or intensive care unit for potential organ support.
+
+<Callout emoji="⚠️">
+**Warning:** Continuous monitoring of vital signs is crucial during the management of severe malaria cases.
+</Callout>
+
+## References
+- [BMJ Best Practice. *Malaria infection*](https://bestpractice.bmj.com/topics/en-gb/161) [accessed Aug 8, 2021]
+- [BNF. *Malaria, treatment*](https://bnf.nice.org.uk/treatment-summary/malaria-treatment.html) [accessed Aug 8, 2021] 
+- [NICE CKS. *Malaria*](https://cks.nice.org.uk/topics/malaria/) [accessed Aug 8, 2021]
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 28-year-old male recently returned from a 3-week trip to Nigeria presents to the emergency department with fever, chills, and sweating. Blood smears confirm the presence of Plasmodium falciparum. Which of the following is the most appropriate initial treatment for this patient?",
+    options: [
+      "Chloroquine",
+      "Artemisinin Combination Therapy",
+      "Primaquine",
+      "Doxycycline",
+      "Mefloquine"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Artemisinin Combination Therapy is the recommended treatment for uncomplicated P. falciparum malaria. Chloroquine is not effective against P. falciparum due to widespread resistance.",
+    incorrectFeedback: "Consider the standard treatment protocol for uncomplicated P. falciparum malaria and the issue of drug resistance."
+  },
+  {
+    question: "A 35-year-old pregnant woman in her first trimester is diagnosed with severe Plasmodium falciparum malaria. Which treatment is most appropriate?",
+    options: [
+      "Quinine plus clindamycin",
+      "Intravenous Artesunate",
+      "Artemether with lumefantrine",
+      "Chloroquine",
+      "Primaquine"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! Quinine plus clindamycin is the preferred regimen for severe falciparum malaria in the first trimester of pregnancy due to the safety profile of artesunate in early pregnancy.",
+    incorrectFeedback: "Think about the safety of antimalarial drugs during pregnancy, particularly in the first trimester."
+  },
+  {
+    question: "A 50-year-old man with a history of travel to India presents with fever, headache, and myalgia. Blood smear shows Plasmodium vivax. Which additional step is necessary to ensure a radical cure?",
+    options: [
+      "Add primaquine after confirming G6PD deficiency status",
+      "Treat only with chloroquine",
+      "Use mefloquine as monotherapy",
+      "Treat with doxycycline",
+      "Use artesunate for radical cure"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! Primaquine is necessary for the radical cure of P. vivax or P. ovale due to their liver stage, but G6PD deficiency must be ruled out before administration to prevent hemolysis.",
+    incorrectFeedback: "Consider the lifecycle of Plasmodium vivax and the presence of hypnozoites in the liver."
+  },
+  {
+    question: "Which of the following laboratory findings is most likely associated with severe Plasmodium falciparum malaria?",
+    options: [
+      "Hypercalcemia",
+      "Thrombocytopenia",
+      "Hypernatremia",
+      "Hypobilirubinemia",
+      "Leukocytosis"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Thrombocytopenia is a common laboratory finding in malaria, particularly with severe P. falciparum infections.",
+    incorrectFeedback: "Focus on common hematological abnormalities seen in severe malaria cases."
+  }
+]} />

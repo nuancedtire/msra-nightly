@@ -1,0 +1,157 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Deep Venous Thrombosis (DVT)
+
+Deep Venous Thrombosis (DVT) is a form of Venous Thromboembolism (VTE) that, along with Pulmonary Embolism (PE), involves the formation of a blood clot in a deep vein, typically in the lower limbs in 90% of cases. Prompt diagnosis is crucial to prevent the clot from traveling to the right side of the heart, potentially causing a PE.
+
+## Risk Factors
+
+**Virchow’s Triad** outlines primary risk factors for VTE and DVT:
+
+1. **Hypercoagulability**
+2. **Hemodynamic Changes** (such as blood stasis or turbulent blood flow)
+3. **Endothelial Injury**
+
+Specific risk factors for DVT include:
+
+- Recent surgery (especially orthopedic) or trauma
+- Malignancies
+- Previous VTE
+- Family history of VTE
+- Age ``> 65 years``
+- Hormonal medications (contraceptives or hormone replacement therapy)
+- Pregnancy
+- Obesity
+- Limited mobility
+- Thrombophilia
+
+## Diagnosis
+
+Most lower limb DVTs (65%) are asymptomatic and seldom lead to PE. Suspect DVT in patients with leg swelling, pain, warmth, and occasionally mild fever or pitting edema.
+
+### Wells Score for Prediction
+
+The **Wells score** assists in evaluating the likelihood of DVT before further testing like D-dimer or ultrasound (US):
+
+- **Wells score < 1**: DVT unlikely; perform D-dimer:
+  - **Negative result**: DVT excluded
+  - **Positive result**: perform US
+    - **Negative US**: DVT excluded
+    - **Positive US**: **DVT confirmed**
+- **Wells score ≥ 2**: DVT likely; perform both D-dimer and US:
+  - **Both negative**: DVT excluded
+  - **Positive US, Negative D-dimer**: **DVT confirmed**
+  - **Negative US, Positive D-dimer**: Repeat US in one week
+
+Differential diagnoses may include muscle tears, lymphatic obstruction, Baker’s cyst rupture, or cellulitis.
+
+## Investigations
+
+Routine lab tests are not essential for DVT diagnosis but may help determine underlying causes and influence treatment choices.
+
+- **D-dimer**: A fibrin degradation product, highly sensitive but not specific. Elevated in infection, pregnancy, malignancy, and post-surgery. Not measured if a condition likely elevates D-dimer; proceed directly to US.
+  - **Normal**: ``<500 ng/mL``
+  - **Positive**: ``>500 ng/mL``
+
+- **Ultrasound (US)**: Preferred imaging to confirm or exclude DVT after a positive Wells score or D-dimer. A positive US shows the vein cannot be compressed. Less effective for thrombi in calf and iliac veins.
+
+<details>
+<summary>Additional Imaging Modalities</summary>
+
+Other imaging techniques are seldom used due to the effectiveness of ultrasound.
+
+</details>
+
+## Management
+
+### Anticoagulation Therapy
+
+Anticoagulation is vital in DVT management, and bleeding risk should be evaluated using the **HAS-BLED** score. Treatment typically lasts a minimum of 3 months.
+
+- **Initial Anticoagulation (First 10 Days):**
+  - **Fondaparinux or Low Molecular Weight Heparin (LMWH)**, e.g., enoxaparin
+    - Administer subcutaneously
+    - Preferred for pregnancy and malignancy
+    - Use unfractionated heparin in renal failure or high bleeding risk
+    - Target INR: ``2-3``
+  - **Vitamin K Antagonists (VKAs)**, e.g., warfarin
+    - Warfarin is initially prothrombotic; not used alone
+  - **Direct Oral Anticoagulants (DOACs)**, e.g., factor Xa inhibitors
+    - Simpler monitoring and lower bleeding risk
+
+- **Long-term Anticoagulation (10 Days to 3 Months):**
+  - Subcutaneous or oral anticoagulants
+  - Typically factor Xa and thrombin inhibitors
+
+### Non-Pharmacological Management
+
+For DVT prevention, discontinue contraceptive pills four weeks before surgery. Encourage early mobilization and use compression stockings post-surgery, alongside LMWH for high-risk patients.
+
+<Callout emoji="⚠️">
+**Warning:** If anticoagulation is contraindicated (e.g., recent surgery, hemorrhagic stroke, or active bleeding), consider placing an inferior vena cava filter or conducting active ultrasound surveillance.
+</Callout>
+
+## References
+
+- [NICE Guidelines](https://www.nice.org.uk/guidance/ng158/)
+- [UpToDate - Clinical Presentation and Diagnosis](https://www.uptodate.com/contents/clinical-presentation-and-diagnosis-of-the-nonpregnant-adult-with-suspected-deep-vein-thrombosis-of-the-lower-extremity)
+- [UpToDate - Treatment Overview](https://www.uptodate.com/contents/overview-of-the-treatment-of-lower-extremity-deep-vein-thrombosis-dvt)
+- Oxford Handbook of Clinical Medicine, 10th Edition
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 55-year-old woman presents with left leg swelling, pain, and warmth. She recently underwent knee replacement surgery. Her Wells score is 3. What is the most appropriate next step in her management?",
+    options: [
+      "Perform a D-dimer test",
+      "Start anticoagulation therapy",
+      "Perform a venography",
+      "Perform a compression ultrasound (US)",
+      "Administer aspirin"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Given her Wells score of 3, which indicates a likely DVT, a compression ultrasound is the appropriate next step to confirm the diagnosis.",
+    incorrectFeedback: "Remember that with a high Wells score, imaging is prioritized to confirm DVT before proceeding with interventions."
+  },
+  {
+    question: "A 40-year-old pregnant woman with a history of factor V Leiden mutation presents with unilateral leg swelling and pain. Her D-dimer level is elevated. What is the most appropriate anticoagulant for initial treatment?",
+    options: [
+      "Warfarin",
+      "Aspirin",
+      "Unfractionated heparin",
+      "Low Molecular Weight Heparin (LMWH)",
+      "Rivaroxaban"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Low Molecular Weight Heparin (LMWH) is preferred during pregnancy due to its safety profile and efficacy.",
+    incorrectFeedback: "Consider the safety and efficacy of anticoagulants during pregnancy. Warfarin and DOACs are typically avoided due to potential teratogenic effects."
+  },
+  {
+    question: "A 72-year-old man with a history of hypertension presents with sudden onset of right leg pain and swelling. He has a Wells score of 1 and a D-dimer of 600 ng/mL. What is the next appropriate step?",
+    options: [
+      "Start anticoagulation immediately",
+      "Repeat the D-dimer test in one week",
+      "Perform a compression ultrasound (US)",
+      "Prescribe compression stockings",
+      "Initiate thrombolytic therapy"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! With a positive D-dimer and a Wells score of 1, a compression ultrasound should be performed to confirm or exclude DVT.",
+    incorrectFeedback: "Consider the diagnostic algorithm for DVT. A positive D-dimer with a low Wells score necessitates further imaging rather than immediate treatment."
+  },
+  {
+    question: "A 65-year-old male smoker with obesity and limited mobility presents with calf swelling and tenderness. He is diagnosed with a DVT via ultrasound. Which of the following is a non-pharmacological management option that should be considered?",
+    options: [
+      "Start warfarin therapy",
+      "Advise complete bed rest",
+      "Initiate early mobilization",
+      "Prescribe a high-salt diet",
+      "Perform regular venograms"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Early mobilization is a key non-pharmacological strategy for preventing further thrombotic complications.",
+    incorrectFeedback: "Consider non-pharmacological strategies that can enhance recovery and prevent complications in DVT management."
+  }
+]} />

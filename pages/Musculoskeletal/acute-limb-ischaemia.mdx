@@ -1,0 +1,136 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Acute Limb Ischaemia (ALI)
+
+Acute Limb Ischaemia (ALI) is a severe manifestation of Peripheral Artery Disease (PAD), predominantly affecting the legs. It is characterized by a sudden reduction in blood flow to a limb. Immediate vascular intervention is critical to prevent limb loss and reduce mortality risk.
+
+## Causes of ALI
+
+ALI primarily results from:
+
+- **Thrombosis in situ** (60% of cases)
+- **Embolisation** (30% of cases)
+
+Less common causes include:
+
+- Dissection
+- Compartment syndrome
+- Vasculitis
+- Trauma
+
+## Diagnosis
+
+ALI is defined by the rapid onset of symptoms, typically developing within `<2 weeks`, often occurring over minutes to days. The condition is identified by the presence of the **6 Ps**:
+
+- **Pain** at rest, primarily in the distal limb
+- **Pulselessness**
+- **Pallor**
+- **Perishingly cold** (poikilothermia)
+- **Paraesthesia**
+- **Paralysis** (a late and severe symptom)
+
+In patients with a thrombotic occlusion, pre-existing PAD and collateral circulation may result in more subtle presentations.
+
+## Investigations
+
+To confirm ALI, determine its cause, and assess severity, conduct the following investigations alongside clinical assessment:
+
+- **Electrocardiogram (ECG)** to check for cardiac arrhythmias.
+- **Blood tests** including Venous Blood Gas (VBG), Full Blood Count (FBC), U&Es, glucose, creatine kinase, clotting profile, and blood grouping.
+- **Imaging** such as arterial duplex ultrasound and/or angiography.
+
+## Management
+
+### Prescribing Management
+
+- Administer analgesics for pain relief.
+- Provide supplemental oxygen.
+- Prescribe 5,000 units of unfractionated heparin.
+
+### Non-Prescribing Management
+
+The choice of treatment is guided by the suspected cause of ALI and available local expertise. The urgency of intervention is based on the Rutherford classification:
+
+- **I – Viable**
+- **IIa and IIb – Threatened**
+- **III – Irreversible**
+
+### Revascularization
+
+Revascularization can be performed surgically or through endovascular thrombolysis. It is contraindicated in patients with irreversible ischaemia, who require either amputation or palliative care.
+
+For embolic causes, **embolectomy** is the preferred first-line treatment.
+
+<Callout emoji="⚠️">
+**Warning:** Continuous monitoring of vital signs is essential during the procedure to ensure patient safety.
+</Callout>
+
+<details>
+<summary>Additional Information on Pathophysiology</summary>
+
+ALI occurs when there is a sudden reduction in arterial blood flow, leading to tissue hypoxia. The rapid onset of symptoms differentiates it from chronic limb ischaemia and necessitates immediate medical intervention.
+
+</details>
+
+## References
+
+- RCEM Learning: Acute Limb Ischaemia, [RCEM Learning](https://www.rcemlearning.co.uk/reference/acute-limb-ischaemia/#1567523587443-70a31fa5-f375)
+- NICE CKS: Peripheral arterial disease, 2019
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 65-year-old male with a history of atrial fibrillation presents with sudden onset of severe pain in his right leg, accompanied by pallor and pulselessness. He is diagnosed with acute limb ischaemia (ALI). What is the most likely cause of his condition?",
+    options: [
+      "Thrombosis in situ",
+      "Embolisation",
+      "Vasculitis",
+      "Compartment syndrome",
+      "Trauma"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! In patients with a history of atrial fibrillation, embolisation is a common cause of acute limb ischaemia due to the potential for thrombus formation in the left atrium.",
+    incorrectFeedback: "Consider the patient's cardiac history and how it might predispose him to certain types of embolic events leading to ALI."
+  },
+  {
+    question: "A patient presents with symptoms of acute limb ischaemia, including pain, pallor, and pulselessness. Initial management includes the administration of 5,000 units of unfractionated heparin. What is the primary purpose of this intervention?",
+    options: [
+      "To alleviate pain",
+      "To improve blood oxygenation",
+      "To prevent further thrombus formation",
+      "To dissolve the existing clot",
+      "To provide anti-inflammatory effects"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Unfractionated heparin is used to prevent further thrombus formation by inhibiting clotting factors, thus preventing clot propagation.",
+    incorrectFeedback: "Consider the pharmacological action of unfractionated heparin and its role in the management of thrombotic conditions."
+  },
+  {
+    question: "A 72-year-old woman with a history of peripheral artery disease presents with sudden onset pain in her left leg. On examination, the leg is cold, pale, and there is loss of sensation. Which of the following investigations is crucial to assess the presence of cardiac arrhythmias that might have led to embolisation?",
+    options: [
+      "Venous Blood Gas (VBG)",
+      "Full Blood Count (FBC)",
+      "Electrocardiogram (ECG)",
+      "Arterial duplex ultrasound",
+      "Angiography"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! An electrocardiogram (ECG) is essential to assess for cardiac arrhythmias, such as atrial fibrillation, which can lead to embolisation and subsequent acute limb ischaemia.",
+    incorrectFeedback: "Think about the investigations that directly assess heart rhythm and potential sources of emboli from the heart."
+  },
+  {
+    question: "In the management of acute limb ischaemia, which of the following interventions is contraindicated in patients with irreversible ischaemia?",
+    options: [
+      "Surgical revascularization",
+      "Endovascular thrombolysis",
+      "Embolectomy",
+      "Amputation",
+      "Palliative care"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! In cases of irreversible ischaemia, revascularization efforts are contraindicated as the tissue damage is too extensive, and amputation or palliative care should be considered instead.",
+    incorrectFeedback: "Consider the clinical stage of ischaemia and the point at which tissues are no longer salvageable, making some interventions futile."
+  }
+]} />

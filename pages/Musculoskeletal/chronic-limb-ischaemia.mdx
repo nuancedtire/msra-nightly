@@ -1,0 +1,115 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Peripheral Artery Disease (PAD)
+
+Peripheral artery disease (PAD) primarily affects the legs and is characterized by symptoms of limb ischemia. The typical early-stage presentation is intermittent claudication, a chronic condition associated with PAD.
+
+## Diagnosis
+
+Intermittent claudication involves muscle pain that arises during physical activity and subsides with short rest periods. This pain is often described as an ache or burning sensation, mainly affecting the calves.
+
+While clinical diagnosis of intermittent claudication is possible, the ankle-brachial pressure index (ABPI) is typically used to confirm PAD as the underlying cause. Below are the general ABPI interpretation guidelines:
+
+| ABPI        | Clinical Interpretation                                        |
+|-------------|----------------------------------------------------------------|
+| `> 1.2`       | Calcified arteries (e.g., diabetes or chronic kidney disease)  |
+| `0.9 - 1.2`   | Normal                                                         |
+| `0.5 - 0.9`   | Mild to moderate PAD                                           |
+| `< 0.5`       | Severe PAD                                                     |
+
+*Note: Intermittent claudication may also be due to vasculitides, such as Buerger's disease.*
+
+## Investigations
+
+- **Blood Tests:**
+  - Full Blood Count (FBC)
+  - Urea and Electrolytes (U&E)
+  - Liver Function Tests (LFT)
+  - Hemoglobin A1c (HbA1c)
+  - Lipid Profile
+
+- **Imaging:**
+  - **Duplex Ultrasonography** is the first-line investigation for diagnosing and screening PAD.
+  - **Angiography** is crucial for planning vascular interventions.
+
+## Management
+
+PAD is closely linked with coronary artery disease and cerebrovascular disease, necessitating the optimization of modifiable cardiovascular risk factors and management of comorbidities to reduce the risk of cardiovascular events. Consider the following measures:
+
+- **Smoking cessation**
+- **Weight management**
+- **Lipid-lowering medications**
+- **Antiplatelet therapy**
+- **Antihypertensive medications**
+- **Glycemic control**
+
+<Callout emoji="ℹ️">
+**Note:** Clopidogrel is the preferred antiplatelet agent for patients with intermittent claudication and those undergoing revascularization.
+</Callout>
+
+**Exercise training** is an evidence-based component of managing intermittent claudication, shown to alleviate symptoms and enhance quality of life. The National Institute for Health and Care Excellence (NICE) advises offering supervised exercise sessions. Unsupervised exercise is a secondary option if supervised sessions are not accessible.
+
+Patients with persistent symptoms despite exercise should be referred to vascular surgery for potential interventions such as angioplasty or bypass surgery. The vasodilator naftidrofuryl oxalate may be considered for patients who opt to avoid surgical intervention.
+
+## References
+
+- [NICE CKS: Peripheral arterial disease, 2019](https://cks.nice.org.uk/topics/peripheral-arterial-disease/)
+- [2017 ESC Guidelines on the Diagnosis and Treatment of Peripheral Arterial Diseases, in collaboration with the European Society for Vascular Surgery (ESVS), 2018](https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Peripheral-Arterial-Diseases-Diagnosis-and-Treatment-of)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 62-year-old man with a history of smoking presents with calf pain during walking that resolves with rest. An ankle-brachial pressure index (ABPI) test is performed, and the result is 0.7. Which of the following is the most appropriate clinical interpretation of this result?",
+    options: [
+      "Normal ABPI",
+      "Calcified arteries",
+      "Mild to moderate PAD",
+      "Severe PAD",
+      "Critical limb ischemia"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! An ABPI of 0.5 to 0.9 indicates mild to moderate peripheral artery disease (PAD). This is consistent with the patient's symptoms of intermittent claudication.",
+    incorrectFeedback: "Review the ABPI interpretation table. A value between 0.5 and 0.9 typically indicates mild to moderate PAD."
+  },
+  {
+    question: "A 55-year-old woman with diabetes presents with intermittent claudication. Which diagnostic test is most appropriate to confirm peripheral artery disease in this patient?",
+    options: [
+      "Magnetic Resonance Imaging (MRI)",
+      "Duplex Ultrasonography",
+      "CT Angiography",
+      "Electrocardiogram (ECG)",
+      "Chest X-ray"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Duplex ultrasonography is the first-line investigation for diagnosing and screening peripheral artery disease.",
+    incorrectFeedback: "Consider the most common first-line imaging method for PAD diagnosis. It provides both anatomical and flow information."
+  },
+  {
+    question: "A patient with peripheral artery disease is unable to attend supervised exercise sessions. What is the best alternative management option to improve symptoms?",
+    options: [
+      "Prescribe a vasodilator",
+      "Advise unsupervised exercise",
+      "Increase antiplatelet therapy",
+      "Initiate anticoagulation therapy",
+      "Refer for angioplasty"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! If supervised exercise is not available, unsupervised exercise is a recommended alternative to manage intermittent claudication.",
+    incorrectFeedback: "While medications and surgical interventions are options, exercise remains a key non-invasive intervention for symptom improvement in PAD."
+  },
+  {
+    question: "A 68-year-old man with peripheral artery disease is on clopidogrel therapy. What is the primary reason for using clopidogrel in this patient?",
+    options: [
+      "To control blood pressure",
+      "To improve glycemic control",
+      "To lower cholesterol levels",
+      "To prevent thrombotic events",
+      "To manage chronic pain"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Clopidogrel is an antiplatelet agent used to prevent thrombotic events in patients with peripheral artery disease.",
+    incorrectFeedback: "Consider the role of clopidogrel as an antiplatelet medication and its use in preventing vascular complications in PAD."
+  }
+]} />

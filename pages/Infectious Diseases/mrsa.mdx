@@ -1,0 +1,125 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Methicillin-resistant Staphylococcus aureus (MRSA)
+
+Methicillin-resistant Staphylococcus aureus (MRSA) is a type of bacteria that is resistant to all beta-lactam antibiotics, making infections more challenging to treat compared to other strains of Staphylococcus aureus. MRSA infections can be classified into healthcare-associated and community-associated types based on the setting of acquisition.
+
+## Types of MRSA Infections
+
+- **Healthcare-associated MRSA (HA-MRSA):** Occurs **2 days** after hospital admission or within a year of receiving healthcare services, such as surgery.
+- **Community-associated MRSA (CA-MRSA):** Occurs in individuals who have not been hospitalized or received healthcare interventions recently. It primarily affects the skin and soft tissues.
+
+## Risk Factors
+
+Several factors increase the risk of acquiring a MRSA infection:
+
+- HIV infection
+- Residency in long-term care facilities
+- Hemodialysis
+- Extensive use of antibiotics
+- Intravenous drug use
+
+## Diagnosis
+
+### Clinical Presentation
+
+MRSA infection symptoms vary depending on the infection site:
+
+- **Skin Infections:** Cellulitis and abscess formation with symptoms like pain, swelling, redness, and warmth.
+- **Bloodstream Infections:** Bacteremia, where bacteria are present in the blood.
+
+### Laboratory Investigations
+
+- **Culture Tests:** MRSA infections are identified by culturing body fluids (e.g., blood, urine, sputum) to detect Gram-positive, round-shaped bacteria.
+- **PCR (Polymerase Chain Reaction):** Considered the gold standard for identifying MRSA strains.
+
+## Emergency Management
+
+### Sepsis
+
+Sepsis is a critical condition resulting from MRSA bacteremia, diagnosed via blood cultures. Management includes:
+
+- Immediate antimicrobial therapy
+- Intravenous fluid administration
+- Supplemental oxygen
+- Addressing the infection source (e.g., abscess drainage)
+
+## Treatment Approaches
+
+### Pharmacological Management
+
+- **Mild Infections:** Oral antibiotics like trimethoprim-sulfamethoxazole, tetracyclines, or oxazolidinones.
+- **Severe Infections:** Parenteral antibiotics such as vancomycin and daptomycin are recommended when:
+  - Systemic toxicity signs are present.
+  - Symptoms persist or worsen after **2-3 days** of oral antibiotics.
+  - The patient is immunocompromised.
+  - The infection is near an indwelling device.
+
+### Non-Pharmacological Management
+
+- **Abscess Treatment:** Incision and drainage are effective for managing MRSA-related abscesses.
+
+<Callout emoji="⚠️">
+**Warning:** Always monitor vital signs continuously during the procedure.
+</Callout>
+
+## References
+
+- [UpToDate: Mechanical thrombectomy for acute ischemic stroke](https://www.uptodate.com/contents/mechanical-thrombectomy-for-acute-ischemic-stroke)
+```
+
+This MDX-formatted article is designed for a Nextra documentation website, providing a structured, clear, and comprehensive overview of MRSA. The content is organized into sections for ease of understanding, with critical points emphasized using callouts, headings, and formatting styles like bold and italics.
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 45-year-old man with a history of intravenous drug use presents with a painful, swollen area on his forearm. On examination, there is a fluctuant abscess with surrounding cellulitis. He has not been hospitalized or received healthcare interventions recently. A culture of the abscess fluid grows methicillin-resistant Staphylococcus aureus (MRSA). Which type of MRSA infection does this patient have?",
+    options: [
+      "Healthcare-associated MRSA (HA-MRSA)",
+      "Community-associated MRSA (CA-MRSA)",
+      "Nosocomial MRSA infection",
+      "Iatrogenic MRSA infection"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! This is a community-associated MRSA (CA-MRSA) infection since the patient has not been hospitalized or received healthcare interventions recently.",
+    incorrectFeedback: "Consider the patient's lack of recent healthcare exposure, which aligns with the definition of community-associated MRSA."
+  },
+  {
+    question: "A 62-year-old woman with a history of type 2 diabetes and recent knee replacement surgery presents with fever, chills, and hypotension. Blood cultures are positive for methicillin-resistant Staphylococcus aureus (MRSA). Which of the following is the most appropriate initial management step?",
+    options: [
+      "Start oral trimethoprim-sulfamethoxazole",
+      "Initiate intravenous vancomycin",
+      "Administer oral doxycycline",
+      "Begin oral cephalexin"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Intravenous vancomycin is appropriate for severe MRSA infections, such as bacteremia, especially in the presence of systemic toxicity.",
+    incorrectFeedback: "Severe infections like MRSA bacteremia require parenteral antibiotics. Consider the severity of the infection when choosing the treatment modality."
+  },
+  {
+    question: "A 30-year-old woman presents with a painful, erythematous swelling on her thigh. She is diagnosed with a MRSA skin abscess. After incision and drainage, which oral antibiotic is most appropriate for continued treatment if the culture shows susceptibility?",
+    options: [
+      "Amoxicillin-clavulanate",
+      "Ciprofloxacin",
+      "Trimethoprim-sulfamethoxazole",
+      "Azithromycin"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Trimethoprim-sulfamethoxazole is effective for treating mild MRSA skin infections and is appropriate following incision and drainage.",
+    incorrectFeedback: "Remember to choose an antibiotic that MRSA is typically susceptible to and is effective for skin infections."
+  },
+  {
+    question: "A 70-year-old man with end-stage renal disease on hemodialysis presents with fever and confusion. Blood cultures reveal methicillin-resistant Staphylococcus aureus (MRSA). Which of the following risk factors is most likely associated with his MRSA infection?",
+    options: [
+      "Recent travel",
+      "HIV infection",
+      "Hemodialysis",
+      "Oral glucocorticoid use"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Hemodialysis is a known risk factor for healthcare-associated MRSA infections.",
+    incorrectFeedback: "Consider healthcare settings and interventions that increase the risk of MRSA colonization and infection."
+  }
+]} />

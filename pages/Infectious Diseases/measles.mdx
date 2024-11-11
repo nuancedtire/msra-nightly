@@ -1,0 +1,124 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Comprehensive Overview of Measles
+
+Measles is a highly infectious disease caused by a virus from the paramyxovirus family. It spreads through droplets from coughing and sneezing, and via contaminated surfaces. In the UK, it is a notifiable disease, meaning all cases must be reported to Public Health authorities.
+
+## Vaccination and Public Perception
+
+The **Measles, Mumps, and Rubella (MMR) vaccine** is included in the routine childhood immunization schedule, administered in two doses during the first and third years of life. As a live vaccine, it is not suitable for individuals who are immunocompromised.
+
+In 1998, a paper suggested a link between the MMR vaccine and autism, leading many parents to decline vaccination for their children. This claim was later discredited, and efforts were made to reassure the public about the vaccine's safety. However, the media coverage impacted public opinion and increased anxiety about childhood vaccinations, resulting in a generation of children in the late 1990s and early 2000s who were not vaccinated against measles.
+
+Recently, there has been a decrease in vaccine uptake, contributing to outbreaks, especially among university populations in the UK. Public health campaigns have been initiated to address this issue.
+
+## Diagnosis
+
+Measles is primarily diagnosed clinically, with an incubation period of 7 to 18 days. It typically begins with a prodrome of fever and coryza lasting 3 to 4 days, followed by a widespread erythematous maculopapular rash spreading from head to toe. Initially, the rash is blanching but may become non-blanching if it persists. Other key features include a non-productive cough, conjunctivitis, and **Koplik’s spots**—small, bluish-white lesions on the buccal mucosa, which are pathognomonic for measles. Patients are infectious from symptom onset until four days after the rash appears.
+
+While most infections resolve spontaneously, measles can lead to serious complications. A second infection is rare due to lifelong immunity developed from the initial infection.
+
+### Complications of Measles
+
+- **Pulmonary measles (pneumonia)**
+- **Otitis media**
+- **Encephalitis**
+- **Febrile convulsions in children**
+- **Miscarriage or stillbirth** in non-immune pregnant women
+
+### Risk Factors for Complicated Infection
+
+- Immunocompromised individuals
+- Pregnant women
+- Children younger than 1 year
+
+### Differential Diagnoses for Measles Rash
+
+- **Parvovirus B19:** Characterized by a 'slapped cheek' appearance.
+- **Rubella:** Rash starting on the face and spreading downwards, possibly with postauricular lymphadenopathy.
+- **Kawasaki Disease:** Erythematous rash with central distribution, less commonly affecting the face.
+- **Roseola Infantum:** Rash appears as symptoms resolve, typically lasting 1-2 days.
+- **Bacterial Meningitis:** Non-blanching rash accompanied by photophobia, nausea, and stiff neck.
+- **Scarlet Fever:** Rash starting on the abdomen, with potential exudative tonsillitis and lymphadenopathy.
+
+## Investigations
+
+Measles can be confirmed with serology tests for IgM and IgG. **IgM presence** indicates an acute infection, while **IgG presence** suggests past infection or vaccination. Polymerase Chain Reaction (PCR) can also be utilized for diagnosis.
+
+## Management
+
+Measles is primarily a self-limiting infection, managed conservatively. Patients are advised to rest, stay hydrated, and use paracetamol or ibuprofen for symptom relief. Complications should be managed by specialized medical teams, such as respiratory specialists for measles pneumonia.
+
+Patients should avoid school or workplaces for four days post-rash onset, after which they can resume normal activities even if the rash persists.
+
+If someone suspected of having measles or exposed to a positive case is:
+
+- **Immunosuppressed**
+- **Pregnant**
+- **Under 1 year of age**
+
+Contact the local Health Protection Team for advice on post-exposure prophylaxis, which might include vaccination within 72 hours of exposure or intramuscular immunoglobulin for pregnant women.
+
+### References
+
+- [NHS: Measles](https://www.nhs.uk/conditions/measles/)
+- [NICE Clinical Knowledge Summaries: Measles](https://cks.nice.org.uk/topics/measles/)
+- [BMJ Best Practice: Measles](https://bestpractice.bmj.com/topics/en-gb/217)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 4-year-old child presents to the clinic with a fever, cough, conjunctivitis, and nasal congestion. On examination, the child has small, bluish-white spots on the buccal mucosa and a maculopapular rash that started on the face and spread downward. The mother reports the child has not been vaccinated. Which of the following is the most likely diagnosis?",
+    options: [
+      "Rubella",
+      "Measles",
+      "Roseola Infantum",
+      "Scarlet Fever",
+      "Parvovirus B19 infection"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The clinical presentation, including Koplik's spots and the characteristic rash, is pathognomonic for measles.",
+    incorrectFeedback: "Consider the presence of Koplik's spots and the sequence of symptom presentation. Which disease is known for these specific features?"
+  },
+  {
+    question: "A 30-year-old woman, who is 8 weeks pregnant and unimmunized, is exposed to a confirmed case of measles. She is concerned about the risks to her pregnancy. What is the most appropriate immediate management?",
+    options: [
+      "Administer the MMR vaccine within 72 hours",
+      "Administer intramuscular immunoglobulin",
+      "Advise rest and symptomatic treatment",
+      "Prescribe antiviral medication",
+      "No intervention is necessary"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Intramuscular immunoglobulin is recommended for pregnant women exposed to measles to prevent complications and protect the fetus.",
+    incorrectFeedback: "In pregnant women, live vaccines like MMR are contraindicated. Consider prophylactic measures to reduce the risk of infection."
+  },
+  {
+    question: "An 18-year-old college student presents with fever, coryza, cough, and a maculopapular rash. He reports not receiving the MMR vaccine. Which of the following complications should be most closely monitored, given his age and symptoms?",
+    options: [
+      "Encephalitis",
+      "Otitis media",
+      "Kawasaki Disease",
+      "Febrile convulsions",
+      "Miscarriage"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! Encephalitis is a serious complication of measles that can occur, particularly in non-immunized individuals.",
+    incorrectFeedback: "Consider the age-related risk factors for serious measles complications. Which complication is known for causing severe neurological outcomes?"
+  },
+  {
+    question: "A public health campaign is initiated in a university to improve MMR vaccination rates. Which of the following historical events significantly contributed to vaccine hesitancy in the late 1990s?",
+    options: [
+      "Concerns about vaccine-induced autism",
+      "Outbreaks of measles in vaccinated individuals",
+      "New vaccine development delays",
+      "Increased cost of vaccination",
+      "Mandatory vaccination policies"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! A discredited paper suggesting a link between the MMR vaccine and autism significantly affected public perception and vaccine uptake.",
+    incorrectFeedback: "Think about the misinformation that led to widespread fear regarding the safety of the MMR vaccine."
+  }
+]} />

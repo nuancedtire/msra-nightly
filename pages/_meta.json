@@ -14,11 +14,12 @@
   "Cardiovascular": "❤️ Cardiovascular",
   "Dermatology": "🔬 Dermatology",
   "Endocrinology": "⚕️ Endocrinology",
-  "ENT": "👂 Ear, Nose and Throat",
+  "ENT": "👂 Ear, Nose & Throat",
   "Genetics": "🧬 Genetics",
   "Gastroenterology": "🍽️ Gastroenterology",
   "Haematology": "🩸 Haematology",
   "Immunology and Cancer": "🎗️ Immunology & Cancer",
+  "Infectious Diseases": "🦠 Infectious Diseases",
   "Ophthalmology": "👁️ Ophthalmology",
   "---1": {
     "type": "separator"

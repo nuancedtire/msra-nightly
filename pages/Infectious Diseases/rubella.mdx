@@ -1,0 +1,129 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Rubella: Overview, Diagnosis, and Management
+
+Rubella, commonly known as German measles, is an infection caused by the togavirus family. It spreads through respiratory secretions via airborne droplets. In the UK, rubella is classified as a notifiable disease, meaning all cases must be reported to Public Health authorities. While most patients experience a mild illness and recover within a week, pregnant women require special attention due to the risk of congenital rubella syndrome in their babies.
+
+## Epidemiology
+
+Rubella is now uncommon in the UK thanks to the measles, mumps, and rubella (MMR) vaccine, which is part of the routine childhood immunization schedule given in two doses during the first and third years of life. However, rubella remains endemic in some developing regions. It's important to note that the MMR vaccine is a live vaccine and is not suitable for individuals who are immunocompromised.
+
+In 1998, a controversial paper suggested a link between the MMR vaccine and autism, leading many parents to refuse the vaccine for their children. This claim has since been discredited, but the resulting media scandal caused significant anxiety about vaccine safety. Consequently, there is a cohort of children who were not vaccinated against measles during the late 1990s and early 2000s.
+
+## Clinical Presentation
+
+### Symptoms and Signs
+
+Rubella commonly presents with:
+
+- **Prodrome:** Symptoms like coryza and fever.
+- **Rash:** A maculopapular rash that starts behind the ears and spreads downward, typically appearing 2-3 days after fever onset.
+- **Additional symptoms:** Lymphadenopathy, conjunctivitis, and palatal petechiae (Forchheimer's sign).
+
+Adults may also experience arthritis or arthralgias. The incubation period ranges from 14-21 days after exposure, and the patient remains infectious from one week before the rash onset to four days afterward.
+
+**Complications** are rare but can include encephalopathy, thrombocytopenia, and Guillain-Barré syndrome. The rubella rash is similar to that of measles, though rubella generally results in a milder and shorter illness (up to 5 days compared to measles' 10 days).
+
+### Congenital Rubella Syndrome (CRS)
+
+Pregnant women exposed to rubella face the risk of their babies developing CRS, particularly if infection occurs at 20 weeks' gestation or earlier. CRS can lead to miscarriage or serious complications, categorized as follows:
+
+- **Transient complications:**
+  - Hepatitis
+  - Maculopapular rash
+  - Thrombocytopenia
+  - Anemia
+  - Lymphadenopathy
+
+- **Permanent complications:**
+  - Cataracts
+  - Sensorineural deafness
+  - Patent ductus arteriosus
+  - Other neurological, cardiac, and ophthalmic issues
+
+- **Developmental issues:**
+  - Thyroid disease
+  - Progressive hearing and visual loss
+  - Insulin-dependent diabetes
+
+## Diagnosis
+
+Rubella is primarily diagnosed based on clinical presentation. However, if there is suspicion, confirmation can be achieved through blood tests detecting rubella-specific serum antibodies (IgM and IgG) or viral polymerase chain reaction (PCR) tests.
+
+## Management
+
+Rubella management is generally conservative:
+
+- **Rest:** Patients should rest and hydrate well.
+- **Medication:** Use paracetamol or ibuprofen for symptom relief.
+- **Isolation:** Stay away from school or work for five days following rash onset and avoid contact with pregnant women.
+
+For pregnant mothers not immune to rubella, vaccination is offered postpartum. Those who are not immune and have been exposed to rubella should be managed by a specialist team.
+
+<Callout emoji="⚠️">
+**Warning:** Pregnant women should avoid contact with individuals suspected of having rubella to prevent the risk of congenital rubella syndrome.
+</Callout>
+
+## References
+
+- [NHS Rubella Overview](https://www.nhs.uk/conditions/rubella/)
+- [BMJ Best Practice on Rubella](https://bestpractice.bmj.com/topics/en-gb/1167)
+- [Patient.info Rubella Information](https://patient.info/doctor/rubella)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 25-year-old woman in her first trimester of pregnancy presents to the clinic with a maculopapular rash and lymphadenopathy. She reports recent exposure to a child with a similar rash. Laboratory tests reveal rubella-specific IgM antibodies. Which of the following is the most critical concern for her unborn child?",
+    options: [
+      "Transient maculopapular rash",
+      "Cataracts",
+      "Arthralgia",
+      "Thrombocytopenia",
+      "Guillain-Barré syndrome"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Cataracts are a permanent complication associated with congenital rubella syndrome, especially when infection occurs during early pregnancy.",
+    incorrectFeedback: "Consider the permanent complications of congenital rubella syndrome that can affect the fetus, particularly those involving the senses and heart."
+  },
+  {
+    question: "A 32-year-old woman who is 8 weeks pregnant is exposed to rubella. She has no documentation of prior MMR vaccination. Which of the following is the most appropriate next step in management?",
+    options: [
+      "Administer MMR vaccine immediately",
+      "Isolate the patient for 5 days",
+      "Test for rubella immunity",
+      "Provide antiviral treatment",
+      "Refer for elective termination of pregnancy"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Testing for rubella immunity is crucial to determine if the patient is immune or susceptible to infection.",
+    incorrectFeedback: "Consider the importance of assessing the patient's immunity status before proceeding to other interventions."
+  },
+  {
+    question: "A 6-year-old child presents with a fever followed by a rash that starts behind the ears and spreads downward. The child is in good overall health and has no significant past medical history. His mother reports he did not receive the MMR vaccine due to concerns about vaccine safety. Which of the following is the most likely diagnosis?",
+    options: [
+      "Measles",
+      "Scarlet fever",
+      "Rubella",
+      "Roseola",
+      "Varicella"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The presentation of a maculopapular rash starting behind the ears and spreading downward is characteristic of rubella, especially given the lack of vaccination.",
+    incorrectFeedback: "Evaluate the typical rash patterns and vaccination history to narrow down the diagnosis. Consider diseases with airborne transmission and similar rash presentations."
+  },
+  {
+    question: "Which of the following individuals is most likely to be contraindicated for the MMR vaccine?",
+    options: [
+      "A 5-year-old child with asthma",
+      "A 10-year-old child with a mild egg allergy",
+      "A 2-year-old child with leukemia in remission",
+      "A 12-month-old healthy child",
+      "A 15-year-old pregnant adolescent"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Individuals who are immunocompromised, such as those with leukemia, are contraindicated for the live MMR vaccine.",
+    incorrectFeedback: "Consider the vaccine contraindications related to live attenuated vaccines, particularly in individuals with altered immune systems."
+  }
+]} />

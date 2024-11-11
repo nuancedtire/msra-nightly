@@ -76,7 +76,7 @@ Using the provided unstructured article content, create a comprehensive medical 
 
 6. **References:**
 
-   - Include a **References** section at the end of the article in Markdown format.
+   - Include a **References** section at the end of the article ensuring it is formatted as Markdown links.
 
 7. **General Guidelines:**
 

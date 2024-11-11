@@ -1,0 +1,38 @@
+{
+  "---1": {
+    "type": "separator",
+    "title": "Viral Infections"
+  },
+  "influenza": "🤒 Influenza",
+  "dengue-fever": "🦟 Dengue Fever",
+  "yellow-fever": "🟡 Yellow Fever",
+  "herpes-zoster-shingles": "⚡ Herpes Zoster",
+  "viral-meningitis": "🧠 Viral Meningitis",
+  "rabies": "🦊 Rabies",
+
+  "---2": {
+    "type": "separator",
+    "title": "Childhood Infections & Vaccines"
+  },
+  "mmr": "💉 MMR Vaccine",
+  "measles": "😷 Measles",
+  "mumps": "🤕 Mumps",
+  "rubella": "🔴 Rubella",
+  "exanthemata": "🌸 Exanthemata",
+
+  "---3": {
+    "type": "separator",
+    "title": "Bacterial Infections"
+  },
+  "clostridium-difficile": "🦠 C. Difficile",
+  "mrsa": "🔬 MRSA",
+  "lyme-disease": "🕷️ Lyme Disease",
+
+  "---4": {
+    "type": "separator",
+    "title": "Parasitic Infections"
+  },
+  "malaria": "🦟 Malaria",
+  "bilharzia": "🪱 Bilharzia",
+  "toxoplasma": "🐱 Toxoplasma"
+}

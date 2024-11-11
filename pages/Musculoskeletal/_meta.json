@@ -1,0 +1,70 @@
+{
+  "---1": {
+    "type": "separator",
+    "title": "Inflammatory Arthritis"
+  },
+  "rheumatoid-arthritis": "🔄 Rheumatoid Arthritis",
+  "psoriatic-arthritis": "📍 Psoriatic Arthritis",
+  "reiters-syndrome": "🎯 Reiter's Syndrome",
+  "septic-arthritis": "🦠 Septic Arthritis",
+
+  "---2": {
+    "type": "separator",
+    "title": "Crystal Arthropathies"
+  },
+  "gout": "💎 Gout",
+  "pseudogout": "🔮 Pseudogout",
+
+  "---3": {
+    "type": "separator",
+    "title": "Degenerative Conditions"
+  },
+  "osteoarthritis": "🦴 Osteoarthritis",
+  "pagets-disease": "🔍 Paget's Disease",
+  "osteomalacia": "🥛 Osteomalacia",
+
+  "---4": {
+    "type": "separator",
+    "title": "Vascular Conditions"
+  },
+  "acute-limb-ischaemia": "🚨 Acute Limb Ischaemia",
+  "chronic-limb-ischaemia": "⏳ Chronic Limb Ischaemia",
+  "deep-venous-thrombosis": "🩸 Deep Venous Thrombosis",
+  "vasculitides": "🔬 Vasculitides",
+
+  "---5": {
+    "type": "separator",
+    "title": "Upper Limb Conditions"
+  },
+  "carpal-tunnel-syndrome": "🤚 Carpal Tunnel Syndrome",
+  "de-quervains-tenosynovitis": "👍 De Quervain's Tenosynovitis",
+  "dupuytrens-contracture": "✊ Dupuytren's Contracture",
+  "tennis-elbow": "🎾 Tennis Elbow",
+
+  "---6": {
+    "type": "separator",
+    "title": "Lower Limb & Spine"
+  },
+  "knee-pain": "🦿 Knee Pain",
+  "osgood-schlatters-disease": "🏃 Osgood-Schlatter's Disease",
+  "lumbar-disc-prolapse": "🔙 Lumbar Disc Prolapse",
+
+  "---7": {
+    "type": "separator",
+    "title": "Systemic Conditions"
+  },
+  "systemic-lupus-erythematosus-sle": "🦋 SLE",
+  "sarcoidosis": "🫁 Sarcoidosis",
+  "fibromyalgia": "💫 Fibromyalgia",
+  "mononeuritis-multiplex": "⚡ Mononeuritis Multiplex",
+
+  "---8": {
+    "type": "separator",
+    "title": "Trauma & Infections"
+  },
+  "fractures": "💔 Fractures",
+  "compartment-syndrome": "⚠️ Compartment Syndrome",
+  "osteomyelitis": "🔥 Osteomyelitis",
+  "rhabdomyolysis": "🔴 Rhabdomyolysis",
+  "non-accidental-injury": "🚫 Non-Accidental Injury"
+} 

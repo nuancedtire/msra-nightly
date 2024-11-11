@@ -1,0 +1,125 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Yellow Fever: A Comprehensive Overview
+
+Yellow fever is a viral hemorrhagic disease, typically short-lived, lasting around 3-4 days. The disease's name comes from the jaundice, or yellowing of the skin, that can occur in some patients. Transmission occurs through mosquito bites, not through close contact with infected individuals. Upon transmission, the virus replicates within the lymph nodes and infects dendritic cells, eventually affecting hepatocytes and potentially leading to liver failure.
+
+![Yellow Fever Risk Areas](https://medibuddy.co.uk/wp-content/uploads/2021/09/YellowFever.png)
+
+*Figure 1: Areas with risk of yellow fever in Africa (left) and South America (right). Source: [Wikipedia](https://en.wikipedia.org/wiki/Yellow_fever)*
+
+## Epidemiology
+
+Yellow fever is prevalent in parts of Sub-Saharan Africa, Central and South America, and the Caribbean. Fortunately, a highly effective vaccine is available, requiring only a single dose for prevention.
+
+## Diagnosis
+
+While many individuals may not display symptoms, those who do might experience:
+
+- **Fever**
+- **Headache**
+- **Nausea**
+- **Muscle pain and backache**
+- **Loss of appetite**
+
+These symptoms usually resolve within 3-4 days. However, 15% of patients may progress to a toxic phase characterized by:
+
+- Recurring fever
+- Jaundice due to liver failure
+- Abdominal pain
+- Bleeding from the mouth, nose, eyes, and gastrointestinal tract, leading to haematemesis
+
+For those developing jaundice, the mortality rate ranges from 20-50%. Diagnosis relies on evaluating clinical symptoms and travel history, although distinguishing yellow fever from diseases like malaria, leptospirosis, and viral hepatitis in early stages can be challenging.
+
+## Investigations
+
+- **Early Detection:** Polymerase chain reaction (PCR) tests in blood and urine can identify the virus early in the infection.
+- **Later Stages:** Antibody testing becomes necessary as the disease progresses.
+
+## Management
+
+### Vaccination
+
+Vaccination is the most effective preventive measure against yellow fever. It's advised for travelers heading to at-risk regions and should be administered at least 10 days before travel. If the patient has received the MMR vaccine recently, a 4-week interval is recommended before getting the yellow fever vaccine. Note that this vaccine is not provided by the NHS. Exclusions for vaccination include:
+
+- Infants under 9 months
+- Pregnant women
+- Immunocompromised individuals
+- People with severe egg protein allergies
+
+### Non-Prescriptive Management
+
+Controlling the vector, the mosquito, is crucial:
+
+1. Use insect repellents containing DEET.
+2. Wear long-sleeved shirts and trousers outdoors; permethrin-treated clothing is available commercially.
+3. Sleep under mosquito nets.
+4. Avoid outdoor activities during peak mosquito biting times from dusk to dawn. Stay indoors in a well-air-conditioned room.
+5. Apply larvicides to water storage containers to prevent mosquito breeding.
+
+<Callout emoji="⚠️">
+**Warning:** There is no cure for yellow fever. Hospitalization may be necessary, but only supportive treatments, such as rehydration therapy and pain relief, are available.
+</Callout>
+
+## References
+
+1. [NHS: Yellow Fever](https://www.nhs.uk/conditions/yellow-fever/)
+2. [WHO: Yellow Fever Fact Sheets](https://www.who.int/news-room/fact-sheets/detail/yellow-fever)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 34-year-old male is planning a trip to a region in Sub-Saharan Africa known to have yellow fever. He has a history of severe egg allergy. Which of the following statements about yellow fever vaccination is correct for this patient?",
+    options: [
+      "He can receive the yellow fever vaccine without any concerns.",
+      "The vaccine should be administered at least 10 days before travel, regardless of his egg allergy.",
+      "The patient should avoid the yellow fever vaccine due to his severe egg allergy.",
+      "He should receive the yellow fever vaccine and be monitored for 30 minutes post-vaccination.",
+      "The vaccine can be administered if he receives premedication with antihistamines."
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Individuals with severe egg allergies are excluded from receiving the yellow fever vaccine due to the risk of an allergic reaction.",
+    incorrectFeedback: "Consider the contraindications for the yellow fever vaccine, particularly related to allergies."
+  },
+  {
+    question: "A 28-year-old pregnant woman is traveling to a yellow fever endemic area. Which of the following is the most appropriate advice regarding yellow fever prevention for her?",
+    options: [
+      "She should receive the yellow fever vaccine immediately.",
+      "She should take antimalarial prophylaxis as it protects against yellow fever.",
+      "She should avoid the yellow fever vaccine and focus on mosquito control measures.",
+      "She should receive a booster dose of the yellow fever vaccine from the NHS.",
+      "She should take prophylactic antiviral medications against yellow fever."
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The yellow fever vaccine is contraindicated in pregnant women, so she should focus on mosquito control measures to prevent infection.",
+    incorrectFeedback: "Remember the vaccine exclusions and the importance of vector control in preventing yellow fever."
+  },
+  {
+    question: "A 45-year-old man presents with fever, jaundice, and bleeding from the gums after returning from a trip to South America. Which of the following tests is most appropriate for confirming yellow fever during the early stages of infection?",
+    options: [
+      "Antibody testing for yellow fever",
+      "Polymerase chain reaction (PCR) testing for yellow fever virus",
+      "Liver function tests",
+      "Blood culture",
+      "Rapid diagnostic test for malaria"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! PCR testing is the most appropriate test for early detection of yellow fever virus in blood and urine.",
+    incorrectFeedback: "Consider the diagnostic approach for viral infections that require early detection, particularly those affecting travelers."
+  },
+  {
+    question: "During an outbreak of yellow fever, a public health campaign focuses on vector control. Which of the following measures is most effective in reducing the transmission of yellow fever?",
+    options: [
+      "Distributing antiviral medications to the population",
+      "Encouraging the use of mosquito nets and repellents",
+      "Vaccinating all infants under 9 months",
+      "Providing antibiotics to prevent secondary infections",
+      "Conducting regular blood tests in the community"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Using mosquito nets and repellents effectively reduces the risk of mosquito bites, thereby controlling the spread of yellow fever.",
+    incorrectFeedback: "Focus on the primary mode of transmission for yellow fever and the most direct method to interrupt this transmission."
+  }
+]} />

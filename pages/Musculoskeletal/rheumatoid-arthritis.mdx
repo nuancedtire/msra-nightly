@@ -1,0 +1,115 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Rheumatoid Arthritis
+
+Rheumatoid arthritis (RA) is a chronic autoimmune disease characterized by inflammation that affects multiple systems in the body. It primarily impacts the joints but can also present with various extra-articular symptoms. RA affects approximately 1% of the global population and is more common in females, with a ratio of 3:1. The disease is influenced by multiple factors, including genetic predispositions like the HLA-DR4 haplotype and environmental factors such as smoking.
+
+## Diagnosis
+
+### Clinical Presentation
+- **Age of Onset:** Typically occurs between ages 30 and 50.
+- **Symptoms:** Progressive and symmetrical polyarthritis, often affecting small joints in the hands and feet while sparing distal interphalangeal joints. Joint swelling, pain, and stiffness are common, especially in the morning and lasting over an hour.
+- **Advanced RA:** Without treatment, can lead to significant deformities such as Boutonniere's deformity, swan neck deformity, ulnar deviation of digits, and radial deviation of the wrist. Rarely, atlantoaxial subluxation may occur, threatening the cervical spinal cord.
+
+### Extra-Articular Manifestations
+- **Respiratory:** Interstitial lung disease, pleural effusions, bronchiectasis.
+- **Cardiac:** Pericarditis, myocarditis, pericardial effusions.
+- **Dermatological:** Rheumatoid nodules, particularly at the elbow.
+- **Ophthalmic:** Scleritis, episcleritis, keratoconjunctivitis.
+- **Hematological:** Anemia, neutropenia.
+
+## Investigations
+
+Rheumatoid arthritis is diagnosed clinically, supported by laboratory and imaging tests to confirm and assess the prognosis.
+
+### Laboratory Tests
+- **Rheumatoid Factor (RF):** Positive in about 70% of RA patients. However, it is not specific to RA and can be found in other conditions like SLE, Sjogren’s syndrome, and systemic sclerosis. High RF titres are associated with severe disease.
+- **Anti-Citrullinated Peptide Antibody (Anti-CCP):** Present in 80% of RA patients and specific to RA. Predicts poorer prognosis.
+- **Routine Blood Tests:** Full blood count, CRP, ESR, liver function tests, and urea and electrolytes to identify comorbidities and guide treatment.
+
+### Imaging
+- **Radiographs:** Baseline X-rays of hands and feet to identify erosions indicating severe disease.
+- **Ultrasound:** Useful for detecting synovitis in the wrist and fingers.
+
+### Diagnostic Criteria
+The American College of Rheumatology 2010 criteria, accessible online, include clinical and investigatory findings with a cut-off point of six points for RA diagnosis. These criteria incorporate results from CRP, RF, and anti-CCP tests.
+
+## Management
+
+### Pharmacological Management
+- **Disease Activity Scores:** Tools like the DAS28 score help tailor treatment by considering joint tenderness, swelling, ESR, and patient's general health.
+- **Disease-Modifying Anti-Rheumatic Drugs (DMARDs):** Methotrexate, sulphasalazine, hydroxychloroquine, and leflunomide, with methotrexate being the preferred choice.
+- **Corticosteroids:** Used in oral, intramuscular, or intra-articular forms alongside DMARDs.
+- **Biological Agents:** For severe cases unresponsive to DMARDs, include anti-TNF (etanercept, infliximab, adalimumab) and anti-CD20 (rituximab). These increase immunocompromise and infection risk.
+
+<Callout emoji="⚠️">
+**Warning:** Biological agents pose a higher risk of infection due to increased immunocompromise.
+</Callout>
+
+### Non-Pharmacological Management
+- **Physiotherapy:** Regular sessions to maintain joint mobility and muscle strength, with preference for gentle exercises like swimming.
+- **Multidisciplinary Approach:** Involvement of occupational therapists, podiatrists, and psychologists to address all facets of the disease.
+
+## References
+
+- Kumar and Clark’s Clinical Medicine 2017
+- BMJ Best Practice. _Rheumatoid Arthritis_
+- NICE. _Rheumatoid Arthritis._ Available at: [NICE Guidelines](https://cks.nice.org.uk/topics/rheumatoid-arthritis/)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 45-year-old woman presents with a history of morning stiffness lasting over an hour and symmetrical swelling of the small joints in her hands. She also reports fatigue and weight loss. Laboratory tests reveal a positive rheumatoid factor (RF) and elevated anti-citrullinated peptide antibody (anti-CCP). Which of the following is the most likely diagnosis?",
+    options: [
+      "Systemic Lupus Erythematosus (SLE)",
+      "Osteoarthritis",
+      "Rheumatoid Arthritis",
+      "Psoriatic Arthritis",
+      "Gout"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The patient's presentation is consistent with rheumatoid arthritis, characterized by symmetrical polyarthritis and the presence of positive RF and anti-CCP antibodies.",
+    incorrectFeedback: "Consider the symmetrical joint involvement and the specific laboratory findings of positive RF and anti-CCP, which are indicative of rheumatoid arthritis."
+  },
+  {
+    question: "A 50-year-old male with rheumatoid arthritis is on methotrexate and hydroxychloroquine but continues to have active disease. His rheumatologist is considering adding a biological agent. Which of the following is a potential risk associated with biological agents?",
+    options: [
+      "Hypercalcemia",
+      "Increased risk of infection",
+      "Hypertension",
+      "Hypoglycemia",
+      "Renal dysfunction"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Biological agents, such as anti-TNF and anti-CD20 therapies, increase the risk of infection due to immunosuppression.",
+    incorrectFeedback: "Think about the mechanism of action of biological agents which modulate the immune system and how this might affect the body's ability to fight infections."
+  },
+  {
+    question: "A 35-year-old woman with a history of rheumatoid arthritis presents with shortness of breath and a dry cough. A chest X-ray shows interstitial lung disease. Which of the following extra-articular manifestations is she likely experiencing?",
+    options: [
+      "Cardiac pericarditis",
+      "Interstitial lung disease",
+      "Rheumatoid nodules",
+      "Keratoconjunctivitis",
+      "Anemia"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Interstitial lung disease is a known extra-articular manifestation of rheumatoid arthritis, which can present with symptoms such as shortness of breath and cough.",
+    incorrectFeedback: "Consider the respiratory symptoms and the chest X-ray findings. Which extra-articular manifestation of rheumatoid arthritis affects the lungs?"
+  },
+  {
+    question: "A 60-year-old patient with rheumatoid arthritis presents with pain and swelling in the left wrist and fingers. An ultrasound is performed. Which of the following findings would most likely confirm the diagnosis of synovitis in this patient?",
+    options: [
+      "Presence of rheumatoid nodules",
+      "Joint space narrowing",
+      "Erosions on bone surfaces",
+      "Increased synovial fluid and thickened synovial membrane",
+      "Joint subluxation"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Ultrasound findings of increased synovial fluid and a thickened synovial membrane are indicative of synovitis in rheumatoid arthritis.",
+    incorrectFeedback: "Focus on the ultrasound findings that directly indicate inflammation of the synovial membrane, which is characteristic of synovitis."
+  }
+]} />

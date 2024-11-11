@@ -1,0 +1,134 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Toxoplasmosis
+
+Toxoplasmosis is an infection caused by the parasite _Toxoplasma gondii_. This condition typically arises from consuming undercooked contaminated meat (such as pork, lamb, or shellfish) or through contact with and ingestion of infected cat feces. While most individuals remain asymptomatic or experience mild flu-like symptoms, it poses significant risks to pregnant women and immunocompromised individuals. In these populations, the infection can lead to severe health complications. If a woman contracts the infection during pregnancy, there is a risk of transmitting it to the fetus, resulting in congenital toxoplasmosis characterized by a classic triad:
+
+1. **Chorioretinitis**
+2. **Hydrocephalus**
+3. **Intracranial Arteriosclerosis**
+
+## Clinical Presentation
+
+Infected individuals may display symptoms such as:
+
+- Swollen lymph nodes
+- Fever
+- Fatigue
+- Muscle and joint pain
+
+**Severe Symptoms in Immunocompromised Individuals:**
+
+- Seizures
+- Pneumocystis jiroveci pneumonia, particularly in HIV/AIDS patients
+- Ocular toxoplasmosis
+- Encephalitis
+
+![Life Cycle of Toxoplasma gondii](https://medibuddy.co.uk/wp-content/uploads/2021/09/PLAB-Toxoplasma-1.png)
+*Figure 1: Life Cycle of _Toxoplasma gondii_*
+
+[Source: ](https://en.wikipedia.org/wiki/Toxoplasmosis#Treatment)
+
+## Diagnosis
+
+Diagnosis of toxoplasmosis is mainly conducted through serological tests, which detect antibodies against _Toxoplasma gondii_ in the blood serum. Both IgG and IgM levels are evaluated to determine whether the infection is acute or chronic. Direct visualization of the parasite in stained tissue sections or cerebrospinal fluid (CSF) is another diagnostic method.
+
+For congenital toxoplasmosis, prenatal testing of amniotic fluid and ultrasound imaging are utilized. At birth, early neurological and ophthalmic examinations are crucial.
+
+## Investigations
+
+In addition to the diagnostic methods, cerebral MRI scans can identify brain damage, including encephalitis.
+
+![Cerebral Toxoplasmosis](https://medibuddy.co.uk/wp-content/uploads/2021/09/PLAB-Toxoplasma-2.png)
+*Figure 2: Cerebral toxoplasmosis involving the right occipital lobe in a patient with AIDS*
+
+Source: [https://en.wikipedia.org/wiki/Toxoplasmosis#Treatment](https://en.wikipedia.org/wiki/Toxoplasmosis#Treatment)
+
+## Management
+
+### Pharmacological Management
+
+Most healthy individuals do not require treatment. However, treatment is necessary for those with serious health concerns, such as individuals with HIV with a CD4 count of ``<200 cells/mm³``. 
+
+- **Preventative Treatment:**  
+  - **Trimethoprim/sulfamethoxazole** is used to prevent toxoplasmosis but not for active disease.
+
+- **Medications for Acute Toxoplasmosis:**
+  - **Pyrimethamine** – an antimalarial
+  - **Sulfadiazine** – an antibiotic
+  - **Folinic acid**
+
+These medications can also be administered to pregnant women, newborns, and infants, although they may not completely eradicate the parasite. Urgent treatment is also recommended for individuals with ocular toxoplasmosis following ophthalmologic evaluation.
+
+### Non-Pharmacological Management
+
+To minimize the risk of infection, pregnant women and immunocompromised individuals should:
+
+- Wash hands before preparing food and eating
+- Wear gloves when handling cat litter
+- Avoid undercooked or raw meat
+- Refrain from consuming unpasteurized goat's milk
+
+<Callout emoji="⚠️">
+**Warning:** Pregnant women and immunocompromised individuals should adopt preventive measures rigorously.
+</Callout>
+
+## References
+
+1. [NHS: Toxoplasmosis](https://www.nhs.uk/conditions/toxoplasmosis/)
+2. [CDC: Prevention and Control of Toxoplasmosis](https://www.cdc.gov/parasites/toxoplasmosis/prevent.html)
+3. [Mayo Clinic: Toxoplasmosis Overview](https://www.mayoclinic.org/diseases-conditions/toxoplasmosis/symptoms-causes/syc-20356249)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 32-year-old pregnant woman has a routine check-up and mentions owning a cat. She is concerned about toxoplasmosis. Which of the following is most effective in reducing her risk of contracting toxoplasmosis during pregnancy?",
+    options: [
+      "Avoiding contact with all animals",
+      "Consuming vitamin supplements regularly",
+      "Wearing gloves while handling cat litter",
+      "Eating only cooked shellfish"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Wearing gloves while handling cat litter is crucial because _Toxoplasma gondii_ can be transmitted through contact with infected cat feces.",
+    incorrectFeedback: "Consider the specific route of transmission for toxoplasmosis related to cat ownership. Direct contact with cat feces is a known risk factor."
+  },
+  {
+    question: "A 45-year-old man with a history of HIV presents with seizures and confusion. MRI shows multiple ring-enhancing lesions in the brain. Which diagnostic test would most likely confirm cerebral toxoplasmosis in this patient?",
+    options: [
+      "Serologic test for _Toxoplasma gondii_ antibodies",
+      "CSF bacterial culture",
+      "CT scan of the abdomen",
+      "Complete blood count"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! Serologic tests detecting antibodies to _Toxoplasma gondii_ are commonly used to diagnose toxoplasmosis. This is especially important in immunocompromised individuals.",
+    incorrectFeedback: "Focus on the specific tests used to diagnose infections caused by _Toxoplasma gondii_, especially in immunocompromised patients."
+  },
+  {
+    question: "A newborn is diagnosed with congenital toxoplasmosis. Which of the following triad of symptoms is most characteristic of this condition?",
+    options: [
+      "Microcephaly, cataracts, and cardiac defects",
+      "Chorioretinitis, hydrocephalus, and intracranial calcifications",
+      "Hepatosplenomegaly, anemia, and deafness",
+      "Jaundice, petechiae, and hemolytic anemia"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The classic triad of congenital toxoplasmosis includes chorioretinitis, hydrocephalus, and intracranial calcifications.",
+    incorrectFeedback: "Consider the specific neurological and ocular manifestations typically associated with congenital toxoplasmosis."
+  },
+  {
+    question: "A patient with AIDS and a CD4 count of 150 cells/mm³ is being considered for preventative treatment for toxoplasmosis. Which medication is appropriate for prevention in this scenario?",
+    options: [
+      "Pyrimethamine",
+      "Trimethoprim/sulfamethoxazole",
+      "Sulfadiazine",
+      "Folinic acid"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Trimethoprim/sulfamethoxazole is used as a prophylactic measure to prevent toxoplasmosis in individuals with low CD4 counts.",
+    incorrectFeedback: "Think about the standard prophylactic treatment used to prevent opportunistic infections in immunocompromised patients."
+  }
+]} />
