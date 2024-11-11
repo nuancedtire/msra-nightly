@@ -21,7 +21,7 @@ Using the provided unstructured article content, create a comprehensive medical 
 
 2. **Article Title:**
 
-   - Assign an appropriate and relevant title to the article that reflects its main topic.
+   - Assign an appropriate and simple title to the article that reflects its main topic.
    - Use `#` for the main title (top-level heading).
 
 3. **Content Structure and Formatting:**
@@ -37,10 +37,10 @@ Using the provided unstructured article content, create a comprehensive medical 
      - Include all information from the original unstructured text.
      - Do not omit any details, data, or nuances present in the source material.
    - **Formatting:**
-     - Use bullet points and numbered lists to break down complex information.
+     - Use bullet points and numbered lists to break down information as much as possible.
      - **Bold** key terms or important concepts to emphasize them.
      - *Italicize* notes, exceptions, or terms that need emphasis.
-     - Use inline code formatting (backticks) to escape special characters while also highlighting specific terms (e.g., ``SpO2 <94%``, ``<12 hours``, ``>55 years``, ``MCV > 100fL``).
+     - Use inline code formatting (backticks) to escape special characters while also highlighting specific terms (e.g., `SpO2 <94%`, `<12 hours`, `>55 years`, `MCV > 100fL`).
      - Present data using Markdown tables where appropriate for better organization.
    - **MDX Features:**
      - Include callouts to highlight important notes, warnings, or tips. For example:

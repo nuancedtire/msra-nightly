@@ -1,0 +1,67 @@
+{
+  "---1": {
+    "type": "separator",
+    "title": "Cerebrovascular"
+  },
+  "stroke": "🧠 Stroke",
+  "transient-ischaemic-attack": "⚡ TIA",
+  "amaurosis-fugax": "👁️ Amaurosis Fugax",
+  "anterior-spinal-artery-syndrome": "🔄 Anterior Spinal Artery Syndrome",
+
+  "---2": {
+    "type": "separator",
+    "title": "Headaches & Pain"
+  },
+  "causes-of-headache-and-facial-pain": "📋 Headache Causes",
+  "migraine": "⚡ Migraine",
+  "tension-headache": "😣 Tension Headache",
+  "cluster-headaches": "🔴 Cluster Headaches",
+
+  "---3": {
+    "type": "separator",
+    "title": "Neurodegenerative"
+  },
+  "alzheimers-disease": "🧩 Alzheimer's Disease",
+  "frontotemporal-dementia": "🤔 Frontotemporal Dementia",
+  "multi-infarct-dementia": "🔄 Multi-infarct Dementia",
+  "idiopathic-parkinsons-disease": "🤝 Parkinson's Disease",
+  "motor-neurone-disease": "⚡ Motor Neurone Disease",
+
+  "---4": {
+    "type": "separator",
+    "title": "Neurotrauma"
+  },
+  "basal-skull-fractures": "💀 Basal Skull Fractures",
+  "extradural-haematoma": "🚨 Extradural Haematoma",
+  "subdural-haematoma": "🔴 Subdural Haematoma",
+  "subarachnoid-haematoma": "🩸 Subarachnoid Haematoma",
+
+  "---5": {
+    "type": "separator",
+    "title": "Neuroimmunology"
+  },
+  "multiple-sclerosis": "⚡ Multiple Sclerosis",
+  "guillain-barre-syndrome": "↓️ Guillain-Barré Syndrome",
+  "myasthenia-gravis": "💪 Myasthenia Gravis",
+
+  "---6": {
+    "type": "separator",
+    "title": "CNS Infections"
+  },
+  "bacterial-meningitis": "🦠 Bacterial Meningitis",
+  "wernickes-encephalopathy": "🧠 Wernicke's Encephalopathy",
+
+  "---7": {
+    "type": "separator",
+    "title": "Other Neurological Conditions"
+  },
+  "acute-confusional-state": "😕 Acute Confusional State",
+  "benign-positional-paroxysmal-vertigo": "💫 BPPV",
+  "cauda-equina-syndrome": "⚠️ Cauda Equina Syndrome",
+  "epilepsy": "⚡ Epilepsy",
+  "meningioma": "🎯 Meningioma",
+  "normal-pressure-hydrocephalus": "💧 NPH",
+  "papilloedema": "👁️ Papilloedema",
+  "peripheral-neuropathy": "🔌 Peripheral Neuropathy",
+  "vasovagal-syncope": "💫 Vasovagal Syncope"
+} 

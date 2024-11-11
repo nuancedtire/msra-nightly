@@ -1,0 +1,134 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Wernicke’s Encephalopathy: Diagnosis, Management, and Prevention
+
+Wernicke’s encephalopathy (WE) is a neurological and psychiatric condition characterized by three distinct symptoms: confusion, eye movement issues (ophthalmoplegia), and unsteady gait (ataxia). This condition stems from a deficiency in thiamine (vitamin B1) and is notably linked to alcohol misuse, which impedes thiamine absorption. Moreover, malnutrition, anorexia nervosa, hyperemesis gravidarum, and bowel resection can also lead to thiamine deficiency.
+
+When untreated, WE may progress to Korsakoff's syndrome, a chronic and worsening cognitive impairment primarily associated with long-term thiamine deficiency.
+
+## Diagnosis
+
+### Recognizing Clinical Features
+
+- **Clinical Triad**:
+  - Acute confusional state
+  - Ophthalmoplegia
+  - Ataxia
+
+<Callout emoji="ℹ️">
+**Note:** Diagnosis does not require the presence of all three symptoms; in fact, only about 10% of patients exhibit the complete triad. Confusion is the most common symptom.
+</Callout>
+
+- **Risk Factors**:
+  - History of excessive alcohol consumption
+  - Nutritional deficiencies
+  - Medical conditions leading to malabsorption
+
+### Diagnostic Approach
+
+- **Clinical Judgment**: Diagnosis is largely based on characteristic symptoms in patients with known risk factors.
+- **Imaging**: Cranial CT and MRI scans are not typically useful for diagnosing WE.
+
+## Investigations
+
+While WE is clinically diagnosed, certain tests are performed to exclude other potential causes of the presenting symptoms.
+
+- **Blood Tests**:
+  - Full blood count (FBC)
+  - Urea and electrolytes (U&Es)
+  - Liver function tests (LFTs)
+  - Calcium levels
+
+- **Urinalysis**:
+  - To detect urinary tract infections (UTIs)
+  - Urinary drug screen
+
+- **Cranial Imaging**:
+  - Conducted if neurological causes such as infections, stroke, or tumors are suspected
+
+## Management
+
+### Prescribing Treatment
+
+**Immediate Thiamine Replacement**:
+- Intravenous thiamine (e.g., Pabrinex)
+  - Dosage: 2 pairs administered three times daily for 3-7 days
+
+**Prophylactic Treatment**:
+- High-risk patients (history of alcoholism or malnutrition) may receive thiamine prophylactically, especially upon hospital admission.
+- Oral thiamine supplements for those at risk but asymptomatic, potentially as a long-term preventive measure.
+
+### Non-Prescribing Interventions
+
+- **Addressing Underlying Causes**:
+  - Treatment plans should include strategies for managing alcohol dependence, such as referrals to support services and psychological therapies.
+
+- **Rehabilitation and Support**:
+  - Patients may require physiotherapy or occupational therapy for lingering ataxia.
+  - Full-time care may be necessary for individuals with Korsakoff’s syndrome due to irreversible cognitive impairments.
+
+<Callout emoji="✅">
+**Positive Outcomes**: With timely thiamine treatment, confusion and ophthalmoplegia often resolve quickly, though ataxia may persist.
+</Callout>
+
+## References
+
+- [Oxford Handbook of Psychiatry, 3rd edition, pages 572-573](#)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 45-year-old man with a history of chronic alcoholism presents to the emergency department with acute confusion and difficulty walking. He has been eating poorly for several weeks. On examination, he has horizontal nystagmus and ataxia. Which of the following is the most appropriate next step in management?",
+    options: [
+      "Initiate intravenous glucose infusion immediately",
+      "Administer intravenous thiamine replacement",
+      "Perform a cranial CT scan",
+      "Start long-term oral thiamine supplementation",
+      "Refer to alcohol support services"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The patient presents with features suggestive of Wernicke's encephalopathy, including confusion, nystagmus, and ataxia, with a history of alcoholism. Immediate intravenous thiamine replacement is critical to prevent further neurological damage.",
+    incorrectFeedback: "While some options may be part of the overall management, consider the urgency and priority of interventions for a patient with suspected Wernicke's encephalopathy."
+  },
+  {
+    question: "Which of the following statements regarding the diagnostic approach to Wernicke’s encephalopathy is correct?",
+    options: [
+      "Cranial CT and MRI scans are the primary diagnostic tools for confirming Wernicke’s encephalopathy",
+      "The diagnosis of Wernicke’s encephalopathy is primarily clinical, based on characteristic symptoms in at-risk patients",
+      "A complete blood count and liver function tests are definitive for the diagnosis of Wernicke’s encephalopathy",
+      "Urinalysis is the most sensitive test for diagnosing Wernicke’s encephalopathy",
+      "The presence of the complete clinical triad is required for the diagnosis of Wernicke’s encephalopathy"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The diagnosis of Wernicke’s encephalopathy is primarily clinical, focusing on characteristic symptoms in patients with risk factors for thiamine deficiency. Imaging is not typically useful for diagnosing Wernicke’s encephalopathy.",
+    incorrectFeedback: "Reconsider the role of clinical judgment and other diagnostic tools in the context of Wernicke's encephalopathy."
+  },
+  {
+    question: "A patient with diagnosed Wernicke’s encephalopathy has responded well to intravenous thiamine and is ready for discharge. Which of the following long-term management strategies is appropriate for this patient?",
+    options: [
+      "Discontinue all forms of thiamine supplementation as the patient is asymptomatic",
+      "Continue intravenous thiamine indefinitely at the same dosage used for acute treatment",
+      "Start long-term oral thiamine supplementation and address underlying causes",
+      "Refer for a cranial MRI scan every six months to monitor for recurrence",
+      "Prescribe prophylactic antibiotics to prevent urinary tract infections"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! For long-term management, starting oral thiamine supplementation and addressing underlying causes, such as alcohol dependence, is appropriate for preventing recurrence of Wernicke’s encephalopathy.",
+    incorrectFeedback: "Consider the importance of ongoing management to prevent recurrence of Wernicke's encephalopathy and the relevance of addressing underlying causes."
+  },
+  {
+    question: "Which of the following outcomes is most likely to resolve quickly with timely thiamine treatment in a patient with Wernicke’s encephalopathy?",
+    options: [
+      "Ataxia",
+      "Confusion",
+      "Ophthalmoplegia",
+      "Irreversible cognitive impairments",
+      "Chronic alcoholism"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Confusion and ophthalmoplegia often resolve quickly with timely thiamine treatment in patients with Wernicke’s encephalopathy, whereas ataxia may persist.",
+    incorrectFeedback: "Reflect on the symptoms of Wernicke’s encephalopathy and which ones are likely to improve rapidly with appropriate thiamine therapy."
+  }
+]} />

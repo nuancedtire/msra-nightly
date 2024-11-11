@@ -1,0 +1,141 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Guillain-Barré Syndrome: Clinical Insights
+
+Guillain-Barré syndrome (GBS) is a rare neurological disorder in which the body's immune system mistakenly attacks part of its peripheral nervous system. Here we cover the key aspects of GBS, including its diagnosis, investigations, and management strategies.
+
+## Overview
+
+GBS is an acute, inflammatory condition affecting the peripheral nerves, often precipitated by an infection up to six weeks prior. It features an ascending pattern of muscle weakness and a loss of reflexes. The disorder arises as an autoimmune response, where antibodies mistakenly target the myelin sheath surrounding nerves or the Schwann cells. 
+
+**Common triggers include:**
+
+- HIV
+- Cytomegalovirus (CMV)
+- Epstein-Barr virus (EBV)
+- Hepatitis B or C
+- Herpes zoster
+- Mycoplasma pneumonia
+- _Campylobacter jejuni_
+
+In about 40% of cases, no specific cause is identified.
+
+## Diagnosis
+
+GBS typically begins with muscle weakness in the lower limbs, which then ascends to affect the upper limbs, with the proximal muscles being involved first. Symptoms are often preceded by numbness in the extremities. After an initial progressive phase peaking at around four weeks, a plateau phase ensues before recovery begins. Sensory function often remains intact, but patients may experience:
+
+- Autonomic changes (e.g., sweating, blood pressure fluctuations, tachycardia, arrhythmias)
+- Back and leg pain
+- Diplopia
+- Facial weakness
+- Ptosis
+- Bulbar palsy
+
+<Callout emoji="⚠️">
+**Warning:** Mechanical ventilation may be required if bulbar palsy is present.
+</Callout>
+
+Men are more frequently affected by GBS. If bladder or bowel dysfunction is noted, consider an alternative diagnosis such as acute myelopathy.
+
+## Investigations
+
+When GBS is suspected, a series of tests can confirm the diagnosis and determine disease severity.
+
+- **Nerve Conduction Studies**: 
+  - Test at least 3 sensory and 3 motor nerves.
+  - Look for reduced velocity and demyelination signs.
+  - Initial studies may be normal; repeat testing after 1-2 weeks.
+
+- **Lumbar Puncture**: 
+  - Typical GBS findings include elevated protein with normal cell counts.
+  - Presence of lymphocytes may indicate other conditions like meningitis or HIV.
+
+- **Spirometry**: 
+  - Conduct every 6 hours initially.
+  - ICU admission is warranted if forced vital capacity falls below `20ml/kg`.
+
+- **Liver Function Tests (LFTs)**: 
+  - Elevated AST and ALT may signal a severe disease course, expected to normalize within 1-2 weeks.
+
+- **Blood and Stool Cultures**: 
+  - These can identify potential triggers but have limited clinical utility.
+
+- **Spinal MRI**: 
+  - Useful for differential diagnosis when the cause remains ambiguous.
+
+## Management
+
+### Prescribing
+
+GBS can be intensely painful, necessitating various analgesics and medications such as:
+
+- Opiate analgesics
+- Gabapentin
+
+Intravenous immunoglobulins (IVIG) and plasma exchange are therapeutic options with comparable efficacy. However, IVIG is often preferred due to fewer side effects.
+
+### Non-Prescribing
+
+Rehabilitation and physiotherapy play crucial roles in enhancing mobility, strength, life quality, and reducing fatigue for GBS patients.
+
+## References
+
+- [BMJ Clinical Review on Guillain-Barré Syndrome](https://www.bmj.com/bmj/section-pdf/186530?path=/bmj/337/7663/Clinical_Review.full.pdf)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 25-year-old man presents to the clinic with rapidly ascending muscle weakness starting from his lower limbs and progressing to his upper limbs over the past week. He reports a diarrheal illness 3 weeks ago. His reflexes are diminished in the lower extremities. Which of the following organisms is most likely associated with his condition?",
+    options: [
+      "Herpes zoster virus",
+      "Hepatitis C virus",
+      "Epstein-Barr virus",
+      "Campylobacter jejuni",
+      "Human Immunodeficiency Virus (HIV)"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Campylobacter jejuni is commonly associated with Guillain-Barré syndrome and can precede the onset of symptoms by a few weeks following a gastrointestinal illness.",
+    incorrectFeedback: "Remember to consider the association of Guillain-Barré syndrome with antecedent infections, particularly gastrointestinal ones."
+  },
+  {
+    question: "A 40-year-old woman diagnosed with Guillain-Barré syndrome has been admitted to the intensive care unit. She is now requiring mechanical ventilation. Which of the following findings on spirometry is an indication for ventilatory support in patients with Guillain-Barré syndrome?",
+    options: [
+      "Forced vital capacity (FVC) of 25 ml/kg",
+      "Forced expiratory volume in 1 second (FEV1) of 30 ml/kg",
+      "Forced vital capacity (FVC) of 20 ml/kg",
+      "Peak expiratory flow rate (PEFR) of 50% predicted",
+      "Forced expiratory volume in 1 second (FEV1) of 50% predicted"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Patients with Guillain-Barré syndrome may require mechanical ventilation if the forced vital capacity falls below 20 ml/kg, indicating significant respiratory muscle weakness.",
+    incorrectFeedback: "Consider the specific spirometry values that are critical for determining respiratory function in Guillain-Barré syndrome."
+  },
+  {
+    question: "During the course of treatment for Guillain-Barré syndrome, a patient develops fluctuating blood pressure and episodes of tachycardia. These findings are most likely due to which of the following aspects of the syndrome?",
+    options: [
+      "Autonomic nervous system involvement",
+      "Cerebral edema",
+      "Peripheral nerve demyelination",
+      "Medication side effect",
+      "Secondary infection"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! Guillain-Barré syndrome can affect the autonomic nervous system, leading to symptoms such as blood pressure fluctuations and tachycardia.",
+    incorrectFeedback: "Consider the systemic effects of Guillain-Barré syndrome beyond the primary motor and sensory symptoms."
+  },
+  {
+    question: "Which of the following diagnostic tests would most likely yield the characteristic finding of elevated protein with normal cell count in a patient suspected of Guillain-Barré syndrome?",
+    options: [
+      "Nerve conduction studies",
+      "Lumbar puncture",
+      "Blood culture",
+      "Liver function tests",
+      "Spinal MRI"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! A lumbar puncture in Guillain-Barré syndrome typically shows elevated protein with normal cell counts, which is a classic finding known as albuminocytological dissociation.",
+    incorrectFeedback: "Think about the diagnostic test that assesses the cerebrospinal fluid, which often reveals a distinctive finding in Guillain-Barré syndrome."
+  }
+]} />

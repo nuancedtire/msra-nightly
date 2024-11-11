@@ -1,0 +1,150 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Migraine: Diagnosis and Management
+
+Migraine is a widespread primary headache disorder predominantly appearing before the age of 40 and more frequently affects females. Characterized by recurrent headaches of moderate to severe intensity, migraines typically last from 4 to 72 hours and often come with additional symptoms like nausea, sensitivity to light, and vomiting.
+
+## Migraine Triggers
+
+Several factors can precipitate a migraine attack, including:
+
+- Emotional stress
+- Alcohol consumption
+- Inadequate sleep
+- Menstrual cycle fluctuations
+- Physical exertion
+
+## Diagnosis of Migraine
+
+### Stages of Migraine
+
+Migraines may progress through distinct stages: prodrome, aura, headache, and postdrome.
+
+**Prodrome Phase:**
+
+- Occurs up to 48 hours before the headache
+- Non-specific symptoms may include:
+  - Excessive yawning
+  - Mood swings
+  - Stiffness in the neck
+  - Altered appetite
+
+**Aura Phase:**
+
+- Fully reversible focal neurological symptoms
+- Symptoms manifest visually (e.g., zigzag lines, `scintillating scotoma`), sensorily (e.g., numbness), or in speech (e.g., slurring, aphasia)
+- Typically followed by a headache within 60 minutes
+- Atypical aura may involve motor weakness or altered consciousness
+
+**Headache Phase:**
+
+- Typically unilateral and throbbing or pulsatile in nature
+- Disabling intensity, often causing avoidance of daily activities
+- Accompanied by nausea, vomiting, and sensitivity to light and sound
+- Duration usually spans 4 to 24 hours, seldom exceeding 72 hours
+
+**Postdrome Phase:**
+
+- May experience fatigue and mood changes for up to 48 hours post-headache
+
+### Diagnostic Criteria
+
+Migraine is diagnosed clinically through patient history and physical examination. However, red flags warrant further investigation to rule out secondary headaches:
+
+- Onset after age 50
+- Changes in headache pattern
+- Systemic symptoms like fever or weight loss
+- Persistence post Valsalva maneuver or physical exertion
+
+<Callout emoji="🔍">
+**Investigative Measures:**
+
+- **Serum ESR:** Indicated for headache with scalp tenderness or jaw claudication, hinting at temporal arteritis.
+- **Lumbar Puncture:** Required for sudden headache onset or systemic symptoms to exclude subarachnoid hemorrhage or meningitis.
+- **CT Brain:** Recommended for acute headache evaluation when intracranial hemorrhage is suspected.
+</Callout>
+
+## Management Strategies
+
+### Prescribing Interventions
+
+**For Mild to Moderate Migraine:**
+
+- Oral NSAIDs (e.g., aspirin, diclofenac, ibuprofen)
+- Paracetamol
+- Oral triptans (e.g., sumatriptan, eletriptan) for severe pain
+- Anti-emetics like metoclopramide for nausea
+
+**Prophylaxis for Recurrent Attacks:**
+
+- Propranolol or amitriptyline for individuals experiencing attacks more than once a week
+
+### Non-Prescribing Interventions
+
+Lifestyle adjustments and behavioral interventions are crucial for managing chronic migraine:
+
+- Avoiding known triggers
+- Practicing sleep hygiene
+- Learning coping strategies
+- Mindfulness or cognitive behavioral therapy as non-medication prophylaxis
+
+## References
+
+- Kumar and Clark’s Clinical Medicine, 2017
+- BMJ Best Practice. _Migraine._
+- NICE. _Migraine._ [NICE Guidelines](https://cks.nice.org.uk/migraine)
+- AAFP. _Migraine._ [AAFP Article](https://www.aafp.org/afp/2018/0215/p243.html)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 32-year-old woman presents with a headache characterized by unilateral throbbing pain, photophobia, and nausea. The headache episodes typically last for about 20 hours and occur once every month. She also reports experiencing mood swings and neck stiffness a day before the headache starts. Which of the following best describes the stage that precedes her headache?",
+    options: [
+      "Aura phase",
+      "Prodrome phase",
+      "Headache phase",
+      "Postdrome phase"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The prodrome phase can occur up to 48 hours before the headache and includes non-specific symptoms such as mood swings and neck stiffness, which this patient experienced.",
+    incorrectFeedback: "Review the typical characteristics and timing of each migraine phase. What phase includes non-specific symptoms that occur before the headache begins?"
+  },
+  {
+    question: "A 45-year-old man presents with a new-onset headache that has progressively worsened over the past 3 weeks. He also reports an unintentional weight loss of 10 pounds during this period. Upon examination, no focal neurological deficits are noted. Which of the following is the most appropriate next step in the management of this patient?",
+    options: [
+      "Prescribe oral NSAIDs and schedule a follow-up in 1 week",
+      "Perform a lumbar puncture to analyze cerebrospinal fluid",
+      "Refer the patient for a CT scan of the brain",
+      "Initiate prophylactic treatment with propranolol"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! New-onset headache with progressive worsening and systemic symptoms such as weight loss are red flags that warrant further investigation with imaging, such as a CT scan, to rule out secondary causes.",
+    incorrectFeedback: "Consider the red flags in this patient's presentation. What is the most appropriate diagnostic measure to evaluate for possible secondary causes of headache?"
+  },
+  {
+    question: "A 28-year-old woman with a history of recurrent migraines is interested in non-pharmacological strategies to prevent future attacks. She experiences 2 migraine episodes per month. Which of the following non-prescribing interventions should be recommended?",
+    options: [
+      "Initiation of daily oral triptans for prophylaxis",
+      "Practicing sleep hygiene and avoiding known triggers",
+      "Lumbar puncture to relieve intracranial pressure",
+      "Starting a course of amitriptyline for immediate relief"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Non-pharmacological strategies such as practicing sleep hygiene and avoiding known triggers are recommended for managing chronic migraine and preventing future attacks.",
+    incorrectFeedback: "Think about non-pharmacological approaches to prevent migraines. Which option focuses on lifestyle adjustments and behavioral interventions?"
+  },
+  {
+    question: "A 50-year-old woman with a history of episodic migraines without aura presents for evaluation of her headaches. She reports that the frequency of her migraines has increased from once a month to twice a week. The headaches significantly impair her ability to work. She has tried over-the-counter NSAIDs with minimal relief. Which of the following medications is most appropriate for migraine prophylaxis in this patient?",
+    options: [
+      "Oral triptans as needed",
+      "Propranolol",
+      "Metoclopramide during headache episodes",
+      "Paracetamol on a daily basis"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Propranolol is an appropriate prophylactic medication for individuals who are experiencing frequent migraine attacks, such as more than once a week.",
+    incorrectFeedback: "Consider the increased frequency of the patient's migraines and the goal of reducing attack frequency. Which medication is indicated for prophylaxis in frequent migraines?"
+  }
+]} />

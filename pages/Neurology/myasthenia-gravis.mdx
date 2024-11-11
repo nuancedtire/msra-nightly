@@ -1,0 +1,137 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Myasthenia Gravis: Overview, Diagnosis, and Management
+
+## Introduction to Myasthenia Gravis
+
+Myasthenia Gravis (MG) is a condition characterized by fluctuating muscle weakness and undue fatigability that notably improves with rest and anticholinesterase medication. Typically, MG manifests in individuals around 20-30 years of age or post-70 in males. The disease exhibits a higher prevalence in men and those of Afro-Caribbean descent. MG is often found in association with other autoimmune disorders, such as:
+
+- Graves' disease
+- Rheumatoid arthritis
+- Systemic Lupus Erythematosus (SLE)
+- Vitiligo
+- Pernicious anemia
+- Addison’s disease
+
+The root cause of MG is autoantibodies targeting the postsynaptic nicotinic acetylcholine receptors at the neuromuscular junction, a process known as a type II hypersensitivity reaction. This immune response diminishes the number of functional receptors, leading to impaired neural signal transmission to muscles and consequent fatigability as the receptors become progressively occupied. Thymic hyperplasia is evident in 70% of patients, and 15% have MG secondary to a thymoma, particularly in individuals over 40.
+
+## Diagnosis of Myasthenia Gravis
+
+### Initial Presentation
+
+Patients commonly report increased fatigability, often feeling most robust in the morning. The initial symptoms frequently involve the ocular and bulbar muscles, resulting in:
+
+- Ophthalmoplegia
+- Squints
+- Ptosis
+
+Within approximately a year, symptoms may progress to more generalized muscle involvement, though not all patients experience this progression. Those with generalized MG may display:
+
+- A myasthenic snarl due to loss of facial expression
+- Dysphonia
+- Dysarthria
+- Trunk and axial weakness
+- Difficulty chewing or swallowing
+
+### Myasthenic Crisis
+
+A myasthenic crisis, marked by respiratory muscle weakness, can be life-threatening. Factors that may trigger a crisis include:
+
+- Infections
+- Emotional and physiological stress
+- Certain drugs: beta-blockers, gentamicin, tetracyclines, macrolides, phenytoin, lithium, or opioids
+
+## Investigations in Myasthenia Gravis
+
+### Antibody Testing
+
+- **Acetylcholine Receptor Antibodies:** About 90% of MG patients present with these antibodies in blood tests, with lower incidence in those with merely ocular symptoms.
+- **Anti-Muscle-Specific Tyrosine Kinase (MUSK) Antibodies:** Found in 40% of the remaining patients, those positive for MUSK antibodies often experience specific weakness in facial, neck, and bulbar muscles and might respond less to treatment.
+
+### Nerve Conduction Studies
+
+Patients may exhibit a diminishing response with repeated stimulation and 'jitter' upon nerve conduction tests.
+
+### Imaging
+
+CT imaging of the mediastinum is recommended to rule out thymic masses. Screening for other associated autoimmune diseases is also advised.
+
+<Callout emoji="💡">
+**Historical Note:** The Tensilon test with IV edrophonium, which previously showed rapid symptom improvement, is now rarely used due to the risk of cardiac arrhythmias.
+</Callout>
+
+## Management of Myasthenia Gravis
+
+### Prescribing Treatments
+
+- Long-acting anticholinergic inhibitors such as neostigmine or pyridostigmine are commonly prescribed.
+- Prednisolone is the first-line treatment for symptoms beyond isolated ocular issues.
+- Plasma exchange is utilized for respiratory muscle weakness during a crisis or when patients remain highly symptomatic despite other therapies.
+
+### Non-Prescribing Interventions
+
+- Thymectomy is an option for patients without thymic abnormalities.
+- Ventilation may be necessary in crisis scenarios.
+- With appropriate treatment, most patients can expect a normal life expectancy.
+
+## References
+
+- [GPnotebook on Myasthenia Gravis](https://gpnotebook.com/simplepage.cfm?ID=-248184822)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 28-year-old female presents with fluctuating diplopia and ptosis that worsens towards the evening. She has no relevant past medical history. Physical examination reveals bilateral ptosis and a limited range of eye movements. Which of the following is the most appropriate initial diagnostic test?",
+    options: [
+      "Nerve conduction studies with repetitive nerve stimulation",
+      "Serum creatine kinase levels",
+      "Anti-MUSK antibody testing",
+      "Tensilon test with IV edrophonium",
+      "MRI of the brain"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! The patient's symptoms are suggestive of myasthenia gravis (MG), and nerve conduction studies with repetitive nerve stimulation are an appropriate initial diagnostic test to confirm the diagnosis.",
+    incorrectFeedback: "Remember to consider the typical clinical presentation of MG and the diagnostic methods. Which test is most suited to demonstrate the characteristic findings of MG?"
+  },
+  {
+    question: "A 40-year-old man with a confirmed diagnosis of myasthenia gravis experiences a sudden worsening of his symptoms with the onset of respiratory difficulty. He is found to have a fever and productive cough. Which of the following is the most appropriate immediate management step?",
+    options: [
+      "Start broad-spectrum antibiotics and admit for plasmapheresis",
+      "Increase the dose of his current anticholinesterase medication",
+      "Perform a Tensilon test to confirm exacerbation of MG",
+      "Schedule an urgent thymectomy",
+      "Initiate immunosuppressive therapy with high-dose prednisolone"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! The patient is likely experiencing a myasthenic crisis triggered by infection. Immediate management should include treating the infection with broad-spectrum antibiotics and admission for plasmapheresis to rapidly reduce the circulating antibodies causing the exacerbation.",
+    incorrectFeedback: "Consider the urgency and severity of the patient's presentation. What complications of MG can be life-threatening, and what interventions could address both the trigger and the exacerbation?"
+  },
+  {
+    question: "A 35-year-old woman with myasthenia gravis (MG) has been stable on pyridostigmine for several years. She now presents with worsening muscle weakness and dysphagia. She denies any respiratory distress. Her medications include only pyridostigmine and no other recent changes or additions. Which of the following is the most appropriate next step in management?",
+    options: [
+      "Order a chest CT to evaluate for a thymoma",
+      "Increase the dose of pyridostigmine",
+      "Initiate oral prednisolone therapy",
+      "Refer for a thymectomy",
+      "Begin intravenous immunoglobulin (IVIG) therapy"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Given the patient's symptom progression beyond ocular involvement and no evidence of crisis, the next step is to initiate immunosuppressive therapy with oral prednisolone as a first-line treatment.",
+    incorrectFeedback: "While pyridostigmine is effective for symptom control, what is the recommended first-line treatment for MG patients with symptoms extending beyond isolated ocular issues?"
+  },
+  {
+    question: "Which of the following patient populations is most likely to develop myasthenia gravis with antibodies against acetylcholine receptors?",
+    options: [
+      "A 23-year-old African American female with systemic lupus erythematosus",
+      "A 48-year-old Caucasian male with no significant medical history",
+      "A 30-year-old Hispanic female with a family history of rheumatoid arthritis",
+      "A 65-year-old Asian male with recent onset of type 2 diabetes",
+      "A 55-year-old Caucasian female with Graves' disease"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! Myasthenia gravis is more prevalent in women, has an association with other autoimmune disorders, and exhibits a higher prevalence in individuals of Afro-Caribbean descent.",
+    incorrectFeedback: "Consider the demographics, gender, and associated autoimmune conditions that are more commonly linked to the development of myasthenia gravis."
+  }
+]} />

@@ -1,0 +1,128 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Parkinson’s Disease
+
+Parkinson’s disease (PD) is a chronic and progressive neurological disorder characterized by the loss of dopamine-producing neurons in the substantia nigra, a critical area of the brain. This deficiency in dopamine leads to a range of motor symptoms that collectively disrupt movement and impair the quality of life.
+
+## Aetiology and Pathophysiology
+
+The exact cause of PD remains unknown. However, researchers have identified several genetic factors that may increase the risk of developing the condition. The hallmark of PD is the degeneration of dopaminergic neurons, which only becomes clinically apparent after significant loss of this cell activity.
+
+## Diagnosis of Parkinson’s Disease
+
+### Clinical Presentation
+
+PD should be considered when patients exhibit:
+
+- **Bradykinesia:** The slowness of voluntary movements combined with a reduction in their speed and amplitude during repetitive actions.
+- **Resting Tremor:** A tremor, typically affecting the thumb and index finger, that diminishes with movement or mental concentration.
+- **Rigidity:** Muscle stiffness detected during limb examination, often showing cogwheel rigidity.
+- **Postural Instability:** Assessed by the "pull test," where patients may fall backwards, indicating a balance impairment.
+
+### Accompanying Symptoms
+
+In addition to motor symptoms, PD patients may experience:
+
+- Reduced facial expressions
+- Difficulty with fine movements
+- Micrographia (small, cramped handwriting)
+- A shuffling, festinating gait
+- Diminished sense of smell
+- Sleep disturbances
+- Autonomic dysfunction (constipation, excessive salivation)
+- Mental health conditions:
+  - Depression
+  - Anxiety
+  - Dementia
+  - Impulse control disorders
+
+## Investigations
+
+PD diagnosis is primarily clinical, relying on patient history and neurological examination. Differential diagnosis should include other causes of parkinsonism:
+
+- Drug-induced parkinsonism
+- Progressive supranuclear palsy
+- Multiple system atrophy
+
+Patients under 40 should be tested for Wilson’s disease with serum ceruloplasmin levels. An MRI may be necessary for atypical features like gaze abnormalities or early dementia.
+
+## Management Strategies
+
+### Pharmacological Treatment
+
+The following medications are commonly used:
+
+- **Levodopa:** First-line treatment, often paired with a dopa decarboxylase inhibitor to prevent peripheral conversion and side effects.
+- **MAO-B Inhibitors:** Such as selegiline or rasagiline.
+- **Dopamine Agonists:** Including pramiprexole or ropinirole.
+- **COMT Inhibitors:** Like entacapone, to extend levodopa's effects.
+
+### Surgical and Non-Pharmacological Interventions
+
+- **Deep Brain Stimulation (DBS):** For advanced PD cases unresponsive to medication, targeting the subthalamic nucleus to improve motor function.
+- **Physiotherapy:** To enhance functional performance and cognition.
+- **Speech and Language Therapy:** Addressing speech difficulties and dysphagia.
+
+<Callout emoji="💡">
+**Tip:** Ongoing support and counseling are crucial for optimizing patient quality of life and tailoring treatment to individual needs.
+</Callout>
+
+### References
+
+- NICE. _Parkinson’s Disease._ Available at: [NICE Guidelines](https://cks.nice.org.uk/parkinsons-disease)
+- BMJ Best Practice. _Parkinson’s disease._
+- AAFP. _Parkinson’s Disease: Diagnosis and Treatment._ Available at: [AAFP Guidelines](https://www.aafp.org/afp/2006/1215/p2046.html)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 60-year-old male with a 2-year history of tremors presents to the clinic. He reports that the tremors occur at rest and improve with movement. On examination, you also note bradykinesia and rigidity. Which of the following findings would most support the diagnosis of Parkinson's disease (PD) over other causes of parkinsonism?",
+    options: [
+      "Presence of Kayser-Fleischer rings on slit-lamp examination",
+      "Early onset of dementia and vertical gaze palsy",
+      "History of prolonged exposure to dopamine antagonist medications",
+      "Positive response to the 'pull test' indicating postural instability"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! The 'pull test' is used to assess postural instability, which is one of the cardinal signs of Parkinson's disease. The presence of postural instability supports the diagnosis of PD over other parkinsonism causes. Kayser-Fleischer rings are associated with Wilson's disease, early dementia and vertical gaze palsy suggest atypical parkinsonism, and a history of dopamine antagonist use suggests drug-induced parkinsonism.",
+    incorrectFeedback: "Consider the cardinal signs of Parkinson's disease and how they differentiate it from other forms of parkinsonism. Which finding is typically associated with PD rather than other conditions?"
+  },
+  {
+    question: "A 65-year-old woman diagnosed with Parkinson's disease (PD) is being evaluated for medication management. She experiences significant motor fluctuations with her current regimen of levodopa/carbidopa. Which of the following medications might be added to her treatment to reduce the 'wearing-off' effect of levodopa?",
+    options: [
+      "Amantadine",
+      "Entacapone",
+      "Haloperidol",
+      "Benzatropine"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Entacapone is a catechol-O-methyltransferase (COMT) inhibitor that is used to extend the effect of levodopa by inhibiting its metabolism, thus reducing the 'wearing-off' effect. Amantadine may help reduce dyskinesia but not the 'wearing-off' effect, haloperidol is a dopamine antagonist and could worsen PD symptoms, and benzatropine is an anticholinergic used to treat tremor but not 'wearing-off' effects.",
+    incorrectFeedback: "Think about the pharmacodynamics of each medication and how they would interact with levodopa therapy. Which medication would help to prolong levodopa’s effect in the brain?"
+  },
+  {
+    question: "A patient with Parkinson’s disease is scheduled for deep brain stimulation (DBS) surgery. The target for the DBS electrode is most likely to be which of the following structures?",
+    options: [
+      "Caudate nucleus",
+      "Putamen",
+      "Subthalamic nucleus",
+      "Globus pallidus interna"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The subthalamic nucleus is a common target for deep brain stimulation (DBS) in patients with Parkinson's disease, particularly those who are unresponsive to medication. DBS of this nucleus can improve motor function and reduce the need for medication. The caudate nucleus and putamen are part of the striatum and are not typically targeted for DBS in PD. The globus pallidus interna can sometimes be targeted for DBS but is less common than the subthalamic nucleus.",
+    incorrectFeedback: "Consider the role of basal ganglia structures in motor control and which are most likely to be affected by Parkinson’s disease. Which structure is commonly targeted by DBS for symptom improvement in PD?"
+  },
+  {
+    question: "Which of the following non-motor symptoms is commonly associated with Parkinson’s disease and should be monitored in patients?",
+    options: [
+      "Increased sense of smell",
+      "Hypergraphia (large, expansive handwriting)",
+      "Sleep disturbances",
+      "Urinary incontinence due to spastic bladder"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Sleep disturbances, including difficulty falling asleep and staying asleep, are common non-motor symptoms of Parkinson's disease. Increased sense of smell is not typical in PD; rather, there is often a diminished sense of smell. Hypergraphia is not associated with PD; instead, micrographia (small, cramped handwriting) is commonly observed. Urinary incontinence in PD is usually due to autonomic dysfunction, not a spastic bladder.",
+    incorrectFeedback: "Recall the array of non-motor symptoms that can be present in Parkinson's disease. Which of these symptoms is typically seen in PD patients?"
+  },
+]} />

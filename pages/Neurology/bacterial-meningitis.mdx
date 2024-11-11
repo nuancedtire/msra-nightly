@@ -1,0 +1,154 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Bacterial Meningitis: Diagnosis and Management
+
+Bacterial meningitis is a critical condition that can lead to severe complications or death without prompt diagnosis and treatment. Understanding its symptoms, causes, and treatment is imperative for healthcare professionals to manage this medical emergency effectively.
+
+## Introduction to Bacterial Meningitis
+
+Bacterial meningitis is an acute medical emergency characterized by the inflammation of the protective membranes covering the brain and spinal cord. It requires swift recognition and intervention to minimize serious health outcomes, including long-term disability or death.
+
+### Common Symptoms
+
+- Headache
+- Neck stiffness
+- Photophobia (sensitivity to light)
+- Fever
+
+Patients displaying signs of meningism or suspected meningitis must receive immediate antibiotic therapy without delay to reduce morbidity and mortality.
+
+### Etiology
+
+- **Neonates:** Group B streptococcus is the predominant cause.
+- **Infants and Adolescents:** _Neisseria meningitidis_ (meningococcus), _Streptococcus pneumoniae_ (streptococcus), and _Haemophilus influenzae_ types B and C commonly cause infection.
+- **Risk Groups:** Include immunocompromised individuals, those with skull injuries, and neurosurgical patients.
+
+Vaccination programs have significantly decreased the incidence of bacterial meningitis in the population.
+
+## Diagnosis
+
+Immediate treatment based on clinical suspicion is crucial even before confirmatory tests are performed. Symptoms may include seizures, cranial nerve palsies, and other neurological deficits. Meningococcal meningitis can often co-occur with sepsis and a distinct non-blanching petechial rash.
+
+### Initial Assessment
+
+- History-taking and neurological examination are vital.
+- Brudzinski’s and Kernig’s signs are indicative of neck stiffness and highly suggestive of meningitis when positive, but they may not always be present.
+
+### Confirmatory Tests
+
+- **Lumbar Puncture:** The definitive test, performed after initiating treatment, unless contraindicated.
+- **CSF Analysis:** Identifies the pathogen and informs antibiotic selection.
+
+<Callout emoji="⚠️">
+**Warning:** Lumbar puncture is contraindicated if there are signs of raised intracranial pressure or coagulopathy. A head CT should precede lumbar puncture to rule out space-occupying lesions.
+</Callout>
+
+### CSF Findings in Meningitis
+
+Aetiology | CSF pressure | White cell count | Protein level | Glucose level  
+---|---|---|---|---  
+Bacterial | High | Very high (neutrophils) | High | Low  
+Tuberculosis | High | High (early neutrophils, late lymphocytes) | High | Low  
+Fungal | High | High (lymphocytes) | High | Low  
+Viral | Normal/High | High (lymphocytes) | Low | Normal  
+
+**CSF profiles** indicative of bacterial meningitis show neutrophilia, elevated protein, and reduced glucose levels. Microscopy, cultures, and sensitivities are also performed to pinpoint the causative organism.
+
+## Investigations
+
+Prior to lumbar puncture, several investigations are necessary for diagnosis:
+
+- Routine blood tests for infection markers and electrolyte imbalance.
+- Coagulation profile.
+- Blood cultures to identify the pathogen and tailor antibiotic therapy.
+
+These tests should be done promptly and must not delay antibiotic treatment commencement.
+
+## Management
+
+### Prescribing Interventions
+
+- Initiate empirical broad-spectrum antibiotics immediately upon suspicion of meningitis.
+- Narrow antibiotic choice based on culture results and sensitivities.
+- Administer intravenous benzylpenicillin or ceftriaxone for meningococcal rash.
+- Use intravenous cefotaxime or ceftriaxone in their absence.
+- Add intravenous ampicillin for adults `>55 years` and infants `<3 months` to cover _Listeria monocytogenes_.
+- Pre-hospital intramuscular benzylpenicillin is advised if intravenous access is delayed.
+
+Seizures, a common complication, should be treated with intravenous lorazepam and managed as status epilepticus if persistent.
+
+**Special Treatments:**
+- Dexamethasone improves survival in streptococcus meningitis.
+
+### Non-Prescribing Interventions
+
+- **Intracranial Pressure:** Urgent ITU transfer and mannitol for elevated pressure.
+- **Reporting:** Notifiable disease requiring immediate public health notification and contact tracing.
+- **Prophylaxis:** Antibiotics and vaccination for close contacts of those with meningococcal meningitis.
+
+### Public Health Measures
+
+Routine UK immunization schedules include vaccines against meningococcal groups B and C, _Haemophilus influenzae_ type B for young children, and the meningococcal groups ACWY vaccine for adolescents and university starters. A _Streptococcus pneumoniae_ vaccine was added in January 2020.
+
+## References
+
+- Oxford Handbook of Neurology, 2nd edition, pages 122-125
+- GOV.UK, Complete routine immunisation schedule, 2020. [Complete Immunisation Schedule](https://www.gov.uk/government/publications/the-complete-routine-immunisation-schedule)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 19-year-old college student presents to the emergency department with a high fever, severe headache, and a petechial rash. She is suspected to have bacterial meningitis. Which pathogen is most likely responsible for her symptoms, and what is the initial antibiotic therapy of choice?",
+    options: [
+      "Group B streptococcus, intravenous ampicillin",
+      "Streptococcus pneumoniae, intravenous cefotaxime",
+      "Neisseria meningitidis, intravenous benzylpenicillin",
+      "Haemophilus influenzae type B, intravenous ceftriaxone",
+      "Listeria monocytogenes, intravenous ampicillin plus gentamicin"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Given the patient's age and presentation with a petechial rash, Neisseria meningitidis is the most likely pathogen. The initial antibiotic therapy of choice for suspected meningococcal meningitis is intravenous benzylpenicillin.",
+    incorrectFeedback: "Consider the patient's age, clinical presentation, and the most common pathogens responsible for bacterial meningitis in adolescents. What would be the most appropriate initial antibiotic therapy?"
+  },
+  {
+    question: "A 2-month-old infant with fever and irritability undergoes a lumbar puncture. The CSF analysis reveals high pressure, a very high white cell count with predominantly neutrophils, high protein levels, and low glucose levels. What is the most likely diagnosis?",
+    options: [
+      "Viral meningitis",
+      "Tuberculous meningitis",
+      "Bacterial meningitis",
+      "Fungal meningitis",
+      "Brain abscess"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The CSF findings of high pressure, very high neutrophilic pleocytosis, high protein, and low glucose are characteristic of bacterial meningitis.",
+    incorrectFeedback: "Review the typical CSF findings and consider the type of meningitis that presents with high pressure, a neutrophilic response, elevated protein, and decreased glucose levels."
+  },
+  {
+    question: "A 60-year-old man with suspected bacterial meningitis is about to undergo a lumbar puncture. Which of the following clinical findings would most strongly contraindicate proceeding with the lumbar puncture before performing a head CT?",
+    options: [
+      "Photophobia",
+      "Brudzinski’s sign",
+      "Papilledema",
+      "Fever of 38.5°C",
+      "Tachycardia"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Papilledema suggests raised intracranial pressure, which contraindicates lumbar puncture due to the risk of cerebral herniation. A head CT is necessary to rule out space-occupying lesions before the procedure.",
+    incorrectFeedback: "Consider the contraindications for lumbar puncture, particularly the signs that suggest raised intracranial pressure, and review the case to identify the most relevant clinical finding."
+  },
+  {
+    question: "A 35-year-old patient with bacterial meningitis caused by Streptococcus pneumoniae is being treated with appropriate antibiotics. Which adjunctive therapy has been shown to improve survival in this condition?",
+    options: [
+      "Mannitol for intracranial pressure control",
+      "Intravenous lorazepam for seizure management",
+      "Oral oseltamivir to cover potential concurrent viral infections",
+      "Dexamethasone to reduce inflammation",
+      "Prophylactic anticoagulation to prevent septic emboli"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Dexamethasone is an adjunctive therapy that has been shown to improve survival in bacterial meningitis caused by Streptococcus pneumoniae by reducing the inflammatory response.",
+    incorrectFeedback: "Think about the specific adjunctive treatments that have been associated with improved outcomes in bacterial meningitis and are not typically used for symptom control or secondary prevention."
+  }
+]} />
