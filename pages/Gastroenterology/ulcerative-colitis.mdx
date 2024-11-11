@@ -1,0 +1,141 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Ulcerative Colitis
+
+Ulcerative Colitis (UC) is a chronic inflammatory bowel disease characterized by inflammation of the colon and rectum. It presents in two main age groups: 15-25 years and 55-65 years. Being an autoimmune condition, it often coexists with other autoimmune disorders such as thyroid and Addison's diseases and is also associated with HLA-B27 positivity.
+
+## Distinguishing Features
+
+UC is differentiated from Crohn’s disease primarily through colonoscopy. UC is marked by a continuous spread from the rectum upwards, without the presence of skip lesions seen in Crohn’s disease.
+
+Interestingly, smoking appears to have a protective effect against UC, making it more prevalent among ex-smokers and non-smokers. Moreover, UC is linked with primary sclerosing cholangitis, which features jaundice and a distinctive beading on the biliary tree observed in MRCP imaging.
+
+## Diagnosis
+
+### Clinical Presentation
+
+- **Pain:** Lower left quadrant pain, typically crampy.
+- **Diarrhea:** Frequent bowel movements.
+- **Rectal bleeding:** Blood in stool.
+- **Tenesmus:** Persistent feeling of incomplete bowel evacuation.
+
+### Investigations
+
+#### Colonoscopy
+- *Inflammatory Pattern:* Starts from the rectum and extends upwards, presenting as diffuse erythema with friable submucosa that bleeds easily.
+- *Confined Inflammation:* Limited to the submucosa, indicating that strictures, fistulas, and fissures are not present.
+- *Pseudopolyps:* Due to widespread inflammation, pseudopolyps appear, which are normal mucosal areas surrounded by ulcerated submucosa.
+
+#### Histology
+- *Crypt Abscesses:* Neutrophils form these by invading the submucosa.
+- *Goblet Cell Destruction:* Leads to mucin depletion.
+- *Granulomas:* Rare in UC compared to Crohn’s disease.
+  
+*Barium Enemas:* Though not routine, they may show haustral loss. Prolonged disease can result in a shortened, narrowed colon—termed as a 'drainpipe' colon.
+
+## Emergency Situations
+
+### Toxic Megacolon
+
+A serious UC complication, where there is colonic dilation over 6cm visible on AXR and preferably on an Abdominal CT scan for detailed complication visualization. 
+
+**Management:**
+- Initiate IV corticosteroids alongside supportive care, potentially in an ICU setting, with aggressive fluid and electrolyte replacement.
+- Avoid anti-motility agents such as anti-diarrheals, anticholinergics, and opioids.
+
+<Callout emoji="⚠️">
+**Note:** If symptoms don't improve in 72 hours, surgical options like abdominal colectomy or pan-proctocolectomy should be considered due to high perforation risks, which have substantial mortality rates.
+</Callout>
+
+Continuous monitoring with daily AXRs is essential for assessing the resolution of toxic megacolon.
+
+## Treatment Approach
+
+The treatment for UC varies based on the condition's severity. The Truelove and Witts' severity index helps stratify disease severity:
+
+- *Mild:* Fewer than 4 stools/day with minimal blood.
+- *Moderate:* 4-6 stools/day, with variable blood presence but stable condition.
+- *Severe:* More than 6 bloody stools/day with systemic symptoms like fever, neutrophilia, high CRP, anemia, tachycardia.
+
+### Mild to Moderate Disease
+
+1. Rectal aminosalicylate, e.g., mesalazine.
+2. If symptoms persist after 4 weeks, add an oral aminosalicylate.
+3. Persistent symptoms after another 4 weeks, introduce oral corticosteroids.
+
+*Corticosteroids are not recommended for maintaining remission; long-term aminosalicylates can be used instead.*
+
+### Severe Disease
+
+1. Hospital admission with IV steroids.
+2. If no improvement after 72 hours, initiate a DMARD like azathioprine or ciclosporin.
+3. Failure to improve after an additional 4 days necessitates surgical consideration.
+
+Following severe relapses or two exacerbations within a year, prescribe oral azathioprine. Pre-treatment TMPT levels should be checked to prevent improper drug metabolism. If TMPT levels are low, oral mercaptopurine is an alternative.
+
+## References
+
+- [NICE Guideline NG130](https://www.nice.org.uk/guidance/ng130/)
+- [Truelove and Witts' Severity Index - MDCalc](https://www.mdcalc.com/calc/10235/truelove-witts-severity-index-ulcerative-colitis)
+- [BMJ Best Practice Investigations](https://bestpractice.bmj.com/topics/en-gb/879/investigations)
+- [BMJ Best Practice Crohn’s Management](https://bestpractice.bmj.com/topics/en-gb/43/investigations)
+- [BNF Azathioprine Monitoring](https://bnf.nice.org.uk/drug/azathioprine.html#monitoringRequirements)
+- [NICE Pathways: Ulcerative Colitis](https://pathways.nice.org.uk/pathways/ulcerative-colitis)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 23-year-old man presents with a two-month history of crampy lower left quadrant abdominal pain, frequent diarrhea, and rectal bleeding. Colonoscopy reveals continuous inflammation starting from the rectum with pseudopolyps and a friable mucosa. What is the most likely diagnosis?",
+    options: [
+      "Crohn's disease",
+      "Ulcerative colitis",
+      "Irritable bowel syndrome",
+      "Diverticulitis",
+      "Celiac disease"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The patient's symptoms and colonoscopy findings are consistent with Ulcerative Colitis, which is characterized by continuous inflammation beginning in the rectum.",
+    incorrectFeedback: "Recall the distinguishing features of Ulcerative Colitis, such as continuous inflammation from the rectum and presence of pseudopolyps."
+  },
+  {
+    question: "A 40-year-old woman with Ulcerative Colitis presents with severe abdominal pain and distension. An abdominal X-ray shows colonic dilation >6 cm. What is the first-line treatment to manage this condition?",
+    options: [
+      "Oral aminosalicylates",
+      "IV corticosteroids",
+      "Anti-diarrheal medications",
+      "Surgical colectomy",
+      "Probiotics"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! IV corticosteroids are the first-line treatment for toxic megacolon, a serious complication of Ulcerative Colitis.",
+    incorrectFeedback: "Consider the emergency management of toxic megacolon, focusing on reducing inflammation with systemic therapy rather than oral routes or surgeries initially."
+  },
+  {
+    question: "Which of the following statements is true regarding the management of mild to moderate Ulcerative Colitis?",
+    options: [
+      "Oral corticosteroids are used for long-term maintenance of remission.",
+      "Switching from rectal to oral aminosalicylates is recommended if rectal treatments are ineffective.",
+      "Anti-motility agents are effective in controlling diarrhea symptoms.",
+      "Surgery is the first-line treatment for mild disease.",
+      "Long-term corticosteroid therapy is required for most patients."
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! If rectal aminosalicylates are ineffective, adding oral aminosalicylates is recommended to control symptoms.",
+    incorrectFeedback: "Consider the stepwise approach to managing increasing severity in Ulcerative Colitis and the role of corticosteroids and aminosalicylates in acute vs. maintenance therapy."
+  },
+  {
+    question: "A 52-year-old male with known primary sclerosing cholangitis presents with symptoms consistent with inflammatory bowel disease. Which condition is most likely present in this patient?",
+    options: [
+      "Crohn's disease",
+      "Ulcerative colitis",
+      "Celiac disease",
+      "Microscopic colitis",
+      "Diverticular disease"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Primary sclerosing cholangitis is strongly associated with Ulcerative Colitis.",
+    incorrectFeedback: "Remember that primary sclerosing cholangitis is often linked with specific inflammatory bowel diseases."
+  }
+]} />

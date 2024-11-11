@@ -1,0 +1,109 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Comprehensive Guide to Folic Acid Deficiency
+
+Folic acid deficiency, often occurring alongside vitamin B12 deficiency, is a prevalent cause of megaloblastic anemia, affecting approximately 5% of the global population.
+
+## Diagnosis
+
+Folic acid deficiency can arise from various causes, with insufficient dietary intake being predominant, often due to restrictive diets, alcoholism, or poverty. Other causes include:
+
+- **Malabsorption:** Conditions such as coeliac or Crohn's disease.
+- **Increased Demand:** Particularly during pregnancy.
+- **Other Conditions:** Such as haemolysis, inflammatory diseases, malignancy, renal or liver dysfunction, and certain medications (e.g., anti-epileptics, trimethoprim, methotrexate).
+
+**Common signs and symptoms:**
+
+- Malaise
+- Pallor of mucous membranes and nail beds
+- Anorexia and weight loss
+- Tachycardia and mild fever
+- Jaundice and weakness
+
+**Additional possible symptoms:**
+
+- **Liver and Heart:** Liver enlargement, heart murmurs, angina.
+- **Mouth and Skin:** Ulcers in the oropharyngeal region and on the tongue, brown pigmentation of skin and nail beds.
+- **Cognitive and Respiratory:** Cognitive changes, dyspnoea, headaches, indigestion.
+
+*Differential diagnosis* should consider:
+
+- **Nutritional and Lifestyle Factors:** Vitamin B12 deficiency, alcoholism, excessive smoking.
+- **Haematological and Hormonal Conditions:** Myelodysplasia, aplastic anemia, chronic liver disease, severe thyroid deficiency.
+
+## Investigations
+
+- **Full Blood Count:** Reveals low haemoglobin, elevated mean corpuscular volume (MCV `> 100` femtolitres), and in severe cases, reduced platelet and white blood cell count.
+- **Blood Film:** Shows hypersegmented neutrophils and oval macrocytes.
+- **Serum Folate:** Levels below 3 micrograms/L (or 7 nanomol/L) may suggest folic acid deficiency.
+- **Red Cell Folate:** Less than 150 micrograms/L (or 340 nanomol/L) is a more reliable deficiency indicator.
+- **B12 Serum Level:** Consider concurrent vitamin B12 deficiency requiring dual supplementation.
+
+## Management (Prescribing)
+
+For patients with dietary deficiencies or treatable underlying conditions, a daily oral dose of 5mg folic acid for 4 months is generally sufficient. In cases of untreatable causes, lifelong supplementation may be necessary. If vitamin B12 deficiency is present, supplement both folic acid and vitamin B12 to prevent neurological complications.
+
+<Callout emoji="📝">
+**Note for Pregnant Women:** 
+Women intending to conceive or who are pregnant should take 400 micrograms of folic acid daily until the twelfth week of pregnancy to prevent neural tube defects. High-risk groups should take 5mg during pregnancy planning and until the twelfth week.
+</Callout>
+
+## Management (Non-Prescribing)
+
+Incorporate folate-rich foods into the diet including:
+
+- **Vegetables:** Brussels sprouts, broccoli, asparagus, peas.
+- **Others:** Yeast, brown rice, nuts, chickpeas.
+
+For patients with alcohol-related deficiencies, reducing alcohol consumption is advised.
+
+## References
+
+[Clinical Knowledge Summaries (CKS) on Anaemia B12 and Folate Deficiency](https://cks.nice.org.uk/anaemia-b12-and-folate-deficiency)
+
+*Oxford Handbook for Clinical Medicine*, 10th Edition.
+
+[CKS Pre-conception Advice and Management](https://cks.nice.org.uk/pre-conception-advice-and-management)
+
+<MCQGroup questions={[
+  {
+    question: "A 28-year-old woman, who is 10 weeks pregnant, presents with fatigue and pallor. Her medical history indicates a restrictive diet, and her laboratory results show low hemoglobin, elevated MCV, and serum folate level of 2 micrograms/L. What is the most appropriate management for her folic acid deficiency?",
+    options: [
+      "No supplementation is necessary",
+      "Prescribe 400 micrograms of folic acid daily until the twelfth week of pregnancy",
+      "Prescribe 5mg folic acid until the end of the pregnancy",
+      "Prescribe 5mg folic acid daily for 4 months",
+      "Administer vitamin B12 injections"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Due to her pregnancy and folic acid deficiency, she falls into a high-risk category and should receive 5mg of folic acid during pregnancy planning and until the twelfth week.",
+    incorrectFeedback: "Consider the guidelines for folic acid supplementation in pregnant women at risk for deficiency. Low-dose folic acid is recommended for all, but higher doses are advised for those with evidence of deficiency."
+  },
+  {
+    question: "A 65-year-old man with a history of alcohol use disorder presents with symptoms of fatigue and mild jaundice. Blood tests reveal hypersegmented neutrophils and a low red cell folate level. Which additional laboratory test is crucial before initiating high-dose folic acid supplementation?",
+    options: [
+      "Serum calcium level",
+      "Serum ferritin level",
+      "Serum vitamin B12 level",
+      "Serum iron level",
+      "Liver function tests"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Checking vitamin B12 levels is essential because supplementation with folic acid in the presence of vitamin B12 deficiency can exacerbate neurological complications.",
+    incorrectFeedback: "Remember that folic acid supplementation can mask hematologic abnormalities of vitamin B12 deficiency, but not the neurological damage."
+  },
+  {
+    question: "A 45-year-old female undergoes investigation for megaloblastic anemia. She has a medical history of Crohn's disease. Which of the following mechanisms is most likely contributing to her folic acid deficiency?",
+    options: [
+      "Decreased dietary intake due to restrictive diet",
+      "Malabsorption due to intestinal disease",
+      "Increased demand due to hemolysis",
+      "Impaired conversion of dietary folate to its active form",
+      "Renal dysfunction"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Crohn's disease can lead to malabsorption of nutrients including folic acid, contributing to deficiency.",
+    incorrectFeedback: "Consider how Crohn's disease affects nutrient absorption. The diet might be normal, but absorption is impaired."
+  }
+]} />

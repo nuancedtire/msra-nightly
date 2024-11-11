@@ -1,0 +1,118 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Gastroenteritis in Children
+
+Gastroenteritis, characterized by acute diarrheal and vomiting episodes, is a prevalent condition among children. It often manifests as outbreaks in communal settings like nurseries and schools. Identifying the infectious agent responsible—either viral or bacterial—can be guided by the clinical features of the illness and demographics of affected individuals.
+
+## Common Causes of Gastroenteritis
+
+### Viral Infections
+
+- **Rotavirus**
+  - Most commonly affects children under the age of 2.
+  - Vaccine included in routine immunization programs.
+
+- **Norovirus**
+  - Affects individuals of all ages.
+  - Frequently causes outbreaks in institutions such as hospitals and nursing homes.
+  - **Symptoms**: Predominantly causes vomiting over diarrhea.
+
+### Bacterial Infections
+
+- **Dysenteric Infections**
+  - Characterized by the presence of bloody stools.
+  - Typically bacterial, with common agents including:
+    - *Campylobacter*
+    - *Salmonella*
+    - *Shigella*
+
+- **Cholera**
+  - Known for profuse watery stools, often described as 'rice-water'.
+  - Not associated with bloody stools.
+  
+<Callout emoji="⚠️">
+**Note:** Bacterial infections tend to be more severe, frequently leading to systemic illness.
+</Callout>
+
+## Treatment and Management
+
+The majority of gastroenteritis cases are mild and self-resolving. However, management focuses on supportive care, with dehydration as the primary concern.
+
+- **Hospital Admission**
+  - Required when a child shows signs of severe dehydration or shock.
+  
+<details>
+<summary>Severe Dehydration Symptoms</summary>
+
+- Sunken eyes
+- Dry mouth
+- Rapid heartbeat
+- Lethargy
+
+</details>
+
+### Global Perspective
+
+In developing countries, gastroenteritis is a significant contributor to child mortality. Here, bacterial infections are more prevalent and severe compared to viral infections, largely due to reduced access to healthcare. Consequently, children face increased risks of life-threatening dehydration.
+
+## References
+
+- Lissauer’s Illustrated Textbook of Paediatrics, 4th edition, pages 229-233.
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 3-year-old child presents to the emergency department with a two-day history of vomiting and non-bloody diarrhea. The child attends a local nursery where multiple cases of similar symptoms have been reported. Examination reveals mild dehydration but is otherwise unremarkable. Which of the following is the most likely causative agent of the child's symptoms?",
+    options: [
+      "Rotavirus",
+      "Norovirus",
+      "Salmonella",
+      "Shigella",
+      "Campylobacter"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Norovirus commonly causes gastroenteritis outbreaks in communal settings like nurseries and predominantly presents with vomiting in children, as seen in this case.",
+    incorrectFeedback: "Consider the setting and the predominant symptom (vomiting) for identifying the agent. Which virus is known for causing outbreaks in environments like schools and daycares?"
+  },
+  {
+    question: "A 1-year-old child from a developing country is admitted with profuse watery diarrhea described as 'rice-water' stools but no blood. Vital signs suggest moderate dehydration. What is the most probable diagnosis?",
+    options: [
+      "Norovirus infection",
+      "Rotavirus infection",
+      "Shigella infection",
+      "Cholera",
+      "Campylobacter infection"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! The presence of 'rice-water' stools without blood is characteristic for Cholera, which is a common and severe bacterial cause of gastroenteritis in poorer regions.",
+    incorrectFeedback: "Focus on the description of the stool and the geographical context when considering infectious etiologies. Which bacteria is known for 'rice-water' stools?"
+  },
+  {
+    question: "In a pediatric gastroenteritis case, which of the following symptoms would most likely prompt immediate hospitalization for intravenous fluids?",
+    options: [
+      "Moderate dehydration with oral intake",
+      "Mild dehydration and irritability",
+      "Severe dehydration with lethargy",
+      "Mild dehydration with normal capillary refill",
+      "Moderate dehydration without systemic symptoms"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Severe dehydration with lethargy indicates a critical lack of fluids, warranting immediate hospitalization for prompt intravenous rehydration.",
+    incorrectFeedback: "Consider the severity of the dehydration symptoms. Lethargy combined with dehydration indicates a need for more intensive medical intervention."
+  },
+  {
+    question: "Which of the following is true regarding the global impact of gastroenteritis in children?",
+    options: [
+      "Bacterial infections are less severe than viral infections in developing countries.",
+      "In developed countries, viral infections are a leading cause of hygiene-related child mortality.",
+      "In developing countries, reduced access to healthcare significantly increases mortality from bacterial infections.",
+      "Viral infections, such as rotavirus, are the primary cause of gastroenteritis mortality in developing countries.",
+      "Bacteria do not typically cause systemic illness in gastroenteritis cases."
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Lack of access to healthcare in developing regions leads to increased mortality from severe bacterial gastroenteritis due to dehydration.",
+    incorrectFeedback: "Consider the disparities in healthcare access and the severity of bacterial versus viral gastroenteritis in different parts of the world. What factors increase risk in developing regions?"
+  }
+]} />

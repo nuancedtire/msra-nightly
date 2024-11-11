@@ -1,0 +1,36 @@
+{
+  "---1": {
+    "type": "separator",
+    "title": "Cancer Fundamentals"
+  },
+  "aetiology-and-epidemiology-of-cancer": "📊 Cancer Aetiology & Epidemiology",
+
+  "---2": {
+    "type": "separator",
+    "title": "Respiratory Cancers"
+  },
+  "bronchial-cancer": "🫁 Bronchial Cancer",
+  "small-cell-lung-cancer": "🔬 Small Cell Lung Cancer",
+
+  "---3": {
+    "type": "separator",
+    "title": "Gastrointestinal Cancers"
+  },
+  "stomach-cancer": "胃 Stomach Cancer",
+  "hepatocellular-carcinoma": "🔸 Hepatocellular Carcinoma",
+
+  "---4": {
+    "type": "separator",
+    "title": "Urological Cancers"
+  },
+  "prostate-cancer": "♂️ Prostate Cancer",
+  "renal-cell-carcinoma": "🫘 Renal Cell Carcinoma",
+
+  "---5": {
+    "type": "separator",
+    "title": "Other Cancers"
+  },
+  "endometrial-cancer": "♀️ Endometrial Cancer",
+  "head-and-neck-cancers": "👤 Head & Neck Cancers",
+  "multiple-myeloma": "🦴 Multiple Myeloma"
+} 

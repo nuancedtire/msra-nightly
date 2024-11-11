@@ -1,0 +1,188 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Overview of Lung Cancer
+
+This article provides an in-depth exploration of lung cancer, focusing on types, staging, diagnosis, and management.
+
+## Types of Lung Cancer
+
+Lung cancer, which primarily affects the bronchi and bronchioles, can be categorized into two main types: **Small Cell Lung Cancer (SCLC)** and **Non-Small Cell Lung Cancer (NSCLC)**.
+
+### Small Cell Lung Cancer (SCLC)
+
+- **Characteristics:**
+  - Classified as neuroendocrine tumors.
+  - Predominantly linked to smoking, with other risks including radon and asbestos.
+  - Typically arises near a main bronchus.
+  - Displays aggressive behavior with rapid growth and spread.
+  - Notoriously high recurrence rates.
+
+### Non-Small Cell Lung Cancer (NSCLC)
+
+- **Categories:**
+  - **Adenocarcinoma:** Starts in mucus-producing cells.
+  - **Squamous Cell Carcinoma:** Initiates in flat cells, commonly smoking-related.
+  - **Large Cell Carcinoma**
+  - **Bronchial Carcinoid**
+  
+<Callout type="info">
+Common metastatic sites for bronchial/lung cancer include:
+- Liver
+- Bone 
+- Brain
+</Callout>
+
+## Staging of Lung Cancer
+
+Lung cancer staging utilizes the TNM system, further divided into detailed stages:
+
+### Stage 1
+
+- **1A:** Tumor less than 3cm, no lymph node involvement (`T1a-c, N0, M0`)
+- **1B:** Tumor between 3-4cm, no lymph node invasion (`T2a, N0, M0`)
+
+### Stage 2
+
+- **2A:** Tumor 4-5cm, no lymph node invasion (`T2b, N0, M0`)
+- **2B:** Diverse criteria include tumor size up to 7cm and varying lymph node invasions.
+
+### Stage 3
+
+- **3A:** Includes central chest lymph node invasion and tumors up to 7cm that affect central structures.
+- **3B:** Extensive lymph node involvement, sometimes with opposite-side or supraclavicular lymph nodes.
+- **3C:** Large tumors and significant spread affecting multiple lung lobes or extensive local invasion.
+
+### Stage 4
+
+- **4A:** Cancer affects both lungs, pleural/pericardial spread, or isolated lymph nodes/organs like the liver.
+- **4B:** Cancer has a widespread presence in distant organs.
+
+## Diagnosis
+
+### Symptoms
+
+- Persistent cough, haemoptysis, shortness of breath, fatigue, unintended weight loss, pleuritic chest pain, and dysphagia.
+
+### Signs
+
+- Frequent chest infections, clubbing, wheezing, and a hoarse voice may indicate lung cancer.
+
+<Callout emoji="⚠️">
+**Complications:** Voice changes may stem from recurrent laryngeal nerve compression, and breathing issues may indicate phrenic nerve involvement.
+</Callout>
+
+### Paraneoplastic and Other Syndromes
+
+#### Paraneoplastic Syndromes (Especially in SCLC)
+
+- **Hormonal Effects:**
+  - Elevated cortisol causing Cushing’s syndrome.
+  - Increased ADH leading to hypertension and oedema.
+  - High autoantibodies linked with Lambert-Eaton myasthenic syndrome.
+  - Increased parathyroid hormone reducing bone calcium.
+
+#### Carcinoid Syndrome
+
+- Symptoms from bronchial carcinoma include diarrhea, flushing, wheezing, palpitations, telangiectasia, and abdominal pain.
+
+*Pancoast syndrome* in upper lung cancers may cause Horner's syndrome with ptosis, pupil constriction, and anhidrosis.
+
+## Investigations
+
+- **Imaging:** Chest X-ray (coin lesions, lymphadenopathy), spiral CT, MRI for metastases.
+- **Biopsy and Endoscopy:** Obtain tissue samples via bronchoscopy.
+- **Cytology:** Analyze sputum and thoracentesis fluid.
+
+#### Carcinoid Syndrome Diagnosis
+
+- Elevated 5-hydroxyindoleacetic acid in a 24-hour urine test may confirm diagnosis.
+
+#### Screening
+
+- Suggested annual low-dose CT scans for individuals aged 55-74 with significant smoking history or additional risk factors.
+
+## Management
+
+### Pharmacological Interventions
+
+#### For NSCLC
+
+- **EGFR Overexpression:** Treated with tyrosine kinase inhibitors.
+- **Chemotherapy:** Options include cisplatin combinations, sometimes with subsidiary drugs like irinotecan. Use radiotherapy in conjunction with chemotherapy for unresolvable cases.
+- **For Carcinoid Syndrome:** Administer octreotide.
+
+#### For SCLC
+
+- Chemotherapy alongside radiotherapy, particularly in limited cases or extensive diseases.
+- Prophylactic cranial irradiation to lower brain metastasis risks.
+
+### Non-Pharmacological Interventions
+
+#### NSCLC
+
+- **Surgery:** Preferred for resectable cancers within stages 1 to 3, barring those with insufficient lung function (`FEV1 >60%`).
+- **Radiotherapy:** Applied when surgery isn’t viable.
+
+*Smoking cessation is crucial for all patients.*
+
+## References
+
+- [Cancer Research UK - Types of Lung Cancer](https://www.cancerresearchuk.org/about-cancer/lung-cancer/stages-types-grades/types)
+- [Healthline - Bronchogenic Carcinoma](https://www.healthline.com/health/bronchogenic-carcinoma)
+- [BMJ Best Practice - Investigations](https://bestpractice.bmj.com/topics/en-gb/1081/investigations)
+- [BMJ Best Practice - Treatment Algorithm](https://bestpractice.bmj.com/topics/en-gb/1081/treatment-algorithm)
+- [BTS Guidelines on Lung Cancer Management](https://www.brit-thoracic.org.uk/document-library/guidelines/lung-cancer/bts-guidelines-on-the-radical-management-of-patients-with-lung-cancer/)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 60-year-old man with a 40-pack-year smoking history presents with a persistent cough and weight loss. A CT scan reveals a 5cm mass near the main bronchus with no lymph node involvement. Which type of lung cancer is most likely?",
+    options: [
+      "Adenocarcinoma",
+      "Small Cell Lung Cancer (SCLC)",
+      "Large Cell Carcinoma",
+      "Squamous Cell Carcinoma"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Squamous Cell Carcinoma is commonly linked to smoking and often presents as a central mass near main bronchi.",
+    incorrectFeedback: "Consider the patient's strong smoking history and the tumor's location near the bronchus. Which type of lung cancer is most associated with these characteristics?"
+  },
+  {
+    question: "A 52-year-old female with known small cell lung cancer (SCLC) presents with confusion, nausea, and vomiting. Her lab results show hyponatremia with serum sodium of 122 mmol/L. What is the most likely cause of her symptoms?",
+    options: [
+      "Adrenocorticotropic hormone (ACTH) hypersecretion",
+      "Antidiuretic hormone (ADH) secretion",
+      "Parathyroid hormone-related peptide (PTHrP) secretion",
+      "Lambert-Eaton Myasthenic Syndrome"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! SCLC is often associated with inappropriate antidiuretic hormone (SIADH) secretion, leading to hyponatremia.",
+    incorrectFeedback: "Remember that SCLC can cause paraneoplastic syndromes due to hormonal effects. Which hormone-related effect leads to low sodium levels?"
+  },
+  {
+    question: "A middle-aged man with a history of heavy smoking presents with shoulder pain and ptosis on the right side. Chest X-ray shows a mass at the apex of the right lung. These findings are consistent with which syndrome?",
+    options: [
+      "Lambert-Eaton Myasthenic Syndrome",
+      "Carcinoid Syndrome",
+      "Eaton-Lambert Syndrome",
+      "Pancoast Syndrome"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Pancoast syndrome results from a tumor at the lung apex impinging on local structures, causing shoulder pain and Horner's syndrome.",
+    incorrectFeedback: "Consider the location of the tumor at the lung apex and the patient's symptoms. Which syndrome is associated with these findings?"
+  },
+  {
+    question: "A patient with stage 4 NSCLC exhibits elevated levels of epidermal growth factor receptor (EGFR). What is the most appropriate pharmacological treatment?",
+    options: [
+      "Platinum-based chemotherapy",
+      "Prophylactic cranial irradiation",
+      "Octreotide",
+      "Tyrosine kinase inhibitors"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! NSCLC with EGFR overexpression is often treated with tyrosine kinase inhibitors targeting these receptors.",
+    incorrectFeedback: "Focus on the molecular characteristics of the cancer. Which treatment is specific for EGFR mutations in NSCLC?"
+  }
+]} />

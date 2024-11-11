@@ -1,0 +1,104 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Hodgkin's Lymphoma: A Comprehensive Overview
+
+Hodgkin's Lymphoma is a hematological disorder of unspecified origin, notable for the malignant growth of B-line lymphocytes and the presence of Reed-Sternberg cells. There are two age brackets with peak incidences: individuals aged 15-40 and those older than 50. Men are affected twice as frequently as women.
+
+## Diagnosis
+
+Hodgkin's Lymphoma often presents with non-specific symptoms such as fever, malaise, night sweats, significant weight loss (over 10% within six months), itching, and fatigue. Additional signs include hepatosplenomegaly and lymphadenopathy, with 60-80% displaying enlarged cervical and mediastinal lymph nodes. Less commonly, the axillary or other lymph nodes below the diaphragm may be involved. These nodes are generally non-tender but can become painful after alcohol consumption, causing symptoms like persistent coughing, pleural effusion, bronchial obstruction, and symptoms of superior or inferior vena cava syndrome based on the lymph nodes' location.
+
+### Ann Arbor Staging System
+
+- **I:** Single lymph node region affected
+- **II:** Two or more nodal areas on the same side of the diaphragm involved
+- **III:** Lymph nodes on both sides of the diaphragm affected
+- **IV:** Other organs affected, e.g., liver or bone marrow
+- **A:** No systemic symptoms
+- **B:** Systemic symptoms present (fever, weight loss, night sweats)
+- **E:** Involvement of organs other than lymph nodes
+
+## Investigations
+
+- **Biopsy:** An image-guided needle biopsy or preferable surgical removal of the lymph node to reveal characteristic Reed-Sternberg cells with mirror-image nuclei.
+- **Laboratory Tests:** 
+  - Complete blood count and blood film may show abnormalities like neutrophilia, eosinophilia, lymphocytopenia, low platelet count, and anemia in 5-10% of patients.
+  - **Liver Function Tests (LFTs), Lactate Dehydrogenase (LDH),** and **Alkaline Phosphatase** levels might be raised.
+  - An increased **erythrocyte sedimentation rate (ESR)** and reduced hemoglobin levels could signify a poorer prognosis.
+- **Imaging Studies:** PET-CT scans of the thorax, abdomen, and pelvis, along with chest X-rays, help ascertain the disorder's severity.
+
+## Management
+
+### Prescribing
+
+Chemoradiotherapy serves as the primary treatment for Hodgkin's Lymphoma. Stage IA-IIA patients benefit significantly from radiotherapy combined with a short "ABVD" chemotherapy regimen (Adriamycin, Bleomycin, Vinblastine, Dacarbazine), effective in about 80% of cases. For patients with advanced stages or a worse prognosis, higher doses of chemotherapy may be required. Recurrent cases might need high-dose chemotherapy and autologous stem cell transplantation.
+
+### Non-Prescribing
+
+Surgical treatment is generally not employed in managing Hodgkin's Lymphoma. The five-year survival rate is approximately 95% for stage IA patients and falls below 40% for those with stage IVB disease.
+
+<Callout emoji="⚠️">
+**Warning:** Continuous monitoring of vital signs is critical during treatment.
+</Callout>
+
+## References
+
+- Oxford Handbook for Clinical Medicine, 10th Edition.
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 30-year-old male presents with persistent cough and fever for the past two weeks. He has experienced night sweats and significant weight loss over the last few months. Physical examination reveals enlarged non-tender lymph nodes in the cervical region. A biopsy confirms the diagnosis of Hodgkin's Lymphoma. What is the significance of systemic symptoms in the staging of Hodgkin's Lymphoma?",
+    options: [
+      "Systemic symptoms classify the disease as stage IV regardless of lymph node involvement.",
+      "Stage is labeled with 'B' if systemic symptoms are present; otherwise, 'A'.",
+      "Systemic symptoms are irrelevant to the staging system.",
+      "Presence of B symptoms excludes the use of adjuvant radiotherapy.",
+      "Systemic symptoms automatically indicate stage III disease."
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Hodgkin's Lymphoma staging uses the letter 'B' to indicate the presence of systemic symptoms such as fever, weight loss, and night sweats, whereas 'A' indicates their absence.",
+    incorrectFeedback: "Consider how systemic symptoms relate to the prognostic classification in the Ann Arbor staging system."
+  },
+  {
+    question: "A 52-year-old woman diagnosed with stage IIIB Hodgkin's Lymphoma exhibits systemic symptoms and eosinophilia on her complete blood count. What might the presence of eosinophilia indicate regarding her prognosis?",
+    options: [
+      "Eosinophilia signifies a favorable prognosis.",
+      "Eosinophilia is irrelevant to her prognosis.",
+      "Eosinophilia indicates a poorer prognosis.",
+      "It suggests potential liver involvement necessitating dose adjustment.",
+      "It suggests a likely allergic reaction to the chemotherapy regimen."
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Eosinophilia, along with other laboratory abnormalities, can indicate a poorer prognosis in Hodgkin's Lymphoma.",
+    incorrectFeedback: "Think about how laboratory findings, besides imaging and clinical signs, contribute to the overall prognosis."
+  },
+  {
+    question: "A 45-year-old man undergoes treatment for Hodgkin's Lymphoma with the ABVD chemotherapy regimen. Which of the following is included in this regimen?",
+    options: [
+      "Bleomycin, Adriamycin, Cyclophosphamide, Procarbazine",
+      "Adriamycin, Bleomycin, Vinblastine, Dacarbazine",
+      "Bleomycin, Adriamycin, Vincristine, Methotrexate",
+      "Cisplatin, 5-Fluorouracil, Adriamycin, Vinblastine",
+      "Cyclophosphamide, Methotrexate, Adriamycin, Procarbazine"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The ABVD regimen consists of Adriamycin, Bleomycin, Vinblastine, and Dacarbazine, commonly used for treating Hodgkin's Lymphoma.",
+    incorrectFeedback: "Review the components of typical chemotherapy regimens used in Hodgkin's Lymphoma treatment."
+  },
+  {
+    question: "Which diagnostic test is used to confirm the characteristic cell type associated with Hodgkin's Lymphoma?",
+    options: [
+      "Peripheral blood smear",
+      "Bone marrow biopsy",
+      "Fine needle aspiration cytology",
+      "Lymph node biopsy",
+      "CT scan"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! A lymph node biopsy is required to identify the characteristic Reed-Sternberg cells, confirming Hodgkin's Lymphoma.",
+    incorrectFeedback: "Consider a diagnostic procedure that would allow histological examination of lymphatic tissue."
+  }
+]} />

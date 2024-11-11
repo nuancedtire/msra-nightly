@@ -1,0 +1,130 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Prostate Cancer: Diagnosis and Management
+
+Prostate cancer is a malignant tumor of the prostate gland, primarily affecting men over the age of 50. It is the second leading cause of cancer-related mortality in the United States. Early detection can lead to effective treatment and a potential cure. Typically, patients in the initial stages of the disease present with genitourinary issues, while signs like weight loss, bone pain, and lethargy are more common during advanced stages.
+
+## Diagnosis
+
+### Early Symptoms
+
+Prostate cancer often manifests with symptoms that initially suggest benign prostate diseases. Common early signs include:
+
+- **Nocturia**: Frequent urination at night
+- **Hesitancy**: Difficulty starting urination
+- **Increased frequency of urination**
+
+Other symptoms, such as **hematuria** (blood in urine) and **dysuria** (painful urination), tend to appear in more advanced stages.
+
+### Risk Factors
+
+Risk factors for developing prostate cancer include:
+
+- Family history of prostate cancer
+- Diagnosis of benign prostatic enlargement
+- High-fat diets as suggested by certain studies
+
+### Physical Examination
+
+A digital rectal examination can reveal the condition of the prostate. An **irregular, enlarged prostate** may indicate malignancy compared to the **smooth enlargement** commonly seen in benign conditions.
+
+## Investigations
+
+The initial test for suspected prostate cancer is the serum **Prostate-Specific Antigen (PSA)** test. While **PSA** is sensitive to changes in prostate health, it is not specific to cancer and can be elevated due to:
+
+- Recent physical exertion
+- Benign prostatic enlargement
+- Prostatitis
+
+In cases with elevated PSA and suspicion of cancer, a **multiparametric MRI** of the prostate is advised to assess the cancer's local extent. This can be followed by a **transrectal ultrasound/MRI-guided needle biopsy**, which provides tissue samples for histological examination. The histological findings are graded using the **Gleason score** to identify prognostic groups and guide treatment options.
+
+For patients experiencing bone pain, an **X-ray or isotopic bone scan** can identify potential metastatic spread.
+
+## Management (Prescribing)
+
+Prostate cancer management is tailored based on prognostic scores, including **TNM staging**, **Gleason score**, **PSA levels**, and **biopsy reports**. Treatment strategies may involve:
+
+- **Active Surveillance**
+  - Regular monitoring with 6-monthly PSA tests, annual biopsies, and annual prostate examinations.
+- **Androgen-deprivation Therapy**
+  - Surgical: **Bilateral orchidectomies**
+  - Chemical: Luteinizing Hormone-Releasing Hormone (LHRH) agonists or antagonists, potentially combined with anti-androgen treatments.
+- **Radiotherapy**
+- **Surgical Resection of the Prostate**
+
+## Management (Non-prescribing)
+
+Surgery, specifically a **radical prostatectomy**, can be effective for localized prostate cancer, providing significant long-term control and reduced mortality. It is usually recommended for younger, healthier patients, though may be considered for older patients with a life expectancy greater than 10 years. However, this procedure in older adults carries higher risks of side effects, including **erectile dysfunction** and **urinary incontinence**.
+
+<Callout emoji="⚠️">
+**Note:** Patients undergoing active surveillance should be thoroughly informed about symptom progression and be provided with appropriate safety netting.
+</Callout>
+
+<details>
+<summary>Patient Guidance and Support</summary>
+
+Dealing with prostate cancer can be emotionally taxing. It's crucial for patients to have a clear understanding of their condition and the active surveillance process. Encouraging open communication and providing mental health support can improve overall care and satisfaction.
+
+</details>
+
+## References
+
+Wallace TJ, Anscher MS. Prostate Cancer. BMJ Best Practice. Sep 2018. Available at: [Prostate Cancer](https://bestpractice.bmj.com/topics/en-gb/254/pdf/254/Prostate%20cancer.pdf). Last accessed: 3rd June 2020.
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 60-year-old man with a family history of prostate cancer presents with nocturia and urinary hesitancy. His digital rectal examination reveals an irregular, enlarged prostate. His serum PSA is 12 ng/mL. What is the next best step in the management of this patient?",
+    options: [
+      "Start androgen-deprivation therapy",
+      "Order a multiparametric MRI of the prostate",
+      "Immediate radical prostatectomy",
+      "Schedule a transurethral resection of the prostate (TURP)",
+      "Prescribe antibiotics for possible prostatitis"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! A multiparametric MRI of the prostate is advised for assessing the local extent of the cancer, especially given the elevated PSA and irregular findings on digital rectal examination.",
+    incorrectFeedback: "Consider what investigation would provide more information about the local extent of the suspected malignancy before making treatment decisions."
+  },
+  {
+    question: "A 70-year-old male is diagnosed with localized prostate cancer with a Gleason score of 6 and a PSA level of 8 ng/mL. He expresses concern about the potential side effects of surgery. What management plan is most appropriate for this patient?",
+    options: [
+      "Immediate radical prostatectomy",
+      "Active surveillance with regular monitoring",
+      "Bilateral orchidectomy",
+      "LHRH agonist therapy",
+      "Radiotherapy"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Active surveillance is suitable for low-risk, localized prostate cancer with regular monitoring to assess if or when intervention is needed.",
+    incorrectFeedback: "Consider the balance between the patient's risk level, the potential side effects of aggressive treatments, and the benefits of regular monitoring."
+  },
+  {
+    question: "A patient undergoing active surveillance for prostate cancer reports new onset of bone pain. What is the most appropriate next step in investigating this symptom?",
+    options: [
+      "Repeat PSA testing",
+      "Perform an X-ray or isotopic bone scan",
+      "Initiate chemotherapy",
+      "Schedule a pelvic ultrasound",
+      "Conduct a repeat transrectal biopsy"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! An X-ray or isotopic bone scan is appropriate to evaluate for potential metastatic spread to the bones, particularly if the patient reports new bone pain.",
+    incorrectFeedback: "Think about which investigation would most accurately assess for possible metastasis in the context of new bone pain symptoms."
+  },
+  {
+    question: "Which of the following is TRUE regarding prostate cancer management in older adults with localized disease?",
+    options: [
+      "Radical prostatectomy is only recommended for patients under the age of 70.",
+      "Radiotherapy is never an option for patients over 80 due to side effects.",
+      "Bilateral orchidectomy is considered first-line treatment for all patients.",
+      "Side effects of surgery, such as erectile dysfunction, are more common in older adults.",
+      "Androgen-deprivation therapy is preferred over active surveillance regardless of age."
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! While surgery can be considered, older adults are indeed at a higher risk for side effects such as erectile dysfunction and urinary incontinence.",
+    incorrectFeedback: "Consider the complications and side effects associated with aggressive treatments in older patients when managing localized prostate cancer."
+  }
+]} />

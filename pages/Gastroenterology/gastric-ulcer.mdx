@@ -1,0 +1,134 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Gastric Ulcer: Diagnosis and Management
+
+Gastric ulcers are defined as breaks in the mucosal lining of the stomach that exceed 5mm in diameter and penetrate to the submucosal layer. These ulcers result from an imbalance between harmful factors (gastric acid, pepsin, *Helicobacter pylori* infection, and nonsteroidal anti-inflammatory drug (NSAID) use) and protective mechanisms (prostaglandins, mucus, and mucosal blood flow). The most commonly associated complication is gastrointestinal bleeding, whereas perforation, though more severe, occurs less frequently.
+
+## Diagnosis
+
+The diagnosis of a gastric ulcer is based on a combination of clinical history, physical examination, and confirmation by endoscopy.
+
+**Common Symptoms:**
+
+- Dyspepsia
+- Chronic or recurrent pain in the upper abdomen
+- Pain associated with eating and/or lying flat
+
+**Key Risk Factors:**
+
+- *Helicobacter pylori* infection
+- NSAID use
+- Smoking
+- Advanced age
+- History of gastric ulcers in the patient or family
+
+**Examination Findings:**
+
+- Epigastric tenderness
+
+## Investigations
+
+**First-line Investigations:**
+
+- *Helicobacter pylori* testing: Urea breath test or stool antigen test is indicated for patients under 55 years. A positive result indicates an *H. pylori* infection.
+- Upper gastrointestinal endoscopy: This is the most definitive diagnostic test, identifying ulcers and potentially detecting the underlying cause (e.g., *H. pylori*).
+- Full Blood Count (FBC): Required if there is clinical suspicion of anemia or gastrointestinal bleeding, with microcytic anemia suggesting a gastric ulcer.
+
+## Management
+
+### Pharmacological Management
+
+The aim of treatment is to address complications like hemorrhage, eradicate the underlying cause, alleviate symptoms, and achieve ulcer healing. Discontinue contributory medications, such as NSAIDs, where feasible.
+
+**If *H. pylori* is present:**
+
+- **Triple Therapy:** 
+  - Proton Pump Inhibitors (PPIs): Omeprazole, Lansoprazole, Rabeprazole, Esoprazole
+  - Antibiotics: Clarithromycin, Amoxicillin (or Metronidazole if penicillin-allergic)
+
+- **Quadruple Therapy (for patients with past macrolide exposure and penicillin allergy):**
+  - PPIs: Omeprazole, Lansoprazole, Rabeprazole, Esoprazole
+  - Bismuth subsalicylate
+  - Metronidazole
+  - Tetracycline
+
+**If *H. pylori* is absent:**
+
+- **First-line treatment:** PPIs - Omeprazole, Lansoprazole, Rabeprazole, Esoprazole
+- **Second-line treatment:** H2 Antagonists - Ranitidine, Famotidine, Nizatidine
+
+For patients requiring continued NSAID therapy, Misoprostol may be used for NSAID-induced ulcers.
+
+### Non-pharmacological Management
+
+For active bleeding ulcers, endoscopy serves both diagnostic and therapeutic purposes, utilizing interventions such as:
+
+- Adrenaline injection
+- Cautery
+- Clip application
+
+Surgical intervention or embolization therapy is an option for cases where endoscopy does not succeed.
+
+Lifestyle modification, including smoking cessation and reducing excessive alcohol intake, is advised to lower the risk of recurrence.
+
+<Callout emoji="⚠️">
+**Warning:** Continuously monitor vital signs during therapeutic procedures to manage any complications.
+</Callout>
+
+### References
+
+[NICE Guidelines: Gastric Ulcer](https://www.nice.org.uk/guidance/cg184)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 50-year-old man presents with epigastric pain that worsens after eating. He has a history of chronic smoking and recent NSAID use for osteoarthritis. An endoscopy reveals a 7mm ulcer in the stomach. What is the most definitive test to confirm the underlying cause of the gastric ulcer?",
+    options: [
+      "Urea breath test",
+      "Stool antigen test",
+      "Upper gastrointestinal endoscopy",
+      "Full Blood Count (FBC)"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! The urea breath test is a definitive, non-invasive test for detecting Helicobacter pylori infection, a common underlying cause of gastric ulcers.",
+    incorrectFeedback: "Consider common causes of gastric ulcers. Remember, Helicobacter pylori infection is a significant factor. What non-invasive test detects this infection?"
+  },
+  {
+    question: "A 45-year-old woman with a history of peptic ulcer disease presents with new-onset dyspepsia. She recently completed a course of clarithromycin for bronchitis. Testing confirms an H. pylori infection. What is an appropriate treatment regimen considering her recent antibiotic history?",
+    options: [
+      "Triple therapy with PPI, amoxicillin, and clarithromycin",
+      "Triple therapy with PPI, metronidazole, and amoxicillin",
+      "Quadruple therapy with PPI, bismuth, metronidazole, and tetracycline",
+      "Dual therapy with PPI and amoxicillin"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Quadruple therapy is recommended for patients with prior macrolide exposure, such as clarithromycin, to ensure effective eradication of H. pylori.",
+    incorrectFeedback: "Consider the impact of recent antibiotic exposure on treatment effectiveness. What regimen covers antibiotic resistance due to prior macrolide use?"
+  },
+  {
+    question: "Which of the following is a key risk factor for the development of gastric ulcers?",
+    options: [
+      "Type 2 diabetes mellitus",
+      "High-fiber diet",
+      "Use of NSAIDs",
+      "Previous tonsillectomy"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! NSAID use is a well-established risk factor due to its ability to disrupt the gastric mucosal barrier.",
+    incorrectFeedback: "Focus on common medications or lifestyle factors that disrupt gastric mucosal defenses."
+  },
+  {
+    question: "A patient with a confirmed absence of H. pylori presents with a gastric ulcer. Which initial pharmacological treatment is most appropriate?",
+    options: [
+      "Triple therapy with PPI, clarithromycin, and amoxicillin",
+      "PPI monotherapy",
+      "Quadruple therapy with PPI, bismuth, metronidazole, and tetracycline",
+      "H2 Antagonist"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! PPI monotherapy is the first-line treatment for gastric ulcers with no H. pylori infection.",
+    incorrectFeedback: "Without H. pylori, eradication therapy isn't necessary. What treatment focuses solely on reducing gastric acid?"
+  }
+]} />

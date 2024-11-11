@@ -1,0 +1,161 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Stomach Cancer: Diagnosis and Management
+
+Stomach cancer, also termed gastric cancer, ranks as the third leading cause of cancer-related mortality globally. It is particularly prevalent in regions such as Japan, China, and parts of South America, where specific screening programs are in place. This type of cancer can occur in any part of the stomach, including the area around the gastroesophageal junction. A significant challenge with stomach cancer is that most patients are diagnosed at advanced stages, making treatment outcomes less favorable. The five-year survival rate stands at approximately 15%.
+
+## Diagnosis
+
+Gastric cancer predominantly affects men older than 55 years. In the UK alone, around 6,600 new cases are diagnosed annually. Early-stage stomach cancer is often asymptomatic, complicating efforts for early detection.
+
+**Common Symptoms Include:**
+
+- Weight loss
+- Fatigue
+- Difficulty swallowing (dysphagia)
+- Poor appetite
+- Abdominal discomfort or pain
+- Anaemia
+- Heartburn or indigestion
+- Blood in stool (haematochezia)
+- Nausea and vomiting
+
+In its initial stages, about 70% of gastric cancer patients exhibit symptoms resembling uncomplicated dyspepsia. This can result in delays in accurate diagnosis if treated initially with antisecretory drugs like proton pump inhibitors (PPIs).
+
+**Risk Factors:**
+
+- *Helicobacter pylori* infection, responsible for approximately 40% of gastric cancers
+- Male gender
+- Advanced age
+- Low socio-economic status
+- Familial predisposition
+- Smoking, linked to 20% of cases
+- Body mass index (BMI) over 30
+- Alcohol consumption, particularly beyond three units daily
+- Exposure to industrial chemicals, such as those in the rubber industry
+
+## Investigations
+
+- **Full Blood Count (FBC):** To detect anaemia
+- **Endoscopic Gastroduodenoscopy (EGD):** Essential for biopsy and lesion evaluation; a minimum of five biopsies is recommended
+
+**Staging Investigations:**
+
+- Spiral computed tomography (CT) scan of thorax and abdomen
+- Endoscopic ultrasound (EUS) to assess operability, especially in absence of metastases
+- Chest X-ray (CXR)
+- Magnetic resonance imaging (MRI)
+- Bronchoscopy
+- Laparoscopy
+- HER2 status assessment
+
+<details>
+<summary>American Joint Committee on Cancer (AJCC) TNM System</summary>
+
+The TNM system classifies stomach cancer based on:
+
+- **Tumor Extent (T):** Ranges from T0 (no tumor) to T4 (invasion into nearby structures)
+- **Regional Lymph Nodes (N):** N0 (no lymph node involvement) to N3 (involvement of over 15 lymph nodes)
+- **Metastasis (M):** M0 (no distant metastasis) or M1 (distant metastasis)
+
+After determining the TNM status, an overall cancer stage is designated by examining the excised tissue:
+
+- **Stage 0**: TisN0M0
+- **Stage IA**: T1N0M0
+- **Stage IB**: T1N1M0 or T2N0M0
+- **Stage IIA**: T1N2M0, T2N1M0, or T3N0M0
+- **Stage IIB**: T1N3M0, T2N2M0, T3N1M0, or T4N0M0
+- **Stage IIIA**: T2N3M0, T3N2M0, T4N1M0, or T4N2M0
+- **Stage IIIB**: T3N3M0, or T4 stage involving adjacent structures
+- **Stage IV**: Any T, any N, M1
+
+</details>
+
+## Management Strategies
+
+### Prescribing Management
+
+Surgical intervention serves as the primary potential cure for stomach cancer. Yet, for localized cases, perioperative combination chemotherapy, particularly involving 5-fluorouracil (5-FU), is the standard approach. Other drug combinations like cisplatin and epirubicin are used as well. For HER2-positive gastric cancers, which make up about 20% of cases, Trastuzumab in combination with chemotherapy is an option.
+
+**Palliative Care Options:**
+
+- Chemotherapy
+- Corticosteroids for appetite stimulation
+- Pain management
+- Treatments for nausea and constipation
+- Addressing depression
+- Oral care
+
+<Callout emoji="⚠️">
+**Warning:** Chemotherapy and supportive medication guidelines should be followed as per local clinical protocols.
+</Callout>
+
+### Non-prescribing Management
+
+Surgical treatment choices depend on the cancer's stage at diagnosis. Subtotal gastrectomy is used for distal tumors, while total gastrectomy is performed for proximal ones. A D2 lymphadenectomy, involving the excision of at least 16 lymph nodes, should be part of treatment for potentially curable cancer. In palliative scenarios, limited gastric resection might be opted for. Management of nutritional deficiencies and the provision of relevant support are crucial. Other palliative measures include endoscopic laser therapy, blood transfusions, and coeliac plexus nerve blocks.
+
+## References
+
+- [NHS - Stomach Cancer](https://www.nhs.uk/conditions/stomach-cancer/)
+- [Patient Info - Gastric Cancer](https://patient.info/doctor/gastric-cancer)
+- [UpToDate - Gastric Cancer](https://www.uptodate.com/contents/clinical-features-diagnosis-and-staging-of-gastric-cancer)
+- [American Cancer Society](https://www.cancer.org/cancer/stomach-cancer)
+- [Cancer Research UK](https://www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/stomach-cancer#heading-Four)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 60-year-old man presents with progressive dysphagia and significant weight loss over the past 3 months. He has a history of smoking and is positive for *Helicobacter pylori*. A gastroscopy is performed, revealing an ulcerated lesion in the antrum of the stomach. A biopsy confirms gastric adenocarcinoma. What is the most appropriate initial staging investigation to assess the extent of the disease?",
+    options: [
+      "Chest X-ray",
+      "Spiral computed tomography (CT) scan of the thorax and abdomen",
+      "Magnetic resonance imaging (MRI)",
+      "Bronchoscopy",
+      "Full blood count"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! A spiral CT scan of the thorax and abdomen is an essential staging investigation to evaluate the extent of gastric cancer and detect any possible metastases.",
+    incorrectFeedback: "Consider which imaging modality provides the most comprehensive assessment of abdominal and thoracic spread in gastric cancer."
+  },
+  {
+    question: "A 75-year-old woman with advanced gastric cancer presents with poor appetite and significant fatigue. Her treatment plan includes palliative care. Which of the following medications can be prescribed to improve her appetite?",
+    options: [
+      "Cisplatin",
+      "5-fluorouracil (5-FU)",
+      "Corticosteroids",
+      "Trastuzumab",
+      "Epirubicin"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Corticosteroids are often used in palliative care to stimulate appetite in patients with advanced cancer.",
+    incorrectFeedback: "Consider which medication is generally used to improve appetite as part of palliative care in cancer patients."
+  },
+  {
+    question: "A patient diagnosed with HER2-positive gastric cancer is scheduled for chemotherapy. Which targeted therapy can be combined with chemotherapy for this specific subtype of gastric cancer?",
+    options: [
+      "Cisplatin",
+      "5-fluorouracil (5-FU)",
+      "Epirubicin",
+      "Trastuzumab",
+      "Rituximab"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Trastuzumab is a targeted therapy that is used in combination with chemotherapy for HER2-positive gastric cancers.",
+    incorrectFeedback: "Think about which monoclonal antibody is specifically indicated for HER2-positive malignancies."
+  },
+  {
+    question: "A 59-year-old male diagnosed with localized gastric cancer is planned for a surgical procedure. Surgeons decide on a subtotal gastrectomy after careful assessment. Which region of the stomach is this procedure most likely addressing?",
+    options: [
+      "Proximal stomach",
+      "Distal stomach",
+      "Middle third of the stomach",
+      "Gastroesophageal junction",
+      "Entire stomach"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Subtotal gastrectomy is often performed for cancers located in the distal part of the stomach.",
+    incorrectFeedback: "Consider the location typically involved in a subtotal gastrectomy, which aims to remove a specific part of the stomach."
+  }
+]} />

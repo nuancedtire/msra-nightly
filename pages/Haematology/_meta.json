@@ -1,0 +1,38 @@
+{
+  "---1": {
+    "type": "separator",
+    "title": "Anaemias"
+  },
+  "causes-of-anaemia": "📋 Causes of Anaemia",
+  "iron-deficiency-anaemia": "⚫ Iron Deficiency Anaemia",
+  "folic-acid-deficiency": "🍃 Folic Acid Deficiency",
+
+  "---2": {
+    "type": "separator",
+    "title": "Haemoglobinopathies"
+  },
+  "sickle-cell-disease": "🌙 Sickle Cell Disease",
+  "sickle-cell-anaemia": "🔄 Sickle Cell Anaemia",
+  "beta-thalassemia": "β️ Beta Thalassemia",
+
+  "---3": {
+    "type": "separator",
+    "title": "Bleeding Disorders"
+  },
+  "haemophilia-a": "🅰️ Haemophilia A",
+  "haemophilia-b": "🅱️ Haemophilia B",
+
+  "---4": {
+    "type": "separator",
+    "title": "Platelet Disorders"
+  },
+  "immune-thrombocytopenia": "🔵 Immune Thrombocytopenia",
+  "idiopathic-thrombocytopenia-purpura": "💜 ITP",
+
+  "---5": {
+    "type": "separator",
+    "title": "Malignancies"
+  },
+  "hodgkins-lymphoma": "🎗️ Hodgkin's Lymphoma",
+  "myelofibrosis": "🦴 Myelofibrosis"
+} 

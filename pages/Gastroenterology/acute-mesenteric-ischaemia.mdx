@@ -1,0 +1,137 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Acute Mesenteric Ischaemia
+
+Acute mesenteric ischaemia is a sudden reduction in blood supply to the intestines, caused by embolism, thrombosis, or low blood flow, which can lead to bowel ischaemia. Without prompt treatment, this condition has a high mortality rate.
+
+## Causes of Acute Mesenteric Ischaemia
+
+A breakdown of the common causes is shown in the table below:
+
+Type | Percentages | Risk Factors  
+---|---|---  
+**Arterial embolism** | **50%** | Cardiac issues (e.g., Atrial Fibrillation (AF), post-Myocardial Infarction (MI) mural thrombosis, artificial heart valve)  
+|  | Abdominal or thoracic aneurysm  
+**Arterial thrombosis** | **25%** | Atherosclerosis  
+**Non-occlusive disease** | **20%** | Low blood flow (e.g., recent heart surgery, heart failure, kidney failure)  
+|  | Hypovolaemic and cardiogenic shock  
+**Venous thrombosis** | **`< 10%`** | Younger individuals with clotting disorders, malignancy, inflammatory disorders like pancreatitis or diverticulitis, or trauma  
+
+## Clinical Presentation and Diagnosis
+
+Patients generally present with sudden, severe abdominal pain that is inconsistent with physical examination findings. Most patients describe a diffuse, constant pain accompanied by nausea and vomiting, which occurs in approximately 75% of cases.
+
+## Investigations
+
+### Blood Tests
+
+- **Arterial Blood Gas (ABG):** Elevated lactate and metabolic acidosis
+- **Full Blood Count (FBC):** Elevated Hemoglobin (Hb) due to plasma loss, and raised White Cell Count (WCC)
+- **Urea & Electrolytes (U&Es):** Evaluate kidney function focusing on urea, creatinine, and eGFR since a CT Angiography involves IV contrast
+- **Liver Function Tests (LFTs):** Elevated AST and ALT indicate a poor prognosis
+- **Clotting Profile:** Especially when patient is on anticoagulant medication
+- **Amylase Levels:** To exclude pancreatitis, although it can also be elevated in mesenteric ischaemia
+- **Group & Save (G&S):** In case a blood transfusion is needed during urgent laparotomy
+
+### Imaging
+
+- **CT Angiography:** The gold standard for diagnosis
+- **Abdominal X-Ray (AXR):** May show bowel obstruction, ileus, and in late stages, thickened bowel wall
+- **Erect Chest X-Ray (CXR):** Used if bowel perforation is suspected
+
+<Callout emoji="⚠️">
+**Note:** Diagnosing acute mesenteric ischaemia early is challenging, but CT angiography and exploratory laparotomy offer the highest sensitivity.
+</Callout>
+
+## Emergency Management
+
+Acute mesenteric ischaemia is a surgical emergency. The key life-threatening complications include:
+
+- **Septic peritonitis**
+- **Systemic inflammatory response syndrome (SIRS)** leading to multi-organ failure due to bacterial translocation through the necrotic bowel wall
+
+### Initial Management Steps
+
+- Begin **IV fluid resuscitation**
+- Administer **broad-spectrum IV antibiotics**
+- Give **low-molecular-weight heparin (LMWH)**
+- Carry out an **urgent laparotomy** to excise necrotic bowel tissue
+
+**Mortality rates remain between 50-80%**, even with timely diagnosis and intervention. Survivors may experience short-gut syndrome.
+
+## Management Strategies
+
+### Acute Management (Prescribing)
+
+- **IV fluid resuscitation**
+- **Broad-spectrum IV antibiotics**
+- **LMWH**
+
+### Long-term Management
+
+- Possible need for **lifelong anticoagulant or antiplatelet therapy**
+
+### Non-prescribing Management
+
+- **Urgent exploratory laparotomy** to remove necrotic bowel
+- **Potential bowel revascularization** attempts on viable tissue; usually complex and may require a second surgery
+
+## References
+
+- Oxford Handbook of Clinical Medicine, 10th edition, pages 620-621
+- [Teach Me Surgery: Mesenteric Ischaemia](https://teachmesurgery.com/vascular/peripheral/mesenteric-ischaemia/)
+- [Patient.info on Bowel Ischaemia](https://patient.info/doctor/bowel-ischaemia)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 65-year-old woman with a history of atrial fibrillation presents to the emergency department with sudden, severe diffuse abdominal pain. Her vitals show a temperature of 99°F, heart rate of 110 BPM, blood pressure of 90/60 mmHg, and respiratory rate of 20/min. Lab findings reveal elevated lactate and a high white blood cell count. What is the most likely etiology of her condition?",
+    options: [
+      "Arterial embolism from atrial fibrillation",
+      "Arterial thrombosis due to atherosclerosis",
+      "Non-occlusive mesenteric ischaemia from hypovolaemia",
+      "Venous thrombosis from clotting disorder"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! The sudden onset of severe abdominal pain and the patient's history of atrial fibrillation strongly suggest mesenteric ischaemia due to arterial embolism.",
+    incorrectFeedback: "Consider the patient's history and the acute onset of symptoms. Atrial fibrillation is a strong risk factor for arterial embolism causing mesenteric ischaemia."
+  },
+  {
+    question: "A patient with suspected acute mesenteric ischemia shows elevated ALT and AST levels on a blood test. Which of the following does this finding most likely indicate?",
+    options: [
+      "Improved prognosis due to sufficient hepatic perfusion",
+      "Decreased likelihood of bowel necrosis",
+      "Chronic hepatocellular dysfunction",
+      "Poor prognosis due to ongoing ischemia"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Elevated AST and ALT levels indicate a poor prognosis, suggesting advanced mesenteric ischemia with significant tissue damage.",
+    incorrectFeedback: "Remember that elevated liver enzymes in the context of acute mesenteric ischemia are typically associated with a poor prognosis rather than improvement or chronic conditions."
+  },
+  {
+    question: "In the management of acute mesenteric ischaemia, what is the primary purpose of administering low-molecular-weight heparin (LMWH)?",
+    options: [
+      "To improve splanchnic circulation",
+      "To prepare the patient for potential surgical intervention",
+      "To prevent further thromboembolism",
+      "To provide pain relief"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! LMWH is used to prevent further thromboembolic events in patients with acute mesenteric ischaemia.",
+    incorrectFeedback: "Low-molecular-weight heparin does not primarily improve circulation or alleviate pain but is crucial in thrombosis prevention."
+  },
+  {
+    question: "Which of the following imaging modalities is considered the gold standard for diagnosing acute mesenteric ischaemia?",
+    options: [
+      "Abdominal Ultrasound",
+      "Magnetic Resonance Imaging (MRI)",
+      "CT Angiography",
+      "Abdominal X-Ray"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! CT Angiography is the gold standard for diagnosing acute mesenteric ischaemia due to its high sensitivity and ability to visualize blood vessels.",
+    incorrectFeedback: "Consider which imaging technique provides the best visualization of blood vessels and is commonly used in acute settings for rapid diagnosis."
+  }
+]} />

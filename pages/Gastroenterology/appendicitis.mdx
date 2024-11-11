@@ -1,0 +1,142 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Appendicitis
+
+Appendicitis refers to the inflammation of the vermiform appendix and is one of the primary reasons for emergency abdominal surgery globally. Untreated appendicitis can progress to localized ischemia, perforation, and can result in a contained abscess or generalized peritonitis.
+
+## Epidemiology and Symptoms
+
+Appendicitis is most prevalent in people aged 20-30 years, with an occurrence rate of approximately 223 per 100,000 individuals. The typical symptoms include:
+
+- **Right anterior iliac fossa pain**
+- **Anorexia**
+- **Nausea and Vomiting**
+
+It's important to note that appendicitis can often present atypically. Only about 50-60% of patients experience the classic migratory pain from the periumbilical area to the right anterior iliac fossa. Early symptoms may include:
+
+- Indigestion
+- Flatulence
+- Bowel irregularity or diarrhea
+- General malaise
+
+<Callout emoji="⚠️">
+**Note:** Early signs like low-grade fever and equivocal abdominal examination may be subtle.
+</Callout>
+
+As inflammation worsens, local tenderness in the right lower quadrant (RLQ) and a high-grade fever typically develop. Physical signs to assess include:
+
+- **McBurney's point tenderness**: One-third of the distance from the anterior superior iliac spine (ASIS) to the umbilicus is notably tender.
+- **Rovsing's sign**: Pain in the RLQ upon palpation of the LLQ.
+- **Psoas sign**: RLQ pain with passive right hip extension, especially if the appendix is retrocecal.
+- **Obturator sign**: Pain upon internal rotation of the right hip with the hip and knee flexed, indicating a pelvic appendix.
+
+### Alvarado Score
+
+The **Alvarado score** aids in identifying the likelihood of appendicitis. The scoring elements include:
+
+| Criteria                          | Points |
+|-----------------------------------|--------|
+| Migratory RLQ pain                | 1      |
+| Anorexia                          | 1      |
+| Nausea or vomiting                | 1      |
+| RLQ tenderness                    | 2      |
+| Rebound tenderness in RLQ         | 1      |
+| Fever >37.5°C                      | 1      |
+| Leucocytosis >10 x 10<sup>9</sup>/L | 2      |
+
+A total score of 0-3 suggests appendicitis is less likely.
+
+## Investigations
+
+- **Blood Tests**: Elevated white blood cell counts and C-reactive protein (CRP) levels are common, though they may be mild early on.
+- **Pregnancy Test**: Recommended for women of childbearing potential.
+- **Imaging**: 
+  - Computed Tomography (CT) is preferred in adults for its high diagnostic precision.
+  - Ultrasound (US) and Magnetic Resonance Imaging (MRI) are alternatives for children and pregnant women due to concerns over radiation exposure.
+  - Plain X-ray generally offers limited diagnostic benefit.
+
+## Emergency Management
+
+In cases where the appendix perforates, patients may require urgent medical intervention. Treatment varies based on stability:
+
+- **Unstable Perforation**: Immediate appendectomy and intravenous (IV) antibiotics are essential.
+- **Stable Perforation and Abscess**: Managed with IV antibiotics and either percutaneous drainage or appendectomy. If drainage is performed, a follow-up appendectomy is recommended to exclude neoplasia.
+
+## Management Strategies
+
+### Prescribing
+
+- Employ broad-spectrum antibiotics targeting gram-negative rods and anaerobes. Selection should align with local guidelines.
+
+### Non-Prescribing
+
+- While antibiotics might suffice for uncomplicated cases, appendectomy remains the definitive treatment. This procedure is typically performed laparoscopically in most Western healthcare facilities where feasible.
+
+<details>
+<summary>Detailed Pathophysiology</summary>
+ 
+Appendicitis results from blockage of the appendix lumen, leading to increased pressure, impaired blood flow, and subsequent infection. This can escalate to tissue necrosis and rupture.
+
+</details>
+
+## References
+
+[UpToDate: Management of Acute Appendicitis in Adults](https://www.uptodate.com/contents/management-of-acute-appendicitis-in-adults?search=appendicitis%20adult&topicRef=1386&source=see_link#H4048700510)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 25-year-old man presents to the emergency department with right lower quadrant abdominal pain, anorexia, and nausea. His temperature is 38.0°C, and his white blood cell count is 12 x 10^9/L. Abdominal examination reveals tenderness at McBurney's point and rebound tenderness in the RLQ. What is his Alvarado score?",
+    options: [
+      "3",
+      "5",
+      "7",
+      "9",
+      "11"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The Alvarado score for this patient is 7, composed of migratory RLQ pain (1 point), anorexia (1 point), nausea (1 point), RLQ tenderness (2 points), rebound tenderness (1 point), fever (1 point), and leukocytosis (2 points). A score of 7 suggests a high likelihood of appendicitis.",
+    incorrectFeedback: "Revisit the criteria and point allocation for the Alvarado score, particularly focusing on each symptom and clinical finding."
+  },
+  {
+    question: "In evaluating a 28-year-old woman with suspected appendicitis, which imaging modality is preferred to confirm the diagnosis while considering radiation exposure concerns?",
+    options: [
+      "Plain abdominal X-ray",
+      "Ultrasound",
+      "Magnetic Resonance Imaging (MRI)",
+      "Computed Tomography (CT)",
+      "Diagnostic laparoscopy"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Ultrasound is preferred for evaluating appendicitis in women of childbearing age, particularly to avoid radiation. It is useful in detecting appendiceal inflammation without the risks associated with CT scans.",
+    incorrectFeedback: "Consider the need to minimize radiation exposure in young women and the diagnostic capabilities of each imaging modality."
+  },
+  {
+    question: "A 30-year-old man with a suspected perforated appendix presents with fever, tachycardia, and hypotension. What is the most urgent immediate management step?",
+    options: [
+      "Administer oral antibiotics and observe",
+      "Perform a CT scan to confirm diagnosis",
+      "Immediate laparoscopic appendectomy",
+      "Start intravenous antibiotics and stabilize hemodynamics",
+      "Schedule a routine surgical consultation"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Immediate surgical intervention, such as laparoscopic appendectomy, is the most urgent management step for a patient with signs of perforated appendicitis and systemic instability.",
+    incorrectFeedback: "When managing a suspected perforated appendix with systemic signs of instability, consider the urgency of surgical intervention versus medical stabilization alone."
+  },
+  {
+    question: "Which physical examination sign is most specific for pelvic appendicitis?",
+    options: [
+      "McBurney's point tenderness",
+      "Rovsing's sign",
+      "Psoas sign",
+      "Obturator sign",
+      "Murphy's sign"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! The obturator sign, which involves pain with internal rotation of the flexed right hip, is particularly indicative of a pelvic appendix.",
+    incorrectFeedback: "Think about the anatomical position affected by each examination technique and which one would elicit symptoms based on appendix location."
+  }
+]} />

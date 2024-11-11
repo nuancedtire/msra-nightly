@@ -1,0 +1,128 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Comprehensive Overview of Primary Biliary Cholangitis
+
+Primary Biliary Cholangitis (PBC), formerly known as primary biliary cirrhosis, is a chronic cholestatic liver disease characterized by the progressive inflammation and destruction of small bile ducts within the liver. This autoimmune condition leads to fibrosis and eventual cirrhosis of the liver over several decades. Although the exact cause is unknown, genetic and environmental factors are believed to contribute to its development. The strong genetic concordance observed in identical twins suggests a significant genetic component. Initially asymptomatic, PBC progresses to symptoms such as fatigue and itching, eventually leading to jaundice and end-stage liver disease. Early detection and treatment have improved prognosis, allowing patients to maintain a normal life span and preventing cirrhosis.
+
+## Diagnosis
+
+Most patients (approximately 60%) are asymptomatic at diagnosis, often identified after abnormal blood tests. Symptoms, when present, may include:
+- Fatigue
+- Pruritus (itching)
+- Yellowish discoloration of the skin or sclera (jaundice)
+- Malabsorption and steatorrhea
+- Deficiency in fat-soluble vitamins (such as Vitamin D)
+
+In 70-80% of cases, PBC is associated with other autoimmune disorders, most notably Sjögren's syndrome. The condition predominantly affects women, with a female to male ratio of 10:1, peaking between the 5th and 7th decades of life.
+
+### Diagnostic Criteria
+
+Diagnosis is primarily based on three criteria:
+- **Cholestasis:** Elevated levels of alkaline phosphatase (ALP), gamma-glutamyl transferase (GGT), and bilirubin as the disease advances.
+- **Anti-Mitochondrial Antibody Positivity (AMA+):** A key marker in diagnosing PBC.
+- **Exclusion of Other Causes:** Confirm that other cholestatic diseases, such as infectious diseases or gallstones, are not present.
+
+## Investigations
+
+Initial laboratory tests focus on assessing levels of bilirubin, ALP, and GGT. Serologic tests may be ordered based on clinical suspicion to look for AMA positivity and immunoglobulin titers (notably IgM over IgG).
+
+<details>
+<summary>Exclusion of Other Diseases</summary>
+
+Excluding other cholestatic diseases, particularly primary sclerosing cholangitis and autoimmune hepatitis, is crucial. A liver biopsy, while the gold standard for diagnosing and staging PBC, is typically unnecessary for AMA+ patients due to its invasiveness. Imaging studies such as Cholangio-MRI and ultrasound (US) can assist in differential diagnosis by excluding gallstones and primary sclerosing cholangitis.
+
+</details>
+
+## Management
+
+### Pharmacological Management
+
+- **Ursodeoxycholic Acid (UDCA):** Although studies on its efficacy in reducing mortality are inconclusive, UDCA remains the primary treatment, stabilizing liver function markers and slowing histological progression of liver damage.
+- **Pruritus Treatment:** 
+  - Cholestyramine works by sequestering bile salts to prevent enterohepatic recirculation.
+  - Rifampicin addresses pruritus through an unknown mechanism.
+- **Osteoporosis Prevention:** Vitamin D and calcium supplementation are encouraged, given the risk of osteoporosis.
+- **Fatigue Management:** Modafinil may be used to address severe fatigue.
+
+### Non-Pharmacological Management
+
+- **Liver Transplantation:** The definitive treatment for PBC, particularly indicated in cases of complicated cirrhosis or if the patient meets certain criteria:
+  - Complicated cirrhosis
+  - Model for End-Stage Liver Disease (MELD) score > 15
+  - Persistent bilirubin levels > 3 mg/dL
+  - Pruritus unresponsive to treatment
+
+**Relapse Post-Transplant:** Around 25% of patients may experience recurrence following a liver transplant.
+
+<Callout emoji="⚠️">
+**Warning:** Post-liver transplant complications may include relapsed PBC, portal hypertension, ascites, varices, encephalopathy, and anasarca. Regular monitoring is essential.
+</Callout>
+
+### Complications of Liver Cirrhosis
+
+- Ascites, increasing the risk of spontaneous bacterial peritonitis
+- Gastroesophageal varices, leading to potential catastrophic bleeding due to coagulopathy
+- Hepatic encephalopathy caused by elevated ammonia
+- Soft tissue infections due to anasarca
+
+## References
+
+EASL Clinical Practice Guidelines: The diagnosis and management of patients with primary biliary cholangitis by Hirschfield, Gideon M. et al. Journal of Hepatology, Volume 67, Issue 1, 145–172.
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 54-year-old woman presents with fatigue and pruritus. She has a past medical history of Sjögren's syndrome. Laboratory findings reveal elevated alkaline phosphatase and positive anti-mitochondrial antibodies. Which of the following is the most likely diagnosis?",
+    options: [
+      "Primary Sclerosing Cholangitis (PSC)",
+      "Autoimmune Hepatitis",
+      "Primary Biliary Cholangitis (PBC)",
+      "Non-Alcoholic Fatty Liver Disease (NAFLD)",
+      "Cholangiocarcinoma"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The combination of fatigue, pruritus, elevated alkaline phosphatase, AMA positivity, and concomitant autoimmune disorder suggests Primary Biliary Cholangitis.",
+    incorrectFeedback: "Consider the significance of anti-mitochondrial antibodies and the common association with other autoimmune disorders in making the diagnosis."
+  },
+  {
+    question: "In a patient diagnosed with Primary Biliary Cholangitis, which of the following laboratory tests is most indicative of cholestasis?",
+    options: [
+      "Elevated alanine transaminase (ALT)",
+      "Decreased albumin",
+      "Elevated alkaline phosphatase (ALP)",
+      "Decreased prothrombin time (PT)",
+      "Elevated amylase"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Elevated alkaline phosphatase is a hallmark of cholestasis, commonly seen in PBC.",
+    incorrectFeedback: "Cholestasis typically results in specific changes in liver function tests. Focus on those associated with bile duct obstruction or damage."
+  },
+  {
+    question: "Which treatment is primarily used for managing Primary Biliary Cholangitis and has been shown to stabilize liver function markers?",
+    options: [
+      "Cholestyramine",
+      "Rifampicin",
+      "Ursodeoxycholic Acid (UDCA)",
+      "Prednisolone",
+      "Methotrexate"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Ursodeoxycholic Acid is the primary treatment for PBC that helps stabilize liver function markers and slow the disease progression.",
+    incorrectFeedback: "Consider which medication has an established role specifically in the management of PBC and influences liver function markers."
+  },
+  {
+    question: "A patient with PBC is undergoing liver transplantation due to complications from cirrhosis. Which of the following post-transplant complications is the most likely to occur?",
+    options: [
+      "Recurrent Primary Biliary Cholangitis",
+      "Alcoholic liver disease",
+      "Drug-induced liver injury",
+      "Wilson's disease",
+      "Nonalcoholic steatohepatitis (NASH)"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! There is a 25% chance of recurrent Primary Biliary Cholangitis post-liver transplantation.",
+    incorrectFeedback: "Think about the natural history and recurrence risks associated with autoimmune liver diseases following transplantation."
+  }
+]} />

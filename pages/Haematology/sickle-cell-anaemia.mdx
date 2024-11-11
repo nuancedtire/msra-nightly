@@ -1,0 +1,130 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Sickle Cell Anemia
+
+Sickle cell anemia (HbS) is a genetic blood disorder stemming from a single genetic mutation. This mutation replaces glutamine with valine at position 6 in the beta-globin chain, leading to the production of Hemoglobin S (HbS) instead of the normal Hemoglobin A (HbA).
+
+## Genetic Inheritance
+
+Sickle cell disease is inherited in an **autosomal recessive** manner. Offspring of affected individuals can exhibit one of three genetic outcomes:
+
+- **Unaffected (AA):** No symptoms.
+- **Heterozygous (AS):** Known as the sickle cell trait, it presents intermediate symptoms and provides some protection against malaria. Approximately 10% of the Afro-Caribbean population in the UK are carriers.
+- **Homozygous (SS):** Known as sickle cell anemia, it is the most severe form and manifests clinically around 6 months of age when fetal hemoglobin synthesis ceases.
+
+## Pathophysiology
+
+In individuals with HbSS, red blood cells can become rigid and sickle-shaped due to the polymerization of HbS. This deformation is often triggered by conditions such as hypoxia, cold, dehydration, and acidosis. Sickled cells have a shortened lifespan and can obstruct small blood vessels, leading to ischemia.
+
+<Callout emoji="⚠️">
+**Note:** Continuous monitoring of these conditions is crucial to prevent severe complications.
+</Callout>
+
+## Diagnosis
+
+Adults typically face multiple hospital admissions due to either acute **crises** or long-term complications such as:
+
+- Severe bone pain
+- Pulmonary hypertension and chronic lung disease
+- Persistent anemia
+- Avascular necrosis of bones
+- Elevated risk of infections
+- Leg ulcers
+- Cardiac issues (e.g., cardiomegaly, arrhythmias, myocardial infarctions)
+- Neurological issues (e.g., coma, TIAs, strokes)
+- Pigmented gallstones, hepatomegaly, nephritis, retinopathies, and spleen atrophy
+
+### Diagnostic Methods
+
+Newborns are screened between 5-9 days old with a heel-prick test. A positive result is confirmed with **hemoglobin electrophoresis** to distinguish between forms of sickle cell syndrome. In older individuals, family history, symptoms, and blood film analysis aid diagnosis.
+
+<details>
+<summary>Detailed Diagnostic Flow</summary>
+
+1. Newborn screening (heel-prick)
+2. Hemoglobin electrophoresis for confirmation
+3. Consideration of family history and symptom presentation in older individuals
+
+</details>
+
+## Types of Acute Crises
+
+Sickle cell patients may encounter various acute crises:
+
+1. **Thrombotic (Vaso-occlusive):** Painful and often triggered by dehydration, infection, or hypoxia, leading to ischemia.
+2. **Aplastic:** Sudden hemoglobin drop due to parvovirus infection.
+3. **Hemolytic:** Rare, with an increased hemolysis rate reducing hemoglobin.
+4. **Acute Chest Syndrome:** Common post-childhood, presenting with chest pain, low oxygen saturation, and pulmonary infiltrates.
+5. **Sequestration:** Blood pooling in organs, causing hypovolemia, collapse, and potentially death.
+
+### Emergency Management
+
+Treatment during a sickle cell crisis includes:
+
+- Pain relief
+- Oxygen therapy
+- Blood transfusions
+- Rehydration
+- Antibiotics for infections
+
+## Long-term Management
+
+To manage sickle cell disease and prevent painful episodes, **hydroxyurea** is often prescribed to increase fetal hemoglobin levels. Long-term strategies also recommend vaccinations, including pneumococcal and flu vaccines, to prevent complications like hemolytic anemia secondary to pneumococcal pneumonia.
+
+## References
+
+For further information, visit [NHS Sickle Cell Disease](https://www.nhs.uk/conditions/sickle-cell-disease/).
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 25-year-old Afro-Caribbean male presents with recurrent episodes of severe bone pain, anemia, and elevated reticulocyte count. His family history is significant for sickle cell disease. Newborn screening would have confirmed his diagnosis at a young age. Which diagnostic test would confirm the diagnosis of sickle cell anemia?",
+    options: [
+      "Complete Blood Count (CBC)",
+      "Hemoglobin Electrophoresis",
+      "Genetic Testing for Valine Mutation",
+      "Peripheral Blood Smear"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Hemoglobin electrophoresis is the definitive test for confirming sickle cell disease as it differentiates between HbS and other hemoglobin variants.",
+    incorrectFeedback: "Remember that while CBC and blood smear can provide supportive evidence, hemoglobin electrophoresis specifically identifies abnormal hemoglobin types."
+  },
+  {
+    question: "A 7-month-old infant presents with swelling of the hands and feet, fatigue, and irritability. Known family history reveals a high incidence of sickle cell disease. What feature of this infant's condition explains the onset of symptoms at this age?",
+    options: [
+      "Loss of maternal antibodies",
+      "Cessation of fetal hemoglobin synthesis",
+      "Onset of weaning from breastfeeding",
+      "Increased exposure to infectious agents"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Symptoms of sickle cell anemia manifest around 6 months of age when fetal hemoglobin (HbF) synthesis ceases, revealing the effects of HbS.",
+    incorrectFeedback: "Consider the developmental transition from fetal to adult hemoglobin, which reveals the presence and impact of sickle hemoglobin."
+  },
+  {
+    question: "A 16-year-old girl with sickle cell anemia presents to the emergency department with chest pain, fever, cough, and shortness of breath. A chest X-ray shows infiltrates in the lower lobes. Which complication is she most likely experiencing?",
+    options: [
+      "Thrombotic Crisis",
+      "Acute Chest Syndrome",
+      "Hemolytic Crisis",
+      "Aplastic Crisis"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The presentation of chest pain, fever, cough, and pulmonary infiltrates is classic for acute chest syndrome, commonly seen in patients with sickle cell anemia.",
+    incorrectFeedback: "Acute chest syndrome involves respiratory symptoms and is a serious complication in adolescents with sickle cell disease; think respiratory and infectious symptoms."
+  },
+  {
+    question: "A patient with sickle cell anemia is prescribed hydroxyurea as part of their treatment plan. What is the primary mechanism by which hydroxyurea helps in managing their condition?",
+    options: [
+      "Increased production of Hemoglobin A",
+      "Inhibition of sickling and red blood cell deformation",
+      "Elevation of fetal hemoglobin levels",
+      "Suppression of erythropoiesis to reduce hemolysis"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Hydroxyurea increases the levels of fetal hemoglobin (HbF), which in turn reduces the sickling of red blood cells.",
+    incorrectFeedback: "Focus on how fetal hemoglobin reduces the polymerization of sickle hemoglobin, thus mitigating sickle cell crises."
+  }
+]} />

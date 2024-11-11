@@ -1,0 +1,142 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Irritable Bowel Syndrome (IBS)
+
+Irritable bowel syndrome (IBS) is a chronic condition characterized by abdominal pain or discomfort, often accompanied by changes in bowel habits and abdominal distention. It affects around 15% of adults, although only a small number seek medical attention.
+
+## Diagnosis
+
+The diagnosis of IBS relies heavily on patient history, as there are no specific diagnostic tests for this condition. IBS is considered a "diagnosis of exclusion," meaning other potential causes must be ruled out. Physical examination typically reveals no notable findings, though tenderness in the right and/or left lower quadrants may be present.
+
+### Common Symptoms
+
+- Recurrent abdominal pain or discomfort
+- Change in bowel habits linked to pain
+- Abdominal bloating or distention
+
+### Indicators of IBS
+
+Certain factors may increase the likelihood of an IBS diagnosis:
+
+- Age under 50 years
+- Female gender
+- History of physical or sexual abuse
+- Previous enteric infection
+- Stress at home or work
+
+### Manning Criteria for Diagnosis
+
+To assess patients for possible IBS, the **Manning Criteria** can be applied. At least three symptoms from the following list are required, with no red flags present:
+
+- Pain onset related to more frequent bowel movements
+- Looser stools with pain onset
+- Pain relief after stool passage
+- Noticeable abdominal bloating
+- Sensation of incomplete evacuation >25% of the time
+- Diarrhea with mucus >25% of the time
+
+#### Red Flags for Further Investigation
+
+- Age over 50 years
+- Weight loss
+- Blood in stools
+- Anemia
+- Fever
+
+## Investigations
+
+To differentiate IBS from other conditions, a series of investigations may be conducted, with normal results expected if IBS is the accurate diagnosis:
+
+- **Full Blood Count (FBC):** Anomalies such as anemia suggest considering alternatives to IBS.
+- **Serum C-Reactive Protein (CRP):** Helps distinguish between IBS and inflammatory bowel disease.
+- **Fecal Calprotectin:** Another test to differentiate IBS from inflammatory bowel disease.
+- **Stool Studies:** Essential for patients with diarrhea; parasites might cause both bloating and diarrhea.
+- **Coeliac Screen (Anti-endomysial/anti-tTG antibodies):** Recommended if diarrhea and/or weight loss are present.
+- **Plain Abdominal X-ray:** Useful for evaluating bloating.
+- **Flexible Sigmoidoscopy:** Advisable for patients under 50 to exclude inflammatory bowel disease, polyps, or carcinoma.
+- **Colonoscopy:** Recommended for patients over 50 to rule out inflammatory bowel disease, polyps, or carcinoma.
+
+## Management
+
+Management of IBS involves both prescribing and non-prescribing strategies to alleviate symptoms and enhance quality of life.
+
+### Prescribing
+
+Medications target specific symptoms:
+
+- **Constipation:**
+  - Laxatives: ispaghula, lactulose, polyethylene glycol
+  - Alternatives for intolerant patients: lubiprostone, linaclotide, plecanatide
+- **Diarrhea:**
+  - First-line Antidiarrheals: loperamide, colestyramine
+  - Second-line Antidiarrheals: alosetron, eluxadoline
+- **Pain or Bloating:**
+  - First-line Antispasmodics: dicycloverine, hyoscyamine, peppermint oil
+  - Second-line Tricyclic Antidepressants: desipramine, amitriptyline, doxepin
+
+### Non-Prescribing
+
+Initial treatment should focus on lifestyle and dietary modifications to better manage symptoms. The goal is to decrease daily stress and adapt diets to avoid foods that can trigger symptoms. A diet low in FODMAPs (fermentable oligosaccharides, disaccharides, monosaccharides, and polyols) is recommended, with various web resources available for guidance.
+
+<Callout emoji="⚠️">
+**Warning:** Always monitor vital signs continuously during the procedure.
+</Callout>
+
+## References
+
+- [BMJ Best Practice: Irritable Bowel Syndrome](https://bestpractice.bmj.com/topics/en-gb/122)
+- [MDCalc: Manning Criteria for Diagnosis of IBS](https://www.mdcalc.com/manning-criteria-diagnosis-irritable-bowel-syndrome-ibs#pearls-pitfalls)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 32-year-old female presents with a 6-month history of intermittent abdominal pain and alterations in bowel habits. She reports that the pain often improves after defecation. She denies any bleeding per rectum, weight loss, or fever. Based on the Manning Criteria, what additional symptom would further support a diagnosis of irritable bowel syndrome (IBS)?",
+    options: [
+      "Blood in stools",
+      "Noticeable abdominal bloating",
+      "Presence of fever",
+      "History of weight loss"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The presence of noticeable abdominal bloating is one of the Manning Criteria that supports a diagnosis of IBS in the absence of red flags.",
+    incorrectFeedback: "Remember, IBS symptoms should not include red flags like blood in stools, fever, or weight loss. Consider what additional symptom aligns with the typical presentation of IBS."
+  },
+  {
+    question: "A 45-year-old male with recurrent abdominal pain is suspected to have IBS. He undergoes a series of investigations to rule out other conditions. Which of the following test results would most likely support the diagnosis of IBS?",
+    options: [
+      "Positive fecal calprotectin",
+      "Elevated C-reactive protein",
+      "Positive coeliac screen",
+      "Normal full blood count"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! A normal full blood count is consistent with IBS, as other findings such as elevated inflammatory markers or positive coeliac screen would suggest other diagnoses.",
+    incorrectFeedback: "Consider the usual test results for IBS. What would you expect to be normal in this context?"
+  },
+  {
+    question: "A 29-year-old woman with a history of diarrhea-predominant IBS is looking for management options. Her symptoms include frequent loose stools and abdominal discomfort. Which of the following would be the most appropriate first-line medication for her diarrhea?",
+    options: [
+      "Lubiprostone",
+      "Linaclotide",
+      "Loperamide",
+      "Alosetron"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Loperamide is the first-line medication for diarrheal symptoms in IBS, offering symptomatic relief by reducing stool frequency and improving stool consistency.",
+    incorrectFeedback: "Focus on the medications that target diarrhea in IBS. Recall that loperamide is commonly used for symptom control."
+  },
+  {
+    question: "A 38-year-old male with a diagnosis of IBS reports feeling consistently bloated and experiencing abdominal pain. He has not found relief with first-line antispasmodics. What is an appropriate second-line medication for managing his symptoms?",
+    options: [
+      "Desipramine",
+      "Colestyramine",
+      "Lubiprostone",
+      "Linaclotide"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! Tricyclic antidepressants like desipramine can serve as second-line therapy in IBS to control pain and bloating when antispasmodics are ineffective.",
+    incorrectFeedback: "Think beyond typical gastrointestinal medications to those that modulate gut-brain interaction, particularly for persistent pain or bloating."
+  }
+]} />

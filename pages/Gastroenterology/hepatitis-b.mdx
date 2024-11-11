@@ -1,0 +1,153 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Hepatitis B Virus (HBV)
+
+The Hepatitis B Virus (HBV) is recognized as the most widespread liver infection globally, manifesting from asymptomatic states to severe complications like cirrhosis. It is a double-stranded DNA virus with transmission modes including percutaneous, permucosal, and sexual routes. The severity of potential complications is significantly influenced by the age of infection acquisition, with perinatal or early childhood exposures posing the greatest risks.
+
+## Diagnosis
+
+Identifying HBV can be challenging since about 70% of individuals exhibit no symptoms, and its natural progression varies. The primary risk factors include:
+
+- **Perinatal exposure**
+- **Sexual transmission** (e.g., multiple partners, men who have sex with men)
+- **Intravenous drug use**
+- **Residency or travel** to highly endemic regions (e.g., Asia, Africa)
+- **Incarceration**
+- **Family histories** of HBV infection, chronic liver disease, or hepatocellular carcinoma (HCC)
+
+### Acute Infection Symptoms
+
+Acute HBV infection can present a serum sickness-like syndrome with:
+
+- **Fever**
+- **Chills**
+- **Malaise**
+- **Arthralgia**
+- **Maculopapular or urticarial rash**
+
+Additionally, patients might experience:
+
+- **Jaundice**
+- **Nausea/vomiting**
+- **Right upper quadrant pain**
+
+### Chronic Infection Symptoms
+
+Most chronic HBV carriers remain symptom-free unless complications such as:
+
+- **Cirrhosis**
+- **Hepatocellular carcinoma**
+- **Liver failure**
+
+On physical examination, acute HBV infection often reveals:
+
+- **Tender hepatomegaly**
+- **Jaundice**
+
+Should chronic disease evolve into cirrhosis, further signs may include:
+
+- **Palmar erythema**
+- **Spider angioma**
+- **Ascites**
+- **Asterixis**
+
+## Investigations
+
+_First-line Investigations:_
+
+- **Liver Function Tests (LFTs):** Elevated ALT/AST, alkaline phosphatases, bilirubin, with low albumin levels indicating HBV.
+- **Full Blood Count (FBC):** Microcytic anemia and/or thrombocytopenia due to cirrhosis.
+- **Urea and Electrolytes (U&Es):** Hyponatremia and raised urea from cirrhosis.
+- **Coagulation Profile:** May show abnormalities with HBV linked conditions.
+
+_Serological Tests:_
+
+- **Hepatitis B Surface Antigen (HBsAg):** Appears about 4 weeks post exposure; if detected more than 6 months, implies chronic infection.
+- **Antibody to Hepatitis B Surface Antigen:** Indicates infection resolution or immunity post-vaccination.
+- **Antibody to Hepatitis B Core Antigen:** Screening tool for household contacts’ vaccination needs.
+- **Hepatitis B e Antigen:** Provides insight into the acute to chronic transition likelihood.
+- **HBV DNA Level:** Guides antiviral therapy initiation and tracks treatment response.
+
+_Additional Considerations:_
+
+- **Abdominal Ultrasound:** Checks for liver fibrosis, cirrhosis, portal hypertension, and HCC.
+- **CT/MRI Abdomen:** Diagnoses HCC when warranted by clinical findings.
+- **Liver Biopsy:** For assessing chronic infections before treatment.
+- **Transient Elastography:** Non-invasive liver stiffness measurement for cirrhosis identification.
+- **Alpha-fetoprotein Screening:** Elevated levels signal HCC presence. 
+- **Co-infection Testing:** Evaluate HIV and hepatitis C/D status for comprehensive management.
+
+## Management
+
+### Prescribing Approach
+
+Treatment aims to inhibit disease advancement and prevent complications. Strategy varies by acute or chronic classification.
+
+- **Acute Severe Disease or Liver Failure:** Initiate antiviral therapy with options like entecavir or tenofovir until HBsAg clearance is achieved.
+- **Chronic Infection:** Antiviral therapy is pivotal for all, irrespective of cirrhosis presence. Options include entecavir, tenofovir, or peginterferon alfa 2a, usually continued until HBsAg loss.
+
+### Non-Prescribing Approach
+
+*Supportive Care:* Over 95% of immunocompetent individuals with acute HBV can manage with supportive care alone to achieve seroconversion. Progression may require antiviral therapy and transplant evaluation.
+
+<Callout emoji="⚠️">
+**Warning:** Monitor all chronic HBV patients for liver transplant candidacy due to the high mortality associated with liver failure absent transplantation.
+</Callout>
+
+## References
+
+- [BMJ Best Practice on Hepatitis B](https://bestpractice.bmj.com/topics/en-gb/127)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 32-year-old man presents with symptoms of malaise, fever, and right upper quadrant pain. He mentions recent travel to an HBV endemic region. Laboratory tests show elevated liver enzymes, positive HBsAg, and positive Hepatitis B e Antigen. Which of the following is most likely indicated by the presence of the Hepatitis B e Antigen?",
+    options: [
+      "Resolution of HBV infection",
+      "Acute severe HBV infection",
+      "High likelihood of chronic HBV transition",
+      "Successful HBV vaccination"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The presence of the Hepatitis B e Antigen indicates a high likelihood of HBV transition from acute to chronic infection.",
+    incorrectFeedback: "Consider the implications of Hepatitis B e Antigen in the context of HBV infection stages. It often indicates active viral replication and potential chronicity."
+  },
+  {
+    question: "In a patient diagnosed with chronic Hepatitis B infection and signs of cirrhosis, which non-invasive test would be most appropriate to assess liver stiffness?",
+    options: [
+      "Liver Function Tests (LFTs)",
+      "Antibody to Hepatitis B Surface Antigen measurement",
+      "Abdominal Ultrasound",
+      "Transient Elastography"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Transient Elastography is a non-invasive method used to measure liver stiffness and assess the presence of cirrhosis.",
+    incorrectFeedback: "Think about the specific non-invasive tests designed to evaluate liver fibrosis. This test does not involve imaging or serological markers."
+  },
+  {
+    question: "A 45-year-old man with confirmed chronic Hepatitis B visits the clinic for routine follow-up. His HBV DNA levels are elevated, and he has no signs of cirrhosis. What is the recommended management approach for this patient?",
+    options: [
+      "Initiate antiviral therapy with tenofovir",
+      "Observation and reassessment in six months",
+      "Liver transplantation evaluation",
+      "Initiation of peginterferon alfa 2a only if symptoms develop"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! Antiviral therapy with medications like tenofovir is recommended for all patients with chronic Hepatitis B, regardless of cirrhosis presence.",
+    incorrectFeedback: "Chronic Hepatitis B with elevated HBV DNA levels typically warrants initiation of antiviral therapy to prevent disease progression."
+  },
+  {
+    question: "A 29-year-old male intravenous drug user is newly diagnosed with Hepatitis B. Serological tests show the presence of HBsAg and the antibody to Hepatitis B Core Antigen. What does the presence of the antibody to Hepatitis B Core Antigen indicate in this context?",
+    options: [
+      "Immunity from past infection",
+      "Early acute HBV infection",
+      "Need for vaccination",
+      "Chronic HBV infection"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! The presence of the antibody to Hepatitis B Core Antigen indicates the patient has been exposed to the virus and commonly suggests chronic infection when HBsAg is also present.",
+    incorrectFeedback: "Consider what the presence of both HBsAg and the antibody to Hepatitis B Core Antigen in serological tests typically signifies regarding infection status."
+  }
+]} />

@@ -1,0 +1,184 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Gallstone Disease: Diagnosis and Management
+
+Gallstone disease affects approximately 15% of the population in the United Kingdom. In developed nations, cholesterol gallstones are the most prevalent type, formed through cholesterol crystallization in the bile of the gallbladder. Another variant, pigment stones primarily composed of calcium, are associated with chronic conditions such as haemolytic anaemia, cystic fibrosis, cirrhosis, or ileal disease.
+
+## Diagnosis
+
+### Risk Factors
+
+Certain risk factors increase the likelihood of gallstone development, including:
+
+- **Obesity** (and rapid weight loss)
+- **Female Gender** (especially with elevated estrogen levels, such as during pregnancy or hormonal therapy)
+- **Multiparity**
+- **Age Over 40**
+- **Family History**
+
+These factors can be encapsulated by the mnemonic **5Fs**: fat, female, fertile, forty, and family history.
+
+### Symptoms
+
+- **Asymptomatic Gallstones:** Often discovered incidentally via abdominal imaging when located within the gallbladder.
+- **Symptomatic Gallstones:** Occur when stones migrate into the biliary tract, leading to complications like biliary colic, acute cholecystitis, and ascending cholangitis.
+
+### Complications
+
+#### Biliary Colic
+
+Cholestasis leading to biliary colic is characterized by:
+
+- **Location:** Pain localized to the right upper quadrant (RUQ) or epigastrium.
+- **Onset and Nature:** Sudden onset, described as a dull ache.
+- **Radiation:** Pain may radiate to the back, shoulder, or interscapular region.
+- **Associated Symptoms:** Nausea and vomiting.
+- **Duration:** Lasts more than 30 minutes but less than 5 hours.
+- **Triggers:** Consumption of fatty foods.
+
+#### Acute Cholecystitis
+
+Gallstone obstruction of the cystic duct can cause inflammation of the gallbladder leading to:
+
+- **Pain:** Similar to biliary colic but persists longer than 5 hours.
+- **Fever**
+- **Physical Signs:** 
+  - Tenderness, guarding, and rigidity in RUQ or epigastrium.
+  - Positive **Murphy’s sign**: Pain on inspiration when palpating the RUQ that is absent when palpating the left upper quadrant.
+  - Rigors
+
+#### Ascending Cholangitis
+
+A severe condition causing biliary tract infection due to obstruction, presenting with:
+
+- **Charcot’s Triad:** RUQ pain, fever, jaundice.
+- **Reynolds’ Pentad:** Includes hypotension and confusion alongside Charcot's triad.
+
+### Other Complications
+
+- **Acute Pancreatitis:** Inflammation due to pancreatic duct obstruction by gallstones.
+- **Gallstone Ileus:** Intestinal obstruction from stones entering the intestine.
+- **Gallbladder Empyema:** Abscess formation around the gallbladder.
+- **Increased Risk of Gallbladder Cancer**
+- **Mirizzi Syndrome:** Obstructive jaundice from a large stone compressing the common hepatic duct.
+
+## Investigations
+
+### Bedside Tests
+
+- **Basic Observations:**
+  - Normal in biliary colic.
+  - Tachycardia and fever in cholecystitis and cholangitis.
+  - Hypotension in cholangitis.
+
+- **Urinalysis (and pregnancy test if female):** To rule out renal and tubo-ovarian pathology.
+
+### Blood Tests
+
+- **Full Blood Count (FBC):** Elevated white blood cells in cholecystitis, cholangitis, and pancreatitis.
+- **C-Reactive Protein (CRP):** Elevated in similar conditions.
+- **Liver Function Tests (LFTs):** Elevated ALP, ALT, and bilirubin in cholangitis.
+- **Serum Lipase and Amylase:** Elevated (>3 times upper limit of normal) in acute pancreatitis.
+
+### Imaging
+
+- **Abdominal Ultrasound:**
+  - Detects gallstones and inflammation.
+  - Shows bile duct dilation.
+
+- **Abdominal CT with Contrast:**
+  - Highlights bile duct dilation and any pancreatic changes in acute gallstone pancreatitis.
+
+### Special Tests
+
+- For symptomatic gallstones not confirmed on ultrasound:
+  - **Magnetic Resonance Cholangiopancreatography (MRCP)**
+  - **Endoscopic Ultrasound (EUS):** As an alternative if MRCP is not feasible.
+
+## Emergency Management
+
+Ascending cholangitis is a medical emergency, requiring:
+
+- Immediate initiation of **Sepsis 6** protocols.
+- **Biliary Decompression via Endoscopic Retrograde Cholangiopancreatography (ERCP):** Preferably with sphincterotomy and stone removal within 24-48 hours.
+  - Additional procedures may include lithotripsy, papillary balloon dilation, or biliary stenting.
+  - If unsuccessful, laparoscopic common bile duct exploration is performed.
+
+<Callout emoji="⚠️">
+**Emergency Alert:** Ascending cholangitis requires rapid intervention. Delay can result in serious complications.
+</Callout>
+
+## Management
+
+### Prescribing
+
+- **Broad-Spectrum Intravenous Antibiotics:** Required for acute cholecystitis and ascending cholangitis, with selection based on local guidelines.
+
+### Non-Prescribing
+
+- **Asymptomatic Gallstones:** Typically not treated unless there is a significant risk of gallbladder cancer or complications.
+- **Surgical Intervention:**
+  - **Cholecystectomy (Gallbladder Removal):** Advised post-biliary colic, acute cholecystitis, or cholangitis recovery, ideally within a week.
+  - **Laparoscopic Approach:** Preferred for reduced recovery time compared to open surgery.
+
+## References
+
+[Best Practice BMJ - Cholelithiasis](https://bestpractice.bmj.com/topics/en-gb/873/pdf/873/Cholelithiasis.pdf)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 45-year-old woman presents to the emergency department with sudden onset right upper quadrant pain that radiates to her back and right shoulder. The pain started after eating a fatty meal and has persisted for 4 hours. On examination, she has abdominal tenderness in the right upper quadrant but no fever. Which condition is most consistent with her presentation?",
+    options: [
+      "Asymptomatic gallstones",
+      "Biliary colic",
+      "Acute cholecystitis",
+      "Ascending cholangitis",
+      "Gallstone ileus"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The clinical presentation is consistent with biliary colic, characterized by sudden onset right upper quadrant pain, radiating to the shoulder, triggered by fatty foods without fever or prolonged duration.",
+    incorrectFeedback: "Consider the onset, location, and triggering factors of the pain, as well as the absence of fever, to differentiate between biliary colic and other gallstone-related conditions."
+  },
+  {
+    question: "A 60-year-old male with a history of alcohol use presents with severe abdominal pain, fever, and jaundice. Laboratory tests reveal elevated white blood cells, altered liver function tests, and elevated amylase levels. Ultrasound shows dilated bile ducts. What is the most appropriate next step in management?",
+    options: [
+      "Intravenous fluid resuscitation",
+      "Laparoscopic cholecystectomy",
+      "Magnetic Resonance Cholangiopancreatography (MRCP)",
+      "Endoscopic Retrograde Cholangiopancreatography (ERCP)",
+      "Start broad-spectrum IV antibiotics and observe"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! ERCP is the preferred initial intervention for biliary decompression in suspected ascending cholangitis to relieve the obstruction and reduce systemic infection.",
+    incorrectFeedback: "While symptomatic management and imaging might be useful, urgent biliary decompression with ERCP is needed for severe cases presenting with Charcot's triad and evidence of infection."
+  },
+  {
+    question: "During a surgical team meeting, a discussion arises about surgical interventions for gallstone disease. Which of the following scenarios most strongly indicates the need for a cholecystectomy?",
+    options: [
+      "Incidentally detected asymptomatic gallstones in a 50-year-old woman",
+      "A 30-year-old man with multiple episodes of biliary colic despite dietary changes",
+      "A 70-year-old woman with small, asymptomatic gallstones",
+      "A 40-year-old man with acute pancreatitis secondary to gallstones",
+      "A 65-year-old asymptomatic man with a single large gallstone"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Cholecystectomy is strongly indicated in cases where gallstones cause complications like acute pancreatitis to prevent recurrence.",
+    incorrectFeedback: "Consider the scenarios where gallstones have caused complications, indicating the removal of the gallbladder is necessary to prevent further episodes or complications."
+  },
+  {
+    question: "A 28-year-old pregnant woman presents with right upper quadrant pain. An ultrasound reveals gallstones but no signs of ductal obstruction or cholecystitis. Which risk factor is most likely contributing to her gallstone development?",
+    options: [
+      "Age",
+      "Obesity",
+      "Pregnancy",
+      "Ileal disease",
+      "Diabetes mellitus"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Pregnancy increases estrogen levels, which is a risk factor for the development of gallstones, commonly captured under the 'fertile' factor in the 5Fs mnemonic.",
+    incorrectFeedback: "Focus on unique physiological changes and risk factors associated with pregnancy that contribute to gallstone risk."
+  }
+]} />

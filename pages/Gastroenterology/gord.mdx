@@ -1,0 +1,137 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Gastro-Oesophageal Reflux Disease (GORD)
+
+Gastro-oesophageal reflux disease (GORD) is characterized by the symptoms and/or complications that arise when stomach contents reflux into the oesophagus or beyond. Common symptoms are heartburn and acid regurgitation. If untreated, GORD can result in significant complications, including stricture, Barrett’s oesophagus, and oesophageal carcinoma.
+
+## Diagnosis
+
+GORD is primarily diagnosed clinically, though additional tests can provide supportive evidence if necessary. Generally, patients with GORD do not display notable physical examination findings.
+
+### Common Diagnostic Factors
+
+- **Heartburn:** A burning chest sensation that typically occurs after eating, especially when lying down or bending over.
+- **Acid Regurgitation:** Sour or bitter-tasting reflux into the mouth, often following meals.
+- **Risk Factors:**
+  - Family history of heartburn/GORD.
+  - Obesity.
+  - Advanced age.
+  - Hiatus hernia.
+
+### Other Diagnostic Factors
+
+- **Dysphagia:** Difficulty swallowing, warranting further examination to exclude malignancy.
+- **Bloating/Early Satiety:** Requires evaluation to rule out other causes such as cancer or stricture.
+- **Globus:** A sensation of a lump in the throat felt by patients.
+- **Enamel Erosion:** Often a result of continual acid reflux into the mouth.
+- **Halitosis:** Bad breath more frequently found in GORD sufferers.
+- **Dyspepsia:** More common in those with GORD symptoms compared to those without.
+
+## Investigations
+
+### First Line: PPI Trial
+
+An 8-week course of proton-pump inhibitors (PPI) is typically prescribed, improving symptoms in many GORD patients. A lack of improvement suggests the need for further investigation.
+
+### Additional Investigations
+
+If the PPI trial is unsuccessful or if there are indications of complicated disease, consider:
+
+- **Oesophagogastroduodenoscopy (OGD):** Identifies oesophagitis or Barrett’s oesophagus.
+- **Oesophageal Capsule Endoscopy:** A less invasive method than traditional endoscopy.
+- **Oesophageal Manometry:** Assesses oesophageal contraction and lower sphincter function; useful for diagnosing motility disorders.
+- **Ambulatory pH Monitoring:** Detects abnormal oesophageal acid exposure when OGD and manometry show no abnormalities.
+- **Combined Impedance-pH Testing:** Measures oesophageal acid exposure and identifies reflux events.
+- **Barium Swallow:** Employed in patients with dysphagia and endoscopy contraindications, checking for oesophagitis and other dysphagia causes.
+
+## Management
+
+### Prescribing Management
+
+The cornerstone of GORD treatment is acid suppression to alleviate symptoms and prevent complications. Note that stopping PPI treatment often leads to symptom recurrence. Hence, it’s recommended to attempt reducing the dose to the minimal level that controls symptoms.
+
+#### Acute Management
+
+- **PPI 8-week Course:** Options include omeprazole, esomeprazole, rabeprazole, pantoprazole, lansoprazole, or dexlansoprazole.
+
+#### Ongoing Management
+
+- **Responsive to PPI:** Continue with the same PPI medication.
+- **Incomplete Response to PPI:** Continue PPI treatment and consider adding an H2 antagonist like ranitidine, famotidine, nizatidine, or cimetidine.
+
+### Non-Prescribing Management
+
+All GORD patients are advised to adopt lifestyle changes irrespective of symptom severity. While specific dietary exclusions are not routinely recommended, individual adjustments may be beneficial.
+
+- **Key Recommendations:**
+  - Weight loss for overweight individuals.
+  - Elevate the head of the bed.
+  - Avoid late-night eating if there are nighttime symptoms.
+
+Surgical solutions like fundoplication, whether open or laparoscopic, are intended for patients with a positive PPI response who are unwilling or unable to continue long-term treatments due to adverse effects. Surgery is not typically offered to those who do not respond to PPI treatment.
+
+<Callout emoji="⚠️">
+**Important:** Surgical intervention is not advised for patients who do not respond to PPI therapy due to the low likelihood of success.
+</Callout>
+
+## References
+
+[Best Practice - BMJ](https://bestpractice.bmj.com/topics/en-gb/82)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 45-year-old male with a long history of heartburn presents for evaluation. He reports worsening symptoms when lying down after meals. Despite an 8-week course of omeprazole, he notes only minimal improvement. What is the next best step in his management?",
+    options: [
+      "Continue omeprazole and add famotidine",
+      "Stop omeprazole and start a trial of ranitidine alone",
+      "Schedule for oesophagogastroduodenoscopy (OGD)",
+      "Recommend weight loss and bed head elevation only",
+      "Refer for surgical intervention"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! An oesophagogastroduodenoscopy (OGD) is indicated for further assessment when there is a poor response to an 8-week trial of proton-pump inhibitors, to rule out complications such as Barrett's oesophagus.",
+    incorrectFeedback: "Consider further diagnostic evaluation to assess for complications or other underlying issues when initial PPI therapy is insufficient."
+  },
+  {
+    question: "A 60-year-old female with chronic gastro-oesophageal reflux disease and new dysphagia is referred for further testing. Which investigation is most appropriate to evaluate her symptoms given the context?",
+    options: [
+      "Oesophageal manometry",
+      "Ambulatory pH Monitoring",
+      "Barium swallow",
+      "Capsule endoscopy",
+      "CT scan of the abdomen"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! A barium swallow is typically used to investigate patients with dysphagia, especially when there are contraindications to endoscopy, to assess for structural causes.",
+    incorrectFeedback: "Dysphagia usually warrants assessment of structural abnormalities, and barium swallow is a key investigative tool for this purpose."
+  },
+  {
+    question: "In the management of GORD, lifestyle changes are advised for all patients. Which of the following recommendations is least likely to help in reducing symptoms?",
+    options: [
+      "Weight loss",
+      "Elevating the head of the bed",
+      "Avoiding late-night eating",
+      "Strict low-acid diet",
+      "Smoking cessation"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! While specific dietary modifications are sometimes helpful, a strict low-acid diet is typically not necessary, as individual dietary changes are often sufficient.",
+    incorrectFeedback: "Consider which lifestyle recommendations are universally recommended for GORD patients and which are more tailored or variable."
+  },
+  {
+    question: "A 50-year-old male with a history of GORD undergoes a successful 8-week trial of PPI therapy. He is worried about long-term medication use. Which management strategy would you recommend next?",
+    options: [
+      "Discontinue PPI therapy immediately",
+      "Switch to H2 antagonists exclusively",
+      "Titrate PPI to the lowest effective dose",
+      "Proceed with surgical intervention",
+      "Add a prokinetic agent"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Reducing the PPI dose to the lowest effective level is recommended as part of the ongoing management for patients experiencing a positive response to initial therapy.",
+    incorrectFeedback: "Consider the importance of maintaining symptom control while minimizing medication exposure in the long-term management of GORD."
+  }
+]} />

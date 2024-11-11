@@ -1,0 +1,143 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Cholecystitis: Diagnosis, Management, and Complications
+
+## Introduction
+
+**Cholecystitis** refers to the inflammation of the gallbladder, often resulting from a gallstone obstructing the neck of the gallbladder or the cystic duct, preventing proper drainage. Less commonly, this can be due to tumors or parasitic worms. The gallbladder secretes more bile in an effort to clear this obstruction, leading to inflammation, distension, and potentially compromised blood supply. Symptoms include right upper quadrant (RUQ) pain and fever. Infection may follow, particularly in elderly or diabetic patients, caused commonly by bacteria such as *Escherichia coli*, *Klebsiella*, *Pseudomonas*, *Enterococcus*, and *Bacteroides fragilis*.
+
+## Diagnosis
+
+The risk factors for developing cholecystitis align with those for gallstones:
+
+- **Age:** Increasing age heightens risk.
+- **Gender:** More common in females.
+- **Pregnancy**
+- **Diet and Weight:** Obesity and high-fat diets.
+- **Diabetes**
+
+### Clinical Features
+
+Key symptoms include:
+
+- **RUQ Pain:** May radiate to the right shoulder.
+- **Fever**
+- **Nausea and Anorexia**
+- Up to 10% of patients may exhibit jaundice; vomiting is a less common symptom.
+
+### Physical Examination
+
+Consider the following signs:
+
+- **Murphy’s Sign:** Pain and interruption of breath upon deep inhalation while pressing the RUQ.
+- **Tenderness and Guarding:** Observed in the RUQ.
+- In up to 30% of cases, a palpable mass may be noted in the RUQ.
+
+## Investigations
+
+- **Basic Observations:** Includes respiratory rate, heart rate, blood pressure, temperature, and oxygen saturation.
+- **Blood Tests:**
+  - **FBC:** Possible leukocytosis.
+  - **CRP:** May be elevated.
+  - **LFTs:** Elevated bilirubin, ALT, ALP, and GGT.
+  - **Amylase/Lipase:** To rule out pancreatitis.
+- **Imaging:**
+  - **Abdominal Ultrasound (USS):** Can show gallbladder wall thickening, distension, and gallstones.
+  - **CT Abdomen:** Used if sepsis or gallbladder perforation is suspected.
+
+## Emergencies in Cholecystitis
+
+### Sepsis
+
+**Sepsis** may arise from bacterial infection or necrosis due to inflammation. Look for acute illness or deteriorating observations. Administer intravenous antibiotics as per local guidelines in conjunction with standard cholecystitis management. Implement the Sepsis Six bundle and consider ICU referral if needed.
+
+<details>
+<summary>Complications and Management</summary>
+
+- **Mirizzi’s Syndrome:** Caused by an impacted gallstone leading to common hepatic duct compression, resulting in obstructive jaundice. Diagnosed via USS or MRCP, requiring cholecystectomy.
+- **Gallbladder Perforation:** A serious condition with high mortality, prevalent in the elderly or those with comorbidities (e.g., diabetes). Initial treatment includes IV antibiotics, fluids, and possible percutaneous cholecystotomy. Cholecystectomy follows when the patient stabilizes.
+- **Gallbladder Empyema:** Characterized by gallbladder pus accumulation. Presents similarly to cholecystitis and best visualized on MRI. Laparoscopic cholecystectomy is preferred; percutaneous drainage may be necessary for unfit patients.
+
+</details>
+
+## Management
+
+### Prescribing
+
+To address pain, begin with paracetamol and NSAIDs (e.g., ibuprofen) if appropriate, progressing to strong opioids (e.g., morphine) if necessary. Administer anti-emetics like cyclizine to combat nausea. Patients should be nil-by-mouth; hence IV fluids are required to prevent dehydration.
+
+Administer IV antibiotics if an infection is suspected, adhering to local protocols.
+
+### Non-Prescribing
+
+Patients should remain nil-by-mouth to allow gallbladder rest. The definitive treatment is **laparoscopic cholecystectomy**, ideally within a week per NICE guidelines, or six weeks post-symptoms if immediate surgery isn't feasible. For those unfit for surgery due to underlying health issues, a percutaneous cholecystotomy can serve as an alternative.
+
+<Callout emoji="⚠️">
+**Note:** Always consult local guidelines for antibiotic protocols and escalate care if sepsis is suspected.
+</Callout>
+
+## References
+
+- Oxford Handbook of Clinical Medicine (10th edition)
+- Kumar and Clarke’s Clinical Medicine (9th edition)
+- [BMJ Best Practice](https://bestpractice.bmj.com/topics/en-gb/3000084)
+- [Radiopaedia: Gallbladder Perforation](https://radiopaedia.org/articles/gallbladder-perforation?lang=gb)
+- NICE (2014) Gallstone disease: Diagnosis and Management, Clinical guideline [CG188](https://www.nice.org.uk/guidance/cg188)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 62-year-old obese female presents with a 24-hour history of right upper quadrant pain, fever, and nausea. On examination, she exhibits a positive Murphy’s sign. Laboratory tests reveal leukocytosis and elevated liver enzymes. What is the most likely underlying cause of her condition?",
+    options: [
+      "Gallstone obstructing the common bile duct",
+      "Tumor in the pancreatic head",
+      "Gallstone obstruction of the neck of the gallbladder",
+      "Chronic ethanol abuse",
+      "Congenital biliary atresia"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The clinical presentation is consistent with acute cholecystitis, often caused by gallstone obstruction at the gallbladder neck or cystic duct, preventing bile drainage and leading to inflammation.",
+    incorrectFeedback: "Consider the symptoms of RUQ pain, fever, and the positive Murphy's sign, which are typical for cholecystitis rather than common bile duct obstruction or other conditions."
+  },
+  {
+    question: "A 75-year-old male with a history of diabetes presents with acute right upper quadrant pain, fever, and confusion. Imaging shows thickened gallbladder walls and fluid around the gallbladder. Which complication should be most urgently considered?",
+    options: [
+      "Gallbladder empyema",
+      "Cholangitis",
+      "Gallbladder perforation",
+      "Mirizzi’s syndrome",
+      "Pancreatitis"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Gallbladder perforation is a severe complication, especially common in elderly and diabetic patients with acute cholecystitis, requiring prompt medical attention and possibly surgical intervention.",
+    incorrectFeedback: "While other complications could arise from acute cholecystitis, the combination of systemic symptoms and imaging findings is most suggestive of perforation."
+  },
+  {
+    question: "A 40-year-old female presents with severe right upper quadrant pain that radiates to her right shoulder, accompanied by nausea and vomiting. Which initial imaging study would be most appropriate to confirm the suspected diagnosis?",
+    options: [
+      "Magnetic resonance cholangiopancreatography (MRCP)",
+      "Endoscopic retrograde cholangiopancreatography (ERCP)",
+      "Abdominal X-ray",
+      "Abdominal ultrasound",
+      "Computed tomography (CT) of the abdomen"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Abdominal ultrasound is the preferred initial imaging modality for suspected acute cholecystitis as it is effective at detecting gallstones and gallbladder inflammation.",
+    incorrectFeedback: "Consider the most common, non-invasive, and accessible imaging option that can visualize gallstones and gallbladder wall changes effectively."
+  },
+  {
+    question: "In managing a patient with acute cholecystitis, which of the following is a critical step if sepsis is suspected?",
+    options: [
+      "Initiate broad-spectrum oral antibiotics",
+      "Perform an immediate laparoscopic cholecystectomy",
+      "Administer IV antibiotics and follow the Sepsis Six protocol",
+      "Delay treatment until culture results are available",
+      "Commence only oral anti-inflammatory medication"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Early administration of IV antibiotics and following the Sepsis Six protocol are crucial steps in managing sepsis related to cholecystitis to prevent further deterioration.",
+    incorrectFeedback: "Consider the urgency and severity of managing sepsis and the typical medical interventions necessary in this acute setting."
+  }
+]} />

@@ -1,0 +1,107 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Haemophilia A: Causes, Diagnosis, and Management
+
+Haemophilia A is a genetic disorder primarily affecting males due to a deficiency in Factor VIII, occurring in approximately 1 in 5,000 males. The disorder is X-linked, with the Factor VIII gene residing on the X chromosome. Consequently, sons of affected males are not impacted, while all daughters become carriers. Female carriers have a 50% chance of passing the condition to their sons and a 50% chance of their daughters becoming carriers. The severity of Haemophilia A is influenced by gene mutations; minor mutations typically result in mild cases, whereas large deletions lead to severe manifestations. Genetic testing, including prenatal chorionic villus sampling, is recommended for families with a history of the disorder. In rare cases, due to a process known as lyonization, some female carriers may exhibit mild symptoms.
+
+## Diagnosis
+
+The presentation of Haemophilia A varies with severity, outlined in the following table:
+
+| Severity | Factor VIII Level (U/mL) | Clinical Presentation |
+| --- | --- | --- |
+| **Mild** | `>0.05 to 0.4` | Excessive bleeding following major injuries or surgeries |
+| **Moderate** | `0.01 to 0.05` | Bleeding after minor injuries or surgeries |
+| **Severe** | `<0.01` | Spontaneous bleeding, including intracranial hemorrhage in newborns |
+
+*Source: Adapted from Davidson’s Principles and Practice of Medicine (22nd edition, pg. 1051).*
+
+### Investigations
+
+Newborn boys with a history of maternal carrier status should immediately undergo testing using cord blood to check activated thromboplastin time (APTT) and Factor VIII levels. Female descendants of affected men will be carriers, while females from carrier mothers have a 50% chance of being carriers themselves. Carrier status can be confirmed via Factor VIII or IX assays and genetic testing, which offers higher precision.
+
+In coagulation screening, only the APTT will be elevated; however, International Normalized Ratio (INR), bleeding time, and platelet count will remain normal. Post-bleeding events necessitate evaluation for thrombocytopenia and anemia.
+
+## Emergency Management
+
+For individuals with moderate to severe Haemophilia A, major hemorrhages can be life-threatening. Immediate management should follow ABCDE protocols, administering intravenous Factor VIII promptly. Urgent referral may be necessary for proper bleeding management. Tranexamic acid serves as a supplemental treatment for gastrointestinal or airway bleeds but is contraindicated if bleeding reaches the pleural space. Ensuring adequate pain relief is critical.
+
+## Management (Prescribing)
+
+Management in mild to moderate Haemophilia A focuses on treating bleeding incidents with intravenous Factor VIII infusions. Tranexamic acid, analgesics, and desmopressin (for mild cases) are also used. For acute hemarthrosis, a combined therapy of Factor VIII with rest, ice, and physiotherapy is advised.
+
+Severe cases require prophylactic infusions of either recombinant or plasma-derived Factor VIII, conducted 2-3 times weekly, under specialist supervision. An extended half-life version of Factor VIII reduces infusion frequency to every 5-7 days. Notably, 30% of patients with severe Haemophilia A may develop inhibitors against Factor VIII, necessitating higher and more frequent doses. These cases should be referred to specialized hemophilia centers.
+
+## Management (Non-Prescribing)
+
+Education is pivotal for patients with Haemophilia A, highlighting treatment strategies and bleed management techniques. Patients should avoid NSAIDs due to increased bleeding risks, opt for subcutaneous over intramuscular injections, and wear medical alert bracelets. Reducing trauma potential is essential, as joint bleeds could cause irreversible damage; physiotherapy aids in joint recovery post-injury.
+
+<Callout emoji="ℹ️">
+**Note:** Patients should be aware of their condition and treatment options, and seek professional advice regularly.
+</Callout>
+
+## References
+
+- [Best Practice BMJ: Haemophilia](https://bestpractice.bmj.com/topics/en-gb/468/pdf/468/Haemophilia.pdf)
+- [Interpreting a Coagulation Screen - Geeky Medics](https://geekymedics.com/interpreting-a-coagulation-screen/)
+- [Great Ormond Street Hospital on Haemophilia](https://www.gosh.nhs.uk/conditions-and-treatments/conditions-we-treat/haemophilia)
+- Davidson’s Principles and Practice of Medicine (22nd edition)
+- Kumar and Clarke (9th edition)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 9-year-old boy with a known family history of Haemophilia A is brought to the emergency department after sustaining a minor cut on his arm. Despite pressure application, the bleeding does not cease, and he begins showing signs of pallor and fatigue. Laboratory tests reveal a Factor VIII level of 0.02 U/mL and elevated APTT. Which of the following most accurately describes the severity of his condition?",
+    options: [
+      "Mild Haemophilia A",
+      "Moderate Haemophilia A",
+      "Severe Haemophilia A",
+      "Acute thrombocytopenia",
+      "Von Willebrand disease"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! A Factor VIII level between 0.01 and 0.05 U/mL with bleeding after minor injuries indicates Moderate Haemophilia A.",
+    incorrectFeedback: "Consider the Factor VIII level and bleeding pattern, which correlates with the severity classification of Haemophilia A."
+  },
+  {
+    question: "A newborn male who is a potential carrier of Haemophilia A undergoes initial testing. Which one of the following coagulation profiles is typical for Haemophilia A?",
+    options: [
+      "Elevated INR, normal APTT, normal bleeding time",
+      "Elevated APTT, normal INR, normal bleeding time",
+      "Normal INR, elevated APTT, prolonged bleeding time",
+      "Normal INR, normal APTT, increased platelet count",
+      "Decreased platelet count, elevated INR, normal APTT"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! In Haemophilia A, the coagulation profile shows an elevated APTT with normal INR and bleeding time.",
+    incorrectFeedback: "Focus on the specific coagulation test affected by the Factor VIII deficiency."
+  },
+  {
+    question: "A 25-year-old woman, a known carrier of Haemophilia A, is concerned about the risk to a future son. Which statement best reflects the genetic implications for her children?",
+    options: [
+      "50% of her sons will have Haemophilia A.",
+      "All her sons will be affected by Haemophilia A.",
+      "None of her sons will be affected, as the condition skips males from female carriers.",
+      "There is no risk to her daughters being carriers.",
+      "50% of her daughters will have Haemophilia A."
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! As a carrier, there is a 50% chance that each son will inherit Haemophilia A.",
+    incorrectFeedback: "Remember that Haemophilia A is X-linked; consider the inheritance patterns for an X-linked disorder."
+  },
+  {
+    question: "A 5-year-old boy with severe Haemophilia A develops hemarthrosis after a minor fall. His parents are concerned about his long-term management. Which prophylactic treatment strategy is most appropriate?",
+    options: [
+      "Oral tranexamic acid daily",
+      "Prophylactic intravenous Factor VIII infusions 2-3 times weekly",
+      "Avoidance of all physical activities",
+      "Use of NSAIDs to manage pain",
+      "Once-a-month plasma transfusions"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Prophylactic intravenous Factor VIII infusions 2-3 times weekly are essential to prevent bleeding episodes in severe Haemophilia A.",
+    incorrectFeedback: "Consider the necessity of regular Factor VIII infusions in managing severe cases to prevent spontaneous bleeding and joint damage."
+  }
+]} />

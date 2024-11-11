@@ -1,28 +1,76 @@
-Based on the article content, create 3-4 MCQs that would be appropriate at the end of the article to assess comprehension. The MCQs will be included in the MDX file, formatted as specified.
+**Objective:**
 
+Based on the article content, create 3-4 challenging USMLE-style multiple-choice questions (MCQs) to assess comprehension. The MCQs should be suitable for inclusion at the end of the MDX file and formatted as specified.
 
-**MCQs:**
+---
 
-   - At the end of the article, include an `<MCQGroup>` component.
-   - Provide 3-4 challenging USMLE-style MCQs in the style and depth of the example below.
-   - Detailed explanation as feedback if correct, and helpful hints guiding towards the answer without giving way the answer as feedback if incorrect
-   - Each question should be an object with the following properties like the example below:
+**Instructions:**
 
-     ```mdx
-     <MCQGroup questions={[
-       {
-         question: "A 67-year-old woman with a history of hypertension and type 2 diabetes presents to the emergency department with crushing chest pain. ECG shows ST-segment elevation in V1-V4. She undergoes successful primary PCI with a drug-eluting stent to the proximal LAD. Two days later, she is found to have paroxysmal atrial fibrillation with a CHA₂DS₂-VASc score of 4. Her other medications include metformin, lisinopril, and atorvastatin. Which of the following antithrombotic regimens would be most appropriate at discharge?",
-         options: [
-           "Aspirin 81mg daily + warfarin (target INR 2-3)",
-           "Aspirin 81mg daily + clopidogrel 75mg daily",
-           "Aspirin 81mg daily + clopidogrel 75mg daily + warfarin (target INR 2-3) for 6 months, then warfarin alone",
-           "Aspirin 81mg daily + clopidogrel 75mg daily + rivaroxaban 15mg daily",
-           "Apixaban 5mg twice daily + clopidogrel 75mg daily"
-         ],
-         correctAnswer: 2,
-         correctFeedback: "Correct! This patient requires both dual antiplatelet therapy (DAPT) for the recent PCI with drug-eluting stent AND anticoagulation for new-onset atrial fibrillation with a high CHA₂DS₂-VASc score. Triple therapy with DAPT plus anticoagulation is recommended initially, but should be kept as short as possible (typically 6 months for drug-eluting stents) to balance the risk of stent thrombosis against bleeding risk. After 6 months, the patient can be transitioned to warfarin monotherapy with a target INR of 2-3. The other options either omit necessary components of therapy or maintain triple therapy for too long, increasing bleeding risk unnecessarily.",
-         incorrectFeedback: "Consider the multiple competing issues in this case: 1) The need for DAPT after drug-eluting stent placement, 2) The new requirement for anticoagulation due to AF with a high CHA₂DS₂-VASc score, and 3) The need to balance antithrombotic efficacy with bleeding risk. What is the current guideline-recommended approach for managing these competing needs?"
-       },
-       // Add more questions here
-     ]} />
-     ```
+1. **MCQ Placement:**
+
+   - At the very end of the MDX article, include an `<MCQGroup>` component to contain the MCQs.
+
+2. **Question Development:**
+
+   - **Relevance:**
+     - Design questions that are directly related to the key concepts and information presented in the article.
+     - Ensure that each question tests important aspects of the topic to reinforce learning.
+   - **Difficulty Level:**
+     - Create challenging questions that reflect the style and depth of USMLE examinations.
+     - Aim for a mix of recall, application, and analysis-level questions to assess different cognitive skills.
+   - **Clinical Vignettes:**
+     - Whenever appropriate, frame questions as clinical scenarios to mimic real-life applications.
+     - Include necessary patient information such as age, gender, medical history, symptoms, and test results.
+   - **Distractors:**
+     - Provide plausible distractors (incorrect options) that reflect common misconceptions or closely related concepts.
+     - Ensure that only one option is the correct answer.
+
+3. **Feedback Provision:**
+
+   - **Correct Feedback:**
+     - Provide a detailed explanation for the correct answer.
+     - Include reasoning that reinforces understanding and connects back to the article content.
+   - **Incorrect Feedback:**
+     - Offer helpful hints or guidance that directs the learner toward the correct answer without explicitly revealing it.
+     - Address why the chosen incorrect option is not the best answer, clarifying common misunderstandings.
+
+4. **Formatting Guidelines:**
+
+   - Each question should be formatted as an object within the `<MCQGroup>` component, following the example below.
+   - Use proper MDX syntax to ensure correct rendering on the Nextra documentation website.
+   - **Important:** Your response must only include the ready-to-use MDX code block containing the `<MCQGroup>` component and nothing else. Do not include any introductory or explanatory text outside of the code block.
+   - **Response Format:**
+     - Begin your response directly with the code block.
+     - Do not include greetings, explanations, or any text before or after the code block.
+
+5. **Example Format:**
+
+   ```mdx
+   <MCQGroup questions={[
+     {
+       question: "A 67-year-old woman with a history of hypertension and type 2 diabetes presents to the emergency department with crushing chest pain. ECG shows ST-segment elevation in leads V1-V4. She undergoes successful primary percutaneous coronary intervention (PCI) with a drug-eluting stent placed in the proximal left anterior descending artery (LAD). Two days later, she develops new-onset atrial fibrillation with a CHA₂DS₂-VASc score of 4. Her medications include metformin, lisinopril, and atorvastatin. Which of the following antithrombotic regimens is most appropriate at discharge?",
+       options: [
+         "Aspirin 81 mg daily plus warfarin (INR target 2-3)",
+         "Aspirin 81 mg daily plus clopidogrel 75 mg daily",
+         "Triple therapy with aspirin, clopidogrel, and warfarin for 6 months, then warfarin alone",
+         "Aspirin 81 mg daily plus clopidogrel 75 mg daily plus rivaroxaban 15 mg daily",
+         "Apixaban 5 mg twice daily plus clopidogrel 75 mg daily"
+       ],
+       correctAnswer: 2,
+       correctFeedback: "Correct! The patient requires triple therapy with dual antiplatelet therapy (DAPT) and anticoagulation due to recent PCI with stenting and new-onset atrial fibrillation with a high stroke risk. Triple therapy should be maintained for the minimum duration necessary (usually 6 months for drug-eluting stents) to reduce bleeding risk, after which anticoagulation alone can be continued.",
+       incorrectFeedback: "Consider the need for both antiplatelet therapy to prevent stent thrombosis and anticoagulation to reduce stroke risk from atrial fibrillation. What regimen balances these requirements while minimizing bleeding risk?"
+     },
+     // Add more questions here in the same format
+   ]} />
+   ```
+
+6. **General Guidelines:**
+
+   - **Language and Clarity:**
+     - Write questions and explanations in clear, professional language suitable for medical students and professionals.
+     - Avoid ambiguous wording that could confuse the reader.
+   - **Medical Accuracy:**
+     - Ensure all clinical information and explanations are accurate and up-to-date with current medical guidelines.
+   - **Formatting Consistency:**
+     - Maintain consistent formatting for all questions and options.
+     - Use correct units, medical terminology, and abbreviations as appropriate.

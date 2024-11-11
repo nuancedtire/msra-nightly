@@ -1,0 +1,129 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Immune Thrombocytopenia (ITP)
+
+Immune Thrombocytopenia (ITP), formerly known as Immune Thrombocytopenic Purpura or Idiopathic Thrombocytopenic Purpura, is an autoimmune hematological disorder characterized by low platelet counts. This document provides an in-depth look at ITP, detailing its subtypes, clinical presentation, diagnosis, and management.
+
+## Overview of ITP
+
+ITP is divided into two main subtypes:
+
+- **Primary ITP**: Defined as isolated thrombocytopenia (`<100x10⁹/L`) without an identifiable cause.
+- **Secondary ITP**: Occurs with thrombocytopenia in the presence of an identifiable condition or medication.
+
+ITP typically affects:
+
+- Boys and girls younger than 10 years
+- Men and women over 65 years
+- Women of childbearing age
+
+The clinical presentation of ITP varies widely, from asymptomatic cases discovered during routine testing to life-threatening hemorrhages.
+
+## Diagnosis
+
+ITP is considered a diagnosis of exclusion, necessitating a comprehensive history and examination. It is confirmed through laboratory findings of isolated thrombocytopenia (`<100x10⁹/L`).
+
+**Typical signs and symptoms include:**
+
+- Petechiae
+- Bruising
+- Unexplained or easy bleeding
+- Potential fatigue related to ITP
+
+**Risk factors encompass:**
+
+- Secondary ITP-associated diseases
+- Lymphoproliferative disorders
+- HIV and Hepatitis C infections
+- Autoimmune conditions, e.g., Systemic Lupus Erythematosus
+
+Other notable risk factors are age-related (`<10 years` and `>65 years`), being a female of childbearing age, and having experienced recent viral illnesses.
+
+## Investigations
+
+Key investigations include:
+
+- **Full Blood Count (FBC)**: Identifies isolated thrombocytopenia.
+- **Peripheral Blood Smear**: Distinguishes thrombocytopenia from pseudothrombocytopenia, especially when blood is drawn using EDTA tubes.
+
+Further testing to exclude causes of secondary ITP includes screening for HIV, Hepatitis C, and possibly performing a bone marrow biopsy. Testing thyroid function (TFTs) is recommended as ITP is linked with hyperthyroidism in 8–14% of cases.
+
+## Management (Prescribing)
+
+**Conservative management** is advised for asymptomatic cases or minor bleeding:
+
+- **For children**: Observation without intervention is often sufficient.
+- **For adults**: Treatment decisions hinge on bleeding severity and platelet count. 
+  - Severe bleeding or platelet count `<30x10⁹/L` warrants corticosteroids with or without IVIG.
+  - Platelet count `>30x10⁹/L` without severe bleeding suggests observation.
+
+## Management (Non-prescribing)
+
+Management strategies are influenced by the disease severity and laboratory results. Approximately 80% of children may achieve spontaneous remission. However, older patients and those unresponsive to treatment may face higher mortality risks. Observation is recommended for minor bleeding or asymptomatic cases, with a specialist consultation advised for chronic ITP cases.
+
+<Callout emoji="⚠️">
+**Warning:** Always assess the patient's bleeding risk and consult specialists for chronic cases or when standard treatments are ineffective.
+</Callout>
+
+## References
+
+1. BMJ Best Practice: Scully M. Immune Thrombocytopenia. BMJ Best Practice. March 2019. [Link to source](https://bestpractice.bmj.com/topics/en-gb/138).
+2. Bussel JB. Immune thrombocytopenia (ITP) in children: Clinical features and diagnosis. April 2020. UpToDate. [Link to source](https://www.uptodate.com/contents/immune-thrombocytopenia-itp-in-children-clinical-features-and-diagnosis).
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 5-year-old boy presents with petechiae and bruising. He appears otherwise healthy, and his blood tests reveal isolated thrombocytopenia with a platelet count of 50x10⁹/L. He recently had a mild viral illness. Based on the typical management of Immune Thrombocytopenia (ITP) in children, what is the most appropriate next step in management?",
+    options: [
+      "Initiate corticosteroid therapy",
+      "Administer Intravenous Immunoglobulin (IVIG)",
+      "Observe without intervention",
+      "Perform a bone marrow biopsy",
+      "Start platelet transfusion"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! In children with ITP, especially those who have mild symptoms and no severe bleeding, observation without intervention is often sufficient as spontaneous remission is common.",
+    incorrectFeedback: "Consider the mild nature of the symptoms and the high likelihood of spontaneous remission in children with ITP."
+  },
+  {
+    question: "A 72-year-old woman presents with mucosal bleeding and a platelet count of 20x10⁹/L. She has a history of Systemic Lupus Erythematosus (SLE). Which condition is most likely responsible for her thrombocytopenia?",
+    options: [
+      "Primary ITP",
+      "Secondary ITP due to SLE",
+      "Heparin-induced thrombocytopenia",
+      "Thrombotic thrombocytopenic purpura (TTP)",
+      "Aplastic anemia"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Secondary ITP is the best explanation for thrombocytopenia in this patient as it is associated with autoimmune conditions like SLE.",
+    incorrectFeedback: "Think about the role SLE plays as a risk factor for secondary forms of Immune Thrombocytopenia."
+  },
+  {
+    question: "A 30-year-old woman presents with easy bruising and a platelet count of 95x10⁹/L without any other abnormalities on her full blood count. Her medical history is significant for hyperthyroidism. What additional blood test might be particularly informative to support a full diagnosis?",
+    options: [
+      "Liver function tests",
+      "Thyroid function tests",
+      "Coagulation profile",
+      "Vitamin B12 levels",
+      "Serum ferritin"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Thyroid function tests are relevant as ITP has been associated with hyperthyroidism in a subset of patients.",
+    incorrectFeedback: "Consider the known association between immune thrombocytopenia and endocrine disorders such as hyperthyroidism."
+  },
+  {
+    question: "Which patient demographic is least commonly affected by Immune Thrombocytopenia (ITP)?",
+    options: [
+      "Boys younger than 10 years",
+      "Girls younger than 10 years",
+      "Women of childbearing age",
+      "Men over 65 years",
+      "Men of childbearing age"
+    ],
+    correctAnswer: 4,
+    correctFeedback: "Correct! ITP commonly affects boys and girls younger than 10, women of childbearing age, and individuals over 65. Men of childbearing age are not mentioned as a common affected demographic.",
+    incorrectFeedback: "Review the demographics mentioned in the article to determine the common age and gender groups affected by ITP."
+  }
+]} />

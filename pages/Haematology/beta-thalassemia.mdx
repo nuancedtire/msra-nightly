@@ -1,0 +1,161 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Beta-Thalassemia
+
+Beta-thalassemia is an **autosomal blood disorder** resulting from mutations in the beta-globin (HBB) gene. This leads to a deficiency in beta-globin, substantially reducing the production of hemoglobin and causing microcytic anemia. The lack of beta-globin chains can cause **hemolysis**, resulting in jaundice and secondary iron overload (*hemachromatosis*) due to increased red blood cell production. This consequent excessive production can lead to *hepato-splenomegaly* and distinct facial features like frontal and parietal bossing.
+
+Beta-thalassemia is most prevalent in regions such as the Mediterranean, Southeast Asia, Northern Africa, the Middle East, and India.
+
+## Types of Beta-Thalassemia
+
+Beta-thalassemia manifests in three different forms, categorized by severity:
+
+- **Thalassemia Major (Cooley’s Anemia)**
+  - **Severity:** Most severe type.
+  - **Symptoms:** Severe anemia and hepatosplenomegaly.
+
+- **Thalassemia Intermedia**
+  - **Severity:** Moderate with lesser anemia.
+  - **Treatment Needs:** Generally does not require regular blood transfusions.
+  
+- **Thalassemia Minor**
+  - **Genetic Pattern:** Carrier status with a single HBB gene mutation.
+  - **Symptoms:** Mostly asymptomatic but may experience mild anemia.
+
+## Diagnosis
+
+### Screening
+
+- **During Pregnancy:** Offered to all women.
+- **Newborns:** Conducted via a heel prick test.
+
+### Symptoms
+
+**Beta-Thalassemia Major:**
+
+- **Onset:** Before the age of 2, usually noticeable from 3-6 months.
+- **Symptoms of Anemia:**
+  - Fatigue and weakness
+  - Shortness of breath
+  - Pale complexion
+  - Heart palpitations
+- **Complications from Hemolysis:** 
+  - Jaundice and abdominal swelling due to hepatosplenomegaly.
+  - Delayed growth and small stature.
+  - Chipmunk facies.
+  - Hemochromatosis symptoms: pericarditis, arrhythmias, diabetes mellitus, cirrhosis, and hypothyroidism.
+
+<details>
+<summary>Thalassemia Intermediate & Minor</summary>
+
+- **Thalassemia Intermedia:** Symptoms appear later with milder conditions.
+- **Thalassemia Minor:** Typically asymptomatic.
+</details>
+
+## Investigations
+
+Diagnosis typically involves several blood tests:
+
+- **Complete Blood Count (CBC):**
+  - Reveals microcytic anemia characterized by decreased hemoglobin levels and mean corpuscular volume (MCV).
+
+- **Peripheral Blood Smear:**
+  - Identifies microcytic, hypochromic red cells with target cells.
+
+- **Hemoglobin Electrophoresis:**
+  - **Beta-Thalassemia Major:** Little to no HbA; increased HbF and HbA2.
+  - **Beta-Thalassemia Intermedia:** Reduced HbA; elevated HbF and HbA2.
+  - **Beta-Thalassemia Minor:** Mainly HbA with slight increases in HbF and HbA2.
+
+- **Additional Tests:**
+  - Elevated LFTs, LDH, and bilirubin in major and intermediate types.
+  - Genetic testing confirms diagnosis.
+  - Skull X-rays may show bone deformities, indicating thalassemia.
+  - Abdominal ultrasonography can reveal liver and spleen enlargement for major and intermediate types.
+
+## Management
+
+### Medical Treatment
+
+- **Folic Acid Supplements:** Help develop normal red blood cells.
+- **Iron Chelation Therapy:** Prevents dangerous complications due to iron overload from frequent blood transfusions.
+  - Agents include Deferasirox, Desferrioxamine, and Deferiprone.
+
+**Note:** Thalassemia Minor rarely requires treatment.
+
+### Non-Medical Management
+
+- **Stem Cell Transplant:** The only cure, requiring HLA typing to find a suitable donor.
+- **Regular Blood Transfusions:** Essential for severe cases like beta-thalassemia major (and occasionally intermedia), aiming to maintain hemoglobin levels conducive to normal growth.
+- **Splenectomy:** Considered for patients with significant splenomegaly.
+
+A healthy lifestyle involving a balanced diet, limited alcohol consumption, no smoking, and regular exercise is crucial.
+
+<Callout emoji="⚠️">
+**Warning:** Monitor patient's iron levels closely during frequent transfusions to prevent iron toxicity.
+</Callout>
+
+### References
+
+- [NHS: Thalassemia](https://www.nhs.uk/conditions/thalassaemia/)
+- [Rare Diseases: Beta-Thalassemia](https://rarediseases.info.nih.gov/diseases/871/beta-thalassemia)
+- [NHLBI: Thalassemias](https://www.nhlbi.nih.gov/health-topics/thalassemias)
+- [BMJ Best Practice: Thalassemia](https://bestpractice.bmj.com/topics/en-gb/251)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 1-year-old male presents with jaundice, abdominal distension, and weakness. Physical examination reveals hepatosplenomegaly and characteristic craniofacial features including frontal bossing. Laboratory tests indicate severe microcytic anemia and low levels of HbA with elevated HbF and HbA2. Which type of beta-thalassemia does this child most likely have?",
+    options: [
+      "Beta-thalassemia minor",
+      "Beta-thalassemia intermedia",
+      "Beta-thalassemia major",
+      "Sickle cell disease",
+      "Iron deficiency anemia"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The presentation is consistent with beta-thalassemia major, which manifests early in life with severe anemia, hepatosplenomegaly, and craniofacial bone marrow expansion due to ineffective erythropoiesis and resultant bone marrow hyperplasia.",
+    incorrectFeedback: "Reconsider the timing of symptom onset and severity of anemia. Beta-thalassemia major is characterized by severe symptoms and an early onset."
+  },
+  {
+    question: "In a 5-month-old infant with suspected beta-thalassemia major, which laboratory finding would you expect to be most pronounced on hemoglobin electrophoresis?",
+    options: [
+      "Normal levels of HbA",
+      "Normal levels of HbF",
+      "Increased levels of HbA2",
+      "Increased levels of HbF",
+      "Decreased levels of HbA2"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Beta-thalassemia major typically presents with increased levels of fetal hemoglobin (HbF) as a compensatory mechanism due to the lack of beta-globin chains for adult hemoglobin (HbA) production.",
+    incorrectFeedback: "Consider which hemoglobin variant compensates for the defective production of HbA in beta-thalassemia major. Look for changes in HbF levels."
+  },
+  {
+    question: "A 25-year-old woman with beta-thalassemia intermedia presents with fatigue and mild jaundice. Laboratory investigations reveal increased liver enzymes and bilirubin levels. What is the most likely cause of her elevated bilirubin?",
+    options: [
+      "Bilirubin overproduction due to hemolysis",
+      "Liver cirrhosis",
+      "Iron deficiency anemia",
+      "Process of oxidative damage",
+      "Hepatitis B infection"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! In beta-thalassemia intermedia, elevated bilirubin levels are often due to chronic hemolysis, which leads to overproduction of bilirubin as part of red blood cell breakdown.",
+    incorrectFeedback: "Consider the known effects of chronic hemolysis in beta-thalassemia, particularly in relation to bilirubin metabolism."
+  },
+  {
+    question: "Which of the following treatments is crucial for managing iron overload in a patient requiring regular blood transfusions for beta-thalassemia major?",
+    options: [
+      "Folic acid supplementation",
+      "Iron chelation therapy",
+      "Splenectomy",
+      "Erythropoietin injections",
+      "Hydroxyurea administration"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Iron chelation therapy is critical in preventing iron overload in patients receiving frequent blood transfusions, as excess iron from transfusions can deposit in and damage organs without proper management.",
+    incorrectFeedback: "Think about how to specifically manage iron overload, which is a common complication from regular blood transfusions in thalassemia major."
+  }
+]} />

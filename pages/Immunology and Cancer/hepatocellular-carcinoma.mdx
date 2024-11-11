@@ -1,0 +1,144 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Hepatocellular Carcinoma (HCC)
+
+Hepatocellular carcinoma (HCC) cases have been steadily increasing around the world, with a recorded incidence rate of approximately 3:100,000 in high-income countries, rising to 78:100,000 in certain Asian and African regions. This discrepancy is largely attributed to the higher prevalence of Hepatitis C Virus (HCV) and Hepatitis B Virus (HBV) infections, which lead to chronic liver disease, significantly raising the risk of HCC. Additional risk factors for chronic liver disease include:
+
+- **Intravenous drug use** (anabolic steroids)
+- **Aflatoxins**
+- **Excessive alcohol intake**
+- **Obesity**
+- **Diabetes**
+- **Hypertension**
+
+HCC is responsible for approximately 90% of primary liver cancer cases.
+
+## Diagnosis
+
+### Signs and Symptoms of Chronic Liver Disease:
+
+- **Jaundice**
+- **Ascites**
+- **Encephalopathy**
+- **Bleeding**
+- **Splenomegaly**
+
+### Additional Symptoms of Liver Tumors:
+
+- **Fever**
+- **Malaise**
+- **Anorexia**
+- **Weight loss**
+- **Abdominal mass**
+
+Individuals with liver cirrhosis or chronic HCV or HBV infections should undergo HCC screening via abdominal ultrasound and serum alpha-fetoprotein (AFP) testing every six months. The diagnosis can be confirmed through histopathological analysis or based on imaging criteria in patients with cirrhosis using CT or MRI.
+
+### Staging of HCC (TNM Classification):
+
+#### T – Tumor
+- **TX**: Primary tumor cannot be assessed
+- **T0**: No evidence of primary tumor
+- **T1**: Solitary tumor `≤2 cm` with or without vascular invasion
+- **T1b**: Solitary tumor `>2 cm` without vascular invasion
+- **T2**: Solitary tumor `>2 cm` with vascular invasion, or multiple tumors (none `>5 cm`)
+- **T3**: Multiple tumors with at least one `>5 cm`
+- **T4**: Tumors involving portal or hepatic vein with direct invasion of adjacent organs (excluding the gallbladder) or perforation of visceral peritoneum
+
+#### N – Regional Lymph Nodes
+- **NX**: Regional lymph nodes cannot be assessed
+- **N0**: No regional lymph node metastasis
+- **N1**: Regional lymph node metastasis
+
+#### M – Distant Metastasis
+- **M0**: No distant metastasis
+- **M1**: Distant metastasis
+
+## Investigations
+
+- **History and Clinical Examination**: Identify risk factors and symptoms of chronic liver disease such as sudden weight loss.
+- **HBsAg and Anti-HBc, Anti-HCV**: Determine etiology.
+- **Laboratory Tests**: Prothrombin, albumin, bilirubin levels, and full blood count, including platelets and clotting factors, to assess liver function.
+- **Serum AFP**: Tumor marker elevated in 50-80% of HCC cases; levels do not correlate with disease severity.
+- **Imaging**: Multi-phase MRI or CT scans confirm diagnosis and assess disease extent.
+- **Tumor Biopsy**: Confirms diagnosis, unnecessary in patients with cirrhosis and typical imaging findings.
+
+## Management
+
+### Prescribing
+
+- **HBV Prevention**: As recommended by the World Health Organization, all children should receive three doses of the HBV vaccine at 0, 1, and 6 months.
+- **In patients with HCC tumors `<3 cm` and preserved liver function**: Radical surgical resection, thermal ablation, and/or liver transplant offer the best 5-year survival rate of 70%.
+- **Advanced HCC Treatment**: First-line treatment includes transarterial chemoembolization. Other options are stereotactic body radiotherapy, brachytherapy, selective internal radiotherapy, systemic chemotherapy (Sorafenib, Lenvatinib), and immunotherapy (Nivolumab, Pembrolizumab).
+
+### Non-Prescribing
+
+- Address treatable causes of chronic liver disease with appropriate treatment.
+- Advise all patients to limit or avoid alcohol consumption.
+- Recommend dietary and lifestyle changes for patients with metabolic syndrome.
+
+<Callout emoji="⚠️">
+**Warning:** Continuous monitoring of vital signs is critical during all procedures.
+</Callout>
+
+## References
+
+- [ESMO Guidelines for Gastrointestinal Cancers: Hepatocellular Carcinoma](https://www.esmo.org/guidelines/gastrointestinal-cancers/hepatocellular-carcinoma)
+- Oxford Handbook for Clinical Medicine, 10th Edition
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 55-year-old male with a history of chronic Hepatitis B infection presents with jaundice, ascites, and weight loss. Abdominal ultrasound reveals a liver mass, and serum alpha-fetoprotein (AFP) levels are elevated. A CT scan shows a solitary liver tumor with vascular invasion. Based on the TNM classification, what is the T stage of this tumor?",
+    options: [
+      "T1",
+      "T1b",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! A solitary tumor with vascular invasion corresponds to T2 stage in the TNM classification for hepatocellular carcinoma.",
+    incorrectFeedback: "Review the criteria for staging liver tumors. This tumor has vascular invasion, which distinguishes its classification from T1."
+  },
+  {
+    question: "A 48-year-old woman with obesity and type 2 diabetes is undergoing regular screening for hepatocellular carcinoma (HCC) due to her risk factors. Which of the following is most appropriate for HCC screening in this patient?",
+    options: [
+      "Serum alpha-fetoprotein measurement every year",
+      "Abdominal ultrasound and serum alpha-fetoprotein measurement every six months",
+      "CT scan every two years",
+      "MRI scan every year",
+      "Abdominal palpation and serum alpha-fetoprotein measurement every six months"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! For individuals with high risk of HCC such as those with risk factors like obesity and type 2 diabetes, an abdominal ultrasound combined with serum alpha-fetoprotein measurement every six months is recommended for effective screening.",
+    incorrectFeedback: "Consider the frequency and combination of screening methods that would provide the most sensitive detection of HCC in high-risk individuals."
+  },
+  {
+    question: "A 63-year-old patient with a known chronic Hepatitis C infection presents with malaise and abdominal mass. Imaging studies confirm the presence of multiple liver tumors, one of which is greater than 5 cm. What is the appropriate TNM classification for this presentation?",
+    options: [
+      "T2",
+      "T3",
+      "N1",
+      "M1",
+      "T4"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Multiple tumors with at least one tumor greater than 5 cm classify as T3 in the TNM system for hepatocellular carcinoma.",
+    incorrectFeedback: "Examine the details of tumor size and number for proper staging according to the TNM classification."
+  },
+  {
+    question: "An adult has been diagnosed with a <3 cm hepatocellular carcinoma with preserved liver function. What is the best treatment option to maximize the 5-year survival rate in this case?",
+    options: [
+      "Transarterial chemoembolization",
+      "Radical surgical resection",
+      "Systemic chemotherapy",
+      "Stereotactic body radiotherapy",
+      "Thermal ablation"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! For small tumors (<3 cm) with preserved liver function, radical surgical resection offers the best prognosis and highest 5-year survival rate.",
+    incorrectFeedback: "Consider the treatment options that offer curative potential for small-sized hepatocellular carcinoma with good liver function."
+  }
+]} />

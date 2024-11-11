@@ -1,0 +1,58 @@
+{
+  "---1": {
+    "type": "separator",
+    "title": "Upper GI Conditions"
+  },
+  "gord": "🔥 GORD",
+  "gastric-ulcer": "🤕 Gastric Ulcer",
+  "h-pylori": "🦠 H. Pylori",
+
+  "---2": {
+    "type": "separator",
+    "title": "Lower GI Conditions"
+  },
+  "irritable-bowel-syndrome": "🌀 IBS",
+  "diverticular-disease": "💭 Diverticular Disease",
+  "anal-fissures": "💔 Anal Fissures",
+  "caecal-carcinoma": "🎗️ Caecal Carcinoma",
+
+  "---3": {
+    "type": "separator",
+    "title": "Inflammatory Bowel Disease"
+  },
+  "crohns-disease": "🔍 Crohn's Disease",
+  "ulcerative-colitis": "🎯 Ulcerative Colitis",
+
+  "---4": {
+    "type": "separator",
+    "title": "Hepatobiliary"
+  },
+  "gallstones": "💎 Gallstones",
+  "cholecystitis": "🔴 Cholecystitis",
+  "ascending-cholangitis": "⚡ Ascending Cholangitis",
+  "primary-biliary-cholangitis": "🟡 Primary Biliary Cholangitis",
+  "primary-sclerosing-cholangitis": "📊 Primary Sclerosing Cholangitis",
+  "hepatitis-b": "🅱️ Hepatitis B",
+  "hepatitis-c": "©️ Hepatitis C",
+
+  "---5": {
+    "type": "separator",
+    "title": "Pancreatic Disorders"
+  },
+  "pancreatitis": "💫 Pancreatitis",
+  "pancreatic-cancer": "⚠️ Pancreatic Cancer",
+
+  "---6": {
+    "type": "separator",
+    "title": "Acute Conditions"
+  },
+  "acute-mesenteric-ischaemia": "🚨 Acute Mesenteric Ischaemia",
+  "appendicitis": "🔪 Appendicitis",
+  "gastroenteritis": "🦠 Gastroenteritis",
+
+  "---7": {
+    "type": "separator",
+    "title": "Other"
+  },
+  "nutritional-deficiency": "🥗 Nutritional Deficiency"
+}
