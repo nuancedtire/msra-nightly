@@ -1,0 +1,166 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Mitral Stenosis: Overview and Management
+
+## Definition
+
+**Mitral stenosis** is characterized by the narrowing of the space between the mitral valve leaflets. The primary cause is often **rheumatic fever** (95%), but other causes may include:
+
+- Age-related calcification
+- Congenital deformity of the valve
+- Carcinoid syndrome
+- Systemic lupus erythematosus (SLE)
+- Amyloidosis
+- Drug use
+
+## Diagnosis
+
+Patients with mild mitral stenosis are frequently asymptomatic. Symptoms emerge when blood flow reduction from the left atrium to the left ventricle is severe enough to cause **left heart failure (LHF)**, leading to increased left atrial pressure and pulmonary congestion.
+
+### Common Symptoms
+
+- Gradually increasing **dyspnoea** (shortness of breath) on exertion
+- **Orthopnoea**: shortness of breath while lying flat, requiring patients to sleep in an upright position or with multiple pillows
+- **Paroxysmal nocturnal dyspnoea**: shortness of breath or coughing that awakens patients from sleep
+- **Palpitations**: compensatory heart rate increase due to weak contractility, may become irregular
+- **Haemoptysis**: cough with frothy pink sputum
+
+As LHF progresses, symptoms of **right heart failure (RHF)** may occur due to pulmonary hypertension:
+
+- **Peripheral oedema**
+
+### Physical Examination Findings
+
+- **Malar flush** on the cheeks
+- **Murmur**:
+  - A mid-diastolic, rumbling low-pitch murmur preceded by an opening snap
+  - Best heard at the apex (left 5th intercostal space, mid clavicular line) when the patient is lying in the left lateral position
+  - Accentuated by handgrip exercises
+  - Associated with a loud S1
+- **Tapping apex beat**
+- Signs of LHF:
+  - Irregularly irregular pulse (atrial fibrillation)
+  - Coarse end-inspiratory crackles (pulmonary oedema)
+  - Loud P2 (pulmonary hypertension)
+- Signs of RHF:
+  - **Pitting oedema** in lower limbs or sacrum if bed-bound
+  - **Ascites**
+  - **Raised JVP**
+
+## Investigations
+
+- **ECG Findings**:
+  - Irregularly irregular rhythm with no P waves (atrial fibrillation)
+  - **P mitrale**: bifid or M-shaped P waves in lead II, V1–V6 (left atrial enlargement)
+  - Right axis deviation with dominant R wave in V1 and S wave in V6 (right ventricular hypertrophy)
+
+- **Chest X-ray** Findings:
+  - Signs of pulmonary oedema
+  - Double shadow in right cardiac border suggesting left atrial enlargement
+  - Calcification of the mitral valve
+
+- **Transthoracic echocardiography**: First-line to diagnose mitral stenosis, measure mitral orifice area, and assess pulmonary artery pressure.
+
+- **Other Tests**:
+  - **Transoesophageal echocardiography**: indicated if the diagnosis is unclear or to check for thrombus prior to valvotomy
+  - **Cardiac catheterisation**: indicated if echocardiography is insufficient and surgical intervention is planned
+  - **Dynamic exercise testing**: performed if symptoms exceed what stenosis indicates, to decide necessity of surgical intervention.
+
+## Management (Prescribing)
+
+- **Diuretics**: Reduce left atrial pressure, prescribed as first-line for mild symptoms (e.g., furosemide, bumetanide).
+  
+- **Surgical intervention**: Required for more severe symptoms. Post-repair, patients may need anticoagulation (e.g., **warfarin**) monitored at six-week intervals to maintain an INR of:
+  - `2-3` (or `2.5-3.5` for mechanical valves).
+
+## Management (Non-Prescribing)
+
+Management depends on the severity of the disease:
+
+- **No therapy** for asymptomatic disease with a gradient across the mitral valve `<5mmHg` and valve area `>1.5cm2`.
+
+- If asymptomatic but severe disease (gradient `>5mmHg`, valve area `<1.5cm2`), percutaneous balloon mitral valvotomy may be indicated if:
+  - Valve area `<1.0 cm2` + favorable valve anatomy
+  - Valve area `<1.0 cm2` + atrial fibrillation
+  - Presence of pulmonary hypertension
+
+- If severe and symptomatic (gradient `>5mmHg`, valve area `<1.5cm2`), intervention is combined with diuretics. Valve repair options are considered based on the following features graded from 1 (most anatomical) to 4 (most pathological):
+
+  - Valve mobility
+  - Calcification
+  - Leaflet thickness
+  - Subvalvular apparatus
+
+### Repair Options
+
+- **Percutaneous balloon mitral valvotomy**: For valves with a score `<9`, also suitable for patients not fit for open surgery.
+  
+- **Open valve replacement**: Preferred for valves with a score `>9`, with considerations on anticoagulation:
+  - Mechanical valves require lifelong anticoagulation.
+  - Prosthetic valves usually require anticoagulation for only 3 to 6 months but may need repeat replacement.
+
+- **Valve repair (open valve commissurotomy)**: Less commonly used.
+
+Patients are monitored annually to ensure resolution of symptoms.
+
+## References
+
+[Best Practice: Mitral Stenosis Management](https://bestpractice.bmj.com/topics/en-gb/323/pdf/323.pdf)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 62-year-old female presents to the clinic with complaints of increasing shortness of breath and palpitations. On examination, her blood pressure is 130/80 mmHg, and she has a loud S1 with a mid-diastolic murmur best heard at the apex. An ECG shows P mitrale. Which of the following is the most likely underlying cause of her symptoms?",
+    options: [
+      "Age-related calcification of the mitral valve",
+      "Rheumatic fever",
+      "Dilated cardiomyopathy",
+      "Congenital mitral valve defect",
+      "Carcinoid syndrome"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! In this case, while rheumatic fever is a common cause of mitral stenosis, P mitrale on ECG, a loud S1, and a mid-diastolic murmur in a patient in her 60s suggest that age-related calcification is the likely underlying cause.",
+    incorrectFeedback: "Consider the patient's age and presentation. While rheumatic fever is a significant cause of mitral stenosis, it is more common in younger individuals. Reflect on other possible etiologies that become more prevalent with aging."
+  },
+  {
+    question: "A patient with severe mitral stenosis is being considered for percutaneous balloon mitral valvotomy. Which of the following criteria must be met for this intervention to be indicated?",
+    options: [
+      "Mitral valve area greater than 1.5 cm²",
+      "Presence of atrial fibrillation",
+      "Mitral valve area less than 1.0 cm² with favorable valve anatomy",
+      "Young age under 40 years",
+      "Significant left ventricular hypertrophy"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! For percutaneous balloon mitral valvotomy to be indicated, the mitral valve area must be less than 1.0 cm² in the presence of favorable valve anatomy. Atrial fibrillation can also indicate this procedure.",
+    incorrectFeedback: "Think about the specific parameters for percutaneous procedures and the anatomical considerations. What conditions help to identify whether this patient's mitral stenosis is appropriate for a balloon valvotomy?"
+  },
+  {
+    question: "A 70-year-old man with a history of rheumatic heart disease presents with progressive dyspnea and paroxysmal nocturnal dyspnea. An echocardiogram reveals a mitral valve area of 0.9 cm² and significant left atrial enlargement. What initial management should be considered for this patient?",
+    options: [
+      "Initiation of anticoagulation therapy with warfarin",
+      "Percutaneous balloon mitral valvotomy",
+      "Diuretics to alleviate symptoms of heart failure",
+      "Surgical valve replacement",
+      "Cardiac catheterization"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Diuretics are appropriate as they help to reduce left atrial pressure and relieve heart failure symptoms. Anticoagulation may be indicated later, but alleviating symptoms is the priority.",
+    incorrectFeedback: "Reflect on the symptoms presented and how they relate to left heart failure. What are the immediate measures that can help manage acute heart failure before considering more invasive interventions?"
+  },
+  {
+    question: "A patient with mitral stenosis undergoes successful percutaneous balloon mitral valvotomy. What is the most important postoperative management concern regarding anticoagulation?",
+    options: [
+      "All patients require lifelong warfarin therapy",
+      "Monitoring INR for an INR target of 2-3 for mechanical valves",
+      "Postoperative anticoagulation is not required after valvotomy",
+      "Anticoagulation is only needed if atrial fibrillation is present",
+      "INR monitoring should occur every 2 weeks indefinitely"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Following surgical intervention, patients with mechanical valves usually require lifelong anticoagulation, while those with prosthetic valves may require anticoagulation for only 3 to 6 months. It's crucial to monitor INR appropriately for mechanical valves.",
+    incorrectFeedback: "Think carefully about the nature of the procedure and the indications for anticoagulation in both mechanical and bioprosthetic valves. Consider the necessity of ongoing monitoring for potential thrombotic or hemorrhagic complications post-operatively."
+  }
+]} />

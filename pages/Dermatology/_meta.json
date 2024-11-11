@@ -1,0 +1,67 @@
+{
+  "---1": {
+    "type": "separator",
+    "title": "Skin Cancer"
+  },
+  "melanoma": "🔬 Melanoma",
+  "subtypes-of-malignant-melanoma": "📊 Melanoma Subtypes",
+  "basal-cell-carcinoma": "⭕ Basal Cell Carcinoma",
+  "squamous-cell-carcinoma": "📍 Squamous Cell Carcinoma",
+  "bowens-disease": "🔲 Bowen's Disease",
+  "lentigo-maligna": "⚫ Lentigo Maligna",
+  "kaposis-sarcoma": "💜 Kaposi's Sarcoma",
+
+  "---2": {
+    "type": "separator",
+    "title": "Common Skin Conditions"
+  },
+  "acne-vulgaris": "😔 Acne Vulgaris",
+  "rosacea": "😊 Rosacea",
+  "psoriasis": "🔴 Psoriasis",
+  "atopic-dermatitis": "🌿 Atopic Dermatitis",
+  "atopic-eczema": "🧴 Atopic Eczema",
+  "discoid-eczema": "⭕ Discoid Eczema",
+  "contact-dermatitis": "🤚 Contact Dermatitis",
+  "allergic-contact-dermatitis": "🚫 Allergic Contact Dermatitis",
+  "lichen-planus": "📱 Lichen Planus",
+  "lichen-sclerosus": "⚪ Lichen Sclerosus",
+
+  "---3": {
+    "type": "separator",
+    "title": "Ulcers & Wounds"
+  },
+  "pressure-ulcers": "🛏️ Pressure Ulcers",
+  "venous-ulcer": "🦿 Venous Ulcer",
+  "arterial-ulcers": "🔄 Arterial Ulcers",
+  "marjolins-ulcer": "⚠️ Marjolin's Ulcer",
+  "burns": "🔥 Burns",
+  "keloid-scar": "➰ Keloid Scar",
+
+  "---4": {
+    "type": "separator",
+    "title": "Infections & Infestations"
+  },
+  "athletes-foot": "🦶 Athlete's Foot",
+  "scabies": "🔍 Scabies",
+  "skin-changes-in-human-immunodeficiency-virus-hiv": "🦠 HIV Skin Changes",
+
+  "---5": {
+    "type": "separator",
+    "title": "Diagnostic Guides"
+  },
+  "identifying-rashes": "🔍 Identifying Rashes",
+  "identifying-rashes-and-skin-lesions": "🔎 Rashes & Lesions Guide",
+  "skin-lesions": "⭕ Skin Lesions",
+  "causes-of-nail-changes": "💅 Nail Changes",
+
+  "---6": {
+    "type": "separator",
+    "title": "Other Conditions"
+  },
+  "actinic-keratoses": "☀️ Actinic Keratoses",
+  "henoch-schonlein-purpura": "💉 Henoch-Schönlein Purpura",
+  "melanocytic-naevus": "⚫ Melanocytic Naevus",
+  "peutz-jeghers-syndrome": "🧬 Peutz-Jeghers Syndrome",
+  "pyogenic-granuloma": "🔴 Pyogenic Granuloma",
+  "stevens-johnson-syndrome": "⚡ Stevens-Johnson Syndrome"
+}

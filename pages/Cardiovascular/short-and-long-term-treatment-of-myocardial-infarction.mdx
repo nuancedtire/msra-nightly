@@ -1,0 +1,156 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Management of Acute Coronary Syndromes (ACS)
+
+## Introduction
+
+The management of **Acute Coronary Syndromes (ACS)** is a common scenario encountered by junior doctors. It is imperative to utilize an **ABCDE approach** while managing patients presenting with ACS.
+
+## Key Management Points in Suspected Myocardial Infarction (MI)
+
+1. **Aspirin**:
+   - Administer **300mg orally** immediately, followed by **75mg once daily**.
+  
+2. **Oxygen**:
+   - Administer **only if oxygen saturations are `SpO2 <90%`**.
+  
+3. **Morphine**:
+   - Administer **2-4mg IV** every `5-15 minutes` until adequate pain control is achieved.
+  
+4. **Glyceryl Trinitrate**:
+   - If not hypotensive, administer **0.3-1mg sublingually**, up to **3 times**; may also be given IV.
+  
+5. **P2Y12 Inhibitors**:
+   - First-line options include **ticagrelor**, **prasugrel**, or **cangrelor**.
+   - **Clopidogrel** is a second-line option but is considered inferior to the first-line alternatives.
+
+<Callout>
+  The management points can be remembered using the mnemonic **MONAC** (Morphine, Oxygen, Nitrates, Aspirin, Clopidogrel). However, *it's essential to note that up-to-date guidelines do not recommend oxygen supplementation routinely unless hypoxia is present.*
+</Callout>
+
+## Revascularization
+
+Revascularization is the **gold standard** in the management of ACS:
+
+- **Percutaneous Coronary Intervention (PCI)** is preferred.
+- **Coronary Artery Bypass Grafting (CABG)** is used if PCI fails.
+- If PCI is not available within **90 minutes**, **thrombolysis** can be employed if still within `12 hours` of symptom onset, using agents like:
+  - Reteplase
+  - Alteplase
+  - Tenecteplase
+
+### Contraindications for Thrombolysis
+
+- **Active bleeding**
+- **Ischemic stroke** within the past **3 months**
+- **Previous intracranial hemorrhage**
+
+## Emergency Setting Treatments
+
+In an emergency setting, consider the following treatments:
+
+- **Anticoagulation**: 
+  - **Unfractionated heparin** is the preferred anticoagulant to be used prior to PCI, in addition to antiplatelet therapy.
+  
+- **Glucose Control**:
+  - If blood glucose is elevated, **IV insulin** may be administered.
+  
+- **Inotrope Support**:
+  - Patients in low cardiac output states or **cardiogenic shock** may benefit from a **dobutamine infusion**.
+  
+- **Beta-Blockers**:
+  - Should be initiated as soon as possible, as they decrease infarction size. *Caution should be applied in cases of heart failure, hypotension, bradycardia, and asthma.*
+
+## Long-term Treatments
+
+Long-term management of ACS includes:
+
+- **Dual Antiplatelet Therapy**:
+  - **Aspirin** and either **ticagrelor** or **prasugrel** is preferred for at least **12 months** (aspirin is given indefinitely while ticagrelor/prasugrel is for at least **12 months**).
+  
+- **ACE Inhibitor**
+- **Beta-Blocker**
+- **Statin**
+
+<details>
+<summary>Common Signs and Symptoms</summary>
+
+- **Chest Pain**:
+  - Crushing or pressure-like
+  - May radiate to left arm, jaw, or back
+  - Often accompanied by sweating
+
+- **Respiratory**:
+  - Shortness of breath
+  - Rapid breathing
+  - Orthopnea
+
+- **Other Symptoms**:
+  - Nausea and vomiting
+  - Fatigue
+  - Light-headedness
+  - Anxiety
+
+</details>
+
+## References
+
+- BMJ Best Practice, ‘ST-elevation myocardial infarction’ (2019). [Available at:](https://bestpractice.bmj.com/topics/en-gb/150/treatment-algorithm#drugDbPop_a37dcf97-a50b-4776-ad01-6fd4a31bb295_en-gb)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 55-year-old man presents to the emergency department with severe chest pain radiating to his left arm. An ECG shows ST-segment elevation in leads II, III, and aVF. What is the most appropriate initial treatment for this patient?",
+    options: [
+      "Oral aspirin 325 mg",
+      "IV nitroglycerin",
+      "Fibrinolytic therapy",
+      "Oral clopidogrel 300 mg",
+      "IV morphine"
+    ],
+    correctAnswer: 5,
+    correctFeedback: "Correct! IV morphine should be administered for pain relief in acute myocardial infarction, as it also helps reduce myocardial oxygen demand. It's essential to provide adequate pain control as part of initial management.",
+    incorrectFeedback: "Consider the immediate need for pain management in this patient. While other options might be part of the management strategy, effective and rapid pain control is crucial in the emergency phase."
+  },
+  {
+    question: "A patient undergoing successful PCI for ST-elevation MI is started on dual antiplatelet therapy with aspirin and ticagrelor. What is the recommended duration for ticagrelor therapy post-PCI?",
+    options: [
+      "6 months",
+      "9 months",
+      "12 months",
+      "Indefinitely",
+      "As needed"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Ticagrelor is recommended for at least 12 months after PCI for ST-elevation MI to reduce the risk of thrombotic events. Aspirin is continued indefinitely.",
+    incorrectFeedback: "Think about the clinical guidelines associated with post-PCI management. How long is dual antiplatelet therapy typically recommended to minimize the risk of stent thrombosis?"
+  },
+  {
+    question: "Which of the following medications is preferred for anticoagulation in the pre-PCI setting in patients with acute coronary syndrome?",
+    options: [
+      "Enoxaparin",
+      "Warfarin",
+      "Unfractionated heparin",
+      "Fondaparinux",
+      "Rivaroxaban"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Unfractionated heparin is the preferred anticoagulant for use prior to PCI in acute coronary syndrome settings due to its rapid onset and ease of monitoring.",
+    incorrectFeedback: "Evaluate the options based on their use in acute settings, especially those that require rapid effect and are standard in PCI preparations."
+  },
+  {
+    question: "A patient diagnosed with acute coronary syndrome develops hypotension after administering nitroglycerin. Which of the following is a likely explanation for this adverse effect?",
+    options: [
+      "Increased myocardial oxygen demand",
+      "Coronary vasoconstriction",
+      "Inhibition of platelet aggregation",
+      "Systemic vasodilation",
+      "Increased heart rate"
+    ],
+    correctAnswer: 4,
+    correctFeedback: "Correct! Nitroglycerin causes systemic vasodilation, which can lead to hypotension, especially in a patient who may already have compromised hemodynamics due to acute coronary syndrome.",
+    incorrectFeedback: "Think through the mechanism of action of nitroglycerin. What effect does it have on the blood vessels and how might that relate to blood pressure?"
+  }
+]} />

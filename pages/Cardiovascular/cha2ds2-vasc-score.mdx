@@ -1,0 +1,153 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# CHA2DS2-VASc Score in Atrial Fibrillation Management
+
+## Introduction
+
+The **CHA2DS2-VASc score** is a simple risk stratification tool used for patients with **atrial fibrillation (AF)** to estimate their pre-treatment risk of a thromboembolic event. **AF** is a major risk factor for **ischaemic stroke**, but the absolute risk also depends on other risk factors, which are calculated using the CHA2DS2-VASc score. This helps predict whether patients with AF would benefit from **oral anticoagulation (OAC)**.
+
+## Diagnosis
+
+The CHA2DS2-VASc score is calculated by summing the scores of the risk factors listed in **Table 1**. A higher score indicates a greater risk of thromboembolic events, particularly ischaemic stroke (See **Table 2** for stroke risk analysis):
+
+- A score of `2` or higher represents **‘high risk’** of stroke without formal anticoagulation.
+- A score of `1` in males is **‘moderate risk’**.
+- A score of `1` in females represents **‘low risk’**.
+- A score of `0` in males denotes **‘low risk’**.
+
+**_Table 1. CHA2DS2-VASc Risk Factors_**
+
+| CHA2DS2-VASc Risk Factor                              | Score |
+|-----------------------------------------------------|-------|
+| **C**ongestive heart failure or left ventricular dysfunction | 1     |
+| **H**ypertension                                       | 1     |
+| **A**ge ≥75 years                                    | 2     |
+| **D**iabetes mellitus                                | 1     |
+| **S**troke, TIA or thromboembolism                  | 2     |
+| **V**ascular disease (peripheral artery disease, myocardial infarction, or aortic plaque) | 1     |
+| **A**ge 65–74 years                                  | 1     |
+| **S**ex category (female)                            | 1     |
+| **Maximum score**                                   | **9** |
+
+## Investigations
+
+While investigations are not necessary to calculate a patient’s CHA2DS2-VASc score, patients with new AF should be assessed for **haemodynamic instability** and undergo routine work-up to identify a potential cause of their AF. The appropriate investigations may include:
+
+- **Blood Tests**: 
+  - Full blood count (FBC)
+  - Urea and electrolytes
+  - Calcium, magnesium (to check for electrolyte depletion)
+  - Thyroid function tests (to assess for hyperthyroidism)
+  - Glucose (for diabetes mellitus)
+  
+- **Electrocardiogram (ECG)**: Evidence of ischaemic heart disease.
+  
+- **Transthoracic echocardiography**: Evidence of structural or functional heart disease.
+  
+- **Chest X-ray**: Evidence of chest infection or lung cancer.
+
+## Management (Prescribing)
+
+The risk of thromboembolic events in patients with AF can be reduced through OACs, which offer approximately `two-thirds` relative risk reduction. Most guidelines, including NICE’s, recommend offering anticoagulation to patients with a `1%` risk of stroke per year, as shown in **Table 2**.
+
+| CHA2DS2-VASc Score | Ischaemic Stroke Rate (mean, % per year) | Risk                              | Management Recommendation        |
+|---------------------|-----------------------------------------|-----------------------------------|----------------------------------|
+| **0**               | 0.2%                                   | Low (male)                        | No antithrombotic therapy       |
+| **1**               | 0.6%                                   | Low (female)<br />Moderate (male)  | Consider OAC                     |
+| `≥2`              | `≥2.2%`                                  | High                              | OAC                              |
+
+### Antithrombotic Therapies of Choice:
+
+- **Vitamin K Antagonist (VKA)**: e.g., *warfarin*.
+- **Non-VKA OACs (DOACs)**: e.g., *dabigatran, rivaroxaban, edoxaban,* or *apixaban*.
+  
+> **_Important Note:_** **Antiplatelet therapy** with aspirin and/or clopidogrel should not be routinely used to reduce stroke risk in patients with AF due to its lack of effectiveness.
+
+**Callout:**
+```mdx
+<Callout emoji="⚠️">
+**Warning:** All antithrombotic agents increase the risk of bleeding, especially intracranial hemorrhage. Always assess bleeding risk before OAC therapy, such as by calculating the HAS-BLED score.
+</Callout>
+```
+
+## Management (Non-Prescribing)
+
+The CHA2DS2-VASc score should be recalibrated at least annually in patients with AF. Patients on warfarin or NOACs require systematic monitoring of the following:
+
+- INR
+- Renal function
+- Liver function
+- FBC 
+
+Surgery is an option for some patients with AF. Left atrial surgical ablation is performed only in conjunction with cardiothoracic surgery for another indication.
+
+<details>
+<summary>Additional Management Considerations</summary>
+
+- Regular patient education regarding the importance of adherence to anticoagulation therapy.
+- Discussions around lifestyle changes that may affect AF symptoms and stroke risk, such as smoking cessation and managing hypertension.
+  
+</details>
+
+## References
+
+- **Atrial Fibrillation: Management** (2014) NICE guideline CG180  
+- [UpToDate: Atrial Fibrillation Anticoagulant Therapy](https://www.uptodate.com/contents/atrial-fibrillation-anticoagulant-therapy-to-prevent-thromboembolism)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 72-year-old male patient with a history of congestive heart failure and hypertension is found to have atrial fibrillation. His CHA2DS2-VASc score is calculated to be 3. What is the most appropriate management strategy regarding anticoagulation for this patient?",
+    options: [
+      "No antithrombotic therapy is needed",
+      "Aspirin 81mg daily",
+      "Warfarin therapy",
+      "Clopidogrel 75mg daily",
+      "Direct oral anticoagulant (DOAC) therapy"
+    ],
+    correctAnswer: 5,
+    correctFeedback: "Correct! A CHA2DS2-VASc score of 3 indicates that this patient is at ‘high risk’ of stroke, and the recommended management is to start oral anticoagulation (OAC). Both warfarin and DOACs can be effective, but DOACs are often preferred due to their ease of use and better safety profile.",
+    incorrectFeedback: "Consider the implications of his CHA2DS2-VASc score. What does a score of 3 indicate about his risk for thromboembolic events and the necessary interventions?"
+  },
+  {
+    question: "In the context of atrial fibrillation, a patient with a CHA2DS2-VASc score of 1 (male) is assessed for anticoagulation therapy. According to current guidelines, which of the following statements is most accurate?",
+    options: [
+      "Anticoagulation should be initiated regardless of bleeding risk.",
+      "Anticoagulation is not necessary unless other high-risk factors are present.",
+      "Aspirin is a preferred option for stroke prevention.",
+      "Warfarin is the first-line treatment for all patients with a CHA2DS2-VASc score of 1.",
+      "Direct oral anticoagulants should be reserved for patients with a CHA2DS2-VASc score of 2 or higher."
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! A male patient with a CHA2DS2-VASc score of 1 is considered to have ‘moderate risk’. Anticoagulation is not mandatory; it is recommended that clinicians consider the specifics of individual patient risk factors before starting OAC therapy.",
+    incorrectFeedback: "Remember to weigh the importance of individual patient factors and the guidelines' recommendations. What does a score of 1 mean in terms of management options?"
+  },
+  {
+    question: "A 60-year-old female patient with atrial fibrillation and a CHA2DS2-VASc score of 2 is prescribed treatment. Which of the following is a preferred oral anticoagulant option for this patient considering her risk factors?",
+    options: [
+      "Warfarin",
+      "Dabigatran",
+      "Clopidogrel",
+      "Aspirin",
+      "Edoxaban"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Both dabigatran and other non-VKA oral anticoagulants (like rivaroxaban or edoxaban) are viable options in this case, offering the benefit of no requirement for routine monitoring and less dietary restriction compared to warfarin.",
+    incorrectFeedback: "Think about the difference between antiplatelet and anticoagulant therapies. Considering her risk, what options are expressly designed for stroke prevention in AF?"
+  },
+  {
+    question: "Upon reviewing the management of atrial fibrillation, why should aspirin and clopidogrel not be routinely used for stroke prevention in patients with AF, according to recent guidelines?",
+    options: [
+      "They are more effective than anticoagulants.",
+      "They do not significantly reduce the risk of stroke.",
+      "They increase the risk of major bleeding.",
+      "They are only effective in patients under 60 years.",
+      "They are specifically indicated for patients with coronary artery disease."
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Recent guidelines indicate that antiplatelet therapy with aspirin and/or clopidogrel is not effective at reducing stroke risk in patients with atrial fibrillation compared to anticoagulant therapy.",
+    incorrectFeedback: "Reflect on the effectiveness of aspirin versus anticoagulants in the context of preventing thromboembolic events in atrial fibrillation. What do the guidelines say about their comparative efficacy?"
+  }
+]} />

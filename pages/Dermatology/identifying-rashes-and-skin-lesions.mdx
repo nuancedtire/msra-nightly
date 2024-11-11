@@ -1,0 +1,162 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Skin Disorders Overview
+
+Skin disorders are frequently encountered in **primary** and **secondary care**. Understanding the characteristic clinical features of these conditions is essential for proper diagnosis and management.
+
+## Common Skin Disorders
+
+### 1. **Eczema**
+
+Eczema is a chronic inflammatory skin condition that presents with:
+
+- **Symptoms:**
+  - Red, itchy patches
+  - Dry skin
+  - Thickened skin from prolonged scratching
+
+- **Common Triggers:**
+  - Allergens (e.g., pollen, dust mites)
+  - Irritants (e.g., soaps, detergents)
+  - Climate changes
+
+### 2. **Psoriasis**
+
+Psoriasis is an autoimmune condition characterized by:
+
+- **Symptoms:**
+  - Thick, red patches covered with silvery scales
+  - Itching or soreness
+  - Cracked skin that may bleed
+
+- **Types:**
+  - Plaque Psoriasis
+  - Guttate Psoriasis
+  - Inverse Psoriasis
+
+### 3. **Acne Vulgaris**
+
+Acne vulgaris is a common condition particularly in adolescents:
+
+- **Symptoms:**
+  - Comedones (blackheads and whiteheads)
+  - Inflammatory lesions (papules, pustules)
+  - Scarring can occur if severe
+
+### 4. **Stevens-Johnson Syndrome (SJS)**
+
+**Stevens-Johnson Syndrome** is a severe skin reaction that requires immediate attention due to potential mortality.
+
+<details>
+<summary>Critical Features of SJS</summary>
+
+- **Symptoms:**
+  - Flu-like symptoms (fever, sore throat)
+  - Painful red or purplish rash that spreads
+  - Blistering and peeling skin
+
+- **Risk Factors:**
+  - Medications (e.g., antibiotics, anticonvulsants)
+  - Infections (e.g., herpes)
+</details>
+
+## Diagnosis and Management
+
+### Key Diagnostic Steps
+
+1. **Clinical History:**
+   - Duration of symptoms
+   - Exacerbating factors
+
+2. **Physical Examination:**
+   - Inspection of skin lesions
+
+3. **Laboratory Tests:**
+   - Skin biopsy (if necessary)
+   - Patch testing for suspected allergies
+
+### Management Strategies
+
+- **Topical Treatments:**
+  - Corticosteroids for inflammation
+  - Emollients for moisture
+
+- **Systemic Treatments:**
+  - Immunosuppressants for severe conditions (e.g., psoriasis)
+  - Antibiotics for secondary infections
+
+<Callout emoji="⚠️">
+**Warning:** Severe skin reactions, such as Stevens-Johnson syndrome, must be recognized promptly to reduce mortality risks.
+</Callout>
+
+## Summary of Common Skin Disorders
+
+| Skin Disorder           | Symptoms                          | Key Treatment                |
+|------------------------|-----------------------------------|------------------------------|
+| Eczema                 | Red, itchy patches                | Topical corticosteroids      |
+| Psoriasis              | Thick red patches, scales         | Systemic immunosuppressants  |
+| Acne Vulgaris          | Comedones, inflammatory lesions    | Topical retinoids            |
+| Stevens-Johnson Syndrome| Flu-like symptoms, blisters      | Immediate hospitalization     |
+
+### References
+
+- Oxford Handbook of Clinical Specialties, ninth edition, pages 266, 594, 601
+- Dermatology – A handbook for medical students and junior doctors, second edition (2014), pages 31
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 28-year-old man presents with a red, itchy rash in the creases of his elbows and knees. He reports that the rash worsens after exposure to certain soaps and detergents. Based on this clinical presentation, what is the most likely diagnosis?",
+    options: [
+      "Psoriasis",
+      "Eczema",
+      "Acne Vulgaris",
+      "Stevens-Johnson Syndrome",
+      "Contact Dermatitis"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The symptoms and triggers described are characteristic of eczema, which is often exacerbated by irritants such as soaps and detergents. The presentation aligns with chronic inflammatory skin condition features.",
+    incorrectFeedback: "Think about the symptoms and context: itching and exacerbation related to specific irritants point towards a different condition. What is typically seen in conditions like psoriasis or Stevens-Johnson syndrome?"
+  },
+  {
+    question: "A patient with a history of plaque psoriasis presents with a sudden outbreak of small, drop-shaped lesions on the trunk and extremities. Which type of psoriasis is this presentation most characteristic of?",
+    options: [
+      "Plaque Psoriasis",
+      "Guttate Psoriasis",
+      "Inverse Psoriasis",
+      "Pustular Psoriasis",
+      "Erythrodermic Psoriasis"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Guttate psoriasis is characterized by small, drop-shaped lesions that often appear after a streptococcal infection, especially in patients with a history of plaque psoriasis.",
+    incorrectFeedback: "Consider the morphology and distribution of the lesions described. Think about how guttate psoriasis differs from plaque psoriasis in terms of lesion size and appearance."
+  },
+  {
+    question: "A 35-year-old woman develops a sudden onset of a painful, blistering rash following antibiotic treatment for a respiratory infection. She also reports flu-like symptoms such as fever and sore throat. What is the condition most likely represented by these symptoms?",
+    options: [
+      "Eczema",
+      "Psoriasis",
+      "Stevens-Johnson Syndrome",
+      "Acne Vulgaris",
+      "Contact Dermatitis"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The combination of painful blistering skin and flu-like symptoms following medication suggests Stevens-Johnson syndrome, which is a severe dermatological reaction requiring immediate attention.",
+    incorrectFeedback: "Reflect on the progression of skin symptoms along with systemic signs (fever, sore throat) after medication use. This is a critical component that differentiates it from milder skin conditions."
+  },
+  {
+    question: "After diagnosing a patient with severe psoriasis, which of the following systemic treatments is most appropriate to initiate for management of their condition?",
+    options: [
+      "Topical corticosteroids",
+      "Emollients",
+      "Systemic immunosuppressants",
+      "Topical retinoids",
+      "Fototherapy"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! In cases of severe psoriasis, systemic immunosuppressants like methotrexate or biologics are appropriate options to assist in managing the condition effectively.",
+    incorrectFeedback: "Think about the severity of the psoriasis in this scenario. Consider what treatments are typically employed for more aggressive disease when topical therapies may not suffice."
+  }
+]} />

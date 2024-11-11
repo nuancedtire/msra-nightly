@@ -1,0 +1,60 @@
+{
+  "---1": {
+    "type": "separator",
+    "title": "Acute Cardiac Conditions"
+  },
+  "acute-coronary-syndrome": "🚨 Acute Coronary Syndrome",
+  "post-mi": "🏥 Post MI Care",
+  "short-and-long-term-treatment-of-myocardial-infarction": "⏱️ MI Treatment",
+  "cardiac-tamponade": "💔 Cardiac Tamponade",
+
+  "---2": {
+    "type": "separator",
+    "title": "Chronic Cardiac Conditions"
+  },
+  "angina": "💗 Angina",
+  "coronary-heart-disease-t-based-on-risk": "🎯 CHD Risk Assessment",
+  "heart-failure": "❤️ Heart Failure",
+
+  "---3": {
+    "type": "separator",
+    "title": "Valvular Heart Disease"
+  },
+  "aortic-regurgitation": "🔄 Aortic Regurgitation",
+  "causes-of-aortic-regurgitation": "📋 Causes of AR",
+  "mitral-regurgitation": "↩️ Mitral Regurgitation",
+  "mitral-stenosis": "➡️ Mitral Stenosis",
+  "mitral-valve-prolapse": "📉 Mitral Valve Prolapse",
+
+  "---4": {
+    "type": "separator",
+    "title": "Arrhythmias & Electrical"
+  },
+  "atrial-fibrillation": "⚡ Atrial Fibrillation",
+  "cha2ds2-vasc-score": "📊 CHA₂DS₂-VASc Score",
+  "ecg": "📈 ECG",
+
+  "---5": {
+    "type": "separator",
+    "title": "Vascular Conditions"
+  },
+  "atheroembolic-disease": "🔌 Atheroembolic Disease",
+  "vascular": "🔬 Vascular Disease",
+
+  "---6": {
+    "type": "separator",
+    "title": "Hypertensive Disorders"
+  },
+  "hypertension": "📊 Hypertension",
+  "gestational-hypertension": "🤰 Gestational Hypertension",
+  "pre-eclampsia": "⚠️ Pre-eclampsia",
+
+  "---7": {
+    "type": "separator",
+    "title": "Other Conditions"
+  },
+  "infective-endocarditis": "🦠 Infective Endocarditis",
+  "rheumatic-fever": "🔥 Rheumatic Fever",
+  "congenital-heart-defects": "👶 Congenital Heart Defects",
+  "clinical-features-of-marfan-syndrome": "📏 Marfan Syndrome"
+}

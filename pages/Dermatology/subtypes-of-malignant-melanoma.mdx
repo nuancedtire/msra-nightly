@@ -1,0 +1,142 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Malignant Melanoma
+
+## Overview
+
+Malignant melanoma is an **uncontrolled proliferation of melanocytes**, primarily driven by **excessive UVB light exposure**. Understanding the risk factors, subtypes, and diagnostic criteria is crucial for effective management and treatment.
+
+## Risk Factors
+
+Key risk factors for malignant melanoma include:
+
+- **DNA repair defects**, e.g., xeroderma pigmentosum
+- **Sun exposure**, especially in fair-skinned individuals
+- **Use of tanning beds**
+- **Immune suppression** 
+
+## Subtypes
+
+The main subtypes of malignant melanoma include:
+
+1. **Superficial Spreading Melanoma**
+2. **Nodular Melanoma**
+3. **Lentigo Maligna Melanoma**
+4. **Acral Lentiginous Melanoma**
+
+Other rare forms include:
+
+- **Desmoplastic Melanoma**
+- **Amelanotic Melanoma**
+- **Ocular Melanoma**
+
+## Diagnosis
+
+Diagnosis of malignant melanoma is typically made **histologically** following an **excision biopsy**. 
+
+### ABCDE Rule
+
+Features of melanoma are often described using the **ABCDE rule**:
+
+| Feature               | Description                                    |
+|----------------------|------------------------------------------------|
+| **Asymmetry**        | Uneven shape of the mole                      |
+| **Border Irregularity** | Edges that are notched, uneven, or blurred   |
+| **Colour Variation**  | Multiple colors or shades within the lesion   |
+| **Large Diameter**    | Greater than `6mm`                            |
+| **Evolution**         | Changes in size, shape, color, or new lesions |
+
+## Treatment
+
+Treatment for malignant melanoma typically involves:
+
+- **Wide Local Excision**: Removal of the melanoma with some surrounding tissue.
+- **Sentinel Node Biopsy**: Assessment of lymph nodes for the spread of melanoma.
+- **Adjuvant Therapy**: Additional treatment options as recommended, based on specific cases (See NICE guidance on melanoma treatment for more information). 
+
+<Callout emoji="⚠️">
+**Warning:** Early detection and treatment of malignant melanoma are critical to improving prognosis and survival rates.
+</Callout>
+
+<details>
+<summary>Common Signs and Symptoms</summary>
+
+- **Chest Pain**
+  - Crushing or pressure-like
+  - May radiate to left arm, jaw, or back
+  - Often accompanied by sweating
+
+- **Respiratory**
+  - Shortness of breath
+  - Rapid breathing
+  - Orthopnea
+
+- **Other Symptoms**
+  - Nausea and vomiting
+  - Fatigue
+  - Light-headedness
+  - Anxiety
+
+</details>
+
+## References
+
+- Dermnet New Zealand, [https://www.dermnetnz.org/topics/melanoma](https://www.dermnetnz.org/topics/melanoma)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 45-year-old fair-skinned man presents with a new pigmented lesion on his back that has recently changed in size and color. Upon examination, the mole is asymmetrical, has irregular borders, and exhibits multiple colors. According to the ABCDE rule, which feature is most indicative of a melanoma diagnosis?",
+    options: [
+      "Diameter greater than 6mm",
+      "Asymmetry",
+      "Color variation",
+      "Evolution",
+      "Border irregularity"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Asymmetry is a key feature in the ABCDE rule that raises suspicion for melanoma. If one half of the mole differs drastically in shape or color from the other half, the risk of melanoma increases. Other features like color variation, border irregularity, and size greater than 6mm are also important, but asymmetry is often the most alarming indicator.",
+    incorrectFeedback: "Consider which characteristic is most critical when evaluating new or changing pigmented lesions. The ABCDE rule helps identify potentially malignant moles, but which specific feature suggests a more serious condition when asymmetrical?"
+  },
+  {
+    question: "Which of the following is the most significant risk factor for developing malignant melanoma in individuals with fair skin?",
+    options: [
+      "Age",
+      "Family history of melanoma",
+      "Use of sunscreen",
+      "High-frequency tanning bed use",
+      "Geographical location"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! High-frequency tanning bed use significantly increases the risk of melanoma, particularly in individuals with fair skin. It exposes the skin to concentrated UV radiation, which contributes to DNA damage and can lead to melanoma development.",
+    incorrectFeedback: "Think about which behaviors and exposures primarily contribute to melanoma risk. Consider the impact of artificial UV exposure compared to natural factors like age or geographical location."
+  },
+  {
+    question: "A patient with a history of xeroderma pigmentosum is undergoing assessment for potential skin malignancies. Given this condition is associated with defective DNA repair mechanisms, what is this patient's risk concerning malignant melanoma?",
+    options: [
+      "No increased risk",
+      "Low increased risk",
+      "Moderate increased risk",
+      "High increased risk",
+      "Only risk for basal cell carcinoma, not melanoma"
+    ],
+    correctAnswer: 4,
+    correctFeedback: "Correct! Patients with xeroderma pigmentosum have a significantly increased risk for malignant melanoma due to their impaired ability to repair UV-induced DNA damage. This genetic condition puts them at a high risk for various skin cancers, including melanoma.",
+    incorrectFeedback: "Consider how genetic factors, particularly those affecting DNA repair, could influence the risk of skin cancers. Reflect on the implications of UV exposure in the context of this skin condition."
+  },
+  {
+    question: "What is the initial treatment of choice for a newly diagnosed malignant melanoma that is found to be 1.5mm thick and has no lymph node involvement?",
+    options: [
+      "Wide local excision",
+      "Radiation therapy",
+      "Chemotherapy",
+      "Immunotherapy",
+      "Observation"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! Wide local excision is the primary treatment for localized malignant melanoma. This involves removing the tumor along with a margin of healthy tissue to ensure complete excision and reduce the risk of recurrence.",
+    incorrectFeedback: "Think about the most effective surgical management for localized tumors. What approach aims to achieve complete removal of cancerous tissue while minimizing the risk of spreading?"
+  }
+]} />
