@@ -1,0 +1,144 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Bacterial Tonsillitis
+
+## Overview
+
+Bacterial tonsillitis is inflammation of the tonsils due to bacterial infection, commonly affecting children and young adults during winter months. The primary bacterial cause is **group A streptococci (GAS)**, with rarer causes including:
+
+- **Neisseria gonorrhoeae**
+- **Corynebacterium diphtheriae**
+- **Mycoplasma pneumoniae**
+
+Recurrent or chronic tonsillitis may arise from **polymicrobial infections**.
+
+## Diagnosis
+
+### Clinical Features
+
+Key clinical features include:
+
+* **Sore throat**
+* **Dysphagia** (difficulty swallowing)
+* **Fever**
+* **Red and swollen pharynx**
+* **Tonsillar exudates**
+* **Tender and swollen cervical lymph nodes**
+
+In children, additional symptoms may include:
+
+* **Headache**
+* **Nausea and vomiting**
+* **Abdominal pain**
+
+### Modified Centor Score
+
+The Modified Centor score helps estimate the probability of GAS tonsillitis and guides next steps in management.
+
+| Criteria                                   | Points |
+|--------------------------------------------|--------|
+| Absence of cough                           | +1     |
+| Tender/swollen anterior cervical lymph nodes| +1     |
+| Temp `>`38°C                              | +1     |
+| Exudate on tonsils                        | +1     |
+| Age - 3-14 yrs                            | +1     |
+| Age - 15-44 yrs                           | 0      |
+| Age - `≥`45 yrs                           | -1     |
+
+**Score Interpretation:**
+
+* **≤ 1:** No further diagnostic testing or antibiotics needed; viral tonsillitis likely.
+* **2-3:** Rapid antigen testing and/or throat culture for GAS.
+* **≥ 4:** Consider rapid antigen testing, throat culture, and empirical antibiotics.
+
+## Investigations
+
+To confirm bacterial tonsillitis and rule out GAS, investigations based on the Modified Centor score include:
+
+- **Rapid antigen testing** (first-line)
+- **Throat swabs for culture** (if rapid testing is negative)
+- **Polymerase chain reaction (PCR)** (alternative, not commonly used)
+
+## Management (Prescribing)
+
+### Antibiotics
+
+Antibiotics are necessary for confirmed GAS tonsillitis to prevent **acute rheumatic fever**. The first-line treatment is a 10-day course of:
+
+- **Oral penicillin V** (also known as phenoxymethylpenicillin)
+
+For patients allergic to penicillin, consider:
+
+- **Macrolides**
+- **Cephalosporins**
+- **Clindamycin**
+
+### Analgesia
+
+All patients with pharyngitis should receive analgesics (e.g., **paracetamol** or **ibuprofen**) for symptomatic relief.
+
+<Callout emoji="⚠️">
+**Warning:** Always ensure antibiotic therapy is dispensed responsibly to prevent antibiotic resistance.
+</Callout>
+
+## References
+
+[BMJ Best Practice - Bacterial Tonsillitis](https://bestpractice.bmj.com/topics/en-gb/5/pdf/5.pdf)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 10-year-old boy presents with a sore throat, fever, and difficulty swallowing. On examination, he has red and swollen tonsils with exudates, and tender cervical lymphadenopathy. The Modified Centor score yields a total of 3 points. What is the most appropriate next step in management for this patient?",
+    options: [
+      "Prescribe antibiotics without further testing",
+      "Order a rapid antigen test for group A streptococcus (GAS)",
+      "Conduct a throat culture for streptococcus",
+      "Instruct symptomatic treatment with analgesics only",
+      "Refer for tonsillectomy evaluation"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! A Modified Centor score of 3 indicates that rapid antigen testing and/or throat culture for GAS is justified. Initiating empirical antibiotics is acceptable in cases where the probability of GAS is reasonable, especially in the presence of symptoms requiring intervention.",
+    incorrectFeedback: "While further testing may seem appropriate, consider the modified scoring system's implications. A score of 3 suggests a significant likelihood of GAS, which generally justifies starting treatment without waiting for confirmatory tests."
+  },
+  {
+    question: "In managing bacterial tonsillitis in a patient with a confirmed penicillin allergy, which antibiotic choice is most appropriate?",
+    options: [
+      "Phenoxymethylpenicillin",
+      "Clarithromycin",
+      "Amoxicillin",
+      "Cefuroxime",
+      "Clindamycin"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Macrolides such as clarithromycin and lincosamides like clindamycin are preferred alternatives for patients allergic to penicillin, making them suitable choices for treating bacterial tonsillitis.",
+    incorrectFeedback: "Reconsider which alternative antibiotics are indicated for patients allergic to penicillin. Your answer overlooks optimal choices based on established guidelines for managing infections stemming from confirmed allergies."
+  },
+  {
+    question: "Which of the following is a primary goal of antibiotic therapy in confirmed group A streptococcal tonsillitis?",
+    options: [
+      "To reduce throat pain and discomfort",
+      "To prevent acute rheumatic fever",
+      "To decrease the duration of symptoms",
+      "To enhance recovery time",
+      "To eliminate tonsillar hypertrophy"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The primary aim of initiating antibiotics in bacterial tonsillitis, particularly with GAS, is to prevent acute rheumatic fever, while also providing symptomatic relief.",
+    incorrectFeedback: "Antimicrobial therapy extends beyond symptomatic relief. Consider the complications associated with untreated streptococcal infections, specifically the serious sequelae such as acute rheumatic fever that necessitate intervention."
+  },
+  {
+    question: "In a review of literature regarding antibiotic prescribing patterns for bacterial tonsillitis, which of the following strategies is emphasized to reduce the risk of antibiotic resistance?",
+    options: [
+      "Prescribing antibiotics for all sore throats",
+      "Using rapid diagnostic tests before starting antibiotics",
+      "Encouraging patients to request antibiotics when seeing a doctor",
+      "Limiting symptomatic treatments to viral infections only",
+      "Doubling the duration of standard antibiotic courses"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Utilizing rapid diagnostic tests is a key strategy to ensure antibiotics are prescribed only for bacterial infections, thus minimizing unnecessary use and reducing the risk of antibiotic resistance.",
+    incorrectFeedback: "Reflect on how diagnostic tools can guide appropriate treatment. Consider the implications of over-prescribing and their long-term impact on antibiotic effectiveness and public health."
+  }
+]} />

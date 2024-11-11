@@ -4,7 +4,8 @@
     "type": "separator"
   },
   "Cardiovascular": "❤️ Cardiovascular",
-  "Dermatology": "🧑 Dermatology",
+  "Dermatology": "🔬 Dermatology",
+  "ENT": "👂 Ear, Nose and Throat",
   "Ophthalmology": "👁️ Ophthalmology",
   "about": {
     "title": "ℹ️ About",

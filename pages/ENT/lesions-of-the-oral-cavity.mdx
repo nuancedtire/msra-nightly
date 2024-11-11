@@ -1,0 +1,126 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Oral Cavity Diseases
+
+Diseases affecting the oral cavity are common and important to know about due to the associated morbidity of the symptoms. They may also be a manifestation of underlying systemic diseases – these diseases are not just the remit of dental practitioners!
+
+## Oral Cancer
+
+Lesions within the mouth should raise suspicion of oral cancer. **Oral cancer** may present as:
+
+- **White or Red Patches:** Affecting any part of the oral cavity
+- **Non-healing Ulcers or Masses:** Persistent issues that don't resolve
+- **Symptoms Include:**
+  - Bleeding
+  - Pain
+  - Numbness
+  - Persistent sore throat
+  - Difficulty swallowing
+
+### Risk Factors
+
+The primary risk factor for oral cancer is **smoking**. Other risk factors include:
+
+- Alcohol excess
+- Poor oral hygiene
+- Inflammatory diseases such as oral lichen planus
+- Viruses, particularly human papillomavirus types 16 and 18
+
+## Oesophageal Candidiasis
+
+Oesophageal candidiasis is a candidal infection of the oesophagus, commonly presenting with:
+
+- **Difficulty Swallowing**
+- **Painful Swallowing**
+
+### Patient Demographics
+
+This condition frequently occurs in patients who are **immunocompromised**, including:
+
+- Those undergoing chemotherapy
+- Individuals on immunosuppressive drugs
+- People with diabetes
+- Patients with HIV
+
+### Diagnosis and Treatment
+
+- **Diagnosis** can be made based on clinical features and response to treatment, though *endoscopy may be required* for definitive diagnosis.
+- **Treatment:** Systemic antifungal medication, generally `oral fluconazole`, for a course of `7 to 14 days`. The condition generally responds well to treatment.
+
+<Callout emoji="⚠️">
+**Important:** As oesophageal candidiasis is rare in patients with uncompromised immune systems, any patient presenting with the condition should be assessed for causes of immunosuppression, such as HIV.
+</Callout>
+
+<details>
+<summary>Common Signs and Symptoms of Oesophageal Candidiasis</summary>
+
+- **Dysphagia:** Difficulty swallowing
+- **Odynophagia:** Painful swallowing
+- **Oral Symptoms:** Often concomitant with oral candidiasis
+- **Systemic Symptoms:** Fever and malaise in severe cases
+
+</details>
+
+### References
+
+- DermNet NZ – Mouth problems, [DermNet](https://www.dermnetnz.org/topics/mouth-problems/)
+- Oxford Handbook of Clinical Specialties, ninth edition, pages 572.
+- Centers for Disease Control and Prevention – _Candida_ infections of the mouth, throat and esophagus, [CDC](https://www.cdc.gov/fungal/diseases/candidiasis/thrush/index.html)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 55-year-old male with a history of heavy smoking and alcohol use presents with a non-healing ulcer on his tongue that has persisted for 3 months. He reports pain when eating and occasional bleeding from the ulcer. What is the most likely diagnosis?",
+    options: [
+      "Oral lichen planus",
+      "Oral thrush",
+      "Oral squamous cell carcinoma",
+      "Herpetic gingivostomatitis",
+      "Benign leukoplakia"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The characteristics of a non-healing ulcer in a high-risk patient (smoking and alcohol use) raise suspicion for oral squamous cell carcinoma, especially given the duration and symptoms of pain and bleeding.",
+    incorrectFeedback: "Think about the risk factors and the nature of the lesion. A non-healing ulcer that persists for an extended period in a patient with significant tobacco and alcohol use should prompt concern for malignancy. Review the typical presentations and risk factors for oral lesions."
+  },
+  {
+    question: "A 40-year-old HIV-positive patient presents with difficulty swallowing and severe pain while eating. Endoscopy reveals white patches on the mucosa of the esophagus. What is the most appropriate initial treatment for this patient?",
+    options: [
+      "Oral nystatin",
+      "Oral fluconazole",
+      "Intravenous amphotericin B",
+      "Oral ketoconazole",
+      "Topical clotrimazole"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! In patients with esophageal candidiasis, oral fluconazole is the first-line systemic treatment, particularly for immunocompromised individuals like those living with HIV. Nystatin can be used but is less effective for esophageal candidiasis.",
+    incorrectFeedback: "Consider the patient's immunocompromised state and the efficacy of different antifungal agents. Review the standard treatment protocols for esophageal candidiasis, especially the first-line options for such patients."
+  },
+  {
+    question: "Which of the following conditions is NOT a common risk factor associated with the development of oral cancer?",
+    options: [
+      "Poor oral hygiene",
+      "Chronic inflammation",
+      "Human immunodeficiency virus (HIV)",
+      "Regular use of mouthwash",
+      "Heavy alcohol consumption"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! While HIV may contribute to malignancy risk through immunosuppression, regular use of mouthwash, as an isolated factor, is not widely recognized as a risk factor for oral cancer. Risk factors mainly include smoking, alcohol use, and poor oral hygiene.",
+    incorrectFeedback: "Review the list of known risk factors for oral cancer and consider how each factor contributes to tumorigenesis. Keep in mind that not all habits or conditions associated with oral hygiene are risk factors for malignancy."
+  },
+  {
+    question: "A 30-year-old diabetic woman presents with oral thrush and a complaint of difficulty swallowing. What is the pathophysiological cause of her symptoms?",
+    options: [
+      "Excessive bacterial growth",
+      "Immune system dysfunction",
+      "Vitamin C deficiency",
+      "Chronic dehydration",
+      "Allergic reaction to food"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! In this case, the patient's diabetes likely contributes to an immune system dysfunction making her susceptible to yeast overgrowth, leading to candidiasis and resultant dysphagia.",
+    incorrectFeedback: "Consider the underlying condition of diabetes in this patient and how it affects immune function. Reflect on common opportunistic infections and their causes in immunocompromised individuals."
+  }
+]} />

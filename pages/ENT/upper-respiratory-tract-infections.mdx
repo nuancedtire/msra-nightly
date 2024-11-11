@@ -1,0 +1,123 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Upper Respiratory Tract Infections (URTI)
+
+Upper respiratory tract infections (URTI) are prevalent afflictions, with most individuals experiencing at least one episode each year. These infections are particularly common among the elderly and infants, predominantly caused by **H. influenza** and various viruses, including rhinovirus and RSV in children. 
+
+In general, these infections are self-limiting, resolving within `10 days`. Rarely, infections caused by **S. pyogenes** may lead to complications such as rheumatic fever or glomerulonephritis. Additionally, influenzae may result in greater morbidity in patients with pre-existing lung conditions or other comorbidities.
+
+## **Diagnosis**
+
+Symptoms indicative of URTI typically include:
+
+- **Rhinorrhoea**
+- **Sneezing**
+- **Otalgia**
+- **Large tonsils** (with or without exudate)
+- **Cervical lymphadenopathy**
+- **Sore throat**
+- **Cough** (purulent phlegm suggests a bacterial infection)
+- **Fever**
+- **Malaise**
+- **Odynophagia**
+
+Acute URTIs like diphtheria or acute epiglottitis can manifest with:
+
+- **Dyspnoea**
+- **Drooling**
+- **Stridor** (indicating potential airway obstruction)
+
+## **Investigations**
+
+Typically, a thorough history and clinical examination are sufficient for diagnosing URTIs. However, if needed, the following investigations can be performed:
+
+- **Nasal/throat swabs** for confirmation.
+- **Monospot test**, blood film, and RBC count if glandular fever is suspected.
+- **Chest X-ray** if pneumonia is a concern.
+
+## **Management (Prescribing)**
+
+The **Centor criteria** should guide the prescribing of antibiotics for acute infections. If `3` or more of the following criteria are met, there is a `50%` likelihood of **Group A beta-haemolytic streptococcus**, necessitating antibiotic treatment:
+
+1. **Tonsillar exudate**
+2. **Fever**
+3. **Absence of cough**
+4. **Tender anterior cervical lymphadenopathy**
+
+Other indications for antibiotic therapy include:
+
+- History of **rheumatic fever**
+- **Marked systemic upset**
+- **Immunosuppression**
+- **Acute epiglottitis**
+- **Bronchitis** with underlying chronic lung disease
+- **Children** diagnosed with bilateral otitis media
+- **Diphtheria**
+
+A **7-10 day** course of either **erythromycin** (for penicillin-allergic patients) or **phenoxymethylpenicillin** (to prevent a rash in glandular fever) is recommended. Pain management can be achieved with **paracetamol**, and patients should be encouraged to remain hydrated by drinking plenty of oral fluids.
+
+<Callout emoji="💊">
+**Important:** Follow the Centor criteria to ensure appropriate antibiotic prescribing and avoid unnecessary treatment.
+</Callout>
+
+## **References**
+
+- [NHS: Upper Respiratory Tract Infection](https://www.nhs.uk/conditions/respiratory-tract-infection/)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 55-year-old man presents to the clinic with a 3-day history of sore throat, fever, and malaise. On examination, he has large tonsils with exudate and tender anterior cervical lymphadenopathy. According to the Centor criteria, how likely is it that this patient has Group A beta-haemolytic streptococcus?",
+    options: [
+      "Less than 10%",
+      "50%",
+      "75%",
+      "90%",
+      "Greater than 90%"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! This patient meets three of the Centor criteria: tonsillar exudate, fever, and tender anterior cervical lymphadenopathy, which gives a 75% likelihood of Group A beta-haemolytic streptococcus infection.",
+    incorrectFeedback: "Review the Centor criteria and how many are met by the patient's symptoms. Each criterion contributes to the likelihood of streptococcal infection, so consider the cumulative score."
+  },
+  {
+    question: "A 4-year-old child with a history of recurrent otitis media presents with a high fever and severe ear pain. Examination reveals bilateral otitis media. According to the management guidelines, which treatment is most appropriate for this child?",
+    options: [
+      "Observation only",
+      "Amoxicillin 80-90 mg/kg/day",
+      "Erythromycin",
+      "Phenoxymethylpenicillin",
+      "Topical antibiotic ear drops"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! For children with bilateral otitis media, especially if symptoms are severe, antibiotics like Amoxicillin are recommended as first-line treatment.",
+    incorrectFeedback: "Consider the management approach for recurrent otitis media in children. Look into antibiotic recommendations and when they are indicated versus watchful waiting."
+  },
+  {
+    question: "A patient presents with acute pharyngitis and meets the Centor criteria for a Group A beta-haemolytic streptococcus infection. They are allergic to penicillin. What is the most appropriate antibiotic alternative?",
+    options: [
+      "Ciprofloxacin",
+      "Erythromycin",
+      "Clindamycin",
+      "Azithromycin",
+      "Doxycycline"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Erythromycin is an appropriate alternative for patients allergic to penicillin and is effective against Group A beta-haemolytic streptococcus.",
+    incorrectFeedback: "Think about the appropriate alternatives for penicillin when treating streptococcal infections. Consider which antibiotics are effective against this particular organism and safe for patients with allergies."
+  },
+  {
+    question: "A 70-year-old woman presents with severe sore throat and difficulty breathing. She exhibits stridor and drooling upon examination. What condition should be at the top of your differential diagnosis list?",
+    options: [
+      "Acute epiglottitis",
+      "Diphtheria",
+      "Pharyngitis",
+      "Acute laryngitis",
+      "Tonsillitis"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! The classic triad of stridor, drooling, and dysphagia in an older child or adult suggests acute epiglottitis, which is a medical emergency.",
+    incorrectFeedback: "Review the symptoms presented and consider which condition typically presents with stridor and drooling, particularly in the context of upper respiratory tract issues."
+  }
+]} />

@@ -1,0 +1,108 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Branchial Cysts and Multiple Endocrine Neoplasia
+
+## Branchial Cysts
+
+Branchial cysts are formed due to the **incomplete closure of an embryological branchial arch**. 
+
+### Characteristics
+- **Location:** Anterior triangle of the neck, on the anterior border of the sternocleidomastoid.
+- **Age of Onset:** Typically become apparent before the age of 20 years.
+- **Appearance:** Smooth, slowly enlarging masses.
+
+### Treatment
+Surgical excision is the recommended treatment for branchial cysts.
+
+<Callout emoji="⚠️">
+**Warning:** Persistent or enlarging masses in this region should be evaluated to rule out other pathologies.
+</Callout>
+
+## Multiple Endocrine Neoplasia (MEN)
+
+Multiple Endocrine Neoplasia (MEN) syndromes are **autosomal dominant syndromes** characterized by hormone-producing tumors that form in multiple organs.
+
+### MEN Type II B
+- **Key Features:**
+  - Medullary thyroid carcinoma
+  - Phaechromocytomas (usually benign and bilateral)
+  - Mucosal neuromas (bumps within the oral cavity)
+  - Marfanoid appearance
+
+### Genetic Implications
+The gene involved in MEN type II B (and type II A) is the `_ret_` proto-oncogene. 
+
+- **Testing:** Tests for `_ret_` mutations are revolutionizing MEN-2 treatment by enabling a prophylactic thyroidectomy to be performed before neoplastic changes occur, usually before `3 years of age`.
+
+<details>
+<summary>Key Considerations in MEN Management</summary>
+
+1. **Monitoring:** Regular hormonal screening and imaging are essential for early detection of neoplastic changes.
+2. **Family Screening:** Genetic counseling and testing are recommended for at-risk family members.
+3. **Surgical Intervention:** Prophylactic surgeries should be considered based on individual risk factors and genetic profile.
+
+</details>
+
+### **References**
+
+- Oxford Handbook of Clinical Specialties, 9th Edition, Chapter 7
+- Oxford Handbook of Clinical Medicine, 9th Edition, Chapter 5
+- Oxford Handbook of Surgery, 4th Edition, Chapter 6
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 14-year-old girl presents with a smooth, mobile mass in the anterior triangle of her neck. Imaging reveals a cystic structure located on the anterior border of the sternocleidomastoid muscle. What is the most likely diagnosis?",
+    options: [
+      "Lymphadenopathy",
+      "Thyroglossal duct cyst",
+      "Branchial cyst",
+      "Dermoid cyst",
+      "Carotid body tumor"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The presentation aligns with a branchial cyst, which typically occurs in the anterior triangle of the neck on the anterior border of the sternocleidomastoid muscle. These cysts usually become apparent in younger individuals and are characterized by smooth, enlarging masses.",
+    incorrectFeedback: "Evaluate the details of the mass location and age of onset. Consider which type of cysts are common in this demographic and the typical regions where they develop."
+  },
+  {
+    question: "A 7-year-old boy is found to have a family history of medullary thyroid carcinoma and several mucosal neuromas. Genetic testing reveals a mutation in the _ret_ proto-oncogene. Which of the following management strategies should be initiated for this patient?",
+    options: [
+      "Regular monitoring and annual ultrasound of the thyroid",
+      "Immediate total thyroidectomy",
+      "Observation until symptoms arise",
+      "Chemotherapy for neoplastic changes",
+      "Referral to endocrinology without intervention"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! In patients with confirmed _ret_ mutations and family history of MEN type II, a prophylactic total thyroidectomy is recommended, ideally before the age of 3 to prevent medullary thyroid carcinoma. Regular hormonal screening and imaging prior to surgery are essential.",
+    incorrectFeedback: "Remember, the presence of a _ret_ mutation strongly shifts management toward surgical intervention to prevent neoplastic changes. Reflect on when intervention is most appropriate given the connection to medullary thyroid carcinoma."
+  },
+  {
+    question: "A 30-year-old male presents with episodic headaches, palpitations, and sweating. A 24-hour urinary collection reveals elevated catecholamines. Given this clinical context, which condition is most likely associated with his symptoms?",
+    options: [
+      "Multiple Endocrine Neoplasia type I",
+      "Multiple Endocrine Neoplasia type II B",
+      "Pheochromocytoma",
+      "Cushing's syndrome",
+      "Primary hyperaldosteronism"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The combination of symptoms—headaches, palpitations, and sweating—along with elevated catecholamines strongly suggests a pheochromocytoma, which is often associated with MEN type II B, particularly in the context of genetic predisposition.",
+    incorrectFeedback: "Consider the classic symptoms associated with catecholamine release and the conditions where pheochromocytomas are commonly found. Review the distinguishing features of MEN syndromes and related tumors."
+  },
+  {
+    question: "An 8-year-old girl undergoes genetic testing after her family learns of an inherited mutation linked to MEN type II B. What is the primary benefit of administering prophylactic surgery in this population?",
+    options: [
+      "To manage existing neoplasms",
+      "To prevent the development of hormone-secreting tumors",
+      "To decrease the likelihood of benign tumors",
+      "To alleviate symptoms from mucosal neuromas",
+      "To avoid the surgical risks associated with later interventions"
+    ],
+    correctAnswer: 4,
+    correctFeedback: "Correct! The primary benefit of prophylactic thyroidectomy in MEN type II B patients is to prevent the development of medullary thyroid carcinoma, which can occur early in life. This intervention is crucial to mitigate cancer risk before it manifests.",
+    incorrectFeedback: "Focus on understanding the relationships between genetic mutations and the timing of surgical interventions. Think about the goals of preventive medicine in this context, especially in pediatric patients."
+  }
+]} />

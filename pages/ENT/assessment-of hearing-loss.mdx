@@ -1,0 +1,105 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Assessment of Hearing Loss
+
+## Overview of Hearing Loss Types
+
+Hearing loss can be categorized mainly into two types: **conductive hearing loss** and **sensorineural hearing loss**. Understanding the differences between these types is crucial for effective diagnosis and treatment.
+
+## Key Tests for Differentiation
+
+### Rinne Test
+
+The **Rinne test** is used to compare air conduction and bone conduction in both ears.
+
+- **Procedure**:
+  1. Place a vibrating tuning fork on the mastoid bone (bone conduction).
+  2. When the sound is no longer heard, move it next to the ear (air conduction).
+
+- **Interpretation**:
+  - **Positive Rinne**:
+    - Air conduction is better than bone conduction: indicates **normal hearing** or **sensorineural hearing loss**.
+  - **Negative Rinne**:
+    - Bone conduction is better than air conduction: indicates **conductive hearing loss**.
+
+### Weber Test
+
+The **Weber test** assesses lateralization of sound.
+
+- **Procedure**:
+  1. Place a vibrating tuning fork on the center of the forehead.
+
+- **Interpretation**:
+  - **Central Localization**:
+    - Sound heard equally in both ears indicates **normal hearing** or **bilateral hearing loss**. 
+  - **Lateralized Sound**:
+    - Sound localized to one side suggests:
+      - **Conductive hearing loss** on the side of lateralization.
+      - **Sensorineural hearing loss** on the contralateral side.
+
+<details>
+<summary>Additional Notes on Test Interpretation</summary>
+
+- Results from the Rinne test should always be correlated with the Weber test findings and patient symptoms.
+- In cases of **conductive hearing loss**, the Rinne test will typically show negative results while the Weber test will lateralize to the affected ear.
+- Conversely, with **sensorineural hearing loss**, the Rinne test will show positive results and the Weber test will lateralize to the unaffected ear.
+
+</details>
+
+## Important Considerations
+
+- Be mindful of potential errors in home testing with tuning forks, as external factors may influence results.
+- Future diagnostic imaging may be necessary if conductive hearing loss is confirmed; consider referring patients for audiometric testing for a comprehensive evaluation.
+
+<Callout emoji="⚠️">
+**Warning:** Ensure a thorough patient history is taken before conducting tests, as prior ear surgeries or infections may affect results.
+</Callout>
+
+## References
+
+[https://patient.info/doctor/cholesteatoma-pro](https://patient.info/doctor/cholesteatoma-pro)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A patient presents to the clinic for evaluation of hearing loss. During the physical exam, you perform the Rinne test, which reveals that the patient hears the tuning fork better when it is placed near the ear than on the mastoid. Considering this finding, which of the following types of hearing loss is most likely present?",
+    options: [
+      "Conductive hearing loss",
+      "Sensorineural hearing loss",
+      "Normal hearing",
+      "Mixed hearing loss",
+      "Presbycusis"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! A positive Rinne test, where air conduction is better than bone conduction, indicates that the patient likely has normal hearing or sensorineural hearing loss. However, since hearing is typically better when tested next to the ear, this suggests conductive hearing loss is less likely. The findings do not support mixed hearing loss either.",
+    incorrectFeedback: "Consider the mechanics of the Rinne test. The interpretation hinges on comparing air conduction and bone conduction. If air conduction is significantly better than bone conduction, what can you infer about the potential presence of conductive hearing loss?"
+  },
+  {
+    question: "During the Weber test, a patient indicates that they hear the sound laterally to the left ear. Assuming the right ear is unaffected, what does this finding suggest regarding the patient's hearing?",
+    options: [
+      "Seek further evaluation for conductive hearing loss in the left ear",
+      "The patient has normal hearing bilaterally",
+      "Sensorineural hearing loss in the right ear",
+      "No intervention is necessary",
+      "The patient should be tested for middle ear effusion"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! Lateralization of sound to one ear during the Weber test suggests conductive hearing loss in the ear where the sound is localized. In this case, the left ear may be experiencing conductive loss.",
+    incorrectFeedback: "Think about how the Weber test indicates the location of sound perception. Lateralization to the left ear could indicate a problem in that ear itself. What type of hearing loss might cause this finding?"
+  },
+  {
+    question: "Which of the following statements regarding the results of the Rinne and Weber tests is true for a patient with sensorineural hearing loss?",
+    options: [
+      "The Rinne test will be negative, and the Weber test will lateralize to the affected ear.",
+      "The Rinne test will be positive, and the Weber test will lateralize to the unaffected ear.",
+      "Both tests will show normal results.",
+      "The Rinne test will be negative, and the Weber test will indicate bilateral hearing loss.",
+      "The Rinne test will indicate better bone conduction than air conduction."
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! In cases of sensorineural hearing loss, air conduction is better than bone conduction (positive Rinne test), and the Weber test will lateralize to the unaffected ear due to the relative impairment in sound perception in the affected ear.",
+    incorrectFeedback: "Review how both tests demonstrate different facets of hearing loss. For sensorineural loss, consider how air and bone conduction are affected differently, and how that translates to the findings in both tests."
+  }
+]} />

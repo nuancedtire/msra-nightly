@@ -1,0 +1,62 @@
+{
+  "---1": {
+    "type": "separator",
+    "title": "Ear Conditions"
+  },
+  "hearing-loss": "👂 Hearing Loss",
+  "assessment-of hearing-loss": "🔊 Hearing Assessment",
+  "conductive-hearing-loss": "🎧 Conductive Hearing Loss",
+  "acoustic-neuroma": "🧠 Acoustic Neuroma",
+  "menieres-disease": "💫 Meniere's Disease",
+  "otitis-externa": "🌡️ Otitis Externa",
+  "impacted-ear-wax": "⚠️ Impacted Ear Wax",
+  "glue-ear": "💧 Glue Ear",
+
+  "---2": {
+    "type": "separator",
+    "title": "Throat & Oral Conditions"
+  },
+  "tonsillitis": "😷 Tonsillitis",
+  "bacterial-tonsillitis": "🦠 Bacterial Tonsillitis",
+  "peritonsillar-abscess": "⭕ Peritonsillar Abscess",
+  "sore-throat": "🤒 Sore Throat",
+  "acute-laryngitis": "🗣️ Acute Laryngitis",
+  "epiglottitis": "⚡ Epiglottitis",
+  "oral-cancer": "🎯 Oral Cancer",
+  "lesions-of-the-oral-cavity": "👄 Oral Cavity Lesions",
+  "oropharyngeal-disorders": "👅 Oropharyngeal Disorders",
+
+  "---3": {
+    "type": "separator",
+    "title": "Nose & Sinus"
+  },
+  "acute-bacterial-sinusitis": "👃 Bacterial Sinusitis",
+  "upper-respiratory-tract-infections": "🤧 Upper RTI",
+
+  "---4": {
+    "type": "separator",
+    "title": "Thyroid & Neck"
+  },
+  "goitre-and-other-neck-lumps": "🔍 Neck Lumps",
+  "graves-disease": "🔬 Graves' Disease",
+  "hashimotos-thyroiditis": "🧬 Hashimoto's Thyroiditis",
+  "thyroid-growths": "📊 Thyroid Growths",
+  "parotid-gland-tumour": "⭕ Parotid Tumour",
+
+  "---5": {
+    "type": "separator",
+    "title": "Neurological"
+  },
+  "bells-palsy": "😕 Bell's Palsy",
+  "ramsay-hunt-syndrome": "🔆 Ramsay Hunt Syndrome",
+  "trigeminal-neuralgia": "⚡ Trigeminal Neuralgia",
+  "temporal-arteritis": "🔄 Temporal Arteritis",
+
+  "---6": {
+    "type": "separator",
+    "title": "Other Conditions"
+  },
+  "infectious-mononucleosis": "🦠 Infectious Mononucleosis",
+  "obstructive-sleep-apnoea": "😴 Sleep Apnoea",
+  "oesophageal-cancer": "🔴 Oesophageal Cancer"
+}

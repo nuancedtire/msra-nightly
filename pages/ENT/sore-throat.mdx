@@ -1,0 +1,123 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Acute Sore Throat Management
+
+Acute sore throats are a **common presentation** in primary care, with various underlying causes such as:
+
+- **Pharyngitis**
+- **Tonsillitis**
+- **Laryngitis**
+- **Epiglottitis**
+- **Glandular fever**
+
+## Overview of Causes
+
+Most sore throat infections are **viral in origin** and typically self-limiting. Management is primarily supportive, often guided by **pharmacist advice**.
+
+### Antibiotic Considerations
+
+Antibiotics are **not indicated** for the majority of sore throat cases because:
+
+- There is **no evidence** that they improve symptoms.
+- They do not hasten recovery.
+
+Patients frequently request antibiotic prescriptions. It is crucial to explain why they may not be necessary, focusing on the viral nature of most sore throats.
+
+<Callout emoji="⚠️">
+**Warning:** Delayed and immediate antibiotic prescriptions may be necessary if a bacterial cause is suspected — indicated by symptoms not resolving within the natural history of a viral illness or presence of significant systemic upset.
+</Callout>
+
+### Risk Assessment Tools
+
+NICE recommends utilizing scoring tools to identify patients who may need antibiotics, including:
+
+- **Centor Score**
+- **FeverPAIN Score**
+
+These tools aid in risk stratification for antibiotic necessity.
+
+## Severe Throat Infections
+
+Be aware of high-risk features associated with severe throat infections, particularly:
+
+- **Epiglottitis**: This can cause upper airway obstruction, especially in children. Any suspected case requires **immediate hospitalization**.
+  
+### Referral Guidelines
+
+Any patient presenting with:
+
+- An acute sore throat
+- Significant systemic upset
+
+Should be referred to a hospital for thorough assessment, as this could signify a serious bacterial infection.
+
+<details>
+<summary>Common Signs and Symptoms</summary>
+
+- **Chest Pain**
+  - Crushing or pressure-like
+  - May radiate to left arm, jaw, or back
+  - Often accompanied by sweating
+  
+- **Respiratory**
+  - Shortness of breath
+  - Rapid breathing
+  - Orthopnea
+
+- **Other Symptoms**
+  - Nausea and vomiting
+  - Fatigue
+  - Light-headedness
+  - Anxiety
+
+</details>
+
+## References
+
+- NICE – sore throat (acute) [NICE Guidelines](https://cks.nice.org.uk/sore-throat-acute)
+- NICE – sore throat (acute): antimicrobial prescribing [NICE Antimicrobial Guidance](https://www.nice.org.uk/guidance/ng84/resources/visual-summary-pdf-4723226606)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 20-year-old college student presents with a sore throat, fever, and swollen tonsils. A rapid antigen test for group A Streptococcus is negative. Based on the article, which of the following is the most appropriate management plan?",
+    options: [
+      "Prescribe amoxicillin to cover for possible bacterial pharyngitis.",
+      "Instruct symptomatic care and advise to rest, as the cause is likely viral.",
+      "Schedule a follow-up appointment in one week to reassess.",
+      "Perform a throat culture to rule out bacterial infection.",
+      "Immediately refer for hospitalization due to systemic upset."
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The patient’s symptoms and the negative rapid antigen test suggest a viral origin, and supportive care is the preferred approach. Antibiotics are not indicated in this case.",
+    incorrectFeedback: "Remember that the majority of sore throats are viral. Consider the implications of a negative rapid test and the need to avoid unnecessary antibiotics. What is the recommended approach when bacterial infection is less likely?"
+  },
+  {
+    question: "Which scoring tool is recommended by NICE to determine the necessity of antibiotics in managing acute sore throats?",
+    options: [
+      "WBC Count",
+      "FeverPAIN Score",
+      "Quick Sequential Organ Failure Assessment (qSOFA)",
+      "Centor Score",
+      "Both FeverPAIN Score and Centor Score"
+    ],
+    correctAnswer: 4,
+    correctFeedback: "Correct! Both the FeverPAIN Score and the Centor Score are recommended tools for assessing the necessity of antibiotics in acute sore throat cases. They help stratify risk effectively.",
+    incorrectFeedback: "Consider the tools mentioned in the article that assist healthcare providers in determining when antibiotics might be necessary for sore throats. Are there specific scoring systems designed for this purpose?"
+  },
+  {
+    question: "A 7-year-old child arrives in the emergency department with a high fever, severe sore throat, and difficulty breathing. Based on the article, what is the most appropriate immediate action?",
+    options: [
+      "Prescribe oral antibiotics and observe.",
+      "Perform a thorough assessment and treat possible epiglottitis.",
+      "Reassure the parents and schedule a follow-up visit.",
+      "Administer over-the-counter pain relief and send home.",
+      "Direct the patient to see a pediatrician for further management."
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The child’s presentation is concerning for epiglottitis, which can cause upper airway obstruction. Immediate hospitalization and further assessment are essential.",
+    incorrectFeedback: "Think about the serious implications of difficulty breathing in this child. Refer to the guidelines discussed in the article regarding suspected cases of epiglottitis and the required actions to take."
+  }
+]} />

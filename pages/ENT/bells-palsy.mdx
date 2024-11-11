@@ -1,0 +1,131 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Bell's Palsy: Overview, Diagnosis, Management
+
+Bell’s palsy is a **facial nerve** or **cranial nerve VII** palsy that is acute (within `72 hours`) and unilateral in nature. The history and examination are often unremarkable. The exact aetiology is not well understood, but it is believed to be associated with viral infections.
+
+## Diagnosis
+
+Pregnancy is the strongest risk factor for developing Bell’s palsy, particularly in the **third trimester** and up to the **first week post-partum**. Other weaker risk factors include:
+
+- Upper respiratory tract infection
+- Diabetes
+- Family history
+
+All clinical features are characterized by rapid onset and affect only the affected side. Key signs include:
+
+- Loss of nasolabial fold
+- **Drooping of the corner of mouth and drooling**
+- Inability to raise eyebrow and loss of forehead wrinkles (Bell’s palsy is a lower motor neuron lesion, indicating forehead involvement; if the forehead is spared, suspect an upper motor neuron lesion)
+- Inability to fully close eyelid, which can lead to **keratoconjunctivitis sicca** (dry eye) and may result in exposure keratopathy (red-eye)
+- Inability to puff out cheek
+- Inability to smile (affected side will droop)
+- Loss of taste predominantly affecting the anterior 2/3 of the tongue
+- **Hyperacusis**: sensitivity to certain frequencies and volumes of sound
+- Ear pain or post-auricular pain
+
+**Facial synkinesis** (involuntary muscle movements) may occur **3 to 6 months** post-episode. If present in the acute phase, consider alternative diagnoses such as malignancy.
+
+Bell’s palsy is graded using the **House-Brackmann Scale (HBS)**, ranging from **1** (normal) to **6** (no movement).
+
+## Investigations
+
+Bell’s palsy is primarily a clinical diagnosis, with testing required to rule out alternative diagnoses based on patient history. Investigations may include:
+
+- **CT/MRI** if the history indicates potential malignancy
+- **Serology for Borrelia burgdorferi** if there is a history of recent travel to a Lyme disease-endemic area
+
+For patients with severe disease (HBS `5` or `6`), the following should be performed:
+
+- **Serial electroneuronography (ENoG)** also known as evoked electromyography (`eEMG`): at least `72 hours` after onset of paralysis to quantify nerve degeneration and assess the need for neural decompression.
+- **Needle electromyography (EMG)**: can confirm the absence of voluntary motor unit potentials.
+
+## Management (Prescribing)
+
+Approximately **70%** of patients recover to complete normal function within `6 months`. **Prednisolone** should be prescribed within `72 hours` of onset to shorten recovery time and improve longer-term outcomes. In cases of severe paralysis, concomitant **antivirals** such as **valaciclovir** are also indicated to improve long-term outcomes.
+
+## Management (Non-Prescribing)
+
+**Eye protection** is essential. Recommendations for managing dry-eye include:
+
+- Wearing glasses
+- Using artificial tears during daytime
+- Administering lubricants
+- Eyelid taping overnight
+
+**Referral to ophthalmology** is warranted if:
+
+- Sight is affected
+- Exposure keratopathy is suspected
+- There is reduced corneal sensation
+
+### Surgical Decompression
+
+Surgical decompression for Bell’s palsy is indicated if:
+
+- Clinically undetectable unilateral movement in the face
+- Onset of facial palsy is within `14 days`
+- ENoG shows > `90%` reduction of amplitude of the compound muscle action potential (**CMAP**)
+- Needle EMG confirms absence of voluntary motor unit potentials
+
+### References
+
+- [BMJ Best Practice - Bell's Palsy](https://bestpractice.bmj.com/topics/en-gb/118/pdf/118.pdf)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 28-year-old pregnant woman in her third trimester presents with sudden onset right-sided facial droop and inability to close her right eye. On examination, she has a loss of nasolabial fold and can’t raise her right eyebrow. What is the most likely diagnosis?",
+    options: [
+      "Stroke",
+      "Bell’s palsy",
+      "Multiple sclerosis",
+      "Acoustic neuroma",
+      "Trigeminal neuralgia"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! This patient’s symptoms are consistent with Bell’s palsy, especially given her pregnancy in the third trimester which is a known risk factor. The unilateral facial weakness and inability to close the eyelid suggest lower motor neuron involvement typical of Bell’s palsy.",
+    incorrectFeedback: "Consider the patient's age and status as a pregnant woman, as well as the nature of her symptoms. What features typically distinguish Bell's palsy from other causes of unilateral facial weakness?"
+  },
+  {
+    question: "A patient diagnosed with Bell’s palsy is prescribed a course of medication within 72 hours of symptom onset. Which medication should be prioritized for this patient to shorten recovery time?",
+    options: [
+      "Ibuprofen",
+      "Prednisolone",
+      "Acyclovir",
+      "Valaciclovir",
+      "Nortriptyline"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Prednisolone, a corticosteroid, is the first-line treatment to reduce inflammation and improve outcomes in Bell’s palsy when initiated early. It is crucial to start within 72 hours to maximize benefits.",
+    incorrectFeedback: "Think about the treatment guidelines for Bell's palsy. While other medications have roles, which agent is recommended primarily for reducing inflammation in acute facial nerve palsy?"
+  },
+  {
+    question: "A patient presents with facial droop and is found to have a House-Brackmann Scale score of 5. What management strategy is indicated at this level of severity?",
+    options: [
+      "No treatment necessary as recovery is expected",
+      "Surgical decompression",
+      "Prescribe Prednisolone and consider antivirals",
+      "Immediate referral to neurology for exploratory surgery",
+      "Monitor with weekly follow-ups only"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! For patients with severe facial paralysis, indicated by a House-Brackmann score of 5 or 6, prescribing Prednisolone and considering antivirals is recommended to enhance recovery prospects.",
+    incorrectFeedback: "Consider what constitutes severe Bell's palsy and the recommended management options that enhance recovery. Which treatment is indicated to help improve outcomes in this setting?"
+  },
+  {
+    question: "During a follow-up, a patient diagnosed with Bell’s palsy reports involuntary facial movements occurring 4 months after the initial episode. What is this phenomenon called?",
+    options: [
+      "Facial synkinesis",
+      "Post-facial palsy contracture",
+      "Complete recovery",
+      "Pathologic facial twitching",
+      "Facial myokymia"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The involuntary movements occurring after Bell’s palsy are known as facial synkinesis, a common sequel following facial nerve dysfunction.",
+    incorrectFeedback: "Reflect on the types of facial movements and changes that can occur post-recovery from Bell's palsy. What term describes these involuntary movements associated with the affected facial musculature?"
+  }
+]} />

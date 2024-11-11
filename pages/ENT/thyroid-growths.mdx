@@ -1,0 +1,124 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Thyroid Cancers and Thyroglossal Cysts
+
+## Thyroid Cancers
+
+There are several types of **thyroid cancers**, which are differentiated based on clinical characteristics and biopsy findings.
+
+The **majority (90%)** of thyroid cancers are differentiated, meaning that the cells maintain features similar to normal thyroid gland cells. The two primary types of differentiated thyroid cancers are:
+
+- **Papillary Thyroid Cancer** (80-85%)
+  - More common in **women** and **younger people**
+  - Usually **slow-growing**, but can spread to lymph nodes in the neck
+  - Good overall **cure rate**
+  
+- **Follicular Thyroid Cancer** (5-10%)
+  - More common in **middle-aged** individuals
+  - More likely to spread to **distant sites**, but still has a good overall **cure rate**
+
+The following are **rarer types** of thyroid cancers that are considered undifferentiated:
+
+- **Medullary Thyroid Cancer** (3-10%)
+  - May be *sporadic* or related to an inherited endocrine syndrome
+  - Arises from parafollicular cells and produces **calcitonin**, often causing *diarrhea*
+  - Can spread and has a poorer outlook than the differentiated cancers
+
+- **Anaplastic Thyroid Cancer** (1-3%)
+  - Grows very **quickly** and causes symptoms of local invasion
+  - Has a **poor outlook**
+
+- **Hürthle Cell Thyroid Cancer** (4%)
+  - Hürthle cells are abnormal cells that develop in the thyroid gland and are sometimes grouped with **follicular cancers** due to their similarities 
+
+<Callout emoji="⚠️">
+**Warning:** Early detection in thyroid cancers, especially differentiated types, significantly improves management and prognosis.
+</Callout>
+
+## Thyroglossal Cysts
+
+**Thyroglossal cysts** are an embryological remnant of the thyroid gland due to incomplete closure of the thyroglossal duct. These cysts typically present in **children** or **young adults**. 
+
+Key characteristics:
+- Majority are situated in the **midline of the neck**
+- Characterized by elevation on **swallowing** or protrusion of the **tongue**
+
+### Complications:
+- **Infection**: Can be treated with *antibiotics*
+- **Cutaneous Fistulas**
+
+### Management:
+- Surgical excision is recommended for most cysts.
+
+<details>
+<summary>Common Symptoms of Thyroglossal Cysts</summary>
+
+- Swelling in the midline of the neck
+- Pain or discomfort during swallowing
+- Possible discharge if infected
+- Mobility changes during tongue movement
+
+</details>
+
+## References
+
+- Cancer Research UK, 2018. Types of Thyroid Cancer. Available at: [Cancer Research UK](https://www.cancerresearchuk.org/about-cancer/thyroid-cancer/stages-types/types). Last accessed 26/7/19.
+- Oxford Handbook of Clinical Surgery, 4th Edition, Chapter 5
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 45-year-old woman presents with a palpable thyroid nodule and weight loss. An ultrasound reveals a solid nodule with microcalcifications. Fine needle aspiration biopsy confirms papillary thyroid cancer. Which of the following is the most common characteristic associated with papillary thyroid cancer?",
+    options: [
+      "Tends to occur more frequently in men than women",
+      "Often presents with aggressive local invasion",
+      "Has a high cure rate due to slow growth",
+      "Is associated with elevated calcitonin levels",
+      "Most commonly arises from parafollicular cells"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Papillary thyroid cancer is typically slow-growing and has a high cure rate, particularly when detected early. It is more common in women, and while it can spread to lymph nodes, it is not known for aggressive local invasion as seen in anaplastic cancer.",
+    incorrectFeedback: "Consider the growth rate and prognosis of different types of thyroid cancer. Papillary thyroid cancer is distinct for its slow growth and generally favorable outcomes. Which statements about its characteristics align with this understanding?"
+  },
+  {
+    question: "A 30-year-old man presents with a midline neck mass that elevates with swallowing and a recent episode of cellulitis in the area. A diagnosis of a thyroglossal cyst is made. Which of the following is the recommended management for this condition?",
+    options: [
+      "Watchful waiting with regular monitoring",
+      "Surgical excision of the cyst",
+      "Antibiotic therapy alone",
+      "Draining the cyst and placing a drainage tube",
+      "Repeated fine needle aspiration"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Surgical excision is the definitive management for thyroglossal cysts, especially if there's a risk of infection or if the cyst is symptomatic. Antibiotics may help with infection, but they don't eliminate the cyst.",
+    incorrectFeedback: "Reflect on the nature of thyroglossal cysts and their management. Consider the complications they can cause and how they can be effectively treated."
+  },
+  {
+    question: "A 60-year-old woman was diagnosed with follicular thyroid cancer. Which of the following is true regarding follicular thyroid cancer compared to papillary thyroid cancer?",
+    options: [
+      "It has a better overall prognosis than papillary thyroid cancer",
+      "It is more likely to spread to distant sites",
+      "It is more commonly associated with microcalcifications",
+      "It has a higher occurrence in younger individuals",
+      "It is part of the group of differentiated thyroid cancers"
+    ],
+    correctAnswer: 5,
+    correctFeedback: "Correct! Follicular thyroid cancer is indeed classified as a differentiated thyroid cancer, maintaining some characteristic features of normal thyroid tissue. Although it is more likely to spread to distant sites than papillary thyroid cancer, its overall prognosis is still relatively good.",
+    incorrectFeedback: "Think about the classification of thyroid cancers and the characteristics that differentiate the types. Consider the implications of 'differentiated' in terms of behavior and prognosis."
+  },
+  {
+    question: "Which of the following thyroid cancers typically presents with elevated levels of calcitonin in the serum?",
+    options: [
+      "Anaplastic thyroid cancer",
+      "Papillary thyroid cancer",
+      "Follicular thyroid cancer",
+      "Medullary thyroid cancer",
+      "Hürthle cell thyroid cancer"
+    ],
+    correctAnswer: 4,
+    correctFeedback: "Correct! Medullary thyroid cancer arises from parafollicular cells (C cells) which produce calcitonin, leading to elevated levels in affected patients. This feature helps in the diagnosis of the condition.",
+    incorrectFeedback: "Consider the different cell types involved in thyroid cancers and their functions. Which cancer type is specifically associated with increased calcitonin production and what implications does that have for patient diagnosis?"
+  }
+]} />

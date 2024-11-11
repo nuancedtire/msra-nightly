@@ -1,0 +1,175 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Hashimoto’s Thyroiditis
+
+Hashimoto’s thyroiditis, also known as chronic lymphocytic thyroiditis, is an autoimmune disorder characterized by the destruction of thyroid cells, which often leads to hypothyroidism. The primary antibody involved is **anti-thyroid peroxidase (anti-TPO)**, along with **antithyroglobulin** and **TSG receptor-blocking antibodies**. It is the most common cause of primary hypothyroidism in iodine-sufficient regions.
+
+## Diagnosis
+
+- The yearly incidence of Hashimoto’s thyroiditis is approximately `0.3 to 1.5` cases per 1000 persons, predominantly affecting **middle-aged females** aged `30 to 50`.
+- The higher prevalence among females is largely due to increased rates of autoimmune disorders in this demographic.
+
+<Callout emoji="⚠️">
+**Warning:** Patients with Hashimoto’s thyroiditis are at a higher risk for concurrent autoimmune conditions such as Sjogren’s syndrome, pernicious anemia, and coeliac disease.
+</Callout>
+
+### Typical Presentation
+
+The classic symptoms of **hypothyroidism** include:
+
+- **Lethargy**
+- **Cold intolerance**
+- **Unintentional weight gain**
+- **Bradycardia**
+- **Constipation**
+- **Dry skin**
+- **Menstrual irregularities** (typically menorrhagia)
+- **Decreased sweat production**
+
+Patients may develop a goitre, leading to:
+
+- **Dysphagia** (difficulty swallowing)
+- **Voice hoarseness**
+
+**Severe hypothyroidism** can result in myxoedema coma, a life-threatening emergency.
+
+### Physical Findings
+
+Characteristic physical findings may include:
+
+- Bradycardia
+- Diastolic hypertension
+- Hyporeflexia
+- Macroglossia
+- Non-pitting peripheral edema
+- Hair loss (often the lateral third of the eyebrow)
+- Cold, dry skin
+- Periorbital edema
+
+<details>
+<summary>Symptoms of Hyperthyroidism Phase</summary>
+
+In some cases, **hyperthyroidism** may occur initially, presenting with:
+
+- **Tachycardia/arrhythmia**
+- **Restlessness**
+- **Unintentional weight loss**
+- **Palpitations**
+- **Excessive sweating**
+- **Heat intolerance**
+- **Tremor**
+- **Menstrual disturbances** (typically oligomenorrhea)
+
+</details>
+
+## Investigations
+
+Key blood tests for diagnosing Hashimoto’s thyroiditis include:
+
+- Total free T4 hormone
+- Total free T3 hormone
+- Thyroid-stimulating hormone (TSH)
+- Thyroid autoantibodies:
+  - **Anti-TPO**
+  - **Anti-thyroglobulin**
+
+### Typical Blood Test Results
+
+| Hormone                     | Expected Result              |
+|----------------------------|------------------------------|
+| Total free T4              | Low                          |
+| Total free T3              | Low                          |
+| TSH                         | High                         |
+| Anti-TPO                   | Positive (commonly)        |
+| Anti-thyroglobulin        | Positive (less common)      |
+
+**Note:** Up to `15%` of patients may test negative for antibodies.
+
+To exclude thyroid malignancy or assess for thyroid nodules, a thyroid ultrasound may be necessary, sometimes accompanied by fine-needle aspiration and histological sampling.
+
+## Management (Prescribing)
+
+The primary goal of management is to restore sufficient thyroid hormone levels until a biochemically **euthyroid** state is achieved. This typically requires:
+
+- **Levothyroxine sodium** - the first-line drug of choice.
+
+### Side Effects of Levothyroxine
+
+Potential side effects from excessive thyroid hormone levels include:
+
+- Arrhythmia/tachycardia
+- Diarrhea
+- Flushing
+- Headache
+- Weight loss
+- Menstrual disturbances (typically oligomenorrhea)
+- Palpitations
+- Tremor
+- Vomiting
+
+### Important Considerations
+
+Patients should avoid taking levothyroxine with iron supplements, as this can reduce its gastrointestinal absorption.
+
+## References
+
+1. Medscape [[Medscape Hashimoto's Treatment](https://emedicine.medscape.com/article/120937-treatment#d9)]
+2. Merck Manual [Hashimoto's Thyroiditis - Merck Manual](<https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/thyroid-disorders/hashimoto-thyroiditis>)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 45-year-old woman presents with fatigue, weight gain, and cold intolerance. Laboratory tests reveal elevated TSH and low free T4. Anti-TPO antibodies are found to be positive. Which of the following is the best initial treatment for her condition?",
+    options: [
+      "Methimazole",
+      "Radioactive iodine therapy",
+      "Levothyroxine sodium",
+      "Prednisone",
+      "Surgery"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Levothyroxine sodium is the first-line treatment for Hashimoto's thyroiditis to normalize thyroid hormone levels. In cases of hypothyroidism due to Hashimoto's, the goal is to restore sufficient thyroid hormone levels. Methimazole and radioactive iodine are treatments for hyperthyroidism, while prednisone and surgery are not indicated for managing this condition.",
+    incorrectFeedback: "Consider the underlying mechanism of Hashimoto's thyroiditis. Since the patient is hypothyroid (high TSH and low T4), what type of treatment would be appropriate to increase thyroid hormone levels? Think about standard management practices for primary hypothyroidism."
+  },
+  {
+    question: "Which of the following physical findings is most commonly associated with hypothyroidism due to Hashimoto’s thyroiditis?",
+    options: [
+      "Diastolic hypertension",
+      "Tachycardia",
+      "Increased deep tendon reflexes",
+      "Poor skin turgor",
+      "Jaundice"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Diastolic hypertension often occurs in hypothyroidism due to fluid retention and increased peripheral vascular resistance. The other options are either not typically associated with hypothyroidism or represent signs of other conditions.",
+    incorrectFeedback: "Think about the systemic effects of hypothyroidism. Which cardiovascular changes might occur as a result of lower thyroid hormone levels? Review the classic physical findings associated with this condition to find the correct response."
+  },
+  {
+    question: "A patient with Hashimoto's thyroiditis is initiated on levothyroxine therapy. During a follow-up appointment, she reports increased heart rate, weight loss, and diarrhea. What is the most likely cause of these symptoms?",
+    options: [
+      "Autoimmune disease progression",
+      "Under-treatment of hypothyroidism",
+      "Over-treatment with levothyroxine",
+      "Drug interaction with iron supplements",
+      "Secondary hyperthyroidism"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! These symptoms are indicative of over-treatment with levothyroxine, which can lead to hyperthyroid-like symptoms. Monitoring thyroid function tests is essential to adjust the dosage appropriately.",
+    incorrectFeedback: "Consider how levothyroxine affects the body. When thyroid hormone levels are excessive, what symptoms would manifest? Reflect on the side effects associated with excessive amounts of thyroid hormone and manage the risk of over-treatment."
+  },
+  {
+    question: "In addition to thyroid hormone replacement, patients with Hashimoto’s thyroiditis should be monitored for which potential concurrent autoimmune condition?",
+    options: [
+      "Multiple sclerosis",
+      "Rheumatoid arthritis",
+      "Celiac disease",
+      "Lupus erythematosus",
+      "Systemic sclerosis"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Patients with Hashimoto’s thyroiditis are at higher risk for concurrent autoimmune diseases, including celiac disease. This comorbidity is important to recognize as part of comprehensive patient management.",
+    incorrectFeedback: "Reflect on the known associations between autoimmune diseases. Hashimoto's thyroiditis often coexists with other autoimmune conditions, prompting the need for vigilant monitoring. Consider conditions that share similar pathophysiological mechanisms to identify the correct answer."
+  }
+]} />

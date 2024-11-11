@@ -1,0 +1,149 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Temporal Arteritis (Giant Cell Arteritis)
+
+Temporal arteritis, also known as **giant cell arteritis**, is characterized by serious headaches due to a temporal artery vasculitis that primarily affects people over the age of 55. The incidence is approximately `5-18 in 100,000` in patients over this age, increasing with age and being more common in **females**.
+
+## Pathophysiology
+
+Temporal arteritis is an *immune-mediated arteritis* that involves the extra cranial large arteries, especially the **superficial temporal artery**. The following events typically occur:
+
+- **B cells** cause immunoglobulin (Ig) to attack vessel proteins.
+- This leads to **inflammation** and **stenosis** of the vessel.
+- Inflammation results in **multifocal lesions** consisting of infiltrates that form **giant cells**.
+- **Skip lesions** may be observed between these infiltrates.
+
+<Callout emoji="⚠️">
+**Warning:** If left untreated, patients can risk becoming permanently blind due to inflammation and potential occlusion of the ophthalmic artery.
+</Callout>
+
+<details>
+<summary>Common Signs and Symptoms</summary>
+
+- **Headache**
+  - Non-specific but localized around the temporal artery
+  - May be tender to touch
+  - Associated scalp tenderness and erythema
+
+- **Systemic Symptoms** of vasculitis
+  - Myalgia
+  - Weight loss
+  - Malaise
+  - Fever
+  - Night sweats
+  - Arthralgia
+
+- **Jaw Claudication**
+  - Difficulty opening the mouth or protruding the tongue
+  - Rarely may develop an ischemic tongue
+
+- **Polymyalgia Rheumatica**
+  - Stiffness and pain in proximal muscles such as:
+    - Neck
+    - Shoulders
+    - Upper arms
+    - Hips
+
+</details>
+
+## Diagnosis
+
+The most common presenting feature of temporal arteritis is a **headache**. Diagnosis typically involves the following investigations:
+
+1. **First-line Investigations:**
+   - Full blood count
+   - Liver function tests
+   - CRP
+   - ESR
+   - Temporal artery ultrasound
+   - Temporal artery biopsy
+
+2. **Lab Findings:**
+   - CRP and ESR will be elevated. If normal, this suggests an alternate diagnosis.
+
+3. **Definitive Diagnosis:**
+   - A biopsy of the affected artery is necessary.
+   - *Note:* A negative biopsy does not rule out temporal arteritis due to its segmental nature.
+
+## Emergencies Related to Temporal Arteritis
+
+**Transient Amaurosis Fugax**, a worrying symptom, causes transient monocular visual loss due to anterior ischemic optic neuropathy from arterial inflammation, occlusion, or embolism (75% occurring in the posterior ciliary artery). This immediate concern requires **rapid treatment** to prevent irreversible blindness. 
+
+**Caution:** Any headache accompanied by visual problems in an elderly woman should be treated as temporal arteritis until proven otherwise.
+
+## Management (Non-Prescribing)
+
+1. **Immediate Management:**
+   - High-dose corticosteroids, titrated down while monitoring CRP levels.
+   - A rapid response to steroids is often expected. If response is inadequate, the diagnosis should be reviewed.
+
+2. **Continuation of Treatment:**
+   - Treatment with steroids typically continues for several years to confirm resolution of the disease.
+   - Long-term steroid use can lead to significant side effects.
+
+3. **Ophthalmology Review:**
+   - An urgent referral to **ophthalmology** is warranted for significant visual symptoms.
+
+---
+
+### References
+
+- [NHS: Temporal Arteritis](https://www.nhs.uk/conditions/temporal-arteritis/)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 63-year-old female presents with persistent headaches and scalp tenderness. She has a history of weight loss and night sweats over the past month. Lab tests show elevated ESR and CRP. What is the most appropriate next step in the management of this patient while awaiting a temporal artery biopsy?",
+    options: [
+      "Immediate high-dose corticosteroids",
+      "Low-dose aspirin",
+      "Refer to neurology for further evaluation",
+      "Start methotrexate therapy",
+      "Empirical antibiotics for suspected infection"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! Patients suspected of having temporal arteritis should receive high-dose corticosteroids immediately to prevent complications such as blindness, especially when there are systemic symptoms and elevated inflammatory markers. Delay in treatment can lead to irreversible damage.",
+    incorrectFeedback: "Remember that temporal arteritis is a medical emergency. The priority is to initiate treatment with high-dose corticosteroids to reduce inflammation and prevent complications, especially before the results of the biopsy are available."
+  },
+  {
+    question: "Which of the following is a characteristic sign of temporal arteritis that differentiates it from other types of headaches?",
+    options: [
+      "Bilateral frontal headaches",
+      "Visual disturbances",
+      "Scalp tenderness specifically over the temporal artery",
+      "Nausea and vomiting",
+      "Aura before headache onset"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Scalp tenderness specifically over the temporal artery is a hallmark sign of temporal arteritis. This localized tenderness often helps distinguish it from other headache types.",
+    incorrectFeedback: "Consider the symptoms presented in temporal arteritis. What unique signs can you associate with it that are not typically seen in other headache disorders? Scalp tenderness in specific areas is a key point."
+  },
+  {
+    question: "In a patient with suspected temporal arteritis, which of the following lab results would most likely be elevated?",
+    options: [
+      "Liver transaminases",
+      "Serum creatinine",
+      "Erythrocyte sedimentation rate (ESR)",
+      "Thyroid-stimulating hormone (TSH)",
+      "Blood glucose"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The erythrocyte sedimentation rate (ESR) is typically elevated in temporal arteritis due to systemic inflammation, helping to confirm the presence of the disease.",
+    incorrectFeedback: "Think about the common laboratory findings associated with inflammatory conditions. Elevated levels of which substances signal significant inflammation in the body? Focus on tests that reflect this systemic process."
+  },
+  {
+    question: "A patient with newly diagnosed temporal arteritis is started on corticosteroids but later presents with persistent headache and new visual disturbances. What is the most concerning potential complication in this scenario?",
+    options: [
+      "Infection due to immunosuppression",
+      "Conversion to polymyalgia rheumatica",
+      "Permanent vision loss",
+      "Development of a tension-type headache",
+      "Cerebral aneurysm"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Persistent headache and new visual disturbances raise high suspicion for permanent vision loss due to ocular ischemia resulting from untreated or poorly managed temporal arteritis.",
+    incorrectFeedback: "Evaluate the symptoms. Inflammation of the arteries can lead to serious complications, especially when they affect the visual pathways or optic nerves. What dire consequence might follow if the condition is not fully controlled?"
+  }
+]} />

@@ -1,0 +1,130 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding the Peripheral Hearing System
+
+The **peripheral hearing system** is essential for sound perception and consists of three main components:
+
+## Components of the Peripheral Hearing System
+
+1. **Outer Ear**
+   - **Pinna**: The visible part that collects sound waves.
+   - **Ear Canal**: The passage that funnels sound to the tympanic membrane.
+   - **Tympanic Membrane**: Also known as the eardrum, it vibrates in response to sound waves.
+
+2. **Middle Ear**
+   - An air-filled cavity containing the **ossicles**, which are:
+     - **Malleus**: Connects with the tympanic membrane.
+     - **Incus**: Acts as a bridge between the malleus and the stapes.
+     - **Stapes**: Connects to the inner ear structures.
+
+3. **Inner Ear**
+   - **Cochlea**: Contains sensory cells crucial for hearing and is linked to the central hearing system via the **auditory nerve**. 
+   - Also responsible for balance.
+
+## Sound Transmission Process
+
+Sound waves travel as vibrations through the air. The process of hearing involves:
+
+- The pinna collects vibrations and funnels them into the ear canal.
+- These vibrations cause the tympanic membrane to move, which transfers the vibrations through the ossicles to the cochlea.
+- Hair cells within the cochlea are stimulated, determining **pitch** and **frequency** of sounds.
+- This generates **nerve impulses** that travel along the auditory nerve to the brain, where sound is comprehended in the auditory cortex.
+
+## Types of Hearing Loss
+
+The type of hearing problem a person may experience is determined by which part of the hearing pathway is affected:
+
+### 1. Conductive Hearing Loss
+- Occurs when sound is not transferred efficiently to the cochlea, indicating that the cochlea itself is functioning.
+- Common Characteristics:
+  - Typically affects sound volume.
+  - *Symptoms*: Difficulty hearing soft sounds (e.g., television), struggle to hear conversations.
+- Examples include:
+  - Blockage of wax in the ear canal.
+  - Perforated eardrum.
+
+### 2. Sensorineural Hearing Loss
+- Results from problems between the cochlea and the brain, leading to abnormal sound processing.
+- Causes:
+  - Damage to hair cells in the cochlea.
+  - Damage to the auditory nerve or defects in the auditory pathway.
+- Commonly linked to:
+  - **Ageing**.
+  - Exposure to **excessive noise**.
+
+### 3. Mixed Hearing Loss
+- A combination of both conductive and sensorineural hearing loss.
+
+## Summary of Hearing Mechanism
+
+| Part of Ear | Function |
+|-------------|----------|
+| Outer Ear | Collects and funnels sound waves |
+| Middle Ear | Transfers sound vibrations through ossicles |
+| Inner Ear | Converts vibrations into nerve impulses |
+
+<Callout emoji="⚠️">
+**Warning:** Persistent hearing loss should be evaluated by a healthcare professional for appropriate diagnosis and management.
+</Callout>
+
+### References
+
+Hearing Link, 2018. How the ear works. Available at: [https://www.hearinglink.org/your-hearing/about-hearing/how-the-ear-works/](https://www.hearinglink.org/your-hearing/about-hearing/how-the-ear-works/). Last accessed 26/7/19.
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 35-year-old man presents with difficulty hearing soft sounds. Upon examination, you find a significant amount of wax occluding the ear canal. Which type of hearing loss is this patient most likely experiencing?",
+    options: [
+      "Sensorineural hearing loss",
+      "Conductive hearing loss",
+      "Mixed hearing loss",
+      "Normal hearing",
+      "Central auditory processing disorder"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The obstruction of sound transmission due to wax in the ear canal indicates conductive hearing loss, which primarily affects the volume of sound heard. Sensorineural hearing loss usually involves damage to the cochlea or auditory nerve, rather than blockage.",
+    incorrectFeedback: "Consider the characteristics of the patient’s presentation and the type of blockage involved. What type of hearing loss relates to mechanical impediments in sound transmission, such as obstruction or damage to the ear canal or tympanic membrane?"
+  },
+  {
+    question: "An elderly woman is experiencing progressive hearing loss and recent difficulty understanding conversations, especially in groups. Which type of hearing loss is she most likely suffering from?",
+    options: [
+      "Conductive hearing loss",
+      "Sensorineural hearing loss",
+      "Mixed hearing loss",
+      "Transient hearing loss",
+      "Presbycusis"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The patient’s age and the gradual nature of her hearing loss suggest sensorineural hearing loss, often associated with aging, known as presbycusis. This type affects clarity in understanding speech rather than just volume.",
+    incorrectFeedback: "Think about the mechanisms of hearing loss in relation to the patient’s age. Since she is elderly and has recently experienced difficulties in understanding spoken language, what type of hearing loss would most appropriately match these characteristics?"
+  },
+  {
+    question: "A 45-year-old man who works in a noisy environment reports intermittent ringing in his ears and difficulty hearing high frequencies. What is the most likely diagnosis?",
+    options: [
+      "Conductive hearing loss",
+      "Sensorineural hearing loss",
+      "Acoustic neuroma",
+      "Otosclerosis",
+      "Tinnitus"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The patient’s exposure to noise suggests damage to hair cells in the cochlea, resulting in sensorineural hearing loss, which often manifests as difficulty with high frequencies. The report of ringing in the ears indicates tinnitus, which is frequently associated with this type of hearing loss.",
+    incorrectFeedback: "Consider the implications of noise exposure. What type of hearing loss might cause both difficulty hearing certain frequencies and potentially lead to symptoms like ringing in the ears?"
+  },
+  {
+    question: "A patient with known mixed hearing loss demonstrates improvement in sound perception with conductive interventions such as hearing aids. How does this influence the management of their condition?",
+    options: [
+      "Only sensorineural hearing loss needs to be treated.",
+      "Intervention for conductive components could improve overall hearing.",
+      "Mixed hearing loss has no treatment options.",
+      "Surgical options are first-line management for all mixed cases.",
+      "No management is needed if only sensory issues are present."
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! In cases of mixed hearing loss, treating the conductive component (e.g., with hearing aids or surgical interventions) can improve the overall hearing status of the patient, demonstrating the importance of addressing all contributing factors.",
+    incorrectFeedback: "Reflect on how mixed hearing loss is a combination of conductive and sensorineural hearing loss. How might addressing one component influence the patient’s overall hearing ability?"
+  }
+]} />
