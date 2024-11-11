@@ -1,0 +1,163 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Adrenal Insufficiency: Diagnosis and Management
+
+Adrenal insufficiency occurs when the adrenal gland is unable to produce one or more of its hormones. This condition can present acutely as an emergency or develop chronically. It can be classified into three types:
+
+- **Primary**: Pathology in the adrenal gland itself (e.g., Addison's disease).
+- **Secondary**: Resulting from deficient ACTH due to pituitary gland pathology.
+- **Tertiary**: Caused by a dysfunctional hypothalamus, leading to a lack of CRH stimulation of the pituitary gland.
+
+### Epidemiology and Causes
+
+- **Primary (Addison's disease)**: Relatively rare in the developed world, with an incidence of `0.8 per 100,000` populations. More than 70% of cases result from autoimmune disease.
+- **Tertiary**: The most common presentation due to chronic exogenous steroid use, which suppresses the hypothalamic-pituitary axis. Abrupt discontinuation leads to insufficiency.
+
+### **Diagnosis**
+
+For all types of adrenal insufficiency, the presentation is often vague and may include:
+
+- **100% of patients**: Weakness, fatigue, anorexia
+- **86% of patients**: Gastrointestinal symptoms (abdominal pain, nausea, vomiting)
+- **Important Sign**: Hypotension due to lack of mineralocorticoid activity in primary adrenal insufficiency and glucocorticoid activity in all types.
+
+#### **Other Signs & Symptoms:**
+
+1. Hyperpigmentation of skin (*Primary only*)
+   - Excess ACTH stimulates melanocytes.
+   
+2. Vitiligo (*Primary only*)
+   - Associated with autoimmune aetiology.
+
+3. Salt craving (*Primary only*)
+   - Due to low mineralocorticoids.
+
+4. Hyperkalaemia (*Primary only*)
+   - Resulting from low mineralocorticoids.
+
+5. Hyponatraemia 
+
+> **Additional Symptoms**: Weight loss (in chronic cases), postural hypotension, muscle & joint pains, hypoglycaemia, uraemia, and anaemia.
+
+### **Investigations**
+
+Diagnosis involves a three-step process:
+
+1. Simultaneous measurement of serum cortisol and serum ACTH.
+2. A synthetic ACTH (Synacthen) stimulation test, considered the gold standard.
+3. Further investigations to determine the aetiology of the insufficiency.
+
+**For Primary Insufficiency**:
+
+- Plasma ACTH is disproportionately high compared to the respective cortisol levels (which are low).
+- A Synacthen test will fail to elicit a rise in plasma cortisol, confirming primary adrenal insufficiency.
+
+**For Secondary & Tertiary Insufficiency**:
+
+- ACTH is low (or inappropriately normal) for simultaneous cortisol level.
+- A Synacthen test results in a detectable rise in plasma cortisol.
+
+### Additional Testing for Aetiology:
+
+| Test | Purpose |
+|------|---------|
+| Anti-adrenal antibodies | For autoimmune primary adrenal insufficiency |
+| TB Screen | To check for infections (e.g., tuberculosis) |
+| Adrenal CT | For other causes like metastases, haemorrhage, calcifications |
+| Pituitary CT/MRI | Important for secondary & tertiary insufficiency |
+
+### **Adrenal Crisis Management**
+
+An adrenal crisis is an acute presentation requiring immediate intervention.
+
+#### **Signs of Adrenal Crisis**:
+
+- Severe hypotension (shock)
+- Loss of consciousness or collapse
+- Abdominal pain, confusion, fever (possibly due to concurrent infection)
+
+### Management Steps:
+
+1. Send ACTH and cortisol samples to the laboratory – **Do not wait for results** and quickly initiate treatment.
+2. Administer IV Hydrocortisone `100mg` stat followed by continuous infusions or injections (or consider Dexamethasone `4 mg` stat as an alternative).
+3. IV Fluid resuscitation – `1-3 liters` of `0.9% NaCl`. If hypoglycaemia is present, mix `0.9% NaCl` with `5% Dextrose`.
+
+- **Response Time**: Blood pressure should improve within `4-6 hours` if the diagnosis is correct.
+- Treat the underlying cause (e.g., infection).
+
+### **Management (Pharmacological Therapy)**
+
+**Hormonal Replacement**:
+- **Glucocorticoids**: Divided doses throughout the day with the highest dose in the morning (to mimic natural cortisol release).
+  
+  Common regimen (NICE CK):
+  
+  - Oral Hydrocortisone `10 mg` in the morning, `5 mg` at noon, & `5 mg` in the evening.
+
+- **Mineralocorticoids**: Fludrocortisone is administered in primary adrenal insufficiency at doses `50-300 micrograms/day`.
+- **Androgen Replacement**: DHEA may improve mood and quality of life but is unlicensed and should be used at a specialist's discretion.
+
+### **Management (Non-Prescribing)**
+
+- **Patient Education**: Teach patients and family members how to use emergency hydrocortisone injections.
+- **Sick-Day Rules**: Advise patients to double or triple their hydrocortisone dose during illness or stress.
+- **MedicAlert**: All patients should wear a MedicAlert bracelet/necklace and carry a steroid card.
+
+### **References**
+
+- [UpToDate: Treatment of Adrenal Insufficiency in Adults](https://www.uptodate.com/contents/treatment-of-adrenal-insufficiency-in-adults#H14)
+- [NICE: Addison's Disease Guidance](https://cks.nice.org.uk/addisons-disease#!scenario)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 45-year-old male presents with fatigue, weight loss, and hypotension. Laboratory tests reveal low serum cortisol and high ACTH levels. Which of the following statements accurately describes the underlying pathophysiology of this patient's condition?",
+    options: [
+      "His adrenal glands are producing insufficient cortisol due to autoimmune destruction.",
+      "His pituitary gland is not producing enough ACTH resulting in adrenal atrophy.",
+      "His hypothalamus is not secreting CRH leading to low ACTH and cortisol.",
+      "His adrenal glands are functioning normally but his body has developed resistance to cortisol."
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! The high ACTH levels combined with low cortisol levels indicate primary adrenal insufficiency, often due to conditions like Addison's disease. The adrenal glands are unable to produce sufficient cortisol because of pathological changes, commonly autoimmune in nature.",
+    incorrectFeedback: "Take another look at the hormone levels. In primary adrenal insufficiency, does ACTH usually rise or fall? The presence of high ACTH is critical in determining the site of the problem."
+  },
+  {
+    question: "A 60-year-old woman with a history of chronic steroid use presents with weakness and hypotension. A Synacthen test is conducted and shows an adequate increase in serum cortisol. What is the most likely diagnosis for this patient?",
+    options: [
+      "Primary adrenal insufficiency",
+      "Secondary adrenal insufficiency",
+      "Tertiary adrenal insufficiency",
+      "Normal adrenal function"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! The Synacthen test's ability to elicit an increase in cortisol indicates that her adrenal glands are functioning adequately. Chronic steroid use can suppress the HPA axis, but in this case, her adrenal function appears to be normal, even though the underlying condition may suggest otherwise.",
+    incorrectFeedback: "Consider what a positive response to the Synacthen test means about adrenal function. If the adrenal glands are responding adequately, would you classify the condition as insufficient?",
+  },
+  {
+    question: "During an adrenal crisis, a physician initiates treatment with IV hydrocortisone. What is the immediate goal of this intervention?",
+    options: [
+      "To increase blood glucose levels",
+      "To restore normal electrolyte balance",
+      "To rapidly increase serum cortisol levels",
+      "To decrease ACTH secretion from the pituitary"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The immediate goal of administering IV hydrocortisone during an adrenal crisis is to rapidly increase serum cortisol levels, which are critically low, thereby addressing the acute symptomatic presentation and correcting the metabolic derangement.",
+    incorrectFeedback: "Think about the role of cortisol in the body. What happens during an adrenal crisis, and how does immediate treatment counteract those effects? Is it more focused on glucose, electrolytes, or hormone levels?",
+  },
+  {
+    question: "A patient with primary adrenal insufficiency is inquiring about long-term management. Which of the following regimens is most appropriate for this condition?",
+    options: [
+      "Fludrocortisone 50 micrograms daily",
+      "Hydrocortisone 10mg in the morning, 5mg at noon, and 5mg in the evening",
+      "Dexamethasone 4mg once daily",
+      "Prednisone 5mg every other day"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The established regimen for managing primary adrenal insufficiency includes glucocorticoid replacement with divided doses of hydrocortisone that simulate the body’s natural circadian rhythm. This is a standard and effective treatment.",
+    incorrectFeedback: "Review the common treatment guidelines for adrenal insufficiency. What medications and dosing schedules are typically recommended to replace adrenal hormones effectively?"
+  }
+]} />
