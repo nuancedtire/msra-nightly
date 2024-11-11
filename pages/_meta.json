@@ -1,5 +1,13 @@
 {
-  "index": "🏠 Home",
+  "index": {
+    "title": "🏠 Home",
+    "theme": {
+        "toc": false,
+        "pagination": false,
+        "typesetting": "article",
+        "breadcrumb": false
+    }
+  },
   "---": {
     "type": "separator"
   },
@@ -14,6 +22,9 @@
   },
   "about": {
     "title": "ℹ️ About",
-    "type": "page"
+    "type": "page",
+    "theme": {
+      "typesetting": "article"
+    }
   }
 }
