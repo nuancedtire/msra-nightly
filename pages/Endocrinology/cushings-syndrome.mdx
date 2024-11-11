@@ -1,0 +1,157 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Cushing's Syndrome
+
+Cushing’s Syndrome is an endocrine disorder characterized by **high levels of cortisol** in the blood. The causes of this syndrome can be classified into two main categories: **ACTH dependent** and **ACTH independent**.
+
+## Causes
+
+### ACTH Dependent
+```markdown
+(HPA axis = low CRH, high ACTH, and high cortisol)
+```
+- **Pituitary adenoma**: Approximately five times more common in males; often due to a microadenoma. This condition is also known as *Cushing’s disease*.
+- **Ectopic ACTH secretion**: Commonly observed in conditions such as small cell lung carcinoma.
+
+### ACTH Independent
+```markdown
+(HPA axis = low CRH, low ACTH, and high cortisol)
+```
+- **Exogenous**: The most common cause of Cushing’s syndrome, typically resulting from glucocorticoid therapy.
+- **Adrenal adenoma**
+- **Adrenal carcinoma**
+- **Micronodular adrenal dysplasia**: A very rare condition.
+- **Carney complex syndrome**
+
+## Diagnosis
+
+Cushing’s syndrome is most commonly diagnosed in individuals aged **20-40 years**. It is estimated that **10-15 per million people** are affected annually.
+
+### Common Signs and Symptoms at Presentation
+- Hypertension
+- Weight gain
+- Fatigue
+- Round, red, ruddy face
+- Poor concentration and short-term memory
+- Menstrual irregularity
+- Excessive hair growth in women
+
+<details>
+<summary>Unusual Presentations</summary>
+- Depression
+- Acne
+- Insomnia
+- Thin skin and **striae**
+- Recurrent infections
+- Fractures due to osteoporosis
+- Muscle wasting
+- Truncal obesity and buffalo hump
+- Diabetes mellitus
+- Growth retardation in children
+- Skin pigmentation in Cushing’s disease
+</details>
+
+### Differential Diagnoses
+- Alcoholism
+- Obesity
+- Depression
+- Anorexia
+- Nelson’s syndrome
+
+**Important Note**: Some patients may present without any obvious signs or symptoms, complicating diagnosis.
+
+## Investigations
+
+Clinical investigations are critical for confirming the diagnosis of Cushing’s syndrome and localizing its cause. 
+
+### Confirming Cushing’s Syndrome
+- **24-hour urinary cortisol**: Elevated cortisol levels indicate Cushing’s.
+- **Low dose dexamethasone suppression test**: Cortisol levels remain unchanged in endogenous Cushing’s syndrome.
+
+### Localizing Tests
+- **ACTH Plasma Levels**:
+  - **Low ACTH**: Indicates adrenal adenomas or carcinomas (ACTH independent).
+  - **High ACTH**: Suggests Cushing’s disease and ectopic ACTH production (ACTH dependent).
+- **High dose dexamethasone suppression test**:
+  - Reduction in cortisol levels indicates an ACTH dependent pituitary tumor.
+  - No change suggests either ACTH independent or ACTH dependent ectopic tumor.
+- **CRH stimulation** and **petrosal sinus sampling** may be employed to differentiate between ectopic and pituitary ACTH secretion.
+
+### Imaging
+- **MRI**: Targeted at pituitary tumors.
+- **CT scans**: Useful for assessing adrenal glands, as well as chest, abdomen, and pelvis tumors.
+
+## Management
+
+### Prescribing Management
+- Without intervention, patients face serious complications, including myocardial infarction, heart failure, infections, and increased mortality.
+- For cases caused by **exogenous steroid therapy**, a **gradual titration** down of dosage is advised to alleviate symptoms while preventing withdrawal and adrenal crisis.
+- Medications such as **ketoconazole** and **metyrapone** can control plasma cortisol levels before surgery if adrenal carcinoma is present or if there is ectopic ACTH production.
+
+### Non-Prescribing Management
+- The most effective approach involves **surgical removal** of the causative factor, often a tumor. 
+- **Radiotherapy** may be employed post-surgery in cancerous cases.
+- The **trans-sphenoidal removal** of the pituitary adenoma is considered the gold-standard treatment for Cushing’s disease.
+
+## References
+
+- [Pituitary Society Cushing's Syndrome Brochure](https://pituitarysociety.org/sites/all/pdfs/Pituitary_Society_Cushings_brochure.pdf)
+- [UpToDate: Establishing the Diagnosis of Cushing's Syndrome](https://www.uptodate.com/contents/establishing-the-diagnosis-of-cushings-syndrome?search=cushing%20syndrome&source=search_result&selectedTitle=1~150&usage_type=default&display_rank=1)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 35-year-old woman presents with weight gain, hypertension, and a round, ruddy face. Laboratory tests reveal elevated 24-hour urinary cortisol levels. Which additional test would be most useful to determine if her Cushing's syndrome is ACTH dependent or independent?",
+    options: [
+      "Low dose dexamethasone suppression test",
+      "CRH stimulation test",
+      "24-hour plasma ACTH levels",
+      "MRI of the pituitary gland",
+      "CT scan of the abdomen"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Measuring 24-hour plasma ACTH levels can help determine whether the Cushing's syndrome is ACTH dependent (high ACTH) or ACTH independent (low ACTH), guiding further management.",
+    incorrectFeedback: "Think about how ACTH levels can help distinguish between different causes of Cushing's syndrome. Which tests measure ACTH levels directly, and what information can you gather from those results?"
+  },
+  {
+    question: "A 40-year-old man with newly diagnosed hypertension and truncal obesity is suspected to have Cushing's syndrome. Which of the following findings would most strongly suggest an adrenal source of his condition?",
+    options: [
+      "Elevated ACTH levels",
+      "Suppressed cortisol levels after low dose dexamethasone",
+      "Low ACTH levels",
+      "Increased cortisol levels after CRH stimulation",
+      "Positive petrosal sinus sampling"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Low ACTH levels indicate that the source of cortisol is likely coming from an adrenal mass (independent of ACTH), suggesting either an adrenal adenoma or carcinoma.",
+    incorrectFeedback: "Consider the relationship between cortisol and ACTH levels in Cushing's syndrome. Which hormone level is indicative of adrenal involvement versus pituitary or ectopic causes?"
+  },
+  {
+    question: "During the management of a patient with Cushing's syndrome caused by an adrenal adenoma, which pharmacological agent may be used to control hypercortisolism preoperatively?",
+    options: [
+      "Metyrapone",
+      "Cortisol",
+      "Dexamethasone",
+      "Hydrocortisone",
+      "Clonidine"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Metyrapone is used to control plasma cortisol levels by inhibiting cortisol synthesis, especially when preparing patients for surgery.",
+    incorrectFeedback: "Reflect on the mechanisms of various medications. Which of the listed agents directly affects cortisol synthesis rather than replacing or suppressing existing cortisol?"
+  },
+  {
+    question: "A 29-year-old woman undergoes transsphenoidal surgery for a pituitary adenoma causing Cushing's disease. What is the most common postoperative complication she should be monitored for?",
+    options: [
+      "Adrenal insufficiency",
+      "Hypopituitarism",
+      "Diabetes insipidus",
+      "Infection at the surgical site",
+      "Thromboembolic events"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Diabetes insipidus is a common complication following pituitary surgery due to potential damage to the posterior pituitary and the consequent lack of antidiuretic hormone.",
+    incorrectFeedback: "Consider the structures involved in the surgical procedure and what hormonal imbalances might occur as a result. Which endocrine function is likely to be temporarily disrupted?"
+  }
+]} />

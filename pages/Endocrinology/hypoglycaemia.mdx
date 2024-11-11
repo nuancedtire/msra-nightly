@@ -1,0 +1,153 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Hypoglycaemia: Understanding and Management
+
+Hypoglycaemia is the most common endocrine emergency, occurring when blood sugar levels fall below the normal range. It is vital to recognize and treat hypoglycaemia promptly, as severe cases can lead to **brain damage** and **death** if untreated.
+
+**Hypoglycaemia**, commonly referred to as a ‘hypo’, primarily affects individuals with **diabetes**, especially those taking insulin or oral hypoglycaemic agents that can induce hypoglycaemia. However, anyone can experience a hypo, making it essential to know how to manage it effectively.
+
+## Diagnosis of Hypoglycaemia
+
+The diagnosis of hypoglycaemia varies depending on the patient’s condition. While there are no definitive thresholds for glucose levels that constitute hypoglycaemia, a common guideline is **“four is the floor”**, indicating that symptoms typically occur when glucose levels fall below `4 mmol/L`. Some individuals may not experience symptoms until glucose levels are as low as `2.5 mmol/L`, while others may feel symptoms at `5 mmol/L`.
+
+### Symptoms of Hypoglycaemia
+
+Symptoms can be categorized into **autonomic** and **neuroglycopenic** symptoms.
+
+#### Autonomic Symptoms
+- Sweating
+- Palpitations 
+- Shaking/Tremor 
+- Dizziness
+- Anxiety
+- Hunger
+- Nausea 
+
+#### Neuroglycopenic Symptoms
+- Drowsiness 
+- Confusion 
+- Aggression
+- Visual disturbances 
+- Seizures
+- Coma 
+- Incoherence
+
+<details>
+<summary>Common Causes of Hypoglycaemia</summary>
+
+There are two main categories of causes for hypoglycaemia:
+
+1. **Fasting Hypoglycaemia**
+   - Excessive intake of blood-sugar-lowering drugs, such as insulin or specific oral agents (e.g., sulfonylureas).
+   - Increased physical activity or missed meals.
+
+2. **Post-prandial Hypoglycaemia**
+   - Occurs after bariatric surgery due to dumping syndrome.
+   - Less common but can affect type 2 diabetics.
+
+</details>
+
+### Investigations
+
+- For **known diabetics**, a finger prick capillary glucose test is the most important initial investigation, providing immediate feedback on glucose levels to prompt treatment.
+- For **unknown cases**, further investigations may follow after addressing the hypoglycaemic episode.
+
+## Management of Hypoglycaemia
+
+Hypoglycaemia represents a medical emergency. **Hypoglycaemic unawareness** poses additional risks, impacting driving regulations and necessitating reporting to the DVLA.
+
+### Management Based on Severity
+
+1. **Mild Hypoglycaemia**: 
+   - If conscious and able to self-treat, the individual should consume sugary foods/drinks.
+
+2. **Moderate Hypoglycaemia**: 
+   - Conscious but requires assistance:
+     - 1-2 tubes of Glucogel or equivalent massaged buccally.
+     - Administer IM Glucagon if available.
+
+3. **Severe Hypoglycaemia**:
+   - If unconscious:
+     - Do **NOT** place anything in their mouth.
+     - Place in recovery position.
+     - Administer `0.5-1 mg IM glucagon` if permissible.
+       - If unable to administer, call `999`.
+     - Wait `10 minutes`:
+       - If improved, provide a sugary drink or snack along with a carbohydrate-rich snack.
+       - If no improvement, call `999`.
+
+4. **In-Hospital Treatment**:
+   - Administer IV glucose:
+     - `75 ml of 20% glucose` or `150 ml of 10% glucose` over `15 minutes`.
+     - **Avoid** `50% glucose` due to risks of extravasation and subsequent chemical burns.
+
+### Non-Prescribing Management
+
+For patients with mild hypoglycaemia who can detect symptoms themselves, they should:
+
+- Consume **15-20 grams** of fast-acting carbohydrates (e.g., sugary drinks, glucose tablets).
+- Test blood sugar levels after `10-15 minutes`.
+- Repeat consumption and testing if necessary.
+
+Patients usually do not need emergency medical treatment for occasional mild hypos, but should inform their **diabetes team** if symptoms occur regularly or if they experience **hypo unawareness**.
+
+## References
+
+- NHS UK Hypoglycaemia Info page: [NHS Hypoglycaemia](https://www.nhs.uk/conditions/low-blood-sugar-hypoglycaemia/)
+- Oxford Handbook of Clinical Specialties 9th Ed Pages 206-207, 844
+- Oxford Handbook of Endocrinology and Diabetes Pages 514-522
+- Diabetes.co.uk Information Page: [Diabetes and Hypoglycaemia](https://www.diabetes.co.uk/Diabetes-and-Hypoglycaemia.html)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 54-year-old male with type 2 diabetes arrives at the clinic for a routine checkup. He mentions experiencing episodes of sweating, shaking, and dizziness, particularly during the afternoon at work. His blood glucose readings at those times are usually around 3.5 mmol/L. What type of hypoglycaemia is he most likely experiencing?",
+    options: [
+      "Fasting hypoglycaemia due to missed meals",
+      "Post-prandial hypoglycaemia after eating lunch",
+      "Idiopathic hypoglycaemia without known cause",
+      "Severe hypoglycaemia from excess insulin administration"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! This patient is likely experiencing post-prandial hypoglycaemia, as he feels symptoms after meals, including lunch. In type 2 diabetes, this can occur due to an exaggerated insulin response or rapid gastric emptying. Recognizing the pattern of symptoms relative to meal timing is key to identifying this condition.",
+    incorrectFeedback: "Consider when the symptoms are occurring in relation to food intake. What are the specific situations or activities that could lead to your declining blood glucose levels? Look for a cause that aligns with the timing of meals and subsequent symptoms."
+  },
+  {
+    question: "During a community health seminar, a healthcare professional explains that hypoglycaemia can present with different symptoms. Which of the following is a neuroglycopenic symptom of hypoglycaemia?",
+    options: [
+      "Tremors",
+      "Sweating",
+      "Confusion",
+      "Palpitations"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Confusion is a neuroglycopenic symptom, reflecting the brain’s inability to use glucose effectively when levels are low. It is vital for healthcare providers to recognize the difference between autonomic and neuroglycopenic symptoms for appropriate management.",
+    incorrectFeedback: "Think about the classification of symptoms. Autonomic symptoms often present as physical responses to hypoglycaemia, while neuroglycopenic symptoms relate more to mental status changes. Can you identify the symptoms commonly associated with either category?"
+  },
+  {
+    question: "A 30-year-old woman with a history of type 1 diabetes presents to the emergency department in a state of confusion and drowsiness. Her blood glucose test reveals a level of 2.8 mmol/L. What is the most appropriate immediate management step for this patient?",
+    options: [
+      "Administer IM glucagon",
+      "Provide a sugary drink orally",
+      "Initiate IV glucose infusion",
+      "Wait for the patient to wake up to assess further"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! In cases of severe hypoglycaemia, especially when the patient is confused or unable to protect their airway, the immediate action is to administer IV glucose, as it provides a fast-acting source of glucose. Understanding the distinctions in management based on severity is essential.",
+    incorrectFeedback: "Consider the patient's level of consciousness and ability to take oral treatments safely. For severely hypoglycaemic patients who are confused or unconscious, non-invasive options may pose a risk of aspiration or further deterioration."
+  },
+  {
+    question: "A patient with diabetes has occasional episodes of mild hypoglycaemia, always resolving after eating carbohydrates. What is the recommended self-management advice for this patient to prevent future episodes?",
+    options: [
+      "Increase basal insulin dose",
+      "Consume complex carbohydrates before activities",
+      "Avoid all sugary foods to prevent hypoglycaemia",
+      "Carry a source of fast-acting carbohydrate at all times"
+    ],
+    correctAnswer: 4,
+    correctFeedback: "Correct! Carrying a source of fast-acting carbohydrate (like glucose tablets or sugary snacks) ensures that the patient can quickly address hypoglycaemic episodes, thereby enhancing safety. It is important they also recognize their symptoms early to act promptly.",
+    incorrectFeedback: "Think about the proactive steps a patient can take for management of mild symptoms. What could they keep on hand to address any sudden changes in blood glucose, especially during unpredictable circumstances like travel or sports?"
+  }
+]} />

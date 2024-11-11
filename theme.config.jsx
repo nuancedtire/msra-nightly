@@ -1,5 +1,5 @@
 export default {
-  logo: <span>MSRA Notes</span>,
+  logo: <span>MSRA.uk</span>,
   useNextSeoProps() {
     return {
       titleTemplate: '%s – MSRA Study Notes'

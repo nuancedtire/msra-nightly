@@ -1,0 +1,162 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Hyperprolactinaemia: Understanding a Common Hormonal Disturbance
+
+Hyperprolactinaemia is the most common pituitary hormonal disturbance. **Prolactin**, produced by the anterior pituitary gland, primarily induces lactation.
+
+### Prolactin Levels
+
+The normal ranges for prolactin levels are:
+- **Males:** `325-700 mU/L`
+- **Females:** `500-700 mU/L`
+
+*Hyperprolactinaemia* is defined as elevated plasma prolactin levels.
+
+### Causes of Hyperprolactinaemia
+
+The causes leading to increased prolactin levels can be categorized into:
+
+1. **Physiological Causes**
+   - Pregnancy
+   - Breastfeeding
+   - Stress
+   - Sexual activity
+
+2. **Drug-Induced Causes**
+   - **Antipsychotics**
+     - Dopamine receptor antagonists (e.g., Metoclopramide, Haloperidol)
+   - **Antidepressants**
+     - Tricyclic Antidepressants (TCA), Monoamine Oxidase Inhibitors (MAOI), Selective Serotonin Reuptake Inhibitors (SSRIs)
+   - Oestrogens
+   - Antihypertensives (e.g., Methyldopa, Verapamil)
+   - Opiates and Cocaine
+
+3. **Diseases**
+   - **Pituitary Tumours**
+     - Microprolactinomas
+     - Macroprolactinomas
+   - **Metabolic Disorders**
+     - Primary hypothyroidism (TRH increases PRL)
+     - Chronic kidney disease (Reduced PRL excretion)
+     - Severe liver disease
+   - *Others* (e.g., idiopathic hyperprolactinaemia, craniopharyngioma)
+
+### Symptoms of Hyperprolactinaemia
+
+The presentation of symptoms can vary between genders, but **galactorrhoea** may occur in both. Women typically show menstrual disturbances prior to other symptoms.
+
+#### **Females:**
+- Amenorrhoea / Oligomenorrhoea
+- Infertility
+- Galactorrhoea
+- Decreased libido / Dry vagina
+- Increased weight
+
+#### **Males:**
+- Galactorrhoea
+- Erectile dysfunction
+- Decreased facial hair
+
+<details>
+<summary>Common Signs and Symptoms</summary>
+
+- **Females:**
+  - Menstrual disturbances
+  - Galactorrhoea
+  - Infertility
+  - Weight gain
+
+- **Males:**
+  - Galactorrhoea
+  - Erectile dysfunction
+  - Decreased libido
+</details>
+
+### Investigations for Hyperprolactinaemia
+
+A serum PRL level should be measured between `9 am` and `4 pm`. It is noteworthy that:
+- Prolactin levels tend to be higher in females.
+- If initial levels are marginally elevated, stress response may be a contributing factor, necessitating repeat measurements.
+
+#### Prolactin Level Interpretation:
+- Levels of `1000-5000 mU/L` can result from various factors; however, levels > `5000 mU/L` are typically indicative of prolactinomas.
+- Macroprolactinomas exhibit extremely high prolactin levels ranging from `10,000-100,000 mU/L`.
+
+### Management of Hyperprolactinaemia
+
+#### Management (Prescribing)
+
+Referral to a specialist endocrinology clinic is essential. The first-line treatment involves **dopamine agonists**, which not only regularize prolactin levels but can also reduce tumor sizes by up to `90%`. Common dopamine agonists include:
+- **Cabergoline**: Preferred due to efficacy and tolerability.
+- **Bromocriptine**: More suitable for women of child-bearing age because of its established safety profile.
+
+Patients on these medications should be monitored every `1-2 months`, including repeat **MRI scans** to check for reductions in the size of prolactinomas.
+
+#### Management (Non-Prescribing)
+
+If patients exhibit resistance to dopamine agonists, although rare, **transsphenoidal surgery** is employed to excise the tumor. Radiotherapy is reserved for patients unresponsive to medical and surgical treatments, or when tumors have recurred.
+
+### References
+
+- Oxford Handbook of Clinical Specialties, 9th Ed, Pages 228-229
+- Oxford Handbook of Endocrinology and Diabetes, Pages 104-109
+- BMJ Best Practice: [Hyperprolactinaemia](https://bestpractice.bmj.com/topics/en-gb/538)
+- Range of Thyroid Function Test Values: [Thyroid Function Tests](https://www.btf-thyroid.org/thyroid-function-tests)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 32-year-old female presents with irregular menstrual cycles, galactorrhoea, and infertility. Serum prolactin levels are found to be 1200 mU/L. Which of the following is the most likely diagnosis?",
+    options: [
+      "Primary hypothyroidism",
+      "Microprolactinoma",
+      "Macroprolactinoma",
+      "Chronic kidney disease",
+      "Idiopathic hyperprolactinaemia"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The symptoms of irregular menstrual cycles, galactorrhoea, and elevated prolactin levels suggest a prolactinoma. Given the prolactin level of 1200 mU/L, it is likely a microprolactinoma, which typically presents with moderate elevation in prolactin levels. The context of the presentation aligns well with this diagnosis.",
+    incorrectFeedback: "Think about the symptoms presented and the range of prolactin levels. Microprolactinomas usually cause moderate increases in prolactin and are commonly associated with menstrual irregularities and galactorrhoea. Consider alternative conditions like primary hypothyroidism and chronic kidney disease, but evaluate their likelihood based on the presented symptoms."
+  },
+  {
+    question: "A 45-year-old man arrives with complaints of erectile dysfunction and decreased facial hair. His serum prolactin level is significantly elevated. Which class of medication is most likely responsible for causing his symptoms?",
+    options: [
+      "Antihypertensives",
+      "Dopamine agonists",
+      "Tricyclic antidepressants",
+      "Opiates",
+      "SSRI antidepressants"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Tricyclic antidepressants (TCAs) have been associated with increased prolactin levels, leading to symptoms such as erectile dysfunction and decreased libido in males. Dopamine agonists typically reduce prolactin levels, while opiates are also known to affect testosterone and sexual function but are less frequently involved.",
+    incorrectFeedback: "Consider the side effect profiles of the medications listed. Think about which class of medications has a documented impact on prolactin levels that could cause symptoms like erectile dysfunction in a male patient. These can be tricky, so reviewing the pharmacological effects may help."
+  },
+  {
+    question: "A patient with newly diagnosed hyperprolactinaemia is started on cabergoline. Which of the following monitoring strategies is most appropriate during the treatment?",
+    options: [
+      "Check serum electrolytes monthly",
+      "Monitor prolactin levels every 1-3 months",
+      "Obtain liver function tests every month",
+      "Perform MRI scans every 6 months",
+      "Use a depression scale every visit"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Patients on cabergoline should be monitored for serum prolactin levels every 1-3 months to ensure effective management of hyperprolactinaemia. MRI scans are typically performed less frequently once treatment is established and is not necessary at every visit.",
+    incorrectFeedback: "Focus on the purpose of monitoring during treatment of hyperprolactinaemia. Evaluate how often patients need follow-up blood work to assess treatment efficacy and safety. The options reveal different monitoring strategies; consider which are specifically applicable to changes in prolactin levels."
+  },
+  {
+    question: "A 50-year-old woman with macroprolactinoma is on cabergoline but is noncompliant with her medication. What should be the next best step in management if she continues to experience symptoms?",
+    options: [
+      "Increase the dose of cabergoline",
+      "Administer bromocriptine instead",
+      "Refer for transsphenoidal surgery",
+      "Initiate radiotherapy immediately",
+      "Continue current management and reassess in a year"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! If a patient with macroprolactinoma is noncompliant with cabergoline and does not respond adequately, bromocriptine can be an alternative medication with a long track record of safety, especially in women of child-bearing age.",
+    incorrectFeedback: "Think about alternatives when a patient has difficulty adhering to medication. Consider the specific scenarios when surgical intervention is appropriate and when changes to the pharmacological treatment should occur to achieve better outcomes."
+  }
+]} />

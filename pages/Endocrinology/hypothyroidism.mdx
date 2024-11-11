@@ -1,0 +1,148 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Hypothyroidism: Clinical Manifestation, Diagnosis, and Management
+
+## Overview
+
+Hypothyroidism results from the underproduction of thyroid hormones **thyroxine (T4)** and **triiodothyronine (T3)**. It is primarily due to failure of the thyroid gland, referred to as **primary hypothyroidism**, which accounts for 95% of cases. The remaining 5% are due to **secondary hypothyroidism**, where the pituitary gland does not produce adequate thyroid-stimulating hormone (TSH).
+
+## Diagnosis
+
+Up to half of patients with hypothyroidism may exhibit no symptoms or very vague, non-specific symptoms. Key symptoms include:
+
+- Weakness
+- Lethargy
+- Fatigue
+- Hoarseness
+- Cold sensations
+- Forgetfulness
+- Constipation
+- Weight gain
+
+### Common Examination Findings
+
+- Slow speech and movement
+- Coarse, dry skin
+- Eyelid oedema
+- Thick tongue
+- Facial oedema
+- Bradycardia
+- Diastolic hypertension
+- Narrow pulse pressure
+- Delayed tendon reflexes
+
+### Risk Factors for Primary Hypothyroidism
+
+- **Iodine deficiency**: Most common among patients from developing regions.
+- **Female sex**: Autoimmune thyroiditis is significantly more common in women.
+- **Middle age**: Peak incidence between 30-50 years.
+- **Lithium use**: Up to 30% of patients treated with lithium develop antithyroid antibodies.
+- **Amiodarone use**: Up to 20% may develop hypothyroidism due to iodine's interference with hormone synthesis.
+- **Previously treated hyperthyroidism.**
+
+## Investigations
+
+- **TSH Levels**: Most sensitive and specific for diagnosing primary hypothyroidism. Elevated TSH levels indicate primary hypothyroidism; mild elevation may be seen in subclinical cases.
+  
+- **Free T4 Levels**: Used to assess the extent of hypothyroidism.
+
+- **Auto-antibody Testing**: Can be performed to determine aetiology, though it's unnecessary after diagnosis.
+
+- **Additional Tests**: Full blood count (FBC) and fasting blood glucose may be indicated in patients presenting with non-specific fatigue and weight gain. 
+
+### Incidental Findings
+
+| Finding                     | Possible Interpretation                |
+|----------------------------|---------------------------------------|
+| Low serum sodium           | Suggestive of primary hypothyroidism  |
+| Elevated creatine kinase   | May be an incidental finding          |
+
+## Management (Prescribing)
+
+All patients with primary hypothyroidism should be treated primarily for symptom management and the reduction of long-term complications. Some experts recommend treating sub-clinical hypothyroidism due to the risk of progression to overt hypothyroidism.
+
+### Levothyroxine Treatment
+
+The drug of choice for managing hypothyroidism is **levothyroxine**, requiring lifelong therapy. The starting dose is determined by a patient's age and cardiac history:
+
+- **Aged `<50-60` years** without cardiac history: 
+  - Start with `1.6 micrograms/kg/day` and adjust to normalize TSH.
+  
+- **Pre-existing coronary artery disease or aged `>60` years**: 
+  - Initial dose of `25-50 micrograms/day`, adjusting every 6-8 weeks.
+
+- **Sub-clinical with TSH `>10` mIU/L**: 
+  - Start with `1 microgram/kg/day`, adjusting to normalize TSH.
+
+Monitoring for dose adjustments is required, aiming for normalized TSH levels. Due to the long half-life of thyroxine (approximately 1 week), TSH should be measured `4-6 weeks` after initiating therapy or following any dosage change.
+
+### Complications of Treatment
+
+The main concern is **over-replacement**, which increases risks for:
+
+- Osteoporosis
+- Atrial fibrillation
+
+Ongoing monitoring is essential. Some patients may experience symptoms despite normalized TSH levels; alternatives such as adding **liothyronine** should be considered in these cases.
+
+## References
+
+[BMJ Best Practice - Hypothyroidism](https://bestpractice.bmj.com/topics/en-gb/535?q=Hypothyroidism,%20primary&c=suggested)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 45-year-old woman presents with fatigue, weight gain, and constipation. Laboratory tests reveal elevated TSH and low free T4 levels. What is the most likely diagnosis?",
+    options: [
+      "Primary hypothyroidism",
+      "Secondary hypothyroidism",
+      "Subclinical hypothyroidism",
+      "Hyperthyroidism",
+      "Thyroid cancer"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! Elevated TSH in conjunction with low free T4 levels confirms primary hypothyroidism, where the thyroid gland is underactive. In contrast, secondary hypothyroidism would involve low TSH due to pituitary dysfunction.",
+    incorrectFeedback: "Review the hormone levels: Elevated TSH typically indicates that the thyroid is not producing enough hormones (T3 and T4). Consider how TSH functions in the feedback loop and how it relates to thyroid gland activity."
+  },
+  {
+    question: "A patient with primary hypothyroidism is started on levothyroxine therapy. After 8 weeks, the TSH level is still elevated. What would be the most appropriate next step in management?",
+    options: [
+      "Increase levothyroxine dosage",
+      "Add liothyronine to therapy",
+      "Switch to a combination of T3 and T4",
+      "Continue current dose for another 4-6 weeks",
+      "Refer to endocrinology specialist"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! The appropriate action is to increase the levothyroxine dosage since the TSH remains elevated. Adjustments should typically occur every 6-8 weeks based on TSH levels until normalized.",
+    incorrectFeedback: "Consider the dosing guidelines for levothyroxine and the recommended frequency for dose adjustments. If TSH is still elevated, think about what that indicates regarding the current therapy."
+  },
+  {
+    question: "Which of the following is a potential complication of overtreatment with levothyroxine in a patient with primary hypothyroidism?",
+    options: [
+      "Increased bone density",
+      "Bradycardia",
+      "Atrial fibrillation",
+      "Hypokalemia",
+      "Hypotension"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Overtreatment of levothyroxine can lead to symptoms of hyperthyroidism, such as atrial fibrillation and osteoporosis. Therefore, careful monitoring of TSH levels is crucial to avoid complications.",
+    incorrectFeedback: "Reconsider the side effects associated with excessive thyroid hormone levels. What cardiovascular condition is commonly linked with overtreatment of thyroid hormone?"
+  },
+  {
+    question: "A 58-year-old man with a history of CAD is diagnosed with primary hypothyroidism. What is the recommended starting dose of levothyroxine for this patient?",
+    options: [
+      "1.6 micrograms/kg/day",
+      "25-50 micrograms/day",
+      "1 microgram/kg/day",
+      "100 micrograms/day",
+      "50-75 micrograms/day"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! For patients over 60 years of age or with pre-existing coronary artery disease, the recommended starting dose is 25-50 micrograms/day, taking care to adjust based on response and safety.",
+    incorrectFeedback: "Keep in mind the guidelines for starting doses of levothyroxine, especially in patients with cardiovascular concerns. Older adults and those with existing heart conditions require more cautious dosing to prevent adverse effects."
+  }
+]} />

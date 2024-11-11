@@ -1,0 +1,54 @@
+{
+  "---1": {
+    "type": "separator",
+    "title": "Overview"
+  },
+  "endocrine-overview": "📋 Endocrine Overview",
+  "data-interpretation": "📊 Data Interpretation",
+
+  "---2": {
+    "type": "separator",
+    "title": "Diabetes"
+  },
+  "type-1-diabetes-mellitus": "💉 Type 1 Diabetes",
+  "type-2-diabetes-mellitus": "🍬 Type 2 Diabetes",
+  "hypoglycaemia": "📉 Hypoglycaemia",
+
+  "---3": {
+    "type": "separator",
+    "title": "Thyroid Disorders"
+  },
+  "hyperthyroidism": "⬆️ Hyperthyroidism",
+  "hypothyroidism": "⬇️ Hypothyroidism",
+  "thyrotoxicosis": "🔥 Thyrotoxicosis",
+  "de-quervains-thyroiditis": "🔄 De Quervain's Thyroiditis",
+
+  "---4": {
+    "type": "separator",
+    "title": "Adrenal Disorders"
+  },
+  "addisons-disease": "⚡ Addison's Disease",
+  "adrenal-insufficiency": "📉 Adrenal Insufficiency",
+  "congenital-adrenal-hyperplasia": "🧬 Congenital Adrenal Hyperplasia",
+  "cushings-syndrome": "🌙 Cushing's Syndrome",
+  "conns-syndrome": "🧂 Conn's Syndrome",
+  "phaeochromocytoma": "💊 Phaeochromocytoma",
+
+  "---5": {
+    "type": "separator",
+    "title": "Parathyroid & Calcium"
+  },
+  "primary-hyperparathyroidism": "📈 Primary Hyperparathyroidism",
+  "secondary-hyperparathyroidism": "➡️ Secondary Hyperparathyroidism",
+  "osteoporosis": "🦴 Osteoporosis",
+
+  "---6": {
+    "type": "separator",
+    "title": "Other Endocrine Conditions"
+  },
+  "disorders-of-the-pituitary-gland": "🧠 Pituitary Disorders",
+  "hyperprolactinaemia": "🤱 Hyperprolactinaemia",
+  "syndrome-of-inappropriate-adh-siadh": "💧 SIADH",
+  "polycystic-kidney-disease": "🫘 Polycystic Kidney Disease",
+  "renal-artery-stenosis": "🔍 Renal Artery Stenosis"
+} 

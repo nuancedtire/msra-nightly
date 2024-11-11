@@ -1,0 +1,170 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Secondary Hyperparathyroidism (SHPT)
+
+Secondary hyperparathyroidism (SHPT) is a condition characterized by elevated parathyroid hormone (PTH) levels due to hypocalcaemia, and it can lead to significant skeletal and cardiovascular complications if left untreated. This condition is commonly associated with chronic kidney disease (CKD), malabsorption syndromes, and insufficient sunlight exposure.
+
+## Causes of Secondary Hyperparathyroidism
+
+The leading contributors to SHPT include:
+
+- **Chronic Kidney Disease (CKD)**
+- **Malabsorption Syndromes**
+- **Chronic Inadequate Sunlight Exposure**
+
+## Diagnosis
+
+### Clinical Features
+
+The clinical manifestations of SHPT are closely linked to the underlying metabolic derangement:
+
+- **Common Symptoms in CKD:**
+  - Skin discolouration and bruising
+  - Pruritus
+  - Lung rales 
+  - Pericardial rub
+  - Oedema
+  - Fatigue
+  - Nausea
+  - Poor concentration/memory 
+
+- **Symptoms Related to Vitamin D Deficiency:**
+  - Numbness and paraesthesia
+  - Muscle cramps or seizures
+  - **Chvostek’s sign**: Twitching of facial muscles upon tapping
+  - **Trousseau’s sign**: Muscular flexion upon inflation of a blood pressure cuff
+  - Rachitic deformities in children
+  - Muscle weakness or pain in adults
+
+<details>
+<summary>Common Conditions Causing Malabsorption</summary>
+
+- Crohn’s disease
+- Coeliac disease
+- Chronic pancreatitis 
+- Whipple’s disease
+- Following gastric bypass surgery
+
+</details>
+
+### Investigations
+
+To confirm SHPT, laboratory investigations must demonstrate:
+
+1. **Serum Calcium**: Result of `<2.1mmol/L` indicates hypocalcaemia
+2. **Serum Intact PTH**: Result of `>88 nanograms/L` confirms hyperparathyroidism
+3. **Serum Creatinine**: eGFR values `<60 mL/min/1.73m²` may indicate CKD
+4. **25-Hydroxyvitamin D**: Levels `<75 nanomol/L` indicate insufficiency
+
+<Callout emoji="⚠️">
+**Warning:** Imaging should be initiated once SHPT diagnosis is established, especially when surgical intervention is considered.
+</Callout>
+
+### Imaging Modalities
+
+If parathyroid hyperplasia is suspected, the following imaging techniques are recommended:
+
+- Ultrasound
+- High-resolution contrast CT
+- MRI
+- 99Tc-sestamibi nuclear medicine scans
+
+## Management
+
+### Management (Prescribing)
+
+Effective management targets the underlying condition:
+
+**CKD Stage 3 or 4 (PTH `70-300ng/L`):**
+- **1st Line**: Phosphate binder (sevelamer, lanthanum, calcium acetate)
+- **Low Vitamin D**: Vitamin D supplement (ergocalciferol)
+- **Normal 25-Hydroxyvitamin D**: Vitamin D sterol (calcitriol, doxercalciferol, paricalcitol)
+- **Hypercalcaemia**: Calcium-based phosphate binder
+- **Hypocalcaemia**: Calcium salt (calcium carbonate or calcium gluconate)
+
+**CKD Stage 5 (PTH `300-800ng/L`):**
+- **1st Line**: Vitamin D sterol (calcitriol)
+- **2nd Line**: Vitamin D sterol (doxercalciferol, paricalcitol)
+- **Calcium Mimetic Therapy**: Cinacalcet (1st line), etelcalcetide (2nd line)
+
+**Lack of Sunlight:**
+- **1st Line**: Vitamin D supplement and calcium salt
+
+**Malabsorption Related:**
+- **1st Line**: Optimized management of current disease
+- **Adjunct**: Vitamin D supplement (ergocalciferol)
+- **Adjunct**: Calcium salt (calcium carbonate)
+
+### Management (Non-Prescribing)
+
+**CKD Stage 3 or 4 (PTH `70-300ng/L`):**
+- **1st Line**: Dietary phosphate restriction
+
+**CKD Stage 5 (PTH `>800ng/L`):**
+- **1st Line**: Subtotal or total parathyroidectomy with tissue auto-transplantation
+
+**Lack of Sunlight:**
+- **1st Line**: UV radiation exposure 
+  - *No more than 5 to 15 minutes/day between 10:00 and 15:00 on exposed areas.*
+
+## References
+
+[BMJ Best Practice - Secondary Hyperparathyroidism](https://bestpractice.bmj.com/topics/en-gb/1107)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 70-year-old man with a history of chronic kidney disease (CKD) stage 4 presents with fatigue and muscle weakness. Laboratory tests reveal a serum calcium of 1.8 mmol/L, intact PTH of 350 ng/L, and 25-hydroxyvitamin D levels of 50 nmol/L. Which of the following is the most appropriate management strategy?",
+    options: [
+      "Initiate treatment with cinacalcet",
+      "Start vitamin D sterol therapy (calcitriol)",
+      "Administer a calcium-based phosphate binder",
+      "Increase dietary phosphate intake",
+      "Refer for parathyroidectomy"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Vitamin D sterol therapy is indicated in patients with CKD stage 5 and elevated PTH levels as it helps manage secondary hyperparathyroidism by reducing PTH levels and improving calcium absorption. While cinacalcet can be useful in this context, calcitriol is preferred as the first-line treatment in CKD stage 5.",
+    incorrectFeedback: "Remember that in CKD stage 5 with significantly elevated PTH, the goal is to reduce PTH levels effectively. Options that suggest increasing calcium intake or performing surgery may not address the immediate need for improving vitamin D status."
+  },
+  {
+    question: "A 55-year-old woman has been diagnosed with secondary hyperparathyroidism due to vitamin D deficiency and is found to have a low serum calcium level. In addition to supplementation with vitamin D, which of the following therapies is considered first-line for managing her condition?",
+    options: [
+      "Calcium carbonate",
+      "Doxercalciferol",
+      "Paricalcitol",
+      "Lanthanum carbonate",
+      "Ergocalciferol"
+    ],
+    correctAnswer: 5,
+    correctFeedback: "Correct! Ergocalciferol is the preferred option as a vitamin D supplement in cases related to malabsorption or deficiency. This would help normalize vitamin D levels and improve calcium absorption, addressing the hypocalcaemia and secondary hyperparathyroidism.",
+    incorrectFeedback: "Keep in mind that while other options like doxercalciferol and paricalcitol are useful in more severe cases, ergocalciferol is specifically indicated for initial supplementation to correct vitamin D deficiency."
+  },
+  {
+    question: "A patient with chronic kidney disease stage 3 presents with itching, muscle cramps, and a diagnosis of secondary hyperparathyroidism. Which of the following findings would be most consistent with this condition upon investigation?",
+    options: [
+      "Serum calcium >2.5mmol/L",
+      "Intact PTH level <70 ng/L",
+      "Serum creatinine value >60 mL/min/1.73m²",
+      "25-hydroxyvitamin D level <75 nmol/L",
+      "eGFR >90 mL/min/1.73m²"
+    ],
+    correctAnswer: 4,
+    correctFeedback: "Correct! A 25-hydroxyvitamin D level of <75 nmol/L is indicative of vitamin D insufficiency, which is commonly associated with secondary hyperparathyroidism, especially in the context of chronic kidney disease.",
+    incorrectFeedback: "Consider the key markers for secondary hyperparathyroidism: low vitamin D levels and the relationship to calcium and PTH levels. Look for findings that signify vitamin D deficiency, as this is a primary underlying cause."
+  },
+  {
+    question: "An elderly patient undergoing treatment for secondary hyperparathyroidism has been advised to increase sun exposure. Which of the following recommendations would be most appropriate?",
+    options: [
+      "Sun exposure for 10-15 minutes daily before 10 AM.",
+      "10-15 minutes of noon sun exposure daily on uncovered skin.",
+      "Avoid sun exposure completely.",
+      "Sun exposure should be limited to weekends only.",
+      "Sun exposure can be done at any time of the day."
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The recommendation of 10-15 minutes of sun exposure daily during midday maximizes vitamin D synthesis while minimizing the risk of overexposure to UV rays. It is important to ensure sun exposure occurs when the sun is at its highest.",
+    incorrectFeedback: "Consider the optimal timing and amount of sun exposure needed to synthesize vitamin D effectively. Pay attention to guidelines that balance vitamin D enhancement with the risk of skin damage."
+  }
+]} />

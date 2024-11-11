@@ -5,8 +5,12 @@
   },
   "Cardiovascular": "❤️ Cardiovascular",
   "Dermatology": "🔬 Dermatology",
+  "Endocrinology": "⚕️ Endocrinology",
   "ENT": "👂 Ear, Nose and Throat",
   "Ophthalmology": "👁️ Ophthalmology",
+  "---1": {
+    "type": "separator"
+  },
   "about": {
     "title": "ℹ️ About",
     "type": "page"
