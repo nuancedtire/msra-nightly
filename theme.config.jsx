@@ -5,6 +5,9 @@ export default {
       titleTemplate: '%s – MSRA Study Notes'
     }
   },
+  search: {
+    placeholder: 'Search notes...'
+  },
   sidebar: {
     titleComponent: ({ title, type }) => <>{title}</>,
     defaultMenuCollapseLevel: 1,
