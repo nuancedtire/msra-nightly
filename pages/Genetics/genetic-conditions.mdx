@@ -1,0 +1,155 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Genetic Diseases
+
+Genetic diseases often have characteristic features and phenotypes. Knowledge of these, alongside an understanding of their inheritance patterns and common demographics at presentation, is key to recognizing individuals who may need further investigation.
+
+<details>
+<summary>Inheritance Patterns</summary>
+
+- **Autosomal Dominant**
+  - Only one copy of the mutated gene is needed for the disease to occur.
+  - Examples: Huntington disease, Hereditary hemochromatosis.
+
+- **Autosomal Recessive**
+  - Disease occurs when an individual inherits two copies of the mutated gene.
+  - Examples: Sickle cell disease.
+
+- **X-Linked**
+  - Mutations occur on the X chromosome.
+  - These can be dominant or recessive.
+
+</details>
+
+## **Phenotypic Variability and Heterogeneity**
+
+Many genetic diseases are **heterogeneous** – meaning they can be variable in their presentations. This variability means not every patient will present with all features described in the literature.
+
+- **Phenotypic variability** may manifest in:
+  - Onset age
+  - Symptom severity
+  - Presence of specific traits
+
+<Callout emoji="⚠️">
+**Warning:** Maintain a high index of suspicion when encountering patients with unusual histories or a family history of specific diseases.
+</Callout>
+
+## Common Genetic Conditions
+
+### Sickle Cell Disease
+
+- **Inheritance Pattern:** Autosomal Recessive
+- **Key Features:**
+  - Anemia
+  - Pain crises
+  - Increased risk of infection
+
+<details>
+<summary>Further Reading</summary>
+
+- Detailed information can be found in the [Genetics Home Reference for Sickle Cell Disease](https://ghr.nlm.nih.gov/condition/sickle-cell-disease).
+
+</details>
+
+### Trisomy 13
+
+- **Inheritance Pattern:** Not inherited, usually occurs as a random event
+- **Key Features:**
+  - Severe intellectual disability
+  - Physical abnormalities in many parts of the body
+
+<details>
+<summary>Further Reading</summary>
+
+- For more details, consult the [Genetics Home Reference for Trisomy 13](https://ghr.nlm.nih.gov/condition/trisomy-13).
+
+</details>
+
+### Huntington Disease
+
+- **Inheritance Pattern:** Autosomal Dominant
+- **Key Features:**
+  - Progressive brain disorder
+  - Movement, cognitive, and psychiatric disorders
+
+<details>
+<summary>Further Reading</summary>
+
+- Explore more through the [Genetics Home Reference for Huntington Disease](https://ghr.nlm.nih.gov/condition/huntington-disease).
+
+</details>
+
+## Diagnosis and Management
+
+- **Early Recognition:** Essential for disease management and family planning.
+- **Genetic Testing:** Confirms diagnosis and helps with family counseling.
+- **Management Strategies:**
+  - Symptomatic treatment
+  - Multidisciplinary team involvement
+  - Genetic counseling for affected families
+
+## Conclusion
+
+Understanding genetic diseases involves recognizing variable presentations and inheritance patterns. A targeted approach aids in early identification and management, ultimately improving patient outcomes.
+
+### References
+
+- Genetics Home Reference – [Sickle cell disease](https://ghr.nlm.nih.gov/condition/sickle-cell-disease)
+- Genetics Home Reference – [Trisomy-13](https://ghr.nlm.nih.gov/condition/trisomy-13)
+- Genetics Home Reference – [Huntington disease](https://ghr.nlm.nih.gov/condition/huntington-disease)
+- Genetics Home Reference – [Hereditary hypophosphatemic rickets](https://ghr.nlm.nih.gov/condition/hereditary-hypophosphatemic-rickets)
+- Genetics Home Reference – [Hereditary hemochromatosis](https://ghr.nlm.nih.gov/condition/hereditary-hemochromatosis)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 35-year-old woman presents with vague abdominal pain and fatigue. Family history reveals that her father and paternal grandfather had a progressive brain disorder diagnosed in their 40s. Upon further examination, chorea is noted. Which of the following is the most likely inheritance pattern of her condition?",
+    options: [
+      "Autosomal Recessive",
+      "Autosomal Dominant",
+      "X-Linked Recessive",
+      "Mitochondrial"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The patient's symptoms and family history are suggestive of Huntington disease, which follows an autosomal dominant inheritance pattern.",
+    incorrectFeedback: "Consider the mode of inheritance where one copy of the mutated gene, provided by an affected parent, is sufficient for disease expression. This aligns with the known pattern for progressive disorders like Huntington disease."
+  },
+  {
+    question: "Which of the following diseases is known to occur as a random event and is not typically inherited in a family pattern?",
+    options: [
+      "Hereditary Hemochromatosis",
+      "Sickle Cell Disease",
+      "Trisomy 13",
+      "Huntington Disease"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "That's correct! Trisomy 13 is not inherited but occurs as a random event during the formation of reproductive cells, often leading to severe intellectual and physical disabilities.",
+    incorrectFeedback: "Remember, inherited diseases often have familial patterns or require specific parental gene contributions. Consider which condition mentioned occurs more sporadically without direct inheritance."
+  },
+  {
+    question: "A child is diagnosed with sickle cell disease. Which of the following best describes the inheritance pattern of this condition?",
+    options: [
+      "Autosomal Dominant",
+      "Autosomal Recessive",
+      "X-Linked Dominant",
+      "X-Linked Recessive"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Sickle cell disease is inherited in an autosomal recessive manner, meaning two copies of the mutated gene are necessary for the individual to express the disease.",
+    incorrectFeedback: "Think about conditions that require both parents to carry at least one mutated gene for their child to exhibit the disease. Autosomal recessive inheritance often involves such a pattern."
+  },
+  {
+    question: "In considering the genetic counseling for a family impacted by an inherited disease, which of the following statements most accurately reflects the role of genetic testing?",
+    options: [
+      "Genetic testing is only useful after symptoms appear.",
+      "Genetic testing confirms diagnosis and guides family counseling.",
+      "Genetic testing is unnecessary if family history is well-documented.",
+      "Genetic testing can replace symptomatic treatment in management."
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Genetic testing is crucial not only for confirming diagnoses but also for informing future family planning and providing appropriate genetic counseling.",
+    incorrectFeedback: "Think about the utility of genetic testing beyond diagnosis. It offers strategic value in planning, understanding risks, and discussing future family implications."
+  }
+]} />

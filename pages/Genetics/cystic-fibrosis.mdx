@@ -1,0 +1,180 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Cystic Fibrosis
+
+Cystic Fibrosis is an **autosomal recessive, multisystem disorder** caused by a mutation in the CF transmembrane conductance regulator (CFTR) protein, primarily affecting ion transport in epithelial cells. This article outlines the key aspects of Cystic Fibrosis, including its diagnosis, investigations, and management.
+
+## Pathophysiology
+
+- **CFTR Mutation:** Impacts chloride channel in cell membranes.
+- **Systemic Effects:**
+  - **Ciliary Function:** Impaired in airways.
+  - **Secretion Volume:** Increased production and thickness in airways, pancreas, and intestines.
+  - **Inflammation:** Dysregulated, leading to decreased immune function.
+- **Common Infections:**
+  - *Pseudomonas aeruginosa*
+  - *Staphylococcus aureus*
+  - *Haemophilus influenzae*
+  - *Burkholderia*
+- **Neonatal Risks:** 10-20% risk of developing meconium ileus, leading to bowel obstruction.
+
+### Genetic Details
+
+- Over 900 mutations known, most common being **ΔF508** on chromosome 7.
+- **Life Expectancy:** Currently around 40 years.
+
+## Diagnosis
+
+- **Newborn Screening:** Heel-prick test between 5-8 days to check immunoreactive trypsinogen levels.
+- **Confirmation:** Sweat test with chloride concentration `60-125mmol/L`.
+- **Clinical Presentation:** Failure to thrive, malabsorption with steatorrhoea, recurrent chest infections.
+
+### Additional Clinical Features
+
+- Bronchiectasis
+- Nasal polyps, sinusitis
+- Diabetes mellitus
+- Distal intestinal obstruction
+- Cirrhosis and portal hypertension
+- Pneumothorax
+- Male infertility
+
+## Investigations
+
+### New Diagnosis
+
+- **Heel-prick Test:** Raised immunoreactive trypsinogen, CFTR mutations.
+- **Sweat Test:** Confirms chloride concentration.
+
+### Annual Review
+
+- Weight and height measurement
+- Physiotherapy assessment
+- Oxygen saturation check
+- Chest x-ray
+- Blood tests: White cell count, aspergillus serology, serum IGE
+- Respiratory secretion sampling
+- Lung function test (FEV1, FVC, FEF 25-75%)
+
+## Emergency Management
+
+Urgent investigation and management are necessary when a patient presents with exacerbated symptoms such as fever, productive cough, and dyspnea.
+
+<Callout emoji="⚠️">
+**Warning:** Low threshold for ITU referral, especially in respiratory failure.
+</Callout>
+
+- **Investigations:**
+  - Chest x-ray
+  - Blood cultures
+  - Sputum cultures
+  - ABG (if indicated)
+  - Blood tests (FBC, U&E, LFTs, CRP)
+- **Management:**
+  - Broad-spectrum IV antibiotics
+  - Oxygen therapy
+  - Nebulised salbutamol
+  - Fluid therapy
+
+### Pneumothoraxes
+
+- **Presentation:** Shortness of breath, haemoptysis, and chest pain.
+- **Management:**
+  - Small pneumothoraces: Observation or aspiration.
+  - Large pneumothoraces: Chest drain.
+
+## Management (Prescribing)
+
+- **Prophylactic Antibiotics:** Flucloxacillin to prevent chest infections.
+- **Dornase Alfa:** Eases clearance of viscous secretions.
+- **Diabetic Management:** Insulin therapy under endocrinologist care.
+- **Lumacaftor-Ivacaftor:** Not currently recommended by NICE for pulmonary function improvement.
+
+## Management (Non-Prescribing)
+
+A **multidisciplinary approach** is crucial:
+
+- **Chest Physiotherapy:** Recommended at least twice daily.
+- **Diet:** High-calorie diet with potential gastrostomy for overnight feeds.
+- **Pancreatic Insufficiency:** Enzyme replacement therapy.
+- **Psychological Support:** Essential for patient and family.
+- **Exercise:** Regular physical activity to enhance lung function.
+- **End-Stage Management:** Bilateral lung transplant as therapeutic option.
+
+<details>
+<summary>Common Signs and Symptoms</summary>
+
+- **Respiratory:**
+  - Chronic cough
+  - Wheezing
+  - Recurrent lung infections
+
+- **Digestive:**
+  - Difficulty gaining weight
+  - Greasy stools
+
+- **Other Symptoms:**
+  - Salty-tasting skin
+  - Male infertility
+
+</details>
+
+## References
+
+- *Illustrated Textbook of Paediatrics* (5th edition) – Tom Lissauer and Will Carroll
+- [NICE Guidance NG78](https://www.nice.org.uk/guidance/ng78)
+- [NICE Guidance TA398](https://www.nice.org.uk/guidance/ta398)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 5-year-old child presents with failure to thrive, recurrent respiratory infections, and steatorrhea. Based on the article, which investigation confirms a diagnosis of Cystic Fibrosis?",
+    options: [
+      "Chest X-ray",
+      "Sweat test with chloride concentration",
+      "Heel-prick test for immunoreactive trypsinogen",
+      "Genetic testing for CFTR mutations"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The sweat test is the standard method for confirming cystic fibrosis diagnosis. Elevated chloride levels in sweat (60-125 mmol/L) are indicative of CF.",
+    incorrectFeedback: "Consider what test is used to directly measure a physiological change caused by CFTR mutation. This test is commonly used to confirm a CF diagnosis after initial screening."
+  },
+  {
+    question: "What is the primary pathophysiological defect in Cystic Fibrosis?",
+    options: [
+      "Increased mucus secretion in the bronchi",
+      "Impaired chloride ion transport across epithelial cells",
+      "Obstruction of pancreatic ducts",
+      "Increased susceptibility to Pseudomonas aeruginosa infections"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Cystic Fibrosis is primarily caused by mutations in the CFTR gene, affecting chloride ion transport across epithelial cells.",
+    incorrectFeedback: "Think about the molecular basis of Cystic Fibrosis. What cellular process does the CFTR protein primarily regulate?"
+  },
+  {
+    question: "Which of the following bacteria is commonly associated with pulmonary infections in patients with Cystic Fibrosis?",
+    options: [
+      "Escherichia coli",
+      "Pseudomonas aeruginosa",
+      "Staphylococcus epidermidis",
+      "Neisseria meningitidis"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Pseudomonas aeruginosa is a common pathogen that causes chronic respiratory infections in individuals with Cystic Fibrosis.",
+    incorrectFeedback: "Consider common opportunistic pathogens that thrive in the unique pulmonary environment in Cystic Fibrosis patients. This bacterium is notorious for forming biofilms in the lungs."
+  },
+  {
+    question: "Which treatment is recommended to facilitate the clearance of thickened secretions in the lungs of a Cystic Fibrosis patient?",
+    options: [
+      "Lumacaftor-Ivacaftor",
+      "Flucloxacillin",
+      "Dornase Alfa",
+      "Insulin therapy"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Dornase Alfa is recommended to reduce viscosity of pulmonary secretions, thus improving clearance.",
+    incorrectFeedback: "Focus on a medication designed specifically to decrease the viscosity of mucus, aiding in its clearance from the lungs."
+  }
+]} />

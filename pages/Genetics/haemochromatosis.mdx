@@ -1,0 +1,149 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Haemochromatosis: A Medical Overview
+
+## Diagnosis
+
+**Haemochromatosis** is an **autosomal recessive condition** characterized by excess levels of iron in the body, leading to its deposition in various organs such as the liver, heart, pancreas, and endocrine glands. In affected individuals, total body iron can reach 20-60g, compared to 4g in those without the condition. Haemochromatosis can be **primary** (hereditary haemochromatosis) or **secondary** due to conditions like repeated blood transfusion, thalassaemia, sideroblastic anaemia, liver disease, or pyruvate kinase deficiency.
+
+**Clinical features** may include:
+
+- Fatigue
+- Arthralgia
+- Lethargy
+- Pigmentation in groin and axillae (progressing from bronzing to grey)
+- Loss of libido
+
+Some patients may be asymptomatic at diagnosis, while others may present with complications due to organ iron deposition, exhibiting features of liver disease, heart failure, arrhythmias, diabetes mellitus, or rarely, hepatocellular carcinoma.
+
+**Risk factors** for haemochromatosis:
+
+- Male gender
+- Caucasian origin
+- Family history of haemochromatosis
+- Middle age
+
+## Investigations
+
+The primary test for diagnosing haemochromatosis is the **serum transferrin saturation** test. If elevated, check the patient’s **ferritin levels** to estimate iron overload severity. High ferritin levels increase the likelihood of severe complications.
+
+| Severity of iron overload | Ferritin level (picomols/L) |
+| --- | --- |
+| **Mild** | `<1125` |
+| **Moderate** | `1125-2250` |
+| **Severe** | `>2250` |
+
+**Note:** Ferritin is an acute-phase reactant and may be elevated due to infection, malignancy, or inflammation.
+
+**Tests for organ damage assessment:**
+
+- **Liver:**
+  - MRI: Measures iron content.
+  - Liver biopsy: Assesses fibrosis or cirrhosis.
+  - LFTs
+
+- **Pancreas:**
+  - Fasting blood sugar: Checked if ferritin levels are raised.
+
+- **Heart:**
+  - ECG and echocardiogram: Assessed for heart failure, arrhythmias, and cardiomyopathy.
+
+- **Hormonal Levels:**
+  - Testosterone, FSH, LH levels: Checked for hypogonadism association.
+
+- **Bone Health:**
+  - DEXA scan: Recommended for patients with osteoporosis risk factors and raised ferritin levels.
+
+## Management (Prescribing)
+
+<Callout emoji="💡">
+**Note:** If there is a contraindication to phlebotomy (e.g., due to anaemia, difficult venous access, or severe heart disease), iron chelation therapy can be used to remove excess iron.
+</Callout>
+
+## Management (Non-Prescribing)
+
+Haemochromatosis is categorized into stages for treatment guidance:
+
+| Stage | C282Y homozygosity | Transferrin saturation | Serum ferritin | Clinical symptoms | Management |
+| --- | --- | --- | --- | --- | --- |
+| **0** | Yes | Normal | Normal | None | Monitor 3-yearly with history, examination, and serum ferritin and transferrin saturation |
+| **1** | Yes | Increased | Normal | None | Monitor annually with history, examination, and serum ferritin and transferrin saturation |
+| **2** | Yes | Increased | Increased | None | Phlebotomy or iron chelation therapy |
+| **3** | Yes | Increased | Increased | Symptoms affecting quality of life | |
+| **4** | Yes | Increased | Increased | Symptoms suggest organ damage, possibly leading to early death (e.g., cirrhosis, cardiomyopathy) | |
+
+**Key treatment:** Regular phlebotomy sessions to remove excess iron. Initially, these sessions may be weekly until serum ferritin levels drop below `112 picomols/L`. Maintenance phlebotomy is less frequent but essential.
+
+**Patient advice:**
+
+- Avoid iron-containing supplements and iron-fortified foods like certain cereals.
+- Avoid Vitamin C supplements, as they increase iron absorption in the intestines.
+- Limit alcohol to prevent liver damage.
+- Get vaccinated for Hepatitis A and B.
+
+<details>
+<summary>Additional Information</summary>
+
+- Some patients may require multidisciplinary care involving hepatologists, cardiologists, and endocrinologists.
+- Genetic counseling is recommended for family members of affected individuals.
+
+</details>
+
+## References
+
+- [BMJ Best Practice - Haemochromatosis](https://bestpractice.bmj.com/topics/en-gb/134/pdf/134/Haemochromatosis.pdf)
+- Davidson’s Principles and Practice of Medicine (22nd edition)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 45-year-old male of Caucasian descent presents with fatigue, arthralgia, and bronzed skin. Further testing reveals elevated serum ferritin and transferrin saturation. Genetic testing confirms C282Y homozygosity. What is the primary management approach for this patient?",
+    options: [
+      "Iron chelation therapy",
+      "Ensure adequate Vitamin C intake",
+      "Weekly phlebotomy sessions",
+      "Immediate liver transplant"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The primary treatment for haemochromatosis is regular phlebotomy to remove excess iron from the body. This is usually done weekly until serum ferritin levels decrease to safer levels. Chelation is reserved for those who cannot tolerate phlebotomy.",
+    incorrectFeedback: "Consider the primary means of reducing iron overload in haemochromatosis. This approach also aligns with non-pharmacological management strategies for patients with normal organ function."
+  },
+  {
+    question: "In haemochromatosis management, what purpose does a DEXA scan serve?",
+    options: [
+      "Assess liver fibrosis",
+      "Evaluate cardiac function",
+      "Measure bone density",
+      "Determine pancreatic damage"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! A DEXA scan is used to measure bone density, which is particularly important in haemochromatosis patients at risk of osteoporosis.",
+    incorrectFeedback: "Think about the complications associated with iron overload that could affect skeletal health."
+  },
+  {
+    question: "Which of the following is a risk factor for the development of primary haemochromatosis?",
+    options: [
+      "African descent",
+      "Female gender",
+      "Middle age",
+      "High dietary iron intake"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Middle age, Caucasian descent, and male gender are known risk factors for primary haemochromatosis.",
+    incorrectFeedback: "Remember the demographic most frequently affected by hereditary haemochromatosis based on genetic predisposition."
+  },
+  {
+    question: "A patient with known haemochromatosis is advised to avoid Vitamin C supplements. Why is this recommendation made?",
+    options: [
+      "Vitamin C increases iron excretion via urine",
+      "Vitamin C can exacerbate liver damage",
+      "Vitamin C decreases the efficacy of phlebotomy",
+      "Vitamin C increases iron absorption in the intestines"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Vitamin C enhances iron absorption in the intestines, which could worsen iron accumulation in patients with haemochromatosis.",
+    incorrectFeedback: "Consider the role of Vitamin C in iron metabolism and why its supplementation could be detrimental in the context of excessive iron levels."
+  }
+]} />

@@ -1,0 +1,137 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Sickle Cell Anaemia: An Overview
+
+Sickle cell anaemia (HbS) is a genetic disorder caused by a single base mutation that swaps glutamine for valine at position 6 in the beta-globin chain. This mutated beta globin produces HbS instead of HbA.
+
+## Genetic Inheritance
+
+The disease follows an **autosomal recessive** inheritance pattern. Offspring of affected individuals can inherit one of three syndromes:
+
+- **Unaffected (AA)**: Normal hemoglobin.
+- **Heterozygous (AS - trait)**: Intermediate symptoms, often without severe manifestations.
+- **Homozygous (SS)**: Known as sickle cell anaemia, the most severe form.
+
+*Note:* The heterozygous trait is prevalent in Africa due to its protective effect against malaria. About 10% of the Afro-Caribbean population in the UK are trait carriers.
+
+### Pathophysiology
+
+HbSS red blood cells can become rigid and **sickle** due to polymerization of HbS. This is often triggered by:
+
+- Hypoxia
+- Cold
+- Dehydration
+- Acidosis
+
+Consequences include reduced life span of red blood cells and obstruction in microcirculation, leading to ischaemia.
+
+## Diagnosis
+
+Patients with sickle cell anaemia often experience multiple hospital admissions due to **acute crises** or chronic disease complications, such as:
+
+- **Severe bone pain**
+- **Pulmonary hypertension**: Chronic lung disease in 30-40% of patients
+- **Anaemia**: Due to chronic haemolysis
+- **Avascular necrosis**: Vaso-occlusive crises affect bones
+- **Infections**: Particularly in the lungs and kidneys
+- **Leg ulcers:** Results from microvascular occlusion
+- **Cardiac complications**: Includes cardiomegaly and arrhythmias
+- **Neurological abnormalities**: Occurring in 25% of patients
+- **Pigmented gallstones**
+- **Chronic hepatomegaly**
+- **Kidney involvement**: Chronic tubulointerstitial nephritis
+- **Retinopathy**
+- **Atrophic spleen**: Repeated infarctions lead to high sepsis rates
+
+### Investigations
+
+- **Heel-prick test**: Conducted at 5-9 days after birth for initial screening.
+- **Haemoglobin electrophoresis**: Used to differentiate forms of sickle cell syndrome upon a positive screening test.
+- **Family history and clinical signs**: Help in diagnosis in older children and adults.
+
+## Acute Crises Management
+
+Acute crises in sickle cell patients can be categorized as:
+
+1. **Thrombotic/Vaso-occlusive crises**: Extremely painful, triggered by dehydration, infection, or hypoxia. Leads to ischaemia in various organs.
+2. **Aplastic**: Caused by parvovirus infection leading to bone marrow failure and reduced hemoglobin.
+3. **Haemolytic**: Rarely occurs due to increased haemolysis.
+4. **Acute chest syndrome**: Primary cause of mortality after childhood; requires emergency red cell exchange.
+5. **Sequestration**: Sickling in organs like lungs and spleen leads to hypovolemia and possible death.
+
+**Treatment:**
+
+- Analgesia
+- Supplementary oxygen
+- Blood transfusion
+- Rehydration
+- Antibiotics for infections
+
+## Long-term Management
+
+Patients are often treated with:
+
+- **Hydroxyurea**: Elevates fetal hemoglobin levels, reducing sickling and crisis frequency.
+- **Vaccination**: Includes pneumococcal and flu vaccines to prevent infections.
+
+<Callout emoji="💡">
+**Note:** NICE recommends periodic vaccination for sickle cell patients to prevent complications.
+</Callout>
+
+### References
+
+[Visit the NHS Sickle Cell Disease page](https://www.nhs.uk/conditions/sickle-cell-disease/)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 5-day-old infant is undergoing a routine screening test and is found to have sickle cell trait. Which method is most appropriate for confirming the diagnosis of this condition?",
+    options: [
+      "Genetic sequencing of the beta-globin gene",
+      "Complete blood count and reticulocyte count",
+      "Haemoglobin electrophoresis",
+      "Peripheral blood smear examination"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Haemoglobin electrophoresis is the gold standard for confirming the diagnosis of sickle cell disease or trait, as it can differentiate between HbA, HbS, and other hemoglobin variants.",
+    incorrectFeedback: "Consider the common methods used to differentiate between different forms of hemoglobin. Which technique enables precise identification of hemoglobin variants in affected individuals?"
+  },
+  {
+    question: "A 23-year-old woman with sickle cell anaemia presents with sudden onset chest pain and dyspnea. A chest x-ray shows infiltrates, and her oxygen saturation is 85% on room air. What is the most appropriate immediate management?",
+    options: [
+      "Non-invasive ventilation",
+      "Red cell exchange transfusion",
+      "Antibiotics and bronchodilators",
+      "Intravenous corticosteroids"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Acute chest syndrome is a common and severe complication of sickle cell disease, often requiring emergency red cell exchange to rapidly reduce sickling and improve oxygenation.",
+    incorrectFeedback: "Think about the potential acute complications of sickle cell anaemia affecting the lungs, particularly those requiring urgent intervention to prevent mortality."
+  },
+  {
+    question: "Which of the following triggers can lead to vaso-occlusive crises in patients with sickle cell anaemia?",
+    options: [
+      "Exposure to high altitude",
+      "Hyperventilation",
+      "Use of beta-blockers",
+      "Overhydration"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! Hypoxia, which can occur during exposure to high altitudes, is a known trigger for vaso-occlusive crises due to increased polymerization of HbS.",
+    incorrectFeedback: "Consider factors that can lead to increased sickling of red blood cells in sickle cell patients. Focus on conditions that might cause hypoxia or stress to the RBCs."
+  },
+  {
+    question: "A 30-year-old man with sickle cell disease presents with anemia, profound fatigue, and pallor. A blood test shows a low reticulocyte count. Which complication is most consistent with these findings?",
+    options: [
+      "Thrombotic crisis",
+      "Aplastic crisis",
+      "Haemolytic crisis",
+      "Sequestration crisis"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! An aplastic crisis is characterized by a sudden cessation of erythropoiesis, often due to parvovirus B19 infection, resulting in a low reticulocyte count in patients already dependent on a high turnover of red cells.",
+    incorrectFeedback: "Focus on the combination of anemia and low reticulocyte count. Consider what might decrease the production of new red blood cells in this setting."
+  }
+]} />

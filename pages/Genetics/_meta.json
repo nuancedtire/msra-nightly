@@ -1,0 +1,33 @@
+{
+  "---1": {
+    "type": "separator",
+    "title": "Fundamentals"
+  },
+  "genetic-conditions": "🧬 Genetic Conditions Overview",
+  "inheritance-patterns": "📊 Inheritance Patterns",
+
+  "---2": {
+    "type": "separator",
+    "title": "Chromosomal Disorders"
+  },
+  "turner-syndrome": "✖️ Turner Syndrome",
+  "klinefelter-syndrome": "➕ Klinefelter Syndrome",
+  "patau-syndrome": "🔬 Patau Syndrome",
+
+  "---3": {
+    "type": "separator",
+    "title": "Single Gene Disorders"
+  },
+  "cystic-fibrosis": "🫁 Cystic Fibrosis",
+  "duchenne-muscular-dystrophy": "💪 Duchenne Muscular Dystrophy",
+  "huntingtons-disease": "🧠 Huntington's Disease",
+  "fragile-x-syndrome": "🔍 Fragile X Syndrome",
+
+  "---4": {
+    "type": "separator",
+    "title": "Metabolic & Growth Disorders"
+  },
+  "familial-hypercholesterolaemia": "💉 Familial Hypercholesterolaemia",
+  "haemochromatosis": "⚡ Haemochromatosis",
+  "achondroplasia": "📏 Achondroplasia"
+} 
