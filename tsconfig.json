@@ -29,7 +29,7 @@
     "**/*.jsx",
     "**/*.mdx",
     ".next/types/**/*.ts"
-  ],
+, "lib/test_script.mjs"  ],
   "exclude": [
     "node_modules"
   ]
