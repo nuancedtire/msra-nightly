@@ -1,0 +1,125 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# IgA Nephropathy: Understanding and Managing the Condition
+
+IgA nephropathy, also known as Berger's disease, is the most prevalent form of nephritis. It is characterized by the deposition of the immunoglobulin A (IgA) protein in the kidney's glomeruli, leading to potential chronic kidney disease (CKD) and possibly end-stage renal disease (ESRD). Alarmingly, up to 25% of those affected may eventually require dialysis or a kidney transplant.
+
+## Overview
+
+IgA nephropathy falls under the umbrella of conditions known as 'Glomerulonephritis'. While it predominantly affects males in their 30s, it does not discriminate by age or gender and may impact anyone.
+
+### Symptoms and Detection
+
+- Early-stage IgA nephropathy often lacks symptoms and can go unnoticed for extended periods
+- Common symptoms include:
+  - Blood in urine (*hematuria*)
+  - Frothy urine due to protein presence (*proteinuria*)
+  - Elevated blood pressure (*hypertension*)
+  - Swelling of hands and feet
+
+Occult *hematuria* is typically only identified through urine testing. Conversely, visible *hematuria* might follow an upper respiratory or gastrointestinal infection, generally manifesting 24-48 hours post-infection. A rise in serum creatinine levels is indicative of CKD. However, a conclusive diagnosis requires a kidney biopsy.
+
+### Diagnostic Investigations
+
+- Urinalysis for *hematuria* and *proteinuria*
+- Blood tests for elevated creatinine and cholesterol levels
+- Blood pressure assessment for hypertension
+- Pregnancy tests for women of reproductive age
+- **Definitive Diagnosis:** Kidney biopsy
+
+## Management Strategies
+
+### Prescribing Interventions
+
+As a chronic condition, the management of IgA nephropathy centers on decelerating its progression and mitigating complications, with a particular focus on hypertension due to its detrimental impact on renal health.
+
+#### Goals and Treatments
+
+- Aim to maintain blood pressure below `130/80 mmHg` to lessen proteinuria
+- Common medications include:
+  - **ACE inhibitors:** e.g., Captopril
+  - **Angiotensin receptor blockers (ARBs):** e.g., Losartan
+  - **Note:** Do not combine ACE inhibitors and ARBs
+  - **Statins for Hypercholesterolemia:** e.g., Simvastatin
+  - **Immunosuppressants:** e.g., Prednisolone (in select cases)
+
+<Callout emoji="⚠️">
+**Warning:** Medications like ACE inhibitors, ARBs, and statins are contraindicated during pregnancy. Always adhere to local guidelines when choosing medications.
+</Callout>
+
+### Non-Prescribing Measures
+
+Lifestyle adjustments can complement medical treatments:
+
+- Regular physical activity
+- Weight management
+- Healthy diet with reduced sodium intake
+- **For ESRD Patients:** Dialysis or kidney transplant may be necessary
+
+<Callout>
+**Note:** Post-transplant, IgA nephropathy can recur, necessitating ongoing monitoring.
+</Callout>
+
+## References
+
+- [Kidney Care UK](https://www.kidneycareuk.org/)
+- [Kidney Research UK](https://kidneyresearchuk.org/)
+- [The National Kidney Federation](https://www.kidney.org.uk/)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 32-year-old man presents with a two-day history of cola-colored urine and periorbital edema. He reports a recent upper respiratory tract infection. His blood pressure is 150/95 mmHg. Urinalysis reveals red blood cells and proteinuria. Serum creatinine is elevated. Which of the following is the most appropriate next step to confirm the suspected diagnosis?",
+    options: [
+      "Renal ultrasound",
+      "24-hour urine collection for total protein",
+      "Serologic testing for antinuclear antibodies (ANA) and anti-neutrophil cytoplasmic antibodies (ANCA)",
+      "Kidney biopsy",
+      "Start empiric treatment with corticosteroids"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Given the patient's symptoms of gross hematuria following an upper respiratory infection, elevated blood pressure, and renal impairment, IgA nephropathy is highly suspected. Kidney biopsy is the definitive diagnostic test for IgA nephropathy and should be performed to confirm the diagnosis.",
+    incorrectFeedback: "While other options may provide additional information or are used in the workup of renal diseases, which single test would provide a definitive diagnosis for the suspected condition in this patient?"
+  },
+  {
+    question: "A 27-year-old female with a history of IgA nephropathy is being evaluated for hypertension management. Her current blood pressure is 138/86 mmHg, and she has persistent proteinuria. Which of the following medications is most appropriate to prescribe?",
+    options: [
+      "Captopril",
+      "Amlodipine",
+      "Furosemide",
+      "Losartan",
+      "Combination of Captopril and Losartan"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! The goal in IgA nephropathy management is to control hypertension to reduce proteinuria. ACE inhibitors like Captopril are preferred as first-line treatment due to their protective effects on the kidneys.",
+    incorrectFeedback: "Which class of antihypertensive agents is considered first-line for patients with chronic kidney disease and proteinuria?"
+  },
+  {
+    question: "A patient with IgA nephropathy is being counseled on lifestyle modifications to slow the progression of the disease. Which of the following recommendations is least appropriate for this patient?",
+    options: [
+      "Engage in regular physical activity",
+      "Adhere to a low-protein diet",
+      "Limit sodium intake to less than 2 grams per day",
+      "Quit smoking",
+      "Increase intake of saturated fats to improve caloric intake"
+    ],
+    correctAnswer: 4,
+    correctFeedback: "Correct! Increasing intake of saturated fats is not recommended as it can exacerbate hypercholesterolemia, which is commonly associated with IgA nephropathy. All other options are appropriate lifestyle modifications for patients with IgA nephropathy.",
+    incorrectFeedback: "Consider the overall goals of lifestyle modifications in chronic kidney disease management. Which recommendation does not align with these goals?"
+  },
+  {
+    question: "A 40-year-old woman with IgA nephropathy has advanced to end-stage renal disease (ESRD). She has elected to receive a kidney transplant. Which of the following is a post-transplant consideration specific to her original diagnosis?",
+    options: [
+      "Increased risk of acute rejection due to pre-existing antibodies",
+      "Decreased risk of transplant failure due to younger age",
+      "Risk of recurrence of IgA nephropathy in the transplanted kidney",
+      "Requirement for lifelong antiviral therapy",
+      "Immediate cessation of all immunosuppressive therapy post-transplant"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Patients with IgA nephropathy have a risk of disease recurrence in the transplanted kidney, necessitating careful monitoring.",
+    incorrectFeedback: "Think about the nature of IgA nephropathy and its implications for a kidney transplant recipient. What specific risk is associated with this condition post-transplant?"
+  }
+]} />

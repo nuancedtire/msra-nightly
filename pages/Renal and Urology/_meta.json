@@ -1,0 +1,55 @@
+{
+  "---1": {
+    "type": "separator",
+    "title": "Kidney Disease"
+  },
+  "chronic-kidney-disease": "🔄 Chronic Kidney Disease",
+  "adult-polycystic-kidney-disease": "🫘 APKD",
+  "diabetic-nephropathy": "🍯 Diabetic Nephropathy",
+  "hypertensive-nephropathy": "📈 Hypertensive Nephropathy",
+  "iga-nephropathy": "🔬 IgA Nephropathy",
+  "nephrotic-syndrome": "🌧️ Nephrotic Syndrome",
+
+  "---2": {
+    "type": "separator",
+    "title": "Kidney Inflammation"
+  },
+  "acute-interstitial-nephritis": "🔥 Acute Interstitial Nephritis",
+  "interstitial-nephritis": "💊 Interstitial Nephritis",
+  "acute-pyelonephritis": "🦠 Acute Pyelonephritis",
+
+  "---3": {
+    "type": "separator",
+    "title": "Urological Infections"
+  },
+  "lower-urinary-tract-infection": "🚽 Lower UTI",
+  "prostatitis": "♂️ Prostatitis",
+  "epididymitis": "🔴 Epididymitis",
+
+  "---4": {
+    "type": "separator",
+    "title": "Urological Cancers"
+  },
+  "bladder-cancer": "🎗️ Bladder Cancer",
+  "renal-transitional-cell-carcinoma": "🔬 Renal TCC",
+  "testicular-cancer": "⚕️ Testicular Cancer",
+  "seminoma": "🔍 Seminoma",
+
+  "---5": {
+    "type": "separator",
+    "title": "Endocrine & Metabolic"
+  },
+  "cranial-diabetes-insipidus": "💧 Cranial DI",
+  "nephrogenic-diabetes-insipidus": "🌊 Nephrogenic DI",
+  "renal-artery-stenosis": "🔍 Renal Artery Stenosis",
+  "renal-calculi": "💎 Renal Calculi",
+
+  "---6": {
+    "type": "separator",
+    "title": "Other Conditions"
+  },
+  "benign-prostatic-hypertrophy": "🔍 BPH",
+  "epididymal-cyst": "⭕ Epididymal Cyst",
+  "testicular-torsion": "🌀 Testicular Torsion",
+  "torted-hydatid-of-morgagni": "↩️ Torted Hydatid of Morgagni"
+} 

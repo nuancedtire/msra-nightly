@@ -11,18 +11,23 @@
   "---": {
     "type": "separator"
   },
-  "Cardiovascular": "❤️ Cardiovascular",
+  "Cardiovascular": "❤️ Cardiology",
   "Dermatology": "🔬 Dermatology",
   "Endocrinology": "⚕️ Endocrinology",
   "ENT": "👂 Ear, Nose & Throat",
   "Genetics": "🧬 Genetics",
   "Gastroenterology": "🍽️ Gastroenterology",
   "Haematology": "🩸 Haematology",
-  "Immunology and Cancer": "🎗️ Immunology & Cancer",
+  "Immunology and Cancer": "🎗️ Oncology",
   "Infectious Diseases": "🦠 Infectious Diseases",
   "Musculoskeletal": "🦴 Musculoskeletal",  
   "Neurology": "🧠 Neurology",
+  "Obstetrics and Gynaecology": "🤰 Obs & Gynae",
   "Ophthalmology": "👁️ Ophthalmology",
+  "Pulmonology": "🫁 Respiratory",
+  "Paediatrics": "👶 Paediatrics",
+  "Psychiatry": "💭 Psychiatry",
+  "Renal and Urology": "💦 Renal & Urology",
   "---1": {
     "type": "separator"
   },

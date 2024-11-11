@@ -1,0 +1,158 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Key Pulmonary Conditions
+
+## Respiratory Failure
+
+### Overview of Respiratory Failure
+
+- **Respiratory failure** is characterized by inadequate gas exchange by the respiratory system.
+- Defined by a hypoxia level of less than `8kPa`.
+
+### Classification and Causes
+
+Respiratory failure is classified into two types based on the levels of pCO₂:
+
+- **Type 1 Respiratory Failure** (`pCO₂` is low or normal):
+  - Often results from ventilation/perfusion (V/Q) mismatch.
+  - Common conditions include:
+    - Pneumonia
+    - Acute Respiratory Distress Syndrome (ARDS)
+    - Pulmonary oedema
+    - Moderate to severe asthma exacerbation
+
+- **Type 2 Respiratory Failure** (`pCO₂` is high):
+  - Caused by alveolar hypoventilation, possibly with V/Q mismatch.
+  - Conditions leading to this include:
+    - Chronic Obstructive Pulmonary Disease (COPD)
+    - Obstructive sleep apnoea
+    - Severe asthma exacerbations
+    - Neuromuscular diseases affecting respiratory muscles (e.g., myasthenia gravis, Guillain-Barre syndrome)
+    - Sedative drugs that cause respiratory depression
+
+## Sarcoidosis
+
+### Introduction to Sarcoidosis
+
+- **Sarcoidosis** is a multisystem, granulomatous disease.
+- The cause is unknown, and it often affects the lungs.
+- Predominantly seen in individuals of Scandinavian and Afro-Caribbean descent.
+
+### Diagnosis Considerations
+
+- No definitive test; diagnosis is based on clinical and radiographic findings.
+- **Lofgren syndrome** is a telltale acute form of sarcoidosis, featuring:
+  - Erythema nodosum
+  - Bihilar lymphadenopathy
+  - Uveitis, arthritis, or parotitis
+
+For chronic sarcoidosis, the following may suggest the diagnosis:
+
+- Negative tuberculin test
+- Elevated serum Angiotensin-Converting Enzyme (ACE)
+- Hypercalciuria and hypercalcaemia
+- Positive tissue biopsy
+
+## Legionnaires’ Disease
+
+### Understanding Legionnaires’ Disease
+
+- Caused by *Legionella Pneumophila*.
+- Transmission occurs through inhalation of aerosolized water from aquatic systems.
+
+### Clinical Presentation
+
+- Often presents after travel abroad or a cruise.
+- Extrapulmonary symptoms may include:
+  - Bradycardia
+  - Gastrointestinal issues
+
+### Diagnostic Approach
+
+First-line investigations for Legionnaires’ disease:
+
+- **Sputum cultures**: Most accurate.
+- **Urinary antigen tests**: May have limitations.
+
+## Pulmonary Hypertension
+
+### Overview of Pulmonary Hypertension
+
+- Has various causes, with **idiopathic pulmonary arterial hypertension** being the most common.
+- There is a familial form with autosomal dominant inheritance but reduced penetrance.
+
+### Treatment Modalities
+
+Medications used in treatment include:
+
+- Endothelin antagonists (e.g., bosentan)
+- Prostacyclin analogues (e.g., iloprost)
+- Phosphodiesterase V inhibitors (e.g., sildenafil)
+
+## References
+
+- BMJ best practice articles on acute exacerbations of asthma, COPD, and congestive heart failure
+- [BMJ Best Practice. Legionella Infection.](https://bestpractice.bmj.com/topics/en-gb/414)
+- Cunha BA, Burillo A, Bouza E. Legionnaires’ Disease. _The Lancet_. 387, 376-385 (2016). [https://doi.org/10.1016/S0140-6736(15)60078-2](https://doi.org/10.1016/S0140-6736(15)60078-2)
+- Oxford Handbook of Clinical Medicine, 9th edition, page 180 – causes of respiratory failure
+- Oxford Handbook of Clinical Medicine (10th edition) – p.168
+- [The Lancet](https://www.thelancet.com/pdfs/journals/lanres/PIIS2213-2600(18)30064-X.pdf)
+- [Pulmonary Hypertension RN. Right Heart Catheterization (RHC).](https://pulmonaryhypertensionrn.com/right-heart-catheterization-rhc/)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 55-year-old woman with a history of progressive dyspnea and fatigue is diagnosed with idiopathic pulmonary arterial hypertension. Which of the following medications is most appropriate to initiate as a specific treatment for her condition?",
+    options: [
+      "Bosentan",
+      "Montelukast",
+      "Amoxicillin",
+      "Metoprolol",
+      "Albuterol"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! Bosentan is an endothelin antagonist which is specifically used in the treatment of pulmonary arterial hypertension.",
+    incorrectFeedback: "The question is asking for a specific treatment for pulmonary arterial hypertension. Which option is a targeted therapy for this condition?"
+  },
+  {
+    question: "A 63-year-old man with a history of COPD presents with increased shortness of breath, productive cough, and a high pCO₂ on arterial blood gas analysis. Which type of respiratory failure is he most likely experiencing?",
+    options: [
+      "Type 1 respiratory failure",
+      "Type 2 respiratory failure",
+      "Type 3 respiratory failure",
+      "Type 4 respiratory failure",
+      "Type 5 respiratory failure"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Type 2 respiratory failure is characterized by hypercapnia and is commonly associated with conditions that lead to alveolar hypoventilation such as COPD.",
+    incorrectFeedback: "Review the characteristics and typical causes of the different types of respiratory failure. Which type is associated with high pCO₂?"
+  },
+  {
+    question: "A previously healthy 40-year-old man presents with fever, cough, and malaise after returning from a Caribbean cruise. He is diagnosed with Legionnaires’ disease. Which diagnostic test is most appropriate to confirm the diagnosis?",
+    options: [
+      "Sputum Gram stain and culture",
+      "Serum antibody testing for Legionella",
+      "Legionella urinary antigen test",
+      "Complete blood count (CBC) with differential",
+      "Chest X-ray"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The Legionella urinary antigen test is a rapid and specific test for Legionnaires’ disease, particularly for Legionella pneumophila serogroup 1.",
+    incorrectFeedback: "Think about the specific and rapid tests used to diagnose Legionnaires’ disease. Which test can provide a quick confirmation?"
+  },
+  {
+    question: "A patient presents with erythema nodosum, bihilar lymphadenopathy, and inflammation of the eyes. Which of the following is the most likely diagnosis?",
+    options: [
+      "Tuberculosis",
+      "Lymphoma",
+      "Lofgren syndrome",
+      "Silicosis",
+      "Pulmonary embolism"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Lofgren syndrome is an acute presentation of sarcoidosis characterized by erythema nodosum, bihilar lymphadenopathy, and uveitis.",
+    incorrectFeedback: "Consider the combination of symptoms presented and their association with certain diseases. Which condition is characterized by this specific triad?"
+  }
+]} />

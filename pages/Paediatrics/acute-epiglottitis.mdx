@@ -1,0 +1,123 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Epiglottitis: Diagnosis and Management
+
+Epiglottitis is an inflammation of the epiglottis, typically caused by bacterial infection. It is a medical emergency due to the potential for airway obstruction resulting from oedema. The causative organisms include Haemophilus influenzae, Streptococcus pneumoniae, and Staphylococcus aureus.
+
+## Etiology and Risk Factors
+
+The common organisms responsible for epiglottitis include:
+
+- *Haemophilus influenzae* (although the incidence has decreased following the introduction of the Hib vaccine)
+- *Streptococcus pneumoniae*
+- *Staphylococcus aureus*
+
+Epiglottitis most commonly occurs in children between the ages of 3 and 5. Children who are not up-to-date with vaccinations are at a greater risk.
+
+## Clinical Presentation
+
+Patients with epiglottitis exhibit rapidly progressing symptoms such as:
+
+- Sore throat 
+- Dysphagia, or pain on swallowing, which may lead to:
+  - Drooling (due to inability to swallow saliva)
+  - Poor oral intake
+- Fever
+- Signs of respiratory distress, including:
+  - Increased respiratory rate 
+  - Tripod position
+  - Intercostal/subcostal/sternal recession
+- Stridor, suggesting airway compromise
+- A “toxic” appearance characterized by lethargy, irritability, pallor, etc.
+
+<Callout emoji="⚠️">
+**Warning:** Avoid laying the child down or examining the throat with a spatula, as it can lead to anxiety and possibly precipitate airway obstruction.
+</Callout>
+
+## Diagnosis
+
+Epiglottitis is primarily diagnosed clinically, although it can be confirmed with laryngoscopy to visualize the inflamed epiglottis.
+
+In cases where the airway has been secured, blood cultures can be taken to identify the causative organism.
+
+## Emergency Management
+
+Epiglottitis can rapidly lead to airway obstruction. An ABCDE approach is essential when a child presents with epiglottitis. Immediate consultation with the anaesthetics or intensive care team is necessary to secure the airway and administer oxygen if needed.
+
+<details>
+<summary>ABCDE Approach</summary>
+
+The ABCDE approach is a systematic method for assessing and treating critically ill patients. It stands for:
+
+- **A**irway
+- **B**reathing
+- **C**irculation
+- **D**isability
+- **E**xposure
+
+</details>
+
+Direct rigid laryngoscopy, combined with nasotracheal intubation, is commonly performed as it allows for visualization of the epiglottis and airway security. Any examination, investigation, or treatment should not delay intubation.
+
+## Management
+
+### Prescribing Management
+
+After intubation, IV empirical antibiotics are administered according to local guidelines. Following extubation, oral antibiotics are continued for 3 to 5 days.
+
+Oral corticosteroids may also be prescribed to reduce oedema of the epiglottis.
+
+Prophylactic rifampicin may be given to all household contacts, especially if other unvaccinated children are present.
+
+### Non-prescribing Management
+
+Patients should be admitted to the intensive care unit for intubation and further treatment.
+
+## References
+
+1. [BMJ Best Practice: Epiglottitis](https://bestpractice.bmj.com/topics/en-gb/452/pdf/452/Epiglottitis.pdf)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 4-year-old boy presents with rapid onset of fever, sore throat, and difficulty swallowing. He appears lethargic and is sitting up and leaning forward. Examination reveals drooling and inspiratory stridor. Which of the following is the most likely causative organism?",
+    options: [
+      "Streptococcus pyogenes",
+      "Bordetella pertussis",
+      "Haemophilus influenzae",
+      "Staphylococcus epidermidis",
+      "Pseudomonas aeruginosa"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The patient's symptoms are suggestive of epiglottitis, which is most commonly caused by Haemophilus influenzae, particularly in unvaccinated children.",
+    incorrectFeedback: "Consider the patient's age, symptoms, and rapid progression of disease. Which organism is most likely to cause these findings?"
+  },
+  {
+    question: "A 3-year-old girl with a history of missed vaccinations presents with fever, severe sore throat, and difficulty swallowing. She is sitting in a tripod position and appears anxious. Which of the following actions should be avoided in this patient?",
+    options: [
+      "Administering supplemental oxygen",
+      "Taking a throat culture",
+      "Placing the patient in a supine position",
+      "Initiating intravenous antibiotics",
+      "Calling for an anaesthetics or intensive care consultation"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The patient's symptoms suggest epiglottitis, a potential airway emergency. Placing the patient in a supine position or attempting to examine the throat could precipitate airway obstruction.",
+    incorrectFeedback: "Consider the potential for airway obstruction in this patient. Which action could potentially exacerbate this risk?"
+  },
+  {
+    question: "A 5-year-old boy is diagnosed with epiglottitis. His 2-year-old sibling has not yet received the Hib vaccine. Which of the following is the most appropriate management for the sibling?",
+    options: [
+      "Administer the Hib vaccine immediately",
+      "Begin a course of prophylactic rifampicin",
+      "Isolate the sibling from the patient",
+      "Administer intravenous antibiotics",
+      "No action is necessary"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Prophylactic rifampicin is recommended for all household contacts of a patient with epiglottitis, especially if unvaccinated children are present.",
+    incorrectFeedback: "Consider the risk of infection transmission within the household. What action would best protect the sibling from developing epiglottitis?"
+  }
+]} />

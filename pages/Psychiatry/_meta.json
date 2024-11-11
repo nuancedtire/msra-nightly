@@ -1,0 +1,49 @@
+{
+  "---1": {
+    "type": "separator",
+    "title": "Mood Disorders"
+  },
+  "depression": "😔 Depression",
+  "bipolar-affective-disorder": "🔄 Bipolar Affective Disorder",
+  "mania": "⚡ Mania",
+  "seasonal-affective-disorder": "🌤️ Seasonal Affective Disorder",
+
+  "---2": {
+    "type": "separator",
+    "title": "Anxiety & Related Disorders"
+  },
+  "anxiety-disorder": "😰 Anxiety Disorder",
+  "panic-disorder": "😨 Panic Disorder",
+  "obsessive-compulsive-disorder": "🔁 OCD",
+  "post-traumatic-stress-disorder": "💭 PTSD",
+
+  "---3": {
+    "type": "separator",
+    "title": "Eating Disorders"
+  },
+  "anorexia-nervosa": "⚖️ Anorexia Nervosa",
+  "bulimia-nervosa": "🔄 Bulimia Nervosa",
+
+  "---4": {
+    "type": "separator",
+    "title": "Perinatal Mental Health"
+  },
+  "postpartum-depression": "🤱 Postpartum Depression",
+  "postpartum-psychosis": "⚠️ Postpartum Psychosis",
+
+  "---5": {
+    "type": "separator",
+    "title": "Substance-Related"
+  },
+  "alcohol-dependence": "🍷 Alcohol Dependence",
+  "delirium-tremens": "🆘 Delirium Tremens",
+  "korsakoffs-psychosis": "🧠 Korsakoff's Psychosis",
+
+  "---6": {
+    "type": "separator",
+    "title": "Other Conditions"
+  },
+  "schizophrenia": "🎭 Schizophrenia",
+  "borderline-personality-disorder": "🔄 BPD",
+  "loss-of-contact-with-reality": "💫 Loss of Reality"
+} 

@@ -1,0 +1,202 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Hospital-Acquired Pneumonia (HAP)
+
+Hospital-acquired pneumonia (HAP) is a significant source of morbidity and mortality worldwide. It is defined as pneumonia that emerges 48 hours or more after hospital admission, without being present at the time of admission.
+
+## Overview
+
+HAP is one of the most prevalent hospital-acquired infections, with the majority of cases occurring in non-ventilated patients. However, the risk is highest among those receiving mechanical ventilation.
+
+### Pathogenesis
+
+The development of HAP depends on the number and virulence of microorganisms entering the lower respiratory tract and the host's response. The primary route of infection is microaspiration of organisms colonizing the oropharyngeal or, less frequently, the gastrointestinal tract.
+
+### Causative Pathogens
+
+HAP can be caused by various pathogens, often being polymicrobial. Commonly implicated pathogens include:
+
+| Gram-negative           | Gram-positive                           |
+|-------------------------|-----------------------------------------|
+| Escherichia coli        | Staphylococcus aureus (including MRSA)  |
+| Klebsiella pneumoniae   | Streptococcus spp                       |
+| Enterobacter spp        |                                         |
+| Pseudomonas aeruginosa  |                                         |
+| Acinetobacter spp       |                                         |
+
+## Diagnosis
+
+Diagnosing HAP can be challenging due to its non-specific clinical features. According to the American Thoracic Society, a clinical diagnosis involves a new lung infiltrate combined with clinical evidence of infection, such as fever, purulent sputum, leukocytosis, and declining oxygenation.
+
+### Clinical Features
+
+**Symptoms:**
+
+- Fever
+- Rigor
+- Malaise
+- Anorexia
+- Dyspnea
+- Cough
+- Purulent sputum
+- Hemoptysis
+- Pleuritic chest pain
+
+**Signs:**
+
+- Pyrexia (hypothermia in the elderly)
+- Cyanosis
+- Confusion (especially in the elderly)
+- Tachypnea
+- Tachycardia
+- Hypotension
+- Signs of consolidation (e.g., diminished expansion, dull percussion note)
+- Pleural rub
+
+### Risk Factors
+
+Assessing a patient's risk factors can aid in diagnosis:
+
+- Inadequate infection control/hand hygiene
+- Bed head angle `<30°`
+- Intubation and mechanical ventilation
+- Endotracheal cuff pressure `<20 cm H2O`
+- **H2** antagonist and antacid use
+- Poor oral hygiene
+- Continuous sedation
+- Reintubation
+
+## Investigations
+
+### First-line Investigations
+
+#### Chest X-ray
+
+- Essential for suspected HAP
+- Prefer PA and lateral views over AP
+- Compare with earlier films if possible
+- Look for opacity or blurring of diaphragm/heart border
+
+#### WBC Count with Differential
+
+- Non-specific but elevated or decreased WBCs can indicate infection
+
+#### Pulse Oximetry
+
+- Values `<92%` suggest severe cases requiring escalated care
+
+#### Sputum Sample
+
+- Perform non-invasive sampling, such as endotracheal aspiration
+
+### Additional Investigations
+
+#### Arterial Blood Gas
+
+- Checks for hypoxia, respiratory failure, or acid-base disturbances
+
+#### CT Chest
+
+- Clarifies diagnosis and may indicate further procedures
+
+## Management of HAP
+
+### Antibiotic Therapy
+
+Prompt and appropriate antibiotic administration is crucial. Treatment regimens rely on local antimicrobial resistance data and the presence of multidrug-resistant (MDR) pathogen risk factors.
+
+<details>
+<summary>Risk Factors for MDR Pathogens</summary>
+
+- Antibiotic use in the past 90 days
+- Septic shock during ventilator-associated pneumonia
+- Acute respiratory distress syndrome (ARDS) before pneumonia
+- Hospitalization over 5 days before pneumonia onset
+- Acute renal replacement therapy prior to pneumonia
+
+</details>
+
+#### Adults (18 Years and Over)
+
+- **Non-severe Cases:** Co-amoxiclav is preferred unless allergic.
+- **Severe Cases or High Resistance Risk:** Use Piperacillin with tazobactam or alternatives like Ceftazidime, Ceftriaxone, and Meropenem.
+- **MRSA Suspected/Confirmed:** Add Vancomycin, Teicoplanin, or Linezolid.
+
+#### Children and Young People (Under 18 Years)
+
+- **Under 1 Month:** Base antibiotic choice on specialist advice.
+- **Aged 1 Month and Over:** Co-amoxiclav is preferred, with Clarithromycin as an alternative.
+- **Severe Cases or High Resistance Risk:** Options include Piperacillin with tazobactam or Ceftazidime.
+
+### Non-Prescribing Management
+
+- Intubation and invasive ventilation for respiratory failure
+- Consider bronchoscopy or thoracentesis if recovery is slow
+- Encourage influenza vaccination
+- Maintain rigorous hand hygiene to prevent MDR pathogen transmission
+
+## References
+
+1. [UpToDate: Epidemiology, pathogenesis, microbiology, and diagnosis of hospital-acquired and ventilator-associated pneumonia in adults](https://www.uptodate.com/contents/epidemiology-pathogenesis-microbiology-and-diagnosis-of-hospital-acquired-and-ventilator-associated-pneumonia-in-adults)
+2. [UpToDate: Treatment of hospital-acquired and ventilator-associated pneumonia in adults](https://www.uptodate.com/contents/treatment-of-hospital-acquired-and-ventilator-associated-pneumonia-in-adults)
+3. Oxford Handbook of Clinical Medicine 9th Ed – Chest Medicine – Pneumonia pg 160
+4. [NICE: Pneumonia (hospital-acquired): antimicrobial prescribing](https://www.nice.org.uk/guidance/ng139/resources/pneumonia-hospitalacquired-antimicrobial-prescribing-pdf-66141727749061)
+5. [BMJ Best Practice: Hospital-acquired pneumonia](https://bestpractice.bmj.com/topics/en-us/720)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 65-year-old man develops a fever, purulent sputum, and tachypnea 72 hours after being admitted to the hospital for a hip fracture repair. His chest X-ray shows a new infiltrate in the right lower lobe. Which of the following pathogens is most likely responsible for his condition?",
+    options: [
+      "Streptococcus pneumoniae",
+      "Haemophilus influenzae",
+      "Staphylococcus aureus (including MRSA)",
+      "Legionella pneumophila",
+      "Mycoplasma pneumoniae"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Staphylococcus aureus, including MRSA, is a common cause of hospital-acquired pneumonia (HAP), particularly in patients who develop pneumonia more than 48 hours after admission.",
+    incorrectFeedback: "Consider the common pathogens associated with hospital settings and the duration of hospitalization before the onset of pneumonia."
+  },
+  {
+    question: "A 70-year-old woman with a history of chronic obstructive pulmonary disease and recent antibiotic use is admitted to the hospital with HAP. Which of the following antibiotic regimens is most appropriate for her condition, considering a high risk of multidrug-resistant organisms?",
+    options: [
+      "Amoxicillin",
+      "Ceftriaxone",
+      "Vancomycin plus Piperacillin-tazobactam",
+      "Azithromycin",
+      "Levofloxacin"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Vancomycin plus Piperacillin-tazobactam is an appropriate regimen for hospital-acquired pneumonia with a high risk of multidrug-resistant organisms, including MRSA.",
+    incorrectFeedback: "Think about the need for coverage of multidrug-resistant organisms in hospital-acquired pneumonia, especially in patients with recent antibiotic use."
+  },
+  {
+    question: "A 55-year-old man with no significant past medical history is hospitalized for an elective knee replacement. On the fourth day post-operation, he develops confusion, dyspnea, and a productive cough with purulent sputum. Which of the following is the most important initial investigation to confirm a diagnosis of hospital-acquired pneumonia?",
+    options: [
+      "Blood culture",
+      "Sputum Gram stain and culture",
+      "Chest X-ray",
+      "Computed tomography (CT) scan of the chest",
+      "Bronchoalveolar lavage"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! A chest X-ray is the most important initial investigation to confirm the diagnosis of hospital-acquired pneumonia by identifying new infiltrates.",
+    incorrectFeedback: "Consider the investigation that provides immediate and direct evidence of pneumonia through imaging of the lungs."
+  },
+  {
+    question: "Which of the following is a modifiable risk factor for the development of hospital-acquired pneumonia in intubated patients?",
+    options: [
+      "Age over 65 years",
+      "Diabetes mellitus",
+      "Recent surgery",
+      "Inadequate oral hygiene",
+      "Chronic renal failure"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Inadequate oral hygiene is a modifiable risk factor for hospital-acquired pneumonia, particularly in intubated patients, as it can lead to colonization of the oropharynx with pathogenic organisms.",
+    incorrectFeedback: "Focus on risk factors that can be altered or managed to reduce the incidence of hospital-acquired pneumonia in hospitalized patients."
+  }
+]} />

@@ -1,0 +1,122 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Acute Asthma: Diagnosis, Investigation, and Management
+
+Asthma, a respiratory condition, is characterized by bronchoconstriction, inflammation, and an overproduction of mucus in the airways. Acute exacerbations can be triggered by numerous factors, including:
+
+- Infections
+- Allergens
+- Environmental pollutants, such as tobacco smoke
+- Exercise
+- Certain medications, such as non-steroidal anti-inflammatory drugs (NSAIDs)
+- High emotional states, including anxiety and sadness
+
+## Diagnosis
+
+Acute asthma can present with various clinical features, including:
+
+- **Respiratory distress:** Symptoms include shortness of breath, increased respiratory rate, low O2 saturation, use of accessory muscles (indicating increased work of breathing), intercostal/subcostal/sternal recession, tracheal tug, and the tripod position.
+- **Wheeze:** Often polyphonic, high-pitched, and widespread during exhalation. A biphasic wheeze can suggest impending airway obstruction.
+- Chest pain
+- Cough
+- Tachycardia
+- Inability to speak or poor feeding due to breathing difficulties
+- A personal or family history of atopy or asthma, exposure to triggers, a preceding infection, or poor inhaler technique and/or compliance can all increase the risk of acute asthma.
+
+## Investigations
+
+When a child presents with suspected acute asthma, an ABCDE approach should be adopted. Additional steps include:
+
+- **Bedside:** Measure the peak expiratory flow rate (PEFR) or forced expiratory volume in 1 second (FEV1).
+- **Blood tests:** In life-threatening exacerbations, an arterial blood gas (ABG) can assess respiratory failure. Inflammatory markers such as C-reactive protein (CRP) can indicate an infectious trigger.
+- **Imaging:** A chest X-ray can rule out other diagnoses such as pneumonia or pneumothorax.
+
+The severity of acute asthma is graded according to clinical features and investigation findings as per the NICE guidelines. These are classified into Moderate, Acute Severe, and Life-threatening. 
+
+<details>
+<summary>Severity Classification</summary>
+
+1. **Moderate:** `PEFR ≥50%` of best or predicted, with no clinical features of acute severe or life-threatening asthma.
+2. **Acute severe:** `PEFR 33-50%` of best or predicted, `SpO2 <92%`, respiratory rate `≥ 25/min (>12 yrs)`, `≥ 30/min (5-12 yrs)`, `≥ 40/min (2-5 yrs)`. Other features include tachycardia, inability to complete sentences, use of accessory muscles, and poor feeding due to breathlessness.
+3. **Life-threatening:** `SpO2 <92%` and any of the following: `PEFR < 33%` of best or predicted, cyanosis, hypotension, exhaustion, silent chest, arrhythmia, poor respiratory effort, altered consciousness, or confusion.
+
+</details>
+
+## Management
+
+### Prescribing
+
+The following medications are commonly used in managing acute asthma:
+
+- **Oxygen:** Administered in all cases of life-threatening acute asthma or if `SpO2 <94%`. The target is to maintain oxygen saturations between 94-98%.
+- **Inhaled bronchodilators:** 
+  - Short-acting beta 2 agonists (SABA, e.g., salbutamol)
+    - In mild cases, an inhaler and spacer may be sufficient (up to 10 puffs can be given).
+    - In moderate to life-threatening cases, nebulisers are preferred as both salbutamol and oxygen can be administered together. They should be given back-to-back until improvement is seen.
+  - Ipratropium bromide is administered if symptoms persist, usually after three salbutamol nebulisers.
+  - Magnesium sulphate is given, especially if `SpO2 <92%`.
+- **Corticosteroids:** (Oral, IV, or IM) are added, especially in all moderate to life-threatening cases.
+- **IV bronchodilation:** 
+  - IV magnesium sulphate is initiated first-line.
+  - IV salbutamol.
+  - Aminophylline may be considered in patients with severe or life-threatening asthma that do not respond to bronchodilators and steroids.
+- **Antibiotics:** Administered according to local policies if a bacterial infection triggered the exacerbation.
+
+### Non-Prescribing
+
+Mild acute asthma exacerbations can be managed in the community. Admission criteria include:
+
+- Acute severe grading and above (`PEFR < 50%`, `SpO2 <92%`).
+- No response to high-dose inhaled bronchodilator therapy.
+- Signs of exhaustion.
+
+Patients not improving with initial inhaled and IV therapies or showing signs of current or impending respiratory failure may need transfer to intensive care for sedation, intubation, and ventilation. 
+
+Patients can be discharged when they are stable on 3-4 hourly inhaled bronchodilators that can be continued at home, `PEFR >75%`, and `SpO2 >94%`.
+
+## References
+
+- [BMJ Best Practice - Management of acute asthma in adults](https://bestpractice.bmj.com/topics/en-gb/1098/pdf/1098.pdf)
+- [SIGN158 – British Thoracic Society](https://www.brit-thoracic.org.uk/standards-of-care/guidelines/sign-british-thoracic-society-guideline-for-the-management-of-asthma/)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 7-year-old boy presents to the emergency department with shortness of breath, cough, and wheezing. His mother states the symptoms started after he had a cold last week. He is known to have asthma and uses an inhaler. The boy appears to be in respiratory distress, using accessory muscles and unable to complete sentences. His peak expiratory flow rate (PEFR) is 45% of the predicted value. His oxygen saturation is 91% on room air. According to the NICE guidelines, how would you classify the severity of this child's acute asthma?",
+    options: [
+      "Moderate",
+      "Acute severe",
+      "Life-threatening",
+      "Not enough information to classify"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The patient's PEFR is between 33-50% of the predicted value, his oxygen saturation is less than 92%, and he has respiratory distress and is unable to complete sentences. These features classify his asthma as acute severe according to the NICE guidelines.",
+    incorrectFeedback: "Remember to consider the PEFR, oxygen saturation, and clinical features such as respiratory distress and inability to complete sentences when classifying the severity of asthma according to the NICE guidelines."
+  },
+  {
+    question: "A 14-year-old girl with a known history of asthma presents to the emergency department with wheezing, chest tightness, and difficulty speaking in full sentences. Her peak expiratory flow rate (PEFR) is 65% of the predicted value, and her oxygen saturation is 95% on room air. What is the most appropriate initial management for this patient?",
+    options: [
+      "Administer oxygen and begin nebulised salbutamol",
+      "Administer oxygen and oral prednisolone",
+      "Administer nebulised salbutamol and oral prednisolone",
+      "Administer nebulised ipratropium bromide and oral prednisolone"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The patient's PEFR is more than 50% of the predicted value, indicating moderate asthma. Therefore, initial management should include a short-acting beta 2 agonist (SABA) like salbutamol and oral corticosteroids like prednisolone. Oxygen is usually administered if SpO2 is less than 94%.",
+    incorrectFeedback: "Consider the severity of the patient's asthma and the role of bronchodilators and corticosteroids in the management of acute asthma."
+  },
+  {
+    question: "A 10-year-old boy with a history of asthma presents to the emergency department with severe respiratory distress. His oxygen saturation is 90%, and he is unable to speak more than one or two words at a time. He has been given three back-to-back nebulisers with salbutamol, but his symptoms persist. What is the next appropriate step in management?",
+    options: [
+      "Administer nebulised ipratropium bromide",
+      "Administer intravenous magnesium sulphate",
+      "Administer oral prednisolone",
+      "Transfer the patient to the intensive care unit for intubation"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! If symptoms persist after three salbutamol nebulisers, the next step is to administer nebulised ipratropium bromide. This is an anticholinergic bronchodilator that can provide additional bronchodilation when combined with beta 2 agonists.",
+    incorrectFeedback: "Consider the stepwise approach to the management of acute severe asthma and the role of different medications in this process."
+  }
+]} />

@@ -1,0 +1,138 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Nephrotic Syndrome
+
+Nephrotic syndrome is a kidney disorder marked by a triad of symptoms including substantial protein loss in the urine, low blood protein levels, and swelling in various body parts.
+
+## Overview
+
+Nephrotic syndrome manifests through several key signs:
+
+- **Heavy Proteinuria:** Urinary protein loss exceeds `>3.5g` per day.
+- **Hypoalbuminemia:** Blood albumin levels drop below `<30g/L`.
+- **Peripheral Edema:** Swelling is often noticeable in the lower limbs, which can also affect the abdomen or genital region.
+
+While the majority of instances are idiopathic, some are linked to systemic conditions like:
+
+- Type II diabetes mellitus
+- Amyloidosis
+- Systemic lupus erythematosus
+
+In children, minimal change disease is the predominant cause, whereas focal segmental glomerulosclerosis (FSGS) is more common in younger adults. Membranous nephropathy, often triggered by autoimmune responses against podocyte antigens, leads the list among older adults.
+
+## Diagnosis
+
+Patients typically exhibit:
+
+- Swelling starting in the lower extremities
+- Ascites
+- Periorbital edema
+- Foamy urine
+- Noticeable weight gain
+- Exertional dyspnea due to pleural effusion
+
+## Investigations
+
+Diagnosing nephrotic syndrome necessitates:
+
+- **Proteinuria Quantification:** It can be measured via a 24-hour urine test or spot urine protein-creatinine ratio. Results of `>3.5g` per day or PCR `>300 mg/micromoles` confirm the diagnosis.
+
+- **Urine Microscopy:** To look for cellular casts. Fatty casts indicate nephrotic syndrome, while red blood cell casts suggest nephritic syndrome.
+
+- **Blood Tests:** These include serum albumin, urea, electrolytes, lipid levels, and liver function tests. Hypoalbuminaemia and hypercholesterolemia are common findings.
+
+Additional tests may include:
+
+- Serum light chain and protein electrophoresis
+- HIV test
+- Complement or antinuclear antibody screening
+
+A renal biopsy is considered when diagnosis remains uncertain, especially in children unresponsive to high-dose steroid therapy, given minimal change disease is highly suspected.
+
+## Management (Prescribing)
+
+Treatment focuses on the root cause with immunosuppressive therapy such as corticosteroids. Alternatives include cyclophosphamide and mycophenolate mofetil. Complication prevention is crucial:
+
+- Hypoalbuminemia
+- Hypercholesterolemia
+- Poor immunity
+- Hypercoagulability
+
+<Callout emoji="💊">
+**Tip:** Statins are often prescribed for hypercholesterolemia due to increased atherosclerosis risk. Anticoagulants may be used for those at high risk of venous thromboembolism.
+</Callout>
+
+For mild edema, a thiazide or loop diuretic like furosemide can be beneficial.
+
+## Management (Non-Prescribing)
+
+Non-pharmacological strategies include:
+
+- Elevating legs
+- Compression stockings
+- Dietary sodium or fluid intake restrictions
+
+## References
+
+- Ferri’s Clinical Advisor 2021.
+- Davidson’s Principles and Practice of Medicine 2018.
+- BMJ Best Practice. *Nephrotic syndrome*
+- AAFP. *Diagnosis and Management of Nephrotic Syndrome in Adults.* [Available here](https://www.aafp.org/afp/2016/0315/p479.html)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 55-year-old man with a history of type II diabetes mellitus presents with generalized edema and frothy urine. Laboratory tests reveal hypoalbuminemia and hypercholesterolemia. A 24-hour urine collection shows 4.5g of protein. Which of the following is the most likely diagnosis?",
+    options: [
+      "Nephritic syndrome",
+      "Nephrotic syndrome",
+      "Acute glomerulonephritis",
+      "Urinary tract infection",
+      "Diabetic nephropathy without nephrotic syndrome"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The patient's symptoms of generalized edema, frothy urine, hypoalbuminemia, hypercholesterolemia, and heavy proteinuria (>3.5g per day) are consistent with the diagnosis of nephrotic syndrome.",
+    incorrectFeedback: "Look for a combination of heavy proteinuria, hypoalbuminemia, and hypercholesterolemia, which are characteristic findings in nephrotic syndrome."
+  },
+  {
+    question: "A 9-year-old child presents with puffy eyes and decreased urine output. Urinalysis reveals heavy proteinuria but no hematuria. Which of the following is the most likely etiology for this child's condition?",
+    options: [
+      "Membranous nephropathy",
+      "Minimal change disease",
+      "Focal segmental glomerulosclerosis",
+      "IgA nephropathy",
+      "Post-streptococcal glomerulonephritis"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! In children, minimal change disease is the predominant cause of nephrotic syndrome, characterized by heavy proteinuria, edema, and often a good response to steroids.",
+    incorrectFeedback: "Consider the most common cause of nephrotic syndrome in children, which is often responsive to steroid therapy."
+  },
+  {
+    question: "A patient with nephrotic syndrome is at increased risk for which of the following complications?",
+    options: [
+      "Osteoporosis",
+      "Venous thromboembolism",
+      "Hypertensive crisis",
+      "Myocardial infarction",
+      "Acute renal failure"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Patients with nephrotic syndrome are at increased risk of venous thromboembolism due to urinary loss of anticoagulant factors and increased liver synthesis of procoagulant factors.",
+    incorrectFeedback: "Think about the complications arising from protein loss in the urine, such as the loss of proteins that have anticoagulant properties."
+  },
+  {
+    question: "Which of the following is an appropriate initial management for a patient diagnosed with nephrotic syndrome and mild peripheral edema?",
+    options: [
+      "High-dose corticosteroid therapy",
+      "Intravenous albumin infusion",
+      "Administration of a loop diuretic",
+      "Immediate renal biopsy",
+      "Start cyclophosphamide"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! For mild edema in nephrotic syndrome, a loop diuretic like furosemide can be beneficial to reduce fluid overload.",
+    incorrectFeedback: "Consider the least invasive and most conservative treatment option first for managing mild symptoms in nephrotic syndrome."
+  }
+]} />

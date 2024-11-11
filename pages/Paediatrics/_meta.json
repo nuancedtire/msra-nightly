@@ -1,0 +1,55 @@
+{
+  "---1": {
+    "type": "separator",
+    "title": "Respiratory Conditions"
+  },
+  "acute-asthma": "🫁 Acute Asthma",
+  "acute-epiglottitis": "😷 Acute Epiglottitis",
+  "croup": "🤒 Croup",
+
+  "---2": {
+    "type": "separator",
+    "title": "Cardiac Conditions"
+  },
+  "aortic-stenosis": "❤️ Aortic Stenosis",
+  "patent-ductus-arteriosus": "💗 Patent Ductus Arteriosus",
+  "tetralogy-of-fallot": "4️⃣ Tetralogy of Fallot",
+  "transposition-of-the-great-arteries": "🔄 TGA",
+  "ventricular-septal-defect": "💔 VSD",
+
+  "---3": {
+    "type": "separator",
+    "title": "Gastrointestinal"
+  },
+  "causes-of-neonatal-jaundice": "💛 Neonatal Jaundice",
+  "coeliac-disease": "🥖 Coeliac Disease",
+  "gastrointestinal-problems": "🔍 GI Problems",
+  "hirschsprungs-disease": "🌀 Hirschsprung's Disease",
+  "intussusception": "🎯 Intussusception",
+  "meckels-diverticulum": "📍 Meckel's Diverticulum",
+  "mesenteric-adenitis": "🔴 Mesenteric Adenitis",
+
+  "---4": {
+    "type": "separator",
+    "title": "Haematological"
+  },
+  "acute-lymphoblastic-leukaemia": "🩸 ALL",
+  "aplastic-anaemia": "📉 Aplastic Anaemia",
+  "haemophilia": "💉 Haemophilia",
+
+  "---5": {
+    "type": "separator",
+    "title": "Musculoskeletal"
+  },
+  "congenital-dislocation-of-the-hip": "🦴 CDH",
+  "juvenile-idiopathic-arthritis": "🤝 JIA",
+  "perthes-disease": "🦿 Perthes Disease",
+
+  "---6": {
+    "type": "separator",
+    "title": "Other Conditions"
+  },
+  "acute-otitis-media": "👂 Acute Otitis Media",
+  "down-syndrome": "💝 Down Syndrome",
+  "scarlet-fever": "🌡️ Scarlet Fever"
+} 

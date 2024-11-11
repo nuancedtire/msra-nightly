@@ -1,0 +1,138 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Community-Acquired Pneumonia (CAP): Diagnosis and Management
+
+Community-Acquired Pneumonia (CAP) is a prevalent infection of the lower respiratory tract, typically contracted outside of healthcare facilities. This condition can lead to a wide array of outcomes, ranging from full recovery with oral antibiotics to severe cases requiring hospitalization, intravenous antibiotics, and may result in high morbidity and mortality. To address this variability in outcomes, severity assessment tools like the CRB-65 score are utilized to guide the clinical care approach.
+
+## Diagnosis and Severity Assessment
+
+Patients with CAP may exhibit symptoms indicative of an acute lower respiratory tract infection, such as fever, productive cough, dyspnea, and pleuritic chest pain. Despite these symptoms, not all patients who seek general practice care have CAP. A diagnosis of CAP is considered when new localizing signs, such as crackles or bronchial breathing, are found on chest examination alongside new findings on chest imaging.
+
+### CRB-65 Score
+
+The CRB-65 score is a crucial tool for assessing CAP severity and informing management decisions, distinguishing between community and hospital settings.
+
+#### **Table 1. CRB-65 (community settings) & CURB-65 (hospital settings) Scores**
+
+| Clinical Feature | Points |
+| --- | --- |
+| **C** | Confusion | 1 |
+| **R** | Respiratory rate ≥ 30 breaths/minute | 1 |
+| **B** | Blood pressure < 90/60 mm Hg (systolic/diastolic) | 1 |
+| **65** | Age ≥ 65 years | 1 |
+| **U** *(hospital only)* | Urea > 7 mmol/L | 1 |
+
+#### **Table 2. CURB-65 Scores Recommendations**
+
+| CURB-65 Score | 30-day Mortality Risk | Recommendation |
+| --- | --- | --- |
+| 0 or 1 | 1-2% (low) | Home treatment |
+| 2 | 9% (intermediate) | Consider hospital – either inpatient or outpatient |
+| 3 or more | 15-40% (high) | Hospital – assess need for intensive care |
+
+*Note: CRB-65 score risk categories are 0 (low), 1 or 2 (intermediate), and 3 or 4 points (high).*
+
+## Investigations
+
+In the community setting, suspected CAP cases may not necessitate extensive investigation beyond basic observations like blood pressure and pulse oximetry. However, a Chest X-ray (CXR) is recommended for diagnostic uncertainty, poor treatment response, risk of underlying lung pathology, or hospital admission. Common CXR findings in CAP include consolidation, frequently seen in the lower lobes.
+
+### Laboratory Tests
+
+Relevant blood tests including Full Blood Count (FBC), Urea & Electrolytes (U&Es), Liver Function Tests (LFTs), and C-Reactive Protein (CRP) can serve as useful markers of severe infection.
+
+#### **Microbiological Investigations**
+
+For patients with moderate to high severity CAP requiring hospitalization, identifying the causative agents through microbiological investigations is crucial:
+
+- Blood cultures, ideally obtained before antibiotic initiation.
+- Sputum culture and sensitivity tests.
+- Assessments for atypical pathogens such as:
+  - *Legionella pneumophila*
+  - *Mycoplasma pneumoniae*
+  - *Chlamydophila pneumoniae*
+
+## Management
+
+CAP management involves both prescribing and non-prescribing strategies tailored to the severity of the infection.
+
+### Prescribing: Empirical Antibiotics
+
+Empirical antibiotics should be selected following local guidelines. The table below provides examples:
+
+#### **Table 3: Empirical Antibiotics for CAP According to Severity**
+
+| CAP Severity | Antibiotic(s) | Course |
+| --- | --- | --- |
+| Low | Oral amoxicillin 500 mg | TDS for 5-7 days |
+| Moderate | Oral/IV amoxicillin + macrolide (e.g., clarithromycin) | 7-10 days |
+| Severe | IV co-amoxiclav (or other broad-spectrum β-lactamase) + macrolide | Switch to oral after clinical improvement |
+
+### Non-Prescribing Management
+
+General supportive measures include:
+
+- Providing oxygen for hypoxia.
+- Administering fluids for dehydration.
+
+**Follow-up** at 6 weeks post-treatment is recommended, with a clinical review by a GP or hospital outpatient clinic. A follow-up CXR is particularly advised in cases of persistent signs, symptoms, or if there is a high risk of underlying lung pathology. Moreover, influenza and pneumococcal vaccinations should be offered to high-risk individuals including those over 65 years of age.
+
+## References
+
+- Lim WS, Baudouin SV, George RC, et al. BTS guidelines for the management of community-acquired pneumonia in adults: update 2009. Thorax. 2009;64(Suppl 3):iii1.
+- 2015 - Annotated BTS Guideline for the management of CAP in adults (2009) Summary of recommendations.
+- NICE guideline [NG138](https://www.nice.org.uk/guidance/ng138).
+- [BMJ Best Practice: Community-acquired pneumonia](https://bestpractice.bmj.com/topics/en-us/17).
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 72-year-old male with a history of COPD presents with fever, productive cough, and increased dyspnea. On examination, his blood pressure is 110/70 mm Hg, respiratory rate is 32 breaths/minute, and he appears confused. A chest X-ray confirms the presence of lower lobe consolidation. His blood tests show a raised C-reactive protein. According to the CRB-65 score, how would you categorize the severity of his community-acquired pneumonia?",
+    options: [
+      "Low risk",
+      "Intermediate risk",
+      "High risk",
+      "Unable to determine without urea levels"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The patient's CRB-65 score is 3 (confusion, respiratory rate ≥ 30 breaths/minute, age ≥ 65 years), which indicates high severity and warrants hospital admission with consideration for intensive care.",
+    incorrectFeedback: "Review the CRB-65 score criteria and reassess the patient's clinical features to determine the severity of the pneumonia."
+  },
+  {
+    question: "A 65-year-old woman with community-acquired pneumonia (CAP) has a CRB-65 score of 1. Her CURB-65 score would be used to guide management if she were in which setting?",
+    options: [
+      "Outpatient clinic",
+      "Emergency department",
+      "Hospital inpatient",
+      "Intensive care unit"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The CURB-65 score includes urea levels and is used in the hospital setting to guide management decisions, including the need for inpatient care.",
+    incorrectFeedback: "The CURB-65 score is an extension of the CRB-65 used in a specific healthcare setting. Think about where additional laboratory data like urea levels would be taken into account."
+  },
+  {
+    question: "A patient diagnosed with severe community-acquired pneumonia is hypoxic with an oxygen saturation of 89% on room air. What is the most appropriate initial management step?",
+    options: [
+      "Start empirical oral antibiotics immediately",
+      "Administer intravenous fluids for dehydration",
+      "Provide supplemental oxygen to target saturation",
+      "Schedule a follow-up chest X-ray in 6 weeks"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Immediate management for hypoxia includes providing supplemental oxygen to achieve target saturation levels, especially in severe community-acquired pneumonia.",
+    incorrectFeedback: "When managing severe community-acquired pneumonia, what is the priority intervention for a hypoxic patient?"
+  },
+  {
+    question: "Which microbiological investigations are most appropriate for a hospitalized patient with moderate severity community-acquired pneumonia?",
+    options: [
+      "Blood cultures and urea levels",
+      "Sputum culture and sensitivity tests",
+      "Blood cultures, sputum culture, and tests for atypical pathogens",
+      "Liver function tests and C-reactive protein"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! In patients with moderate to high severity CAP requiring hospitalization, blood cultures, sputum culture and sensitivity tests, and assessments for atypical pathogens are crucial to identify the causative agents.",
+    incorrectFeedback: "Think about the most comprehensive approach for identifying causative agents in hospitalized patients with CAP. Which investigations would provide this information?"
+  }
+]} />

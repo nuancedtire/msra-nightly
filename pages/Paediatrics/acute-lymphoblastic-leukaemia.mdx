@@ -1,0 +1,124 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Acute Lymphoblastic Leukaemia (ALL) - A Comprehensive Overview 
+
+Acute Lymphoblastic Leukaemia (ALL) is a hematologic malignancy characterized by the rapid proliferation of immature lymphocytes. This article provides a detailed overview of ALL, including its types, risk factors, symptoms, diagnostic tests, and management strategies.
+
+## Introduction
+
+ALL is the most common type of leukaemia in children, with two main subtypes:
+
+- B Cell Lineage (B-ALL)
+- T Cell Lineage (T-ALL)
+
+**B-ALL** peaks between the ages of 2 and 4, while **T-ALL**, though rare, is most prevalent in teenagers.
+
+## Risk Factors for ALL
+
+Certain factors can increase the risk of developing ALL. These include:
+
+- Being under 6 years of age
+- Having genetic disorders such as Down syndrome or Klinefelter’s syndrome
+- Exposure to radiation
+- Having a preceding viral illness
+
+## Symptoms of ALL
+
+The onset of ALL symptoms usually spans over several weeks. These symptoms arise from:
+
+- **Bone Marrow Failure:**
+  - Anaemia symptoms such as pallor, fatigue, dyspneoa, and dizziness
+  - Neutropenia symptoms such as recurrent infections (fever)
+  - Thrombocytopenia symptoms such as petechial rash, bruising (ecchymoses), and bleeding (e.g., epistaxis)
+- **Lymphoblast Infiltration:**
+  - Painless enlarged lymph nodes
+  - Abdominal mass due to rapid proliferation in B-ALL
+  - Hepatosplenomegaly and abdominal pain
+  - Bone pain due to bone marrow involvement
+  - Renal enlargement 
+  - Painless unilateral testicular enlargement 
+  - CNS involvement leading to focal neurology (including cranial nerve palsies), papilledema, meningism
+  - Mediastinal mass causing stridor, wheeze, pericardial effusion and superior vena cava syndrome (seen in T-ALL)
+- **Constitutional "B" symptoms** such as weight loss, fatigue, night sweats, anorexia 
+
+## Diagnostic Investigations for ALL
+
+Several tests can help diagnose ALL:
+
+- **Blood Tests:**
+  - Full Blood Count (FBC) revealing normocytic normochromic anaemia (low Hb, normal MCV, normal MHC), low reticulocyte count, leucocytosis (high white cell count), neutropenia (low neutrophils), thrombocytopaenia (low platelets)
+  - Blood film showing presence of blast cells
+- **Special Tests:**
+  - Bone marrow aspiration and trephine biopsy 
+    - Cytology: Diagnosis is confirmed when at least `20%` lymphoblasts are present in the bone marrow 
+    - Immunophenotyping to identify cell surface markers. In ALL, the patient is usually MPO negative and Tdt positive 
+    - Molecular studies to detect chromosomal rearrangements 
+- **Other Tests:**
+  - Baseline blood tests such as U&E, other serum electrolytes (calcium, phosphorous, uric acid), clotting studies (risk of DIC), LFT (liver failure if infiltration), LDH (elevated due to cell destruction, suggests a bad prognosis)
+  - Chest X-ray to detect mediastinal mass, pleural effusion or lower respiratory tract infection
+  - CT/MRI to visualize mediastinal mass or CNS infiltration 
+  - Blood culture in case of signs of infection
+  - Lumbar puncture in case of signs of infection or if CNS involvement is suspected (presence of leukaemia blast cells) 
+
+## Management of ALL
+
+The management of ALL involves both prescribing and non-prescribing strategies.
+
+### Prescribing Management
+
+Chemotherapy remains the standard treatment for ALL. In certain cases, targeted therapies and immunotherapies may also be considered.
+
+In persistent disease, the prescription of prophylactic antimicrobial agents (antibiotics, antivirals, and antifungals) is crucial due to the patient's heightened infection risk. Prophylactic rasburicase and allopurinol are also prescribed to prevent tumour lysis syndrome, a metabolic complication of chemotherapy-induced tumour cell death.
+
+### Non-Prescribing Management
+
+Non-prescribing management includes supportive treatments that alleviate symptoms, such as platelet and red cell transfusions. Bone marrow transplants in children have proven highly effective, inducing remission in `80-90%` of cases.
+
+## References
+
+- [Acute Lymphocytic Leukaemia Overview - BMJ Best Practice](https://bestpractice.bmj.com/topics/en-gb/273/pdf/273/Acute%20lymphocytic%20leukaemia.pdf)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 4-year-old boy presents with a 3-week history of fatigue, recurrent fever and a petechial rash. Examination reveals hepatosplenomegaly and lymphadenopathy. Full blood count shows low Hb, low platelets, and high white cell count. Blood film shows presence of blast cells. Which of the following is the most likely diagnosis?",
+    options: [
+      "Acute Myeloid Leukaemia (AML)",
+      "Chronic Lymphocytic Leukaemia (CLL)",
+      "Acute Lymphoblastic Leukaemia (ALL)",
+      "Chronic Myeloid Leukaemia (CML)",
+      "Non-Hodgkin Lymphoma (NHL)"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The patient's age, symptoms, and lab findings of blast cells in the blood are consistent with Acute Lymphoblastic Leukaemia (ALL), the most common type of leukaemia in children.",
+    incorrectFeedback: "Consider the patient's age, symptoms, and lab findings. Which type of leukaemia is most common in children and presents with these features?"
+  },
+  {
+    question: "A 16-year-old boy presents with wheezing, stridor, and a large mediastinal mass on CT imaging. Full blood count shows neutropenia and thrombocytopaenia. Bone marrow aspiration reveals more than 20% lymphoblasts. Immunophenotyping shows MPO negative and Tdt positive cells. Which subtype of Acute Lymphoblastic Leukaemia is most likely in this patient?",
+    options: [
+      "B Cell Lineage (B-ALL)",
+      "T Cell Lineage (T-ALL)",
+      "Chronic Lymphocytic Leukaemia (CLL)",
+      "Acute Myeloid Leukaemia (AML)",
+      "Chronic Myeloid Leukaemia (CML)"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The presence of a mediastinal mass causing respiratory symptoms is characteristic of T Cell Lineage ALL (T-ALL), which is more prevalent in teenagers.",
+    incorrectFeedback: "Consider the patient's age and the presence of a mediastinal mass. Which subtype of ALL is associated with these features?"
+  },
+  {
+    question: "A 5-year-old girl with newly diagnosed Acute Lymphoblastic Leukaemia develops hyperkalaemia, hyperphosphataemia, and hyperuricaemia after initiation of chemotherapy. What is the most likely explanation for these findings?",
+    options: [
+      "Renal failure due to disease progression",
+      "Side effect of chemotherapy drugs",
+      "Tumour lysis syndrome",
+      "Infection and sepsis",
+      "Hemolytic anemia"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The patient's lab abnormalities are consistent with tumour lysis syndrome, a metabolic complication resulting from rapid cell death induced by chemotherapy. Prophylactic rasburicase and allopurinol are often prescribed to prevent this condition.",
+    incorrectFeedback: "Consider the timing of the patient's lab abnormalities in relation to the initiation of chemotherapy. What metabolic complication can result from rapid tumour cell death?"
+  }
+]} />

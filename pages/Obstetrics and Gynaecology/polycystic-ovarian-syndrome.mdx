@@ -1,0 +1,141 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Polycystic Ovarian Syndrome (PCOS) Overview
+
+Polycystic Ovarian Syndrome (PCOS) is a condition that affects up to 10% of women of reproductive age, characterized by an array of symptoms and health risks due to hormonal imbalances and metabolic issues. It's a primary cause of subfertility and is often associated with metabolic syndrome.
+
+## Understanding PCOS
+
+### Hormonal Imbalances
+
+Key hormonal disturbances in PCOS include:
+
+- **Elevated Luteinizing Hormone (LH):** Causes increased androgen production, which is converted to estrogen in fat tissue, resulting in high levels of both androgens and estrogen.
+- **High Estrogen Levels:** These disrupt the normal hormonal cycle, leading to an absence of the LH surge and Follicle-Stimulating Hormone (FSH) secretion necessary for ovulation, causing anovulation, amenorrhea, and oligomenorrhea.
+- **Hyperinsulinemia/Insulin Resistance:** Contributes to higher androgen levels and ovarian dysfunction.
+
+### Long-term Health Risks
+
+Patients with PCOS have an increased risk of developing:
+
+- Type 2 Diabetes Mellitus (DM)
+- Obesity
+- Dyslipidemia
+- Hypertension
+- Vascular disease
+- Endometrial cancer
+
+## Diagnosing PCOS
+
+According to the Rotterdam criteria, a PCOS diagnosis requires at least two of the following:
+
+- Infrequent or absent menstrual periods
+- Signs of Hyperandrogenism (such as acne, hirsutism, or alopecia)
+- Ultrasound showing polycystic ovaries (at least 12 cysts in one ovary)
+
+### Additional Clinical Features
+
+- **Menstrual Irregularities:**
+  - Amenorrhea or oligomenorrhea
+  - Fertility issues in approximately 75% of cases
+- Obesity in around 50% of patients, sometimes presenting with Acanthosis nigricans due to insulin resistance
+- Emotional health concerns, such as mood swings and depression
+
+## Investigations
+
+Diagnostic tests for PCOS may include:
+
+- **Hormonal Blood Tests:**
+  - An LH:FSH ratio >3:1 within the first five days of the menstrual cycle
+  - Elevated estrogen, testosterone, and androstenedione levels
+- **Ultrasound Imaging:**
+  - May reveal multiple small follicles on the ovarian periphery
+- **Glucose Tolerance Testing:**
+  - To check for impaired glucose tolerance
+
+## Management Strategies
+
+### Prescribing Approaches
+
+Management of PCOS focuses on the patient's primary concerns, whether fertility, hirsutism, or menstrual regulation.
+
+- **Fertility:**
+  - Metformin as first-line treatment for improving ovulation
+  - Clomifene to induce ovulation by altering hormonal feedback to the hypothalamus
+  - Gonadotropins as an alternative if other treatments fail, with a note on the risk of multiple births
+- **Hirsutism and Contraception:**
+  - Combined Oral Contraceptive Pill (COCP) to modulate menstrual cycles
+  - Cyproterone acetate, an anti-androgen, with a caution regarding increased venous thromboembolism risk
+
+### Non-Prescribing Interventions
+
+- **Lifestyle Modifications:**
+  - Weight loss and dietary changes to normalize ovulation and alleviate symptoms
+- **Surgical Procedures:**
+  - Ovarian drilling, involving puncturing 10-12 follicles, may temporarily enhance fertility
+
+<Callout emoji="⚠️">
+**Warning:** Always consult a healthcare professional for personalized medical advice and before starting any new treatment.
+</Callout>
+
+## References
+
+- [NHS UK - Polycystic Ovary Syndrome (PCOS)](https://www.nhs.uk/conditions/polycystic-ovary-syndrome-pcos/)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 24-year-old woman presents to her primary care physician with concerns of irregular menstrual cycles and excessive facial hair growth. She has a BMI of 32 and has been trying to conceive for the past year without success. Examination reveals acanthosis nigricans. Which of the following is the most appropriate initial diagnostic test to evaluate for polycystic ovarian syndrome (PCOS)?",
+    options: [
+      "Fasting lipid profile",
+      "Total testosterone and dehydroepiandrosterone sulfate (DHEAS) levels",
+      "Pelvic ultrasound",
+      "Glucose tolerance test",
+      "LH:FSH ratio on the third day of her menstrual cycle"
+    ],
+    correctAnswer: 4,
+    correctFeedback: "Correct! A glucose tolerance test is appropriate to check for impaired glucose tolerance, which is associated with PCOS and can be present due to insulin resistance, a common feature in PCOS patients, especially those with obesity and acanthosis nigricans.",
+    incorrectFeedback: "Remember that PCOS is associated with insulin resistance and hyperinsulinemia. Which test would best assess for metabolic disturbances related to insulin?"
+  },
+  {
+    question: "A 28-year-old woman with PCOS and a history of type 2 diabetes mellitus is seeking treatment for infertility. Her medications include metformin and insulin. Despite lifestyle modifications, she has not achieved pregnancy. What is the next best step in management to improve her chances of ovulation?",
+    options: [
+      "Increase the dose of metformin",
+      "Add a combined oral contraceptive pill (COCP)",
+      "Initiate treatment with clomifene",
+      "Refer for ovarian drilling",
+      "Start gonadotropin therapy"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Clomifene is an appropriate treatment to induce ovulation in a patient with PCOS who desires fertility and has not conceived with metformin and lifestyle changes alone.",
+    incorrectFeedback: "Consider the treatments that are specifically used to induce ovulation in patients with PCOS who are seeking fertility."
+  },
+  {
+    question: "A 30-year-old woman diagnosed with PCOS is concerned about her risk for long-term health complications. Which of the following conditions is she at increased risk of developing?",
+    options: [
+      "Osteoporosis",
+      "Hypothyroidism",
+      "Type 2 Diabetes Mellitus",
+      "Cervical cancer",
+      "Systemic lupus erythematosus"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Patients with PCOS have an increased risk of developing Type 2 Diabetes Mellitus due to the insulin resistance that is commonly associated with PCOS.",
+    incorrectFeedback: "Think about the metabolic disturbances associated with PCOS. Which of these conditions is related to metabolic syndrome?"
+  },
+  {
+    question: "According to the Rotterdam criteria, which of the following combinations would suffice for the diagnosis of polycystic ovarian syndrome (PCOS)?",
+    options: [
+      "Infrequent menstrual periods and ultrasound showing polycystic ovaries",
+      "Infrequent menstrual periods and elevated prolactin levels",
+      "Hirsutism and ultrasound showing a single ovarian cyst",
+      "Ultrasound showing polycystic ovaries and elevated thyroid-stimulating hormone (TSH) levels",
+      "Elevated LH:FSH ratio and normal menstrual cycle"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! According to the Rotterdam criteria, a diagnosis of PCOS requires at least two of the following: infrequent or absent menstrual periods, signs of hyperandrogenism, and ultrasound showing polycystic ovaries.",
+    incorrectFeedback: "Review the Rotterdam criteria for PCOS diagnosis. Which two findings are sufficient for a diagnosis according to these criteria?"
+  }
+]} />

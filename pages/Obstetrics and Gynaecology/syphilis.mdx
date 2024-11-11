@@ -1,0 +1,114 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Syphilis: Diagnosis, Stages, and Management
+
+Syphilis is a sexually transmitted infection (STI) caused by the bacterium *Treponema pallidum*. This bacterium is a spirochete that requires a human host to survive. Transmission typically occurs through sexual contact involving mucosal breaks or direct contact with infected skin lesions or needles. Syphilis can also be transmitted from mother to child during pregnancy, leading to congenital syphilis.
+
+Patients with congenital syphilis may exhibit early signs like hepatosplenomegaly, mucous membrane ulceration, and rhinitis.
+
+## Diagnosis and Stages
+
+The progression of syphilis is characterized by distinct stages, each with unique clinical features:
+
+### Primary Stage
+
+- Occurs 1-3 weeks post-infection.
+- Features a chancre, which is a painless ulcer at the infection site, often teeming with bacteria, facilitating its spread through direct contact. In women, chancres are frequently located on the cervix.
+- Accompanied by localized, non-tender lymphadenopathy.
+- Without treatment, the infection may advance to the secondary stage within 6-10 weeks.
+
+### Secondary Stage
+
+- Manifests with systemic symptoms like fever, malaise, and generalized lymphadenopathy.
+- A non-itchy maculopapular rash, occasionally pustular, appears on the trunk and extremities, including the palms and soles, but spares the face.
+- Painless, warty growths called condylomata may develop on the genitalia.
+
+### Tertiary Syphilis
+
+- Characterized by granulomatous lesions called gummas affecting bones, skin, heart, liver, and the central nervous system (CNS).
+- Notable for the Argyll-Robertson pupil.
+- Features tabes dorsalis, a slow degeneration of the spinal cord's dorsal columns.
+- Can lead to general paralysis of the insane, where cortical damage gradually results in paralysis and dementia.
+
+### Latent Syphilis
+
+- Most of the disease resolves, but a residual population of spirochetes persists in tissue capillaries.
+- The immune response, specifically a type 4 hypersensitivity reaction, to these remaining bacteria can trigger the onset of tertiary syphilis.
+
+## Investigations
+
+To confirm a syphilis diagnosis, serum analysis can detect antibodies against *T. pallidum*. Still, a positive result cannot differentiate between an active or previously treated infection as antibodies persist for life. Dark-field microscopy of a lesion swab is another diagnostic option. If the initial test is negative, it's recommended to take three samples on different days to confirm the result.
+
+## Management
+
+### Prescribing
+
+- Intramuscular (IM) single dose of 1.8g benzylpenicillin is the first-line treatment.
+- For those allergic to benzylpenicillin, doxycycline is an alternative.
+- A Jarisch-Herxheimer reaction may occur following the initial treatment due to bacterial endotoxin release, resulting in fever, rash, and tachycardia. Prednisolone may be administered concurrently to mitigate this reaction.
+
+### Non-prescribing
+
+- Sexual partners of individuals with confirmed syphilis should undergo screening and receive treatment, particularly if there are concerns about follow-up adherence.
+
+<Callout emoji="⚠️">
+**Warning:** Always consider the possibility of an allergic reaction to medications and monitor patients accordingly.
+</Callout>
+
+## References
+
+- [BMJ Best Practice: Syphilis](https://bestpractice.bmj.com/topics/en-gb/50)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 25-year-old male presents with a painless ulcer on his penis. He reports having unprotected sexual intercourse two weeks ago. Examination reveals a clean base, non-purulent chancre, and non-tender inguinal lymphadenopathy. Which of the following is the most likely stage of syphilis in this patient?",
+    options: [
+      "Primary syphilis",
+      "Secondary syphilis",
+      "Tertiary syphilis",
+      "Latent syphilis"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! The presence of a painless penile chancre with non-tender lymphadenopathy is characteristic of primary syphilis.",
+    incorrectFeedback: "Recall the characteristics of the lesions and associated symptoms that define the stages of syphilis."
+  },
+  {
+    question: "A 32-year-old woman presents with a rash that covers her trunk and extremities, including the palms and soles. She also complains of fever and malaise. She is diagnosed with syphilis. Which stage of syphilis is most consistent with these findings?",
+    options: [
+      "Primary syphilis",
+      "Secondary syphilis",
+      "Tertiary syphilis",
+      "Latent syphilis"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The systemic symptoms and rash, including involvement of the palms and soles, are indicative of secondary syphilis.",
+    incorrectFeedback: "Consider the systemic nature of her symptoms and the distribution of her rash in context with the stages of syphilis."
+  },
+  {
+    question: "A patient with a history of untreated syphilis develops difficulty coordinating muscle movements, slurred speech, and an abnormal gait. On examination, the patient exhibits an Argyll-Robertson pupil. Which of the following is the most likely diagnosis?",
+    options: [
+      "Neurosyphilis with tabes dorsalis",
+      "Acute syphilitic meningitis",
+      "Secondary syphilis with meningovascular involvement",
+      "Congenital syphilis"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! These findings suggest neurosyphilis with tabes dorsalis, which is a manifestation of tertiary syphilis affecting the dorsal columns of the spinal cord.",
+    incorrectFeedback: "Review the neurologic presentations associated with tertiary syphilis, including specific pupillary signs and the involvement of the central nervous system."
+  },
+  {
+    question: "A 29-year-old female with a penicillin allergy is diagnosed with syphilis. Which of the following is the most appropriate alternative treatment?",
+    options: [
+      "Intramuscular ceftriaxone 250 mg once",
+      "Oral doxycycline 100 mg twice daily for 14 days",
+      "Oral azithromycin 1g single dose",
+      "Intramuscular benzathine penicillin G 2.4 million units single dose"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Doxycycline is an appropriate alternative treatment for syphilis in patients with a penicillin allergy.",
+    incorrectFeedback: "Consider the treatment alternatives for syphilis in the context of a patient with a penicillin allergy."
+  }
+]} />

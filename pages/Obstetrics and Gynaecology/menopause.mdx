@@ -1,0 +1,153 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Menopause
+
+Menopause marks the natural cessation of menstruation and ovulatory function due to the depletion of oocyte reserves. This transition typically occurs in women aged between 45 and 55 years, with an average onset at 51 years.
+
+## Diagnosis of Menopause
+
+The diagnosis of menopause is clinically established retrospectively after a woman of appropriate age experiences an absence of menstrual periods for **12 consecutive months** without other causes such as pregnancy or hormone therapy.
+
+### Menopausal Symptoms
+
+Women's experiences with menopausal symptoms vary widely. Some may find their daily life debilitated, while others remain unaffected. Symptoms can manifest during the lead-up to menopause or years afterward, largely due to decreasing estrogen levels. These symptoms include:
+
+- **Menstrual Changes**
+  - Alteration in cycle length, becoming longer or shorter
+  - Heavier menstrual flows
+- **Vasomotor Symptoms**
+  - Hot flushes impacting the face, head, neck, and chest
+  - Night sweats, each lasting several minutes
+- **Vaginal Health**
+  - Dyspareunia, discomfort, and dryness due to reduced trophic effect of estrogen
+- **Mood Fluctuations**
+  - Irritability, mood swings, and increased risk of depression
+- **Sleep Disturbances**
+  - Often exacerbated by hot flushes
+  - Potential contributor to mood changes
+- **Sexual Health**
+  - Decreased libido linked to hormonal changes
+- **Other Symptoms**
+  - Brittle nails, skin thickening, hair loss, memory challenges, and general aches
+
+### Investigations
+
+Menopause is a clinical diagnosis not requiring investigations in women over 45 with typical symptoms. Serum follicle-stimulating hormone (FSH) testing is advisable for those under 40 and may assist women aged 40-45, as FSH levels rise during menopause. A urine pregnancy test should be conducted for sexually active women presenting with recent amenorrhea.
+
+## Management of Menopause
+
+### Pharmacological Treatment
+
+If symptoms impact quality of life, pharmacological treatment is warranted, with hormone replacement therapy (HRT) being the primary option. HRT benefits include alleviation of menopausal symptoms and reduced risks of osteoporosis and cardiovascular disease. Yet, HRT can also:
+
+- Increase thrombosis risk, particularly in the first year
+- Elevate breast cancer risk, minimal and primarily associated with combined therapy
+
+<Callout emoji="⚠️">
+**Warning:** HRT is contraindicated in women with estrogen-dependent tumors, unexplained vaginal bleeding, pregnancy, active liver disease, or thromboembolic disorders.
+</Callout>
+
+#### Combination HRT
+
+- Combines estrogen and progesterone
+- Necessary for women with a uterus to prevent endometrial issues
+- Continuous (daily) or Sequential (cyclical progesterone) administration
+
+#### Estrogen-only HRT
+
+- Exclusively for women without a uterus
+- Administered daily
+
+HRT delivery can be oral or transdermal (patches, spray, gel). Transdermal estrogen is preferred for those at higher thrombotic risk, overweight, or on other medications.
+
+For HRT alternatives, consider:
+
+- **Vasomotor Symptoms**
+  - SSRI and SNRI as first-line treatments
+  - Gabapentin for second-line treatment
+  - Clonidine as a third-line option
+- **Vaginal Dryness**
+  - Vaginal estrogens or moisturizers
+- **Libido Concerns**
+  - Estrogen-androgen combination therapy
+
+### Non-prescribing Management
+
+Lifestyle adjustments are advisable for mild vasomotor symptoms:
+
+- Limit caffeine, alcohol, spicy foods, and exposure to warm environments
+- Manage stress levels
+- Wear layered clothing
+- Utilize hand-held fans
+
+Encourage increased exercise and weight management to counter cardiovascular risks associated with menopause. Continue regular health screenings:
+
+- **Cervical Screening**
+  - Every 3 years from 25-49
+  - Every 5 years until 65
+- **Breast Cancer Screening**
+  - Every 3 years after 50
+
+## References
+
+- [BMJ Best Practice: Aetiology of Menopause](https://bestpractice.bmj.com/topics/en-gb/194/aetiology)
+- [Patient.info: Menopause and Its Management](https://patient.info/doctor/menopause-and-its-management)
+- [Patient.info: Hormone Replacement Therapy](https://patient.info/doctor/hormone-replacement-therapy-including-benefits-and-risks)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 52-year-old woman presents with irregular menses and vasomotor symptoms including frequent hot flushes and night sweats. Her symptoms are impacting her quality of life. She has no personal or family history of breast cancer, is not a smoker, and does not have any contraindications to hormone replacement therapy (HRT). What is the most appropriate next step in managing her symptoms?",
+    options: [
+      "Initiate combination HRT with estrogen and progesterone",
+      "Start with selective serotonin reuptake inhibitors (SSRIs)",
+      "Prescribe transdermal estrogen-only therapy",
+      "Recommend lifestyle adjustments and reassess in 6 months",
+      "Order serum follicle-stimulating hormone (FSH) levels to confirm menopause"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! Combination HRT with estrogen and progesterone is indicated to alleviate menopausal symptoms in women with a uterus, and it can also reduce the risk of osteoporosis and cardiovascular disease.",
+    incorrectFeedback: "Remember, for a woman with a uterus experiencing significant menopausal symptoms without contraindications, combination HRT is the primary pharmacological option. SSRIs are considered first-line for vasomotor symptoms only if HRT is contraindicated or not preferred."
+  },
+  {
+    question: "A 48-year-old woman with a history of deep vein thrombosis (DVT) is experiencing severe menopausal symptoms, including hot flushes and night sweats. She is seeking hormone replacement therapy (HRT). Which form of HRT delivery is most appropriate for this patient?",
+    options: [
+      "Oral estrogen-only therapy",
+      "Transdermal combination HRT",
+      "Oral combination HRT",
+      "Transdermal estrogen-only therapy",
+      "Vaginal estrogen therapy"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Transdermal combination HRT is preferred in this patient due to her history of DVT, as it has a lower risk of thrombosis compared to oral HRT.",
+    incorrectFeedback: "Consider the patient's history of thrombosis when choosing the HRT delivery method. Which form of HRT has a lower risk of thrombosis and is thus safer for patients with a history of venous thromboembolism?"
+  },
+  {
+    question: "A 50-year-old woman is diagnosed with menopause after presenting with 12 months of amenorrhea. She complains of vaginal dryness and dyspareunia that impair her quality of life. She is reluctant to start systemic hormone replacement therapy (HRT). Which of the following is the most appropriate initial treatment for her symptoms?",
+    options: [
+      "Oral combination HRT",
+      "Vaginal estrogens",
+      "Gabapentin",
+      "Clonidine",
+      "Selective estrogen receptor modulators (SERMs)"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Vaginal estrogens are the most appropriate initial treatment for isolated vaginal symptoms in menopausal women who are reluctant to start systemic HRT.",
+    incorrectFeedback: "Think about localized treatment options for vaginal symptoms in menopause. Which treatment can specifically target vaginal dryness and dyspareunia without systemic effects?"
+  },
+  {
+    question: "A 54-year-old woman without a uterus is on estrogen-only hormone replacement therapy (HRT) for menopausal symptoms. She is concerned about her risk of developing breast cancer. Which of the following statements regarding her risk is most accurate?",
+    options: [
+      "Estrogen-only HRT significantly increases the risk of breast cancer in women without a uterus.",
+      "The risk of breast cancer is only increased with combination HRT, not with estrogen-only HRT.",
+      "The risk of breast cancer decreases with long-term use of estrogen-only HRT.",
+      "Both estrogen-only and combination HRT are associated with the same increased risk of breast cancer.",
+      "The minimal increase in breast cancer risk is primarily associated with estrogen-only HRT."
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The risk of breast cancer is primarily increased with combination HRT. Estrogen-only HRT has a minimal impact on breast cancer risk and is considered safer in terms of breast cancer risk than combination HRT.",
+    incorrectFeedback: "Consider the type of HRT and the associated risks. Is the risk of breast cancer the same for estrogen-only and combination HRT?"
+  }
+]} />

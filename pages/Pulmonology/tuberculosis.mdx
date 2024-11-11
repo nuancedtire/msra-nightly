@@ -1,0 +1,148 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Tuberculosis: Understanding the Disease, Diagnosis, and Management
+
+Tuberculosis (TB) is a bacterial infection primarily affecting the lungs and caused by _Mycobacterium tuberculosis_. It stands as the most fatal bacterial infection worldwide, with an estimated 30% of the global population harboring latent TB. High prevalence rates are noted in Asia and Sub-Saharan Africa, exacerbated by malnutrition and densely populated living conditions.
+
+## Stages of Tuberculosis
+
+TB develops through two distinct stages, primary and secondary.
+
+### Primary Tuberculosis
+
+- Initial exposure to _M. tuberculosis_ leads to a small lung lesion, known as a Ghon focus.
+- The lesion primarily consists of macrophages and may progress to a granuloma with caseating necrosis.
+- Formation of a Ghon complex occurs if there is concurrent hilar lymph node involvement.
+- In most cases, the Ghon focus becomes fibrotic, leading to latent TB.
+- Immunocompromised individuals may develop disseminated TB or miliary tuberculosis.
+
+### Secondary Tuberculosis
+
+- Occurs when a latent infection is reactivated, typically due to a weakened immune system.
+- Reactivation often begins at the lung's apex, potentially spreading to other organs.
+- Secondary TB can affect various sites including:
+  - Gastrointestinal (GI) tract
+  - Central Nervous System (CNS), resulting in tuberculous meningitis
+  - Vertebral bodies, leading to Pott’s disease
+  - Kidneys
+  - Pericardium
+
+## Diagnosis
+
+TB spreads through respiratory droplets, requiring prolonged exposure for transmission. Symptoms can persist for weeks or months and may include:
+
+- Unintended weight loss
+- Persistent fever
+- Night sweats
+- Lack of appetite (anorexia)
+- Cough, sometimes with blood (haemoptysis)
+- Shortness of breath (dyspnoea)
+- Firm, non-tender enlarged lymph nodes, especially cervical and supraclavicular
+- CNS TB presents with headaches
+- Pott’s disease manifests as backache
+- Addison’s disease symptoms
+
+## Investigations
+
+TB screening and diagnosis involve multiple methods:
+
+### Mantoux Test
+
+- Intradermal injection of purified protein derivative, with results read 2-3 days later.
+- Induration diameters are interpreted as follows:
+  - `<6mm` indicates no exposure to TB, candidate for BCG vaccine.
+  - `6-15mm` may suggest prior BCG vaccination or TB infection.
+  - `>15mm` strongly indicates TB infection.
+  
+### Sputum Cultures
+
+- Three morning sputum samples are recommended for active TB, though results may take up to 6 weeks.
+- Up to 20% of active cases may yield negative cultures.
+
+### Additional Diagnostic Methods
+
+- Ziehl – Neelsen staining is commonly used to identify _Mycobacterium tuberculosis_.
+- Nucleic acid amplification offers rapid, accurate testing but is costly and not universally recommended.
+- Imaging such as chest radiograph and CT scans can reveal lung consolidation, lymphadenopathy, and cavities, especially in the upper lobes.
+
+<Callout emoji="⚠️">
+**Warning:** TB is a notifiable disease. Suspected cases should be promptly reported and managed as presumed positive.
+</Callout>
+
+## Management
+
+Treating TB is challenging due to the bacterium's slow growth and robust cell wall.
+
+### Prescribing Management
+
+- Initial 2-month treatment involves rifampicin, isoniazid, pyrazinamide, and ethambutol.
+- The following 4 months require continued rifampicin and isoniazid.
+- Extra-pulmonary TB, such as meningeal TB, necessitates a total of 12 months of treatment.
+- *Isoniazid treatment is supplemented with pyridoxine (vitamin B6) to avert peripheral neuropathy.*
+
+### Non-Prescribing Management
+
+- Surgical interventions may be needed for miliary TB or Pott’s disease.
+- Directly observed therapy is beneficial for patients with poor adherence histories, ensuring compliance.
+
+## References
+
+- [Pulsenotes - Tuberculosis](https://app.pulsenotes.com/medicine/respiratory/notes/tuberculosis)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 33-year-old male presents with a 3-week history of productive cough, night sweats, and a 10-pound weight loss. On examination, he exhibits cervical lymphadenopathy and a positive Mantoux test with an induration of 18mm. A chest radiograph shows a fibrotic lesion in the right upper lobe with hilar lymphadenopathy. Which of the following is the most likely stage of tuberculosis in this patient?",
+    options: [
+      "Primary tuberculosis without lymph node involvement",
+      "Secondary tuberculosis with reactivation at the lung apex",
+      "Latent tuberculosis infection without active disease",
+      "Primary tuberculosis with formation of a Ghon complex",
+      "Disseminated miliary tuberculosis"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! The patient's presentation of a productive cough, weight loss, and night sweats, along with a positive Mantoux test and radiographic evidence of a fibrotic lesion with hilar lymphadenopathy, is indicative of primary tuberculosis with formation of a Ghon complex.",
+    incorrectFeedback: "Consider the patient's symptoms, Mantoux test results, and radiographic findings when determining the stage of tuberculosis. Recall the characteristics of a Ghon complex."
+  },
+  {
+    question: "A 25-year-old woman with a history of HIV infection presents with a chronic headache and fever. A lumbar puncture is performed, and the CSF analysis is consistent with tuberculous meningitis. Which of the following is the most appropriate duration for her anti-tubercular treatment regimen?",
+    options: [
+      "2 months of rifampicin, isoniazid, pyrazinamide, and ethambutol, followed by 4 months of rifampicin and isoniazid",
+      "12 months of rifampicin, isoniazid, pyrazinamide, and ethambutol",
+      "6 months of rifampicin and isoniazid only",
+      "12 months of rifampicin and isoniazid",
+      "9 months of rifampicin, isoniazid, and pyrazinamide"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Extra-pulmonary TB, such as meningeal TB, necessitates a longer treatment duration, a total of 12 months, to ensure complete eradication of the infection.",
+    incorrectFeedback: "Think about the special considerations for extra-pulmonary TB, particularly involving the central nervous system, and the recommended treatment duration for such cases."
+  },
+  {
+    question: "A 42-year-old man diagnosed with active pulmonary tuberculosis is started on a standard treatment regimen. Despite adherence to therapy, he develops numbness and tingling in his hands and feet after a month. Which of the following adjunctive treatments is most likely to prevent this adverse effect?",
+    options: [
+      "Supplemental vitamin B12",
+      "Increased dose of rifampicin",
+      "Supplemental pyridoxine (vitamin B6)",
+      "Decreased dose of isoniazid",
+      "Addition of corticosteroids"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Isoniazid can cause peripheral neuropathy, which is preventable with the concurrent administration of pyridoxine (vitamin B6).",
+    incorrectFeedback: "Consider the side effects associated with the anti-tubercular drugs and the role of vitamins in preventing these effects."
+  },
+  {
+    question: "A public health official is investigating a tuberculosis outbreak in a densely populated urban area. Which of the following factors are most likely to contribute to the spread of tuberculosis in this setting? Select all that apply.",
+    options: [
+      "High prevalence of malnutrition",
+      "Widespread use of the BCG vaccine",
+      "Frequent air travel by residents",
+      "Densely populated living conditions",
+      "Universal access to nucleic acid amplification testing"
+    ],
+    correctAnswer: [0, 3],
+    correctFeedback: "Correct! High prevalence of malnutrition and densely populated living conditions are significant risk factors for the spread of tuberculosis, particularly in urban areas.",
+    incorrectFeedback: "Review the risk factors for TB spread, especially those that pertain to community settings and socioeconomic factors."
+  }
+]} />

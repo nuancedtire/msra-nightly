@@ -1,0 +1,140 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Benign Prostatic Hyperplasia (BPH)
+
+Benign Prostatic Hyperplasia (BPH) is a common, non-cancerous enlargement of the prostate gland, primarily affecting men as they age. This condition significantly impacts the quality of life due to its bothersome urinary symptoms. Our comprehensive guide covers the risk factors, diagnosis, investigations, and management strategies for BPH.
+
+## Overview of BPH
+
+BPH involves the enlargement of the prostate gland due to an increase in the number of cells (hyperplasia). It occurs in the transition zone of the prostate and is influenced by factors such as:
+
+- **Age**: The likelihood of developing BPH increases with age.
+- **Family History**: A genetic predisposition may contribute to the risk.
+
+The condition arises from an imbalance between cell growth and cell death. Over time, enzymes like aromatase and 5-alpha reductase become more active, leading to higher levels of dihydrotestosterone (DHT) and estrogen. These hormones stimulate prostate cell proliferation.
+
+## Diagnosis
+
+The classical symptoms associated with BPH include:
+
+- Nocturia (nighttime urination)
+- Urinary stream weakening or terminal dribbling
+- Increased urinary frequency
+- Dysuria (painful urination)
+- Straining during urination
+- Hesitancy before urination begins
+- Sensation of incomplete bladder emptying
+- Acute urinary retention, sometimes accompanied by overflow incontinence
+- Obstructive nephropathy (kidney damage due to urine flow obstruction)
+
+Based on symptom severity, BPH can be categorized as mild, moderate, or severe. The combination of hyperplasia and urethral compression by the enlarged prostate leads to bladder obstruction.
+
+## Investigations
+
+Initial evaluations should include abdominal and digital rectal examinations, revealing a smooth, firm, and non-tender enlarged prostate. Key investigations include:
+
+- Urinalysis to check for blood (hematuria) or infection
+- Serum Prostate-Specific Antigen (PSA) to exclude prostate cancer
+- Abdominal ultrasound, which may show:
+  - Increased prostate size
+  - Residual urine post-voiding
+  - Hydronephrosis (kidney swelling)
+  - Bladder wall thickening
+
+For cases of chronic retention, uroflowmetry is used. A flow rate of `less than 10ml/sec` may indicate the need for surgical intervention.
+
+## Management Strategies
+
+### Medical Therapy
+
+Patients with mild to moderate BPH may benefit from medication:
+
+- **Alpha-1-Antagonists**: Drugs like doxazosin, alfuzosin, and tamsulosin relax the bladder neck and prostate muscles, aiding urine flow. Side effects can include:
+
+  - Hypotension (low blood pressure)
+  - Erectile dysfunction
+  - Headaches
+
+- **5-Alpha Reductase Inhibitors**: Finasteride and dutasteride reduce DHT production, slowing prostate growth. These medications have prolonged effects but may cause erectile dysfunction and gynecomastia (breast enlargement).
+
+- **Parasympatholytics**: Oxybutynin may be used for patients with irritative symptoms but without increased post-voidal volume.
+
+### Lifestyle Interventions
+
+Modifying lifestyle factors can alleviate BPH symptoms:
+
+- Nighttime fluid intake reduction
+- Avoidance of alcohol and caffeine
+- Ensuring complete bladder emptying
+
+### Surgical Options
+
+For those unresponsive to medical and lifestyle approaches, surgery may be considered:
+
+- **Transurethral Resection of the Prostate (TURP)**: Preferred surgical treatment, though risks like nerve damage and impotence exist.
+- **Open Prostatectomy**: Reserved for patients with significantly enlarged prostates.
+
+<Callout emoji="⚠️">
+**Warning:** BPH can recur following TURP surgery.
+</Callout>
+
+## References
+
+- [NHS - Prostate Enlargement](https://www.nhs.uk/conditions/prostate-enlargement/)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 62-year-old man presents to the clinic complaining of nocturia and difficulty starting his urine stream. Digital rectal examination reveals an enlarged, smooth, firm prostate. Which of the following is the most appropriate next step in the management of this patient?",
+    options: [
+      "Start empiric antibiotic therapy for suspected prostatitis.",
+      "Order a serum Prostate-Specific Antigen (PSA) level to exclude prostate cancer.",
+      "Proceed with immediate transurethral resection of the prostate (TURP).",
+      "Perform a cystoscopy to evaluate the urethra and bladder."
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Given the symptoms and physical examination findings suggestive of Benign Prostatic Hyperplasia (BPH), measurement of serum PSA is appropriate to help exclude prostate cancer before initiating treatment for BPH.",
+    incorrectFeedback: "While the symptoms suggest BPH, it is important to exclude other conditions, such as prostate cancer, that can cause similar presentations. What investigation would be most helpful in differentiating these conditions?"
+  },
+  {
+    question: "Which of the following medications, when prescribed for a patient with BPH, most directly decreases the production of dihydrotestosterone (DHT)?",
+    options: [
+      "Doxazosin",
+      "Finasteride",
+      "Oxybutynin",
+      "Tamsulosin",
+      "Ciprofloxacin"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Finasteride is a 5-alpha reductase inhibitor that decreases the production of DHT, thus slowing the progression of prostate growth in BPH.",
+    incorrectFeedback: "Consider which medications act by affecting hormone levels that influence the growth of the prostate gland in BPH."
+  },
+  {
+    question: "A 68-year-old man with a history of BPH is undergoing evaluation for worsening urinary symptoms. His post-void residual urine volume is measured at 300 mL. Which of the following symptoms is most likely associated with this finding?",
+    options: [
+      "Dysuria",
+      "Hematuria",
+      "Sensation of incomplete bladder emptying",
+      "Urgency",
+      "Polyuria"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! A sensation of incomplete bladder emptying is a common symptom in patients with BPH and is associated with increased post-void residual urine volume.",
+    incorrectFeedback: "Consider the symptoms that might arise from the inability to completely empty the bladder, leading to a significant residual volume after voiding."
+  },
+  {
+    question: "A patient with moderate BPH who has been unresponsive to alpha-1-antagonists is considering surgical options. Which of the following conditions would make open prostatectomy a more appropriate choice over transurethral resection of the prostate (TURP)?",
+    options: [
+      "The patient has a known allergy to anesthetics.",
+      "The prostate gland is moderately enlarged.",
+      "The patient has a pacemaker.",
+      "The prostate gland is significantly enlarged beyond the scope of TURP.",
+      "The patient has a history of mild erectile dysfunction."
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Open prostatectomy is generally reserved for patients with significantly enlarged prostates that may not be amenable to TURP.",
+    incorrectFeedback: "Consider the indications for advanced surgical interventions in BPH, particularly in cases where less invasive options are insufficient."
+  }
+]} />

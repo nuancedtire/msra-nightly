@@ -38,9 +38,9 @@ Using the provided unstructured article content, create a comprehensive medical 
      - Do not omit any details, data, or nuances present in the source material.
    - **Formatting:**
      - Use bullet points and numbered lists to break down information as much as possible.
-     - **Bold** key terms or important concepts to emphasize them.
+     - **Bold** key terms or important concepts to emphasize them except for numericals and special characters, there you must use backticks.
      - *Italicize* notes, exceptions, or terms that need emphasis.
-     - Use inline code formatting (backticks) to escape special characters while also highlighting specific terms (e.g., `SpO2 <94%`, `<12 hours`, `>55 years`, `MCV > 100fL`).
+     - Use inline code formatting (backticks) to escape special characters like `<` or `>` while also highlighting specific terms (e.g., `SpO2 <94%`, `<12 hours`, `>55 years`, `MCV > 100fL`. This is incorrect **<12 hours** as it does not escape the special character).
      - Present data using Markdown tables where appropriate for better organization.
    - **MDX Features:**
      - Include callouts to highlight important notes, warnings, or tips. For example:

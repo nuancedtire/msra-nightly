@@ -1,0 +1,149 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Bladder Cancer Overview
+
+Bladder cancer represents a form of malignancy primarily affecting the urothelium, a type of tissue lining various sections of the urinary tract. While it can occur from the renal pelvis to the bladder, its predominant site is within the bladder itself.
+
+## Types of Bladder Cancer
+
+Bladder cancer is categorized into two principal types:
+
+- **Transitional Cell Carcinoma**: This is the most prevalent form of bladder cancer.
+- **Squamous Cell Carcinoma**: Typically more common in the urethra.
+
+## Risk Factors
+
+Several factors can increase the likelihood of developing bladder cancer:
+
+- Being male.
+- Being over the age of 65.
+- Tobacco smoking.
+- Exposure to specific carcinogens, such as benzidine and aniline dyes.
+- Infection with Human Papillomavirus (HPV) type 16.
+- Persistent urinary tract inflammation.
+- Iatrogenic factors like pelvic irradiation and use of cyclophosphamide.
+- Infection with *Schistosoma haematobium* heightens the risk for squamous cell carcinoma.
+
+## Diagnosis
+
+### Signs and Symptoms
+
+Bladder cancer may manifest through various signs and symptoms, which include:
+
+- Painless gross hematuria.
+- Dysuria or painful urination.
+- Increased urinary frequency.
+- Suprapubic, perineal, or rectal pain.
+- A palpable mass above the pubic bone.
+
+### Advanced Disease Indicators
+
+More severe stages of the disease might present with:
+
+- Uremic symptoms.
+- Indications of metastasis, such as bone pain, shortness of breath, right upper quadrant pain, jaundice, and swollen lymph nodes.
+- Constitutional symptoms like unintentional weight loss, persistent fatigue, and loss of appetite.
+
+## Investigations
+
+A thorough evaluation is essential for diagnosis, involving:
+
+- Urinalysis.
+- Full Blood Count (FBC).
+- Renal function tests and coagulation profile.
+- Imaging studies and tissue biopsy.
+
+All patients presenting with gross hematuria or those over 35 with micro-hematuria should undergo CT urography and cystoscopy. Imaging findings may include:
+
+- Thickening of the bladder wall.
+- Hydronephrosis.
+- Presence of pedunculated tumors.
+- Erythematous lesions within the bladder.
+
+For complete cancer staging, the following should be performed:
+
+- Chest X-ray.
+- CT scans of the abdomen and pelvis.
+- Alkaline Phosphatase (ALP) levels and bone scans to check for metastasis.
+- Liver function tests.
+
+## Management
+
+### Prescribing Interventions
+
+The management of bladder cancer integrates chemotherapy, radiotherapy, and surgical resection. Palliative care options include surgery and chemotherapy aimed at symptom relief.
+
+For non-muscle invasive tumors, intravesical chemotherapy with mitomycin or gemcitabine is typically administered within 24 hours post-tumor resection, mitigating the risk of tumor cell re-implantation in the bladder wall. An alternative to chemotherapy is intravesical Bacillus Calmette-Guérin (BCG). Regular cystoscopies are recommended every 3 months for several years to monitor disease progression.
+
+In cases where the tumor has penetrated the muscle layer, neoadjuvant chemotherapy is often prescribed to decrease tumor size before any surgical procedure.
+
+### Non-Prescribing Interventions
+
+<Callout emoji="🔪">
+**Surgical Approach:** For tumors confined to the bladder lining, transurethral resection of the bladder tumor (TURBT) is the standard procedure. Muscle-invasive tumors necessitate a radical cystectomy with subsequent creation of a new bladder (neobladder) or urinary diversion.
+</Callout>
+
+Prognostically, the 5-year survival rate for non-invasive bladder cancer stands at 90-95%. However, this rate plummets to 12% for individuals with metastatic disease.
+
+## References
+
+- [NHS - Bladder cancer](https://www.nhs.uk/conditions/bladder-cancer/)
+- [NICE Guidelines on Bladder Cancer](https://www.nice.org.uk/guidance/ng2/chapter/Introduction)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 72-year-old male smoker presents with painless gross hematuria. He has no prior history of urinary tract infections or urolithiasis. Which of the following is the most likely diagnosis?",
+    options: [
+      "Acute cystitis",
+      "Urolithiasis",
+      "Benign prostatic hyperplasia",
+      "Transitional cell carcinoma of the bladder",
+      "Renal cell carcinoma"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! The most common presentation of bladder cancer is painless gross hematuria and the most prevalent type in smokers is transitional cell carcinoma of the bladder.",
+    incorrectFeedback: "Although the other conditions can present with hematuria, consider the patient's age, smoking history, and the typical presentation of bladder cancer."
+  },
+  {
+    question: "A 65-year-old female with a history of recurrent urinary tract infections presents with dysuria and increased urinary frequency. She has a 10-year history of smoking. A CT urogram shows thickening of the bladder wall and hydronephrosis. What is the most appropriate next step in the management of this patient?",
+    options: [
+      "Start empirical antibiotics for urinary tract infection",
+      "Perform a cystoscopy with biopsy",
+      "Prescribe alpha-blockers for suspected benign prostatic hyperplasia",
+      "Schedule for extracorporeal shock wave lithotripsy for suspected urolithiasis",
+      "Immediate radical cystectomy"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Given the patient's risk factors for bladder cancer (age, smoking history, and recurrent UTIs), the presence of bladder wall thickening and hydronephrosis on imaging, a cystoscopy with biopsy is the appropriate next step to evaluate for bladder cancer.",
+    incorrectFeedback: "While UTI symptoms are present, consider the patient's risk factors and imaging findings that are suggestive of a possible malignancy."
+  },
+  {
+    question: "Which of the following intravesical therapies is most appropriate for a patient with a non-muscle invasive bladder cancer immediately after transurethral resection of the bladder tumor (TURBT)?",
+    options: [
+      "Intravesical mitomycin",
+      "Systemic gemcitabine",
+      "Intravesical BCG once every six months",
+      "Oral cyclophosphamide",
+      "Intravenous cisplatin"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! Intravesical mitomycin is often administered within 24 hours after TURBT to reduce the risk of tumor cell re-implantation in the bladder wall for non-muscle invasive bladder cancer.",
+    incorrectFeedback: "Consider the standard of care for non-muscle invasive bladder cancer and the timing of intravesical therapy post-TURBT."
+  },
+  {
+    question: "A 70-year-old man with a newly diagnosed muscle-invasive bladder cancer is being considered for radical cystectomy. Pre-operative evaluation should include all of the following EXCEPT:",
+    options: [
+      "Full Blood Count (FBC)",
+      "Chest X-ray",
+      "Liver function tests",
+      "Intravenous pyelogram",
+      "Alkaline Phosphatase (ALP) levels"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! An intravenous pyelogram is not typically included in the pre-operative evaluation for radical cystectomy in bladder cancer patients. Instead, CT scans of the abdomen and pelvis, chest X-ray, liver function tests, and ALP levels for metastasis check are performed.",
+    incorrectFeedback: "Consider which diagnostic tests are essential for staging and pre-operative evaluation of muscle-invasive bladder cancer."
+  }
+]} />

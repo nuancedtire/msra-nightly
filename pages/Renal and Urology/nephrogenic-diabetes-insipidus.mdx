@@ -1,0 +1,133 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Nephrogenic Diabetes Insipidus: An Overview
+
+## Introduction
+
+Diabetes Insipidus (DI) is a condition characterized by the excretion of copious amounts of diluted urine with low osmolality (`<300 mOsmol/kg`), typically exceeding `3L` per day in adults and `2L` per day in children. This condition arises when the balance of water in the body is disrupted. Normally, increased blood sodium levels prompt thirst and the release of antidiuretic hormone (ADH), which collectively act to lower serum osmolality. ADH specifically enhances water reabsorption in the kidney's collecting tubules.
+
+Nephrogenic Diabetes Insipidus (NDI) occurs when the kidneys become insensitive to ADH, whereas Central Diabetes Insipidus (CDI) results from inadequate ADH release by the posterior pituitary gland. NDI is less common than CDI and can be either acquired or hereditary. Chronic lithium therapy is the most recognized acquired cause of NDI, with about 30% of patients on lithium developing the condition.
+
+## Diagnosis of Nephrogenic Diabetes Insipidus
+
+**Common Causes of NDI:**
+
+- **Lithium Therapy:** Interferes with aquaporin 2 channel expression.
+- **Hypercalcaemia:** Disrupts the countercurrent mechanism, affecting water reabsorption.
+- **Hypokalaemia:** Results in mild NDI, though the exact mechanism is not well-understood.
+
+**Other Less Common Causes:**
+
+- Sickle cell disease trait
+- Renal amyloidosis
+- Sjögren’s syndrome
+- Post-obstructive uropathy
+- Certain medications, such as vasopressin receptor antagonists
+
+**Hereditary NDI:**
+
+- Typically involves mutations in the ADH receptor or aquaporin 2 channel genes.
+- Approximately 90% of these cases are X-linked.
+- Conditions like Bardet-Biedl syndrome and Bartter syndrome can also present with NDI.
+- Symptoms often manifest in infancy, though some forms may appear in adulthood.
+
+**Symptoms:**
+
+- Polyuria, including nocturia (due to high ADH levels during sleep)
+- Polydipsia (excessive thirst)
+- Additional symptoms related to underlying causes (e.g., Lithium toxicity, hypercalcaemia)
+
+## Investigative Procedures
+
+The initial assessment for DI involves parallel measurements of Plasma osmolality and Urine osmolality. Typical findings in DI include high plasma osmolality paired with low urine osmolality.
+
+- Urine osmolality `<300 mOsmol/kg` is indicative of DI.
+- Urine osmolality `>700 mOsmol/kg` rules out DI.
+- If results fall between these values, further investigation is warranted.
+
+The **water deprivation test** serves as the gold standard for diagnosing DI. Patients are instructed to abstain from water until a specific plasma osmolality is reached. Subsequently, desmopressin is administered to differentiate between types of DI:
+
+- Normal urine osmolality post-test (`>700 mOsmol/kg`) excludes DI.
+- If urine osmolality `<300` and desmopressin doubles it (`>300`), CDI is diagnosed.
+- Minimal or no change after desmopressin indicates NDI.
+
+For NDI, it is crucial to measure calcium, potassium, and lithium levels accordingly.
+
+## Management Strategies
+
+### Prescribing Interventions
+
+- **Address the Underlying Cause:** Treat the primary disorder or discontinue the offending agent.
+- **Symptom Management:**
+  - Thiazide diuretics are the first-line prescription, promoting water and sodium reabsorption by inducing hypovolaemia.
+  - Amiloride may be added if polyuria persists.
+  - NSAIDs, particularly Indomethacin, can be used to inhibit prostaglandins that counteract ADH.
+  - A trial of desmopressin may help patients with partial ADH resistance.
+
+### Non-prescribing Measures
+
+- **Hydration:** Ensuring adequate water intake is critical to avoid complications like hypernatremia and dehydration.
+- **Dietary Adjustments:** A low-salt and low-protein diet helps reduce solute excretion and consequent water loss.
+- **Double Voiding:** This technique is recommended for children with hereditary NDI to prevent bladder damage.
+
+## References
+
+- [UpToDate: Nephrogenic Diabetes Insipidus](https://www.uptodate.com/contents/search?search=nephrogenic%20diabetes%20insipidus&sp=0&source=USER_INPUT&searchOffset=1&autoComplete=true&language=en&max=10&index=0~6&autoCompleteTerm=nephrogeni)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 40-year-old man with bipolar disorder presents to the clinic with complaints of excessive urination and thirst. He has been on lithium therapy for the past five years. Laboratory tests reveal serum sodium of 150 mEq/L and a urine osmolality of 280 mOsmol/kg. Which of the following is the most likely diagnosis?",
+    options: [
+      "Central Diabetes Insipidus",
+      "Nephrogenic Diabetes Insipidus",
+      "Primary Polydipsia",
+      "Hyperglycemic Osmotic Diuresis",
+      "Type 2 Diabetes Mellitus"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! This patient's history of chronic lithium therapy and the presentation of polyuria with a low urine osmolality suggest a diagnosis of Nephrogenic Diabetes Insipidus (NDI), where the kidneys are insensitive to ADH.",
+    incorrectFeedback: "Remember to consider the patient's medication history and the typical laboratory findings in Diabetes Insipidus. Which type of DI is associated with lithium therapy?"
+  },
+  {
+    question: "A 7-year-old boy presents with failure to thrive and symptoms of polydipsia and polyuria. Family history reveals that his maternal uncle had similar symptoms during childhood. Genetic testing indicates a mutation in the vasopressin V2 receptor gene. Which of the following inheritance patterns is most consistent with this diagnosis?",
+    options: [
+      "Autosomal dominant",
+      "Autosomal recessive",
+      "X-linked recessive",
+      "Mitochondrial inheritance",
+      "X-linked dominant"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! The vasopressin V2 receptor gene is located on the X chromosome, and mutations in this gene cause X-linked recessive Nephrogenic Diabetes Insipidus.",
+    incorrectFeedback: "Consider the genetic patterns associated with the vasopressin V2 receptor gene and the patient's family history. What is the most likely mode of inheritance?"
+  },
+  {
+    question: "A patient with suspected Diabetes Insipidus undergoes a water deprivation test. After reaching a certain plasma osmolality, desmopressin is administered, but there is minimal change in urine osmolality. Which of the following additional laboratory values would support a diagnosis of Nephrogenic Diabetes Insipidus?",
+    options: [
+      "Hypernatremia and hypokalemia",
+      "Hyponatremia and hyperkalemia",
+      "Normal serum sodium and elevated lithium levels",
+      "Hypercalcemia and normal serum potassium",
+      "Elevated serum potassium and low calcium"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Normal serum sodium with elevated lithium levels would support a diagnosis of Nephrogenic Diabetes Insipidus, particularly in a patient with a history of lithium use, as lithium is a well-known cause of acquired NDI.",
+    incorrectFeedback: "Review the common causes of Nephrogenic Diabetes Insipidus. Which laboratory abnormalities are associated with lithium-induced NDI?"
+  },
+  {
+    question: "A 55-year-old woman with Nephrogenic Diabetes Insipidus is being managed with hydrochlorothiazide and a low-salt diet. Despite these interventions, she continues to experience significant polyuria. Which of the following medications could be added to her treatment regimen to further reduce urine output?",
+    options: [
+      "Metformin",
+      "Spironolactone",
+      "Amiloride",
+      "Acetazolamide",
+      "Furosemide"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Amiloride may be added if polyuria persists in patients with Nephrogenic Diabetes Insipidus despite the use of thiazide diuretics and dietary adjustments.",
+    incorrectFeedback: "Consider the mechanisms of different diuretics and their effects on urine output. Which medication is appropriate for patients with NDI that continue to have polyuria despite initial management?"
+  }
+]} />

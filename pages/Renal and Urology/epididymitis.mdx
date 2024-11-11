@@ -1,0 +1,137 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Epididymitis: Understanding, Diagnosing, and Treating
+
+Epididymitis is an inflammatory condition of the epididymis, characterized by unilateral pain and swelling in the scrotum that typically worsens over a period of days. This condition can extend to the testicle, leading to epididymo-orchitis in more than half of the cases.
+
+## Diagnosis
+
+The hallmark signs of epididymitis are one-sided scrotal pain and swelling that gradually intensifies over several days. Additional symptoms may include:
+
+- Warmth and redness of scrotal skin
+- Painful urination, or dysuria
+
+### Etiology
+
+The underlying cause of inflammation varies with the patient’s age:
+
+- In prepubertal boys and men over 35 years: Enteric organisms such as *Escherichia coli* or *Enterococcus faecalis* are common.
+- In sexually active males: Pathogens like _Chlamydia trachomatis_, _Neisseria gonorrhoeae_, and _Mycoplasma genitalium_ are frequently responsible.
+  
+Non-infectious causes can include medications like amiodarone or systemic diseases such as Behçet’s syndrome, although these are less common.
+
+## Investigations
+
+### Initial Bedside Assessment
+
+- Urine dipstick: A positive leukocyte esterase test suggests a urinary tract infection.
+
+### Laboratory Testing
+
+- First-void urine sample:
+  - Culture and microscopy to identify bacteria.
+  - Nucleic acid amplification testing (NAAT) for _Chlamydia trachomatis_ and _Neisseria gonorrhoeae_ in at-risk patients.
+
+- Urethral discharge (if present):
+  - Gram staining
+  - Culture
+  - NAAT testing
+
+These tests help pinpoint the causative organism, guiding the selection of targeted antibiotic therapy.
+
+## Management
+
+### Prescribing Treatment
+
+The choice of antibiotics depends on the suspected causative agent, patient age, and risk factors:
+
+- **Sexually Transmitted Infections**:
+  - Ceftriaxone: Single intramuscular dose
+  - Doxycycline: Ten-day oral course
+
+Sexually active men should receive empirical treatment for both gonococcal and chlamydial infections.
+
+- **Enteric Organisms**:
+  - Quinolone antibiotics (e.g., ofloxacin or levofloxacin) are prescribed for elderly, immunocompromised patients, or patients with a history of urinary tract procedures.
+
+### Non-Prescribing Measures
+
+- Rest and scrotal elevation to reduce inflammation and fever.
+- Intravenous fluids for systemically ill patients.
+
+**Sexual Health Considerations**:
+
+- Abstain from sexual activity until treatment is complete and symptoms resolve.
+- Encourage testing and treatment for sexual partners from the last 60 days to prevent further complications.
+
+**Special Cases**:
+
+- Sterile epididymitis from systemic diseases like Behçet’s syndrome requires a referral to a rheumatologist for specialized care.
+
+<Callout emoji="🔔">
+**Note:** Empirical antibiotic treatment should be initiated promptly while awaiting test results, and adjusted based on the findings.
+</Callout>
+
+## References
+
+- Kumar and Clark’s Clinical Medicine 2017
+- BMJ Best Practice. _Acute epididymitis._
+- NICE. _Scrotal pain and swelling._ [NICE Guidelines](https://cks.nice.org.uk/scrotal-pain-and-swelling)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 21-year-old sexually active male presents to the clinic with unilateral scrotal pain that has progressively worsened over the past three days. He also reports dysuria and a low-grade fever. Physical examination reveals a swollen, tender epididymis on the affected side. Urine dipstick shows positive leukocyte esterase. Which of the following is the most appropriate initial management?",
+    options: [
+      "Empirical treatment with ceftriaxone and doxycycline",
+      "Prescribe analgesics and schedule a follow-up in one week",
+      "Immediate referral to a rheumatologist for suspected Behçet’s syndrome",
+      "Start treatment with quinolone antibiotics",
+      "Order a scrotal ultrasound before initiating any treatment"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! This patient's presentation is suggestive of sexually transmitted epididymitis, and empirical treatment with ceftriaxone plus doxycycline should be initiated to cover for _Neisseria gonorrhoeae_ and _Chlamydia trachomatis_.",
+    incorrectFeedback: "Given the patient's age and sexual activity, which organisms are most likely responsible for his symptoms, and what is the recommended empirical treatment for such cases?"
+  },
+  {
+    question: "A 50-year-old male with a recent history of urinary tract procedures presents with symptoms of epididymitis. Laboratory testing of the first-void urine sample is underway. What is the most appropriate choice of antibiotics for this patient?",
+    options: [
+      "Ceftriaxone and azithromycin",
+      "Quinolone antibiotics",
+      "Penicillin",
+      "Ceftriaxone and doxycycline",
+      "No antibiotics until culture results are available"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! In patients over 35 years and those with a history of urinary tract procedures, enteric organisms are the common cause of epididymitis. Quinolone antibiotics are the appropriate choice in this context.",
+    incorrectFeedback: "Consider the patient's age and recent medical history. Which organisms are likely causative, and what class of antibiotics is typically used to treat such infections?"
+  },
+  {
+    question: "A 19-year-old male is diagnosed with epididymitis due to _Chlamydia trachomatis_. His treatment includes ceftriaxone and doxycycline. What additional recommendations should be given in relation to his sexual health?",
+    options: [
+      "He should be advised to abstain from sexual activity until he has completed the treatment and his symptoms have resolved.",
+      "He can continue sexual activity but should use condoms to prevent transmission.",
+      "Sexual activity can continue without restrictions as long as his partner is also treated simultaneously.",
+      "He does not need to inform his past partners as _Chlamydia trachomatis_ is not a reportable infection.",
+      "Sexual activity can resume immediately if his symptoms improve within the first 48 hours of antibiotic therapy."
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! Patients with sexually transmitted infections should abstain from sexual activity until they have completed their course of treatment and their symptoms have resolved to prevent the spread of the infection.",
+    incorrectFeedback: "Consider the transmission risk of the pathogen causing the patient's condition and the measures necessary to prevent further spread."
+  },
+  {
+    question: "A prepubertal boy presents with acute onset of unilateral scrotal pain and swelling. His parents deny any history of trauma. Urine analysis shows the presence of bacteria. Which of the following organisms is most likely responsible for his condition?",
+    options: [
+      "_Escherichia coli_",
+      "_Neisseria gonorrhoeae_",
+      "_Chlamydia trachomatis_",
+      "_Mycoplasma genitalium_",
+      "_Enterococcus faecalis_"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! In prepubertal boys and men over 35 years, enteric organisms such as _Escherichia coli_ are commonly responsible for epididymitis.",
+    incorrectFeedback: "Think about the typical organisms that cause epididymitis in prepubertal boys. Which one is most commonly associated with urinary tract infections?"
+  }
+]} />
