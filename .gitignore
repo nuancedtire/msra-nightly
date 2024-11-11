@@ -133,4 +133,5 @@ dist
 # Config files
 .config
 .replit
-lib/
+lib/msranotes/
+.worker-next

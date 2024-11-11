@@ -1,5 +1,11 @@
 {
-    "index": "Home",
-    "IE": "Infective Endocarditis",
-    "CompartmentSyndrome-processed": "Compartment Syndrome"
+  "index": "🏠 Home",
+  "---": {
+    "type": "separator"
+  },
+  "Ophthalmology": "👁️ Ophthalmology",
+  "about": {
+    "title": "ℹ️ About",
+    "type": "page"
   }
+}

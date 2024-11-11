@@ -1,0 +1,115 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Understanding Red Eye
+
+Red eye is a common presentation in both primary and secondary care settings. It can have a wide range of causes, from **self-limiting conjunctivitis** to more serious conditions such as **acute angle closure glaucoma**. 
+
+## Causes of Red Eye
+
+The following are potential causes of red eye classified by severity:
+
+| Cause                       | Severity          | Notes                                    |
+|-----------------------------|------------------|------------------------------------------|
+| Conjunctivitis              | Mild             | Often viral or allergic                  |
+| Subconjunctival Hemorrhage  | Mild             | Generally harmless, resolves spontaneously |
+| Corneal Abrasion            | Moderate         | May cause pain, visual change            |
+| Uveitis                     | Moderate         | Requires timely evaluation                |
+| Acute Angle Closure Glaucoma| Severe           | Medical emergency; immediate treatment needed |
+
+## Key Features to Differentiate Causes
+
+The assessment of red eye involves a thorough history and examination. **Key discriminating features** include:
+
+- **Pain**: The presence of pain can indicate a more severe condition.
+- **Changes to Visual Acuity**: Any alterations could signify a serious underlying issue.
+- **Duration of Symptoms**: Sudden onset could suggest emergencies, while gradual onset might indicate mild causes.
+
+### Important History Features
+
+When assessing a patient with red eye, consider the following:
+
+- **Onset**: Rapid vs. gradual onset
+- **Associated Symptoms**: Such as pain, photophobia, or discharge 
+- **Medical History**: Previous eye conditions or systemic diseases
+
+<details>
+<summary>Common Signs and Symptoms</summary>
+
+- **Chest Pain** (if applicable)
+  - Crushing or pressure-like
+  - May radiate to left arm, jaw, or back
+  - Often accompanied by sweating
+
+- **Respiratory** (if applicable)
+  - Shortness of breath
+  - Rapid breathing
+  - Orthopnea
+
+- **Other Symptoms** 
+  - Nausea and vomiting
+  - Fatigue
+  - Light-headedness
+  - Anxiety
+
+</details>
+
+## Examination Findings
+
+Examination findings are crucial to determining the cause of red eye. Key areas to assess include:
+
+- **Visual Acuity**: Important to evaluate if there are any changes
+- **Intraocular Pressure**: Critical for ruling out glaucoma
+- **Slit-Lamp Examination**: Useful to assess corneal and conjunctival health
+
+<Callout emoji="⚠️">
+**Warning:** Acute angle closure glaucoma is a critical condition requiring immediate medical intervention to prevent permanent vision loss.
+</Callout>
+
+## References
+
+- Oxford Handbook of Clinical Specialties, 9th edition, pages 430-433.
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 55-year-old man presents to the clinic with a complaint of a red eye that has been progressively worsening over the last two days. He describes experiencing intermittent sharp pain and photophobia. During the examination, visual acuity is noted to be reduced. What is the most concerning potential diagnosis in this patient?",
+    options: [
+      "Conjunctivitis",
+      "Uveitis",
+      "Subconjunctival Hemorrhage",
+      "Corneal Abrasion",
+      "Acute Angle Closure Glaucoma"
+    ],
+    correctAnswer: 4,
+    correctFeedback: "Correct! The combination of progressive worsening of the red eye, sharp pain, photophobia, and reduced visual acuity suggests a severe process, most likely acute angle closure glaucoma. This condition requires immediate medical intervention to prevent permanent vision loss.",
+    incorrectFeedback: "Consider the symptoms present: sharp pain and photophobia with visual acuity changes. Which condition typically presents with these features and can lead to serious complications if not treated promptly?"
+  },
+  {
+    question: "A 30-year-old woman presents with a red, itchy eye associated with clear drainage and no pain. Upon questioning, she mentions that her symptoms started after spending time outdoors. What is the most likely cause of her symptoms?",
+    options: [
+      "Viral Conjunctivitis",
+      "Bacterial Conjunctivitis",
+      "Allergic Conjunctivitis",
+      "Uveitis",
+      "Corneal Abrasion"
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! These symptoms are characteristic of allergic conjunctivitis, especially given the temporal association with outdoor exposure. The clear drainage aligns with an allergic response.",
+    incorrectFeedback: "Think about the nature of the discharge and the timing in relation to environmental exposure. What condition commonly causes itchy eyes and clear discharge, especially after contact with allergens?"
+  },
+  {
+    question: "During a routine eye examination, a 72-year-old patient is found to have a red eye with increased intraocular pressure and a mid-dilated non-reactive pupil. Which condition should be at the top of the differential diagnosis list?",
+    options: [
+      "Conjunctivitis",
+      "Acute Angle Closure Glaucoma",
+      "Subconjunctival Hemorrhage",
+      "Uveitis",
+      "Corneal Abrasion"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Increased intraocular pressure, a mid-dilated non-reactive pupil, and a red eye are classic signs of acute angle closure glaucoma. This is a medical emergency requiring immediate treatment.",
+    incorrectFeedback: "Consider the significance of intraocular pressure changes and the pupil's response. Which condition is associated with these specific examination findings and has urgent management considerations?"
+  }
+]} />

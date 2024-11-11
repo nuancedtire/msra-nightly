@@ -1,0 +1,143 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Diabetic Retinopathy (DR)
+
+Diabetic retinopathy (DR) is a chronic progressive retinal complication of diabetes mellitus caused by microvascular leakage and occlusion. DR is split into two main categories:
+
+1. **Non-proliferative diabetic retinopathy (NPDR)**: the less advanced and earlier stage form.
+2. **Proliferative diabetic retinopathy (PDR)**: the more advanced and potentially sight-threatening form.
+
+As many patients with DR are asymptomatic, a national screening programme in the UK has been established using annual digital retinal photography to identify diabetic patients at risk of severe ocular disease. In addition to general measures to optimize a patient’s DR risk factors, DR can be managed using intravitreal injections of anti-VEGF or laser photocoagulation to reverse and/or prevent the proliferative changes seen in PDR.
+
+## Diagnosis
+
+DR usually develops as a long-term complication of hyperglycaemia and is present in only a minority of patients at the time of diagnosis of diabetes mellitus. The incidence of DR at `15 years` after diagnosis is over `90%` in type 1 diabetes patients and `60%` in type 2 diabetes patients.
+
+Symptoms are uncommon but can develop later in the disease course, such as:
+
+- **Floaters**
+- **Loss of vision** due to macular oedema (gradual) or vitreous haemorrhage (acute).
+
+### Classification of Diabetic Retinopathy
+
+Classification of DR is based on ophthalmoscopic signs. The national screening programme still uses the traditional background/pre-proliferative and proliferative grading system, but a more detailed classification has been adopted by ophthalmologists:
+
+- **Mild NPDR**: Haemorrhages (dot or blot) or microaneurysms only.
+- **Moderate NPDR**: Severe retinal haemorrhages, cotton-wool spots, hard exudates, venous beading, and/or intra-retinal microvascular abnormalities (IRMA).
+- **Severe NPDR**: Severe retinal haemorrhages in all four retinal quadrants, venous beading in two quadrants, and/or extensive IRMA.
+- **PDR**: New vessels on the disc (NVD) or new vessels elsewhere (NVE) on the retina due to ischaemia; iris neovascularisation suggests severe PDR. Potential complications of PDR include vitreous haemorrhage, retinal fibrosis, and traction retinal detachment.
+
+## Investigations
+
+- **Digital retinal photography**: The basis of the screening programme.
+- **Fluorescein angiography**: May be used to guide laser treatment.
+- **Optical coherence tomography (OCT)**: Used to detect the presence of macular oedema and other signs of macular retinopathy.
+
+## Management (Non-Prescribing)
+
+DR can be prevented, or its progression halted by optimizing glycaemic, lipid, and hypertensive risk factors.
+
+All patients with diabetes mellitus above the age of `12 years` are invited for an annual* dilated fundus photographic exam. This is changing to a `2-year` interval for people with a low risk of sight loss.
+
+| Grade (Traditional)      | Follow-up                                      | Treatment                              |
+|--------------------------|------------------------------------------------|---------------------------------------|
+| None/Background          | Regular screening                              | No                                    |
+| Pre-Proliferative        | Routine referral to ophthalmology               | Consider PRP*                         |
+| Proliferative (PDR)     | Urgent referral to ophthalmology (seen within `2 weeks`) | PRP, Anti-VEGF                      |
+
+* PRP = pan-retinal laser photocoagulation
+
+## Management (Treatments)
+
+- **Intravitreal injection of anti-vascular endothelial growth factor (VEGF)**: Increasingly used as a treatment for PDR.
+- **Pan-retinal laser photocoagulation**: An alternative treatment aimed to destroy and reduce the area of ischaemic retinal tissue, thereby reducing VEGF production.
+- **Intravitreal corticosteroid therapy**: Another option for refractory cases.
+- **Vitrectomy surgery**: Can relieve vitreous haemorrhage or retinal traction.
+
+<Callout emoji="⚠️">
+**Warning:** Early detection and treatment of DR are crucial to prevent vision loss.
+</Callout>
+
+<details>
+<summary>Common Signs and Symptoms</summary>
+
+- **Chest Pain**
+  - Crushing or pressure-like
+  - May radiate to left arm, jaw, or back
+  - Often accompanied by sweating
+
+- **Respiratory**
+  - Shortness of breath
+  - Rapid breathing
+  - Orthopnea
+
+- **Other Symptoms**
+  - Nausea and vomiting
+  - Fatigue
+  - Light-headedness
+  - Anxiety
+
+</details>
+
+## References
+
+- BMJ Best Practice Diabetic retinopathy [BMJ Best Practice](https://bestpractice.bmj.com/topics/en-gb/532)
+- The Royal College of Ophthalmologists Diabetic Retinopathy Guidelines December 2012
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "What is the most common treatment used for managing proliferative diabetic retinopathy (PDR)?",
+    options: [
+      "Intravitreal corticosteroid therapy",
+      "Pan-retinal laser photocoagulation",
+      "Intravitreal injection of anti-VEGF",
+      "Fluorescein angiography",
+      "Oral hypoglycemic agents"
+    ],
+    correctAnswer: 2,
+    correctFeedback: "Correct! Pan-retinal laser photocoagulation (PRP) is a well-established treatment for PDR aimed at reducing the ischemic area, thereby decreasing the production of VEGF and preventing complications.",
+    incorrectFeedback: "Consider the standard treatments for sight-threatening conditions like PDR. Which treatment specifically targets retinal ischemia and aims to prevent further complications in diabetic patients?"
+  },
+  {
+    question: "Which of the following statements about the classification of diabetic retinopathy is FALSE?",
+    options: [
+      "Mild NPDR is characterized by microaneurysms and small hemorrhages.",
+      "Severe NPDR involves severe retinal hemorrhages in all four quadrants.",
+      "Proliferative diabetic retinopathy may present with new vessels on the disc.",
+      "Moderate NPDR often shows no visible changes on ophthalmoscopic examination.",
+      "The traditional classification system includes both non-proliferative and proliferative types."
+    ],
+    correctAnswer: 3,
+    correctFeedback: "Correct! Moderate NPDR is typically characterized by visible changes such as severe retinal hemorrhages and hard exudates, making the statement about no visible changes incorrect.",
+    incorrectFeedback: "Review the characteristics of the different classifications of diabetic retinopathy. What changes are expected to be seen in moderate NPDR?"
+  },
+  {
+    question: "A 45-year-old patient with type 2 diabetes mellitus has never undergone a dilated fundus exam. After 10 years of diagnosis, which recommendation is typically made for screening frequency?",
+    options: [
+      "No screening is needed for patients without symptoms.",
+      "Annual screening is recommended for all patients.",
+      "Screening occurs every 2 years for low-risk patients.",
+      "Screening should only be done at referral to an ophthalmologist.",
+      "Screening every 5 years is sufficient."
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Patients with diabetes above the age of 12 are recommended to have annual dilated fundus examinations, although this can change to every 2 years for those deemed low-risk.",
+    incorrectFeedback: "Think about the guidelines for diabetic retinopathy screening in relation to the duration of diabetes. How often should those with a long history of diabetes have an eye exam?"
+  },
+  {
+    question: "A patient with proliferative diabetic retinopathy is referred for treatment. He mentions experiencing floaters in his vision and has a history of poorly controlled diabetes. What is the most likely complication of PDR he might be at risk for?",
+    options: [
+      "Dry eyes",
+      "Vitreous hemorrhage",
+      "Retinal detachment",
+      "Cataracts",
+      "Macular degeneration"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Vitreous hemorrhage is a significant complication of proliferative diabetic retinopathy, often resulting from fragile new blood vessels that can bleed into the vitreous cavity, causing floaters and vision changes.",
+    incorrectFeedback: "Consider what complications arise from the new vascular growth seen in proliferative diabetic retinopathy, especially those that can lead to acute changes in vision."
+  }
+]} />

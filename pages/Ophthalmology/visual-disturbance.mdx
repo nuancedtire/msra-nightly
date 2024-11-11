@@ -1,0 +1,140 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Visual Disturbance: Evaluation and Management
+
+## Overview of Visual Disturbance
+
+Visual disturbance can manifest in various forms, either as a primary ophthalmological issue or as a symptom of broader medical conditions. Understanding the nature of these disturbances is vital for effective management and treatment.
+
+## Types and Causes of Visual Disturbance
+
+### Chronic Conditions
+
+- **Age-related Macular Degeneration (AMD)**
+  - Progressive loss of central vision
+- **Primary Open Angle Glaucoma**
+  - Gradual peripheral vision loss
+
+### Acute Conditions
+
+- **Acute Angle Closure Glaucoma**
+  - Sudden onset; can lead to total visual field loss; a medical emergency
+- **Retinal Detachment**
+  - Need immediate intervention; presents with sudden visual field loss
+
+## Evaluation of Visual Disturbance
+
+A **focused history** is essential in evaluating visual disturbances. Key aspects to inquire about include:
+
+- **Pattern of Visual Disturbance**
+  - Type (e.g., blurring, double vision)
+- **Onset and Progression**
+  - Sudden vs. gradual
+- **Associated Symptoms**
+  - Headaches, eye pain, nausea, etc.
+
+### Important Questions to Ask
+
+1. When did you first notice the visual disturbance?
+2. Has it changed over time?
+3. Are there any associated symptoms (e.g., headaches, nausea)?
+4. Do you have any history of ocular conditions?
+
+## Management Strategies
+
+Identification of the underlying cause will guide management strategies. General approaches may include:
+
+- **Referral to Ophthalmology**
+  - For suspected acute conditions
+- **Medication Adjustment**
+  - For chronic conditions such as glaucoma
+- **Surgical Intervention**
+  - Necessary in cases like retinal detachment
+
+<Callout emoji="⚠️">
+**Warning:** Immediate medical attention is required for acute vision loss some conditions can lead to permanent vision impairment.
+</Callout>
+
+## Common Signs and Symptoms
+
+<details>
+<summary>Common Signs and Symptoms</summary>
+
+- **Visual Symptoms**
+  - Blurred vision
+  - Double vision
+  - Sudden loss of vision
+  - Visual field defects
+
+- **Ocular Symptoms**
+  - Eye pain
+  - Redness
+  - Photophobia
+
+- **Systemic Symptoms**
+  - Headaches
+  - Nausea or vomiting
+</details>
+
+## References
+
+* Oxford Handbook of Neurology, 2nd edition, pages 148, 150, 228-229.
+* Oxford Handbook of Clinical Specialties, 9th edition, page 438.
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 72-year-old man presents with sudden loss of vision in his left eye accompanied by the sensation of a shadow or curtain moving across his visual field. He reports a history of myopia and has not had an eye exam in the past five years. Which of the following is the most likely diagnosis?",
+    options: [
+      "Acute Angle Closure Glaucoma",
+      "Retinal Detachment",
+      "Macular Degeneration",
+      "Optic Neuritis",
+      "Diabetic Retinopathy"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! The patient's description of sudden loss of vision along with a shadow or curtain signifies a retinal detachment, which is an emergency requiring immediate ophthalmologic evaluation and potential surgical intervention.",
+    incorrectFeedback: "Think about the characteristics of the visual symptoms described. Sudden vision loss with the sensation of a shadow is most suggestive of an issue with the retina rather than an intraocular pressure condition or chronic disease processes."
+  },
+  {
+    question: "During an eye examination, a patient is noted to have increased intraocular pressure (IOP) and visual field defects. Which of the following treatments would be most appropriate to manage this condition?",
+    options: [
+      "Pilocarpine eye drops",
+      "Topical beta-blockers such as timolol",
+      "Laser photocoagulation",
+      "Intravitreal corticosteroids",
+      "Systemic carbonic anhydrase inhibitors"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Topical beta-blockers such as timolol are often used to lower intraocular pressure in patients with primary open-angle glaucoma, making them a first-line treatment option.",
+    incorrectFeedback: "Consider the underlying pathology associated with elevated intraocular pressure. Management usually focuses on reducing IOP through specific classes of medications. What is commonly used first-line therapy?"
+  },
+  {
+    question: "A 55-year-old woman notices that she has difficulty seeing objects clearly up close and experiences blurriness while reading. She has no significant past ocular history. What is the most likely underlying condition?",
+    options: [
+      "Presbyopia",
+      "Cataract",
+      "Retinal detachment",
+      "Keratoconus",
+      "Macular Degeneration"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Presbyopia is the age-related gradual loss of the eye's ability to focus on nearby objects, commonly occurring in individuals over 40.",
+    incorrectFeedback: "Think about the age-related changes in vision that occur as people grow older. What condition might explain difficulty focusing on near objects, especially without other significant ocular symptoms or a medical history?"
+  },
+  {
+    question: "A patient presents with acute eye pain, nausea, and the onset of blurred vision. Upon examination, the pupil is mid-dilated and non-reactive to light. What is the most likely diagnosis?",
+    options: [
+      "Acute Angle Closure Glaucoma",
+      "Optic Neuritis",
+      "Retinal Vascular Occlusion",
+      "Keratitis",
+      "Uveitis"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! These symptoms, especially the mid-dilated and non-reactive pupil alongside severe pain and nausea, point towards acute angle-closure glaucoma, which requires urgent treatment to prevent permanent damage.",
+    incorrectFeedback: "Consider the classic triad of symptoms: severe eye pain, nausea, and visual disturbance associated with a fixed mid-dilated pupil. Which condition fits this acute presentation?"
+  }
+]} />

@@ -1,263 +1,84 @@
-import MCQGroup from '@/components/MCQGroup'
 import { Callout } from 'nextra/components'
 
-# Acute Coronary Syndrome
-
-Acute Coronary Syndrome (ACS) is a critical cardiac condition characterized by acute ischemia or infarction of the myocardium. It is a common presentation in emergency medicine and a significant topic on exams like the MSRA and USMLE. Understanding ACS is essential for timely diagnosis and management, which can significantly impact patient outcomes.
-
-## Types of Acute Coronary Syndrome
-
-ACS refers to a continuum of conditions where there is acute ischemia or infarction of the myocardium. The three types are:
-
-1. **Unstable Angina (UA)**: Evidence of myocardial damage (e.g., chest pain at rest) without changes in cardiac biomarkers.
-2. **Non-ST-Elevation Myocardial Infarction (NSTEMI)**: Elevated cardiac biomarkers without ST elevation on ECG; represents a partial-thickness infarct.
-3. **ST-Elevation Myocardial Infarction (STEMI)**: Elevated cardiac biomarkers with persistent ST elevation on ECG; represents a full-thickness infarct.
-
-## Risk Factors
-
-Risk factors for ACS can be divided into:
-
-**Modifiable:**
-
-- **Smoking**
-- **Type 2 Diabetes**
-- **Hypertension**
-- **Hypercholesterolemia**
-- **Obesity**
-- **Sedentary Lifestyle**
-- **Cocaine Use**
-
-**Non-Modifiable:**
-
-- **Increasing Age**
-- **Male Gender**
-- **Family History**
-
-## Clinical Presentation
-
-### Symptoms
-
-Patients with ACS may present with:
-
-- **Central or left-sided "crushing" chest pain** radiating to the jaw or left arm
-- **Shortness of breath**
-- **Sweating**
-- **Nausea and vomiting**
-
-*Note: Atypical presentations (e.g., dyspepsia, absence of chest pain) may occur in females, diabetics, or the elderly.*
-
-### Physical Signs
-
-- Often, there are **few physical signs** in ACS patients.
-
-## Investigations
-
-### Bedside
-
-- **Basic Observations**
-- **Serial ECGs**
-
-  - **STEMI**: ST-elevation in specific leads depending on the area of infarction.
-  - **NSTEMI or UA**: T-wave inversion or ST-depression.
-  - *Continuous ECG changes suggest an evolving myocardial infarction.*
-
-#### ECG Lead Changes and Corresponding Territories
-
-| Heart Territory | Coronary Artery                                                                                           | Leads Showing Ischemic Changes                                             |
-|-----------------|-----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
-| **Lateral**     | Left circumflex artery                                                                                    | I, aVL, V5, V6                                                            |
-| **Anteroseptal**| Left anterior descending artery                                                                           | V1 – V4                                                                   |
-| **Inferior**    | Posterior descending artery (from right coronary in 80% or left circumflex in 20%)                         | II, III, aVF                                                              |
-| **Posterior**   | Posterior descending artery (from right coronary in 80% or left circumflex in 20%)                         | *Reciprocal changes*: Prominent R waves, flat ST depression, T-wave inversion in V1-V4 |
-
-### Detailed ECG Changes
-
-<details>
-<summary>Click here for detailed ECG changes and their significance</summary>
-
-- **ST-Elevation**: Indicates transmural (full-thickness) myocardial infarction.
-- **T-Wave Inversion**: Suggests ischemia.
-- **ST-Depression**: May indicate subendocardial ischemia or NSTEMI.
-- **Reciprocal Changes**: ST-depression in leads opposite to those with ST-elevation.
-
-</details>
-
-### Blood Tests
-
-- **Cardiac Markers**
-
-  - **Troponin**: Raised in NSTEMI and STEMI 4-6 hours after injury; remains elevated for up to 10 days.
-
-    <Callout emoji="💡">
-    **Note:** Troponin levels can remain elevated for up to 10 days after myocardial injury.
-    </Callout>
-
-  - **CK-MB** and **Myoglobin** can also be measured.
-
-- **Full Blood Count (FBC)**: Check for anemia.
-- **Urea and Electrolytes (U&E)**: Hyperkalemia may cause arrhythmias.
-- **Blood Glucose and Lipid Profile**: Assess for risk factors.
-
-### Imaging
-
-- **Coronary Angiogram**: The diagnostic investigation of choice.
-- **Chest X-ray**: To exclude differential diagnoses like pneumothorax.
-- **Echocardiogram (ECHO)**: Assess heart function.
-
-## Emergency Management
-
-As in any emergency, an **ABCDE approach** should be taken when a patient presents with ACS.
-
-### Immediate Management
-
-All ACS patients should initially receive:
-
-- **Oxygen** if `SpO2 <94%`
-- **Analgesia** – commonly **morphine**
-- **Nitrates** (e.g., glyceryl trinitrate)
-- **Aspirin 300 mg**
-
-## Management
-
-Management depends on whether the diagnosis is STEMI, NSTEMI, or UA.
-
-### Management of STEMI
-
-- **If symptom onset is `<12 hours` and PCI is available within 120 minutes:**
-
-  - Administer anticoagulants.
-  - Proceed to **Percutaneous Coronary Intervention (PCI)**.
-
-- **If symptom onset is `<12 hours` and PCI is not available within 120 minutes:**
-
-  - Administer anticoagulants.
-  - Begin **thrombolysis** with drugs such as **alteplase**.
-
-- **If symptom onset is `>12 hours`:**
-
-  - **Medical Management:**
-
-    - Offer **ticagrelor** with **aspirin** unless high bleeding risk.
-    - Consider **clopidogrel** with **aspirin**, or **aspirin alone**, for high bleeding risk.
-
-For more information, see: [NICE Guidelines on STEMI](https://www.nice.org.uk/guidance/ng185/resources/visual-summary-stemi-pdf-8900623405)
-
-### Management of NSTEMI and Unstable Angina
-
-Patients are risk stratified using the **GRACE score**.
-
-- **Low Risk:**
-
-  - Consider conservative management without angiography.
-  - Offer **ticagrelor** with **aspirin** unless high bleeding risk.
-  - Consider **clopidogrel** with **aspirin**, or **aspirin alone**, for high bleeding risk.
-
-- **High Risk:**
-
-  - If clinically unstable, provide immediate angiography.
-  - Otherwise, consider angiography (with follow-on PCI if indicated) within 72 hours if no contraindications.
-  - If no separate indication for oral anticoagulation, offer **ticagrelor** with **aspirin**.
-  - If there is a separate indication for oral anticoagulation, offer **clopidogrel** with **aspirin**.
-
-For more information, see: [NICE Guidelines on NSTEMI and UA](https://www.nice.org.uk/guidance/ng185/resources/visual-summary-unstable-angina-nstemi-pdf-8900622109)
-
-### Long-term Management
-
-- **Beta Blocker** – often **bisoprolol** as it is cardioselective.
-- **ACE-Inhibitor**.
-- **Dual Antiplatelet Therapy** for 1 year, then **aspirin 75 mg** indefinitely.
-- **High-dose Statin** (e.g., **atorvastatin 80 mg**).
-
-## Complications
-
-Patients should be monitored for complications and treated accordingly.
-
-### Early Complications (`<2 weeks`)
-
-- **Arrhythmias**
-- **Ventricular Septal Defect**
-- **Mitral Regurgitation** due to papillary muscle rupture
-- **Ventricular Wall Rupture**
-- **Pericarditis**
-
-### Late Complications (`>2 weeks`)
-
-- **Heart Failure**
-- **Dressler's Syndrome**
-
-  <Callout emoji="💡">
-  **Note:** Dressler's syndrome is an autoimmune pericarditis occurring weeks after myocardial infarction; it is managed with NSAIDs.
-  </Callout>
-
-- **Ventricular Aneurysm**
-
-## Risk Factor Modification
-
-Long-term management includes addressing modifiable risk factors:
-
-- **Good Diabetic Control**
-- **Smoking Cessation**
-- **Blood Pressure Control**
-- **Statin Therapy** for hypercholesterolemia
-- **Diet and Exercise**
-
-<MCQGroup questions={[
-  {
-    question: "A 60-year-old man with a history of hypertension and type 2 diabetes presents to the emergency department with sudden onset chest pain radiating to his left arm. An ECG shows ST-elevation in leads II, III, and aVF. His vital signs are stable, and he is not allergic to any medications. The nearest PCI-capable facility is 3 hours away. What is the most appropriate next step in management?",
-    options: [
-      "Administer aspirin and arrange immediate transfer for PCI.",
-      "Begin thrombolytic therapy with alteplase.",
-      "Administer nitrates and observe for symptom resolution.",
-      "Schedule coronary angiography within 72 hours.",
-      "Start dual antiplatelet therapy and beta-blockers, and manage medically."
-    ],
-    correctAnswer: 1,
-    correctFeedback: "Correct! Since PCI cannot be performed within 120 minutes, and symptom onset was less than 12 hours ago, thrombolytic therapy is indicated.",
-    incorrectFeedback: "Consider the guidelines for STEMI management when PCI is not available within 120 minutes."
-  },
-  {
-    question: "A 72-year-old woman presents with chest pain and shortness of breath. ECG shows T-wave inversion in leads V1-V4. Troponin levels are elevated. She is hemodynamically stable. Her GRACE score indicates high risk. What is the most appropriate management plan?",
-    options: [
-      "Begin immediate thrombolytic therapy.",
-      "Offer conservative management without angiography.",
-      "Arrange immediate angiography with possible PCI.",
-      "Start medical management and schedule angiography within 72 hours.",
-      "Discharge with outpatient follow-up in one week."
-    ],
-    correctAnswer: 3,
-    correctFeedback: "Correct! High-risk NSTEMI patients who are hemodynamically stable should receive medical management and undergo angiography within 72 hours.",
-    incorrectFeedback: "Immediate angiography is reserved for unstable patients. Consider the appropriate timing for angiography in high-risk but stable NSTEMI patients."
-  },
-  {
-    question: "A 65-year-old man who recently suffered a STEMI presents two weeks later with chest pain and fever. An ECG shows diffuse ST-elevation and PR depression. What is the most likely diagnosis?",
-    options: [
-      "Reinfarction",
-      "Ventricular aneurysm",
-      "Dressler's syndrome",
-      "Pericardial tamponade",
-      "Pulmonary embolism"
-    ],
-    correctAnswer: 2,
-    correctFeedback: "Correct! Dressler's syndrome is an autoimmune pericarditis occurring weeks after myocardial infarction, characterized by chest pain, fever, and ECG changes.",
-    incorrectFeedback: "Consider complications that can occur weeks after a myocardial infarction and their typical presentations."
-  },
-  {
-    question: "A patient is started on dual antiplatelet therapy after a STEMI. Which of the following combinations is appropriate for a patient with a high bleeding risk?",
-    options: [
-      "Aspirin with ticagrelor",
-      "Aspirin with clopidogrel",
-      "Aspirin alone",
-      "Clopidogrel alone",
-      "Aspirin with prasugrel"
-    ],
-    correctAnswer: 1,
-    correctFeedback: "Correct! In patients with high bleeding risk, aspirin with clopidogrel is appropriate.",
-    incorrectFeedback: "Recall that ticagrelor is associated with a higher bleeding risk compared to clopidogrel."
-  }
-]} />
-
-## References
-
-1. [NICE Guideline NG185: Acute coronary syndromes](https://www.nice.org.uk/guidance/ng185/chapter/Recommendations#unstable-angina-and-nstemi-early-management)
-2. [NICE Visual Summary: STEMI](https://www.nice.org.uk/guidance/ng185/resources/visual-summary-stemi-pdf-8900623405)
-3. [NICE Visual Summary: Unstable Angina and NSTEMI](https://www.nice.org.uk/guidance/ng185/resources/visual-summary-unstable-angina-nstemi-pdf-8900622109)
+# Welcome to MSRA.uk
+
+👋 Hey mates! I built this resource to help medical students like me prepare for the MSRA exams. While this isn't officially affiliated with MSRA, it's a collection of study notes and resources that helped me along my journey.
+
+## About the MSRA Exam
+
+The **Multi-Specialty Recruitment Assessment (MSRA)** is a computer-based assessment that serves as a critical gateway for numerous medical specialties in the UK. The exam consists of two main components:
+
+### 1. Professional Dilemmas (PD) Paper
+- 50 scenarios in 95 minutes
+- Tests professional decision-making abilities
+- Focuses on:
+  - Professional Integrity
+  - Coping with Pressure
+  - Empathy and Sensitivity
+
+### 2. Clinical Problem Solving (CPS) Paper
+- 86 questions in 75 minutes
+- Tests applied medical knowledge across 12 clinical areas:
+  - Cardiovascular
+  - Dermatology/ENT/Eyes
+  - Endocrinology/Metabolic
+  - Gastroenterology/Nutrition
+  - Infectious Disease/Haematology/Immunology/Allergies/Genetics
+  - Musculoskeletal
+  - Paediatrics
+  - Pharmacology and Therapeutics
+  - Psychiatry/Neurology
+  - Renal/Urology
+  - Reproductive
+  - Respiratory
+
+## How to Prepare
+
+### Recommended Timeline
+- Start preparation 3-4 months before the exam
+- Dedicate consistent study time around clinical duties
+- Focus on both clinical knowledge and professional scenarios
+
+### Study Resources
+1. **Official Resources**
+- [MSRA Practice Paper](https://gprecruitment.hee.nhs.uk/Recruitment/Applicant-Guidance/MSRA)
+- [Pearson VUE Test Tutorial](https://www.pearsonvue.com)
+- [Oriel Application System](https://www.oriel.nhs.uk)
+
+2. **Question Banks**
+- Various commercial question banks available
+- Focus on MSRA-specific questions
+- Practice timed mock exams
+
+3. **Professional Dilemmas**
+- Review GMC Good Medical Practice
+- Study ethical guidelines
+- Practice situational judgment scenarios
+
+## Important Links
+
+- [Official MSRA Information](https://gprecruitment.hee.nhs.uk/Recruitment/Applicant-Guidance/MSRA)
+- [Specialty Training Information](https://specialtytraining.hee.nhs.uk)
+- [Pearson VUE Test Centers](https://www.pearsonvue.com)
+
+## Exam Tips
+
+1. **Time Management**
+- Approximately 46 seconds per Clinical Problem Solving question
+- About 114 seconds per Professional Dilemmas question
+- Practice with timed conditions
+
+2. **Exam Strategy**
+- No negative marking - answer all questions
+- Read instructions carefully
+- Use the medical glossary provided during the exam
+- Flag uncertain questions for review if time permits
+
+3. **Exam Day Preparation**
+- Arrive 15 minutes early
+- Bring government-issued photo ID
+- Optional 5-minute break between papers
+
+<Callout type="warning">
+**Disclaimer**: This website is created by medical students for medical students. While we strive for accuracy, please always refer to official MSRA guidelines and resources for the most up-to-date information.
+</Callout>

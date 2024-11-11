@@ -1,0 +1,47 @@
+{
+  "---1": {
+    "type": "separator",
+    "title": "Red Eye & Emergency"
+  },
+  "causes-of-red-eye": "🔴 Causes of Red Eye",
+  "acute-angle-closure-glaucoma": "⚡ Acute Angle Closure Glaucoma",
+  "acute-iritis": "🔥 Acute Iritis",
+
+  "---2": {
+    "type": "separator",
+    "title": "Glaucoma"
+  },
+  "open-angle-glaucoma": "👁️ Open Angle Glaucoma",
+  "raised-intraocular-pressure": "📈 Raised Intraocular Pressure",
+
+  "---3": {
+    "type": "separator",
+    "title": "Retinal Conditions"
+  },
+  "age-relatedmaculardegeneration": "👴 Age-Related Macular Degeneration",
+  "central-retinal-artery-occlusion": "🚫 Central Retinal Artery Occlusion",
+  "diabetic-retinopathy": "🔬 Diabetic Retinopathy",
+  "diabetic-maculopathy": "🎯 Diabetic Maculopathy",
+
+  "---4": {
+    "type": "separator",
+    "title": "Vision & Optics"
+  },
+  "cataract": "🌫️ Cataract",
+  "myopia": "👓 Myopia",
+  "visual-disturbance": "👀 Visual Disturbance",
+
+  "---5": {
+    "type": "separator",
+    "title": "Neuro-ophthalmology"
+  },
+  "optic-neuritis": "🧠 Optic Neuritis",
+  "toxic-optic-neuropathy": "⚠️ Toxic Optic Neuropathy",
+  "horners-syndrome": "⚡ Horner's Syndrome",
+
+  "---6": {
+    "type": "separator",
+    "title": "Clinical Skills"
+  },
+  "fundoscopy-interpretation": "🔍 Fundoscopy Interpretation"
+} 

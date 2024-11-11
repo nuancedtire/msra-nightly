@@ -1,0 +1,165 @@
+import MCQGroup from '@/components/MCQGroup'
+import { Callout } from 'nextra/components'
+
+# Optic Neuritis: A Comprehensive Overview
+
+## Introduction
+
+Optic neuritis is the **inflammation of the optic nerve** and can arise from a variety of different aetiological causes. Understanding these causes is crucial for effective diagnosis and management.
+
+### **Common Causes of Optic Neuritis**
+
+- **Acute demyelinating optic neuritis**
+  - Associated with *multiple sclerosis*
+  
+- **Ischaemic optic neuritis**
+  - Often linked to *giant cell arteritis*
+  
+- **Inflammatory optic neuritis**
+  - Related to conditions such as *Systemic Lupus Erythematosus (SLE)* and *neuromyelitis optica (NMO)*
+  
+- **Infective optic neuritis**
+  - Caused by infections such as *tuberculosis (TB)*, *syphilis*, *cryptococcosis*, and *measles*
+  
+- **Nutritional deficiencies**
+  - Notably *vitamin B12 deficiency*
+  
+- **Drug-induced**
+  - Medications like *amiodarone*, *isoniazid*, and *ethambutol*
+  
+- **Inherited conditions**
+  - Such as *Leber’s optic atrophy*
+
+## Diagnosis
+
+The diagnosis of optic neuritis is primarily clinical and involves the classical triad of symptoms:
+
+1. **Blurry Vision**
+2. **Pain** (worsening with eye movement)
+3. **Impaired Colour Vision** (notably *red desaturation*)
+
+### **Additional Symptoms**
+
+Possibly observed symptoms include:
+
+- **Photopsia**
+- **Uhthoff’s phenomenon** (worsening of symptoms with increased temperature)
+- **Pulfrich’s phenomenon** (objects appear to move on a curved trajectory)
+
+### **Physical Examination Findings**
+
+A notable physical sign is the **relative afferent pupillary defect**, often referred to as a *Marcus Gunn pupil*, in which:
+
+- The affected eye dilates when light is shone in it after being exposed to light in the contralateral eye.
+  
+This response is due to the affected eye detecting less light because of the defect in the afferent pathway.
+
+## Investigations
+
+In suspected cases of optic neuritis, initial assessments should include a comprehensive ophthalmological evaluation:
+
+- **Visual acuity**
+- **Visual fields**
+- **Colour vision**
+- **Eye movement assessments**
+- **Fundoscopy/slit-lamp examination**
+
+Specific investigations may be necessary to determine underlying causes:
+
+| Condition                     | Investigations                                           |
+|-------------------------------|---------------------------------------------------------|
+| Multiple sclerosis            | MRI brain and spine scans to identify demyelinating lesions |
+| Giant cell arteritis          | ESR and temporal artery biopsy                           |
+| Neuromyelitis optica         | Serological NMO-IgG testing                             |
+| Inflammatory causes           | Autoantibody testing                                    |
+
+## Management (Prescribing)
+
+### **Treatment Options**
+
+- **Methylprednisolone**: Administered to expedite recovery but does not influence final visual acuity; *oral prednisolone* is not recommended due to an increased risk of recurrence.
+  
+- **Specific treatments based on underlying causes**:
+  
+  - **Giant cell arteritis**: High-dose corticosteroids
+  - **Vitamin B12 deficiency**: Supplementation
+  - **Multiple sclerosis**: Consider disease-modifying drugs such as:
+    - Interferon-beta
+    - Glatiramer acetate
+    - Fingolimod
+    - Natalizumab
+    - Alemtuzumab
+  - **NMO**: IV steroids and plasma exchange therapy for the acute phase
+
+## Management (Non-Prescribing)
+
+### **Symptom Management**
+
+- **Pulfrich’s phenomenon**: Can be alleviated by using spectacles with a tinted lens over the unaffected eye, to balance conduction delays.
+
+- **Uhthoff's phenomenon**: Patients should be advised to avoid hot environments and consume cool drinks. It's important to reassure patients that the symptoms are reversible and do not lead to further vision damage.
+
+<Callout emoji="⚠️">
+**Warning:** There is no treatment that can reverse a poor long-term visual outcome.
+</Callout>
+
+## References
+
+[Patient.info - Acute Optic Neuritis](https://patient.info/doctor/acute-optic-neuritis)
+
+---
+
+<MCQGroup questions={[
+  {
+    question: "A 35-year-old woman presents with a 2-week history of progressive vision loss in her right eye, accompanied by pain that worsens with eye movement. Examination reveals a relative afferent pupillary defect in the right eye. Which of the following is the most likely diagnosis?",
+    options: [
+      "Acute demyelinating optic neuritis",
+      "Ischaemic optic neuritis",
+      "Giant cell arteritis",
+      "Leber's optic atrophy",
+      "Nutritional optic neuropathy"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! The presentation is characteristic of acute demyelinating optic neuritis, which is often associated with multiple sclerosis. Symptoms such as acute vision loss, pain on eye movement, and relative afferent pupillary defect are key indicators. This condition reflects inflammation of the optic nerve.",
+    incorrectFeedback: "Consider the age and symptoms of the patient. Pain worsening with eye movement and the presence of a relative afferent pupillary defect strongly suggest an inflammatory cause rather than vascular or nutritional origins."
+  },
+  {
+    question: "Which of the following treatments is NOT recommended for patients with optic neuritis to improve long-term visual outcomes?",
+    options: [
+      "Intravenous methylprednisolone",
+      "Oral prednisolone",
+      "Disease-modifying drugs for multiple sclerosis",
+      "Plasma exchange therapy for NMO",
+      "Corticosteroids for giant cell arteritis"
+    ],
+    correctAnswer: 1,
+    correctFeedback: "Correct! Oral prednisolone is not recommended after optic neuritis due to the increased risk of recurrence. However, intravenous methylprednisolone can expedite recovery without influencing final visual outcomes, making it the preferred initial treatment.",
+    incorrectFeedback: "Review the management options for optic neuritis. Pay attention to which treatments are aimed at reducing the risk of recurrence versus those that directly influence long-term outcomes."
+  },
+  {
+    question: "A 42-year-old man with a history of multiple sclerosis experiences worsening vision and color desaturation in both eyes. Upon examination, he demonstrates photopsia and a relative afferent pupillary defect in his left eye. Which of the following additional investigations would be most appropriate for this patient?",
+    options: [
+      "MRI brain and spine scans",
+      "Temporal artery biopsy",
+      "Serological NMO-IgG testing",
+      "Visual field testing",
+      "Autoantibody testing"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! In a patient with multiple sclerosis and worsening optic symptoms, MRI brain and spine scans are essential to identify any new demyelinating lesions that may be contributing to the optic neuritis.",
+    incorrectFeedback: "Hint: Consider the patient's underlying condition and which imaging method would provide the best information about demyelination. Understanding the role of MRI in monitoring multiple sclerosis is crucial."
+  },
+  {
+    question: "A 60-year-old woman with a recent diagnosis of giant cell arteritis experiences sudden vision loss in her right eye. Which immediate intervention is essential to prevent further visual loss?",
+    options: [
+      "Intravenous corticosteroids",
+      "Oral vitamin B12 supplementation",
+      "Visual field assessment",
+      "Optic nerve fenestration",
+      "Ocular massage"
+    ],
+    correctAnswer: 0,
+    correctFeedback: "Correct! High-dose intravenous corticosteroids are critical in managing giant cell arteritis to prevent further vision loss. Prompt treatment is necessary due to the risk of ischemic optic neuropathy associated with this condition.",
+    incorrectFeedback: "Think about the urgency of the patient's condition and the underlying cause. Inflammatory conditions like giant cell arteritis require immediate aggressive treatment to mitigate complications."
+  }
+]} />

@@ -35,7 +35,7 @@ Using the provided article content, create a comprehensive medical article in MD
    - Italicize notes or exceptions.
    - Use inline code formatting (backticks) to escape special characters (e.g., `SpO2 <94%`, `<12 hours`).
    - Present data using Markdown tables where appropriate.
-   - Use callouts to highlight important notes or warnings:
+   - Use callouts to highlight important notes or warnings. For example:
 
      ```mdx
      <Callout emoji="💡">
@@ -43,7 +43,7 @@ Using the provided article content, create a comprehensive medical article in MD
      </Callout>
      ```
 
-   - Use foldable sections for additional or extended information:
+   - Use foldable sections for additional or extended information. Use the `summary` tag to provide a concise title for the foldable section. For example:
 
      ```mdx
      <details>
