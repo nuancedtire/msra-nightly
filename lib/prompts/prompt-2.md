@@ -1,10 +1,10 @@
-Based on the article content, create 3-4 MCQs that would be appropriate at the end of the article to assess comprehension. Include the MCQs in the MDX file, formatted as specified.
+Based on the article content, create 3-4 MCQs that would be appropriate at the end of the article to assess comprehension. The MCQs will be included in the MDX file, formatted as specified.
 
 
 **MCQs:**
 
    - At the end of the article, include an `<MCQGroup>` component.
-   - Provide 3-4 challenging USMLE-style MCQs.
+   - Provide 3-4 challenging USMLE-style MCQs in the style and depth of the example below.
    - Detailed explanation as feedback if correct, and helpful hints guiding towards the answer without giving way the answer as feedback if incorrect
    - Each question should be an object with the following properties like the example below:
 

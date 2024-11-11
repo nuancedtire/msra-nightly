@@ -18,8 +18,11 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
-    }
+      "@/*": [
+        "./*"
+      ]
+    },
+    "target": "ES2017"
   },
   "include": [
     "next-env.d.ts",
@@ -28,8 +31,9 @@
     "**/*.js",
     "**/*.jsx",
     "**/*.mdx",
-    ".next/types/**/*.ts"
-, "lib/test_script.mjs"  ],
+    ".next/types/**/*.ts",
+    "lib/test_script.mjs"
+  ],
   "exclude": [
     "node_modules"
   ]

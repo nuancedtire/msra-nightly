@@ -16,18 +16,20 @@ Using the provided article content, create a comprehensive medical article in MD
    - At the beginning of the MDX file, include the import statements:
 
      ```mdx
-     import MCQGroup from '../components/MCQGroup'
+     import MCQGroup from '@/components/MCQGroup'
      import { Callout } from 'nextra/components'
      ```
 
-2. **Article Title and Introduction:**
+2. **Article Title:**
 
-   - Use `#` for the main title.
-   - Provide a brief introduction summarizing the topic's significance and relevance to the MSRA exam.
+   - Use an appropriate and relevant title for the article.
+   - Use `#` for the main title..
 
 3. **Content Structure and Formatting:**
 
    - Organize content into logical sections using headings (`##`, `###`, etc.).
+   - We do not need to include any overview or conclusion sections.
+   - Keep information succinct and to the point without losing any important details.
    - Use bullet points and numbered lists for clarity.
    - Bold key terms or important concepts.
    - Italicize notes or exceptions.
