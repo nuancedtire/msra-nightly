@@ -1,0 +1,50 @@
+{
+  "---1": {
+    "type": "separator",
+    "title": "Airway Diseases"
+  },
+  "asthma": "🌬️ Asthma",
+  "bronchitis": "😤 Bronchitis",
+  "bronchiectasis": "🫁 Bronchiectasis",
+  "copd": "🚬 COPD",
+  "chronic-lung-disease": "🫧 Chronic Lung Disease",
+
+  "---2": {
+    "type": "separator",
+    "title": "Infections"
+  },
+  "pneumonia": "🦠 Pneumonia",
+  "bronchopneumonia": "🔬 Bronchopneumonia",
+  "community-acquired-pneumonia": "🏠 Community Acquired Pneumonia",
+  "hospital-acquired-pneumonia": "🏥 Hospital Acquired Pneumonia",
+  "tuberculosis": "🫁 Tuberculosis",
+
+  "---3": {
+    "type": "separator",
+    "title": "Pleural Conditions"
+  },
+  "pneumothorax": "💨 Pneumothorax",
+  "tension-pneumothorax": "⚠️ Tension Pneumothorax",
+  "haemothorax": "🩸 Haemothorax",
+
+  "---4": {
+    "type": "separator",
+    "title": "Occupational Lung Disease"
+  },
+  "asbestosis": "⚠️ Asbestosis",
+  "hypersensitivity-pneumonitis": "🌿 Hypersensitivity Pneumonitis",
+  "malignant-mesothelioma": "🎗️ Malignant Mesothelioma",
+
+  "---5": {
+    "type": "separator",
+    "title": "Malignancy"
+  },
+  "lung-cancer": "🎗️ Lung Cancer",
+
+  "---6": {
+    "type": "separator",
+    "title": "Other Conditions"
+  },
+  "pulmonary-embolism": "🚨 Pulmonary Embolism",
+  "systemic-causes-of-breathlessness": "😮‍💨 Systemic Causes of Breathlessness"
+} 
