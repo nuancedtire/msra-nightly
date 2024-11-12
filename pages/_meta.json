@@ -8,6 +8,13 @@
         "breadcrumb": false
     }
   },
+  "sjt": {
+    "title": "🤔 Professional Dilemmas",
+    "theme": {
+      "typesetting": "article",
+      "breadcrumb": false
+    }
+  },
   "---": {
     "type": "separator"
   },

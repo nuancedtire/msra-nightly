@@ -1,5 +1,19 @@
+import Image from 'next/image'
+
+const Logo = () => (
+  <div style={{ display: 'flex', alignItems: 'center' }}>
+    <Image 
+      src="/logo.png"
+      alt="MSRA.uk"
+      width={40}
+      height={40}
+    />
+    <h1 style={{ marginLeft: '20px', }}>MSRA.uk</h1>
+  </div>
+)
+
 export default {
-  logo: <span>MSRA.uk</span>,
+  logo: Logo,
   useNextSeoProps() {
     return {
       titleTemplate: '%s – MSRA Study Notes'
