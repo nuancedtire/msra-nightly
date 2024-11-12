@@ -50,7 +50,6 @@ Based on the article content, create 3-4 challenging USMLE-style multiple-choice
      {
        question: "A 67-year-old woman with a history of hypertension and type 2 diabetes presents to the emergency department with crushing chest pain. ECG shows ST-segment elevation in leads V1-V4. She undergoes successful primary percutaneous coronary intervention (PCI) with a drug-eluting stent placed in the proximal left anterior descending artery (LAD). Two days later, she develops new-onset atrial fibrillation with a CHA₂DS₂-VASc score of 4. Her medications include metformin, lisinopril, and atorvastatin. Which of the following antithrombotic regimens is most appropriate at discharge?",
        options: [
-         "Aspirin 81 mg daily plus warfarin (INR target 2-3)",
          "Aspirin 81 mg daily plus clopidogrel 75 mg daily",
          "Triple therapy with aspirin, clopidogrel, and warfarin for 6 months, then warfarin alone",
          "Aspirin 81 mg daily plus clopidogrel 75 mg daily plus rivaroxaban 15 mg daily",

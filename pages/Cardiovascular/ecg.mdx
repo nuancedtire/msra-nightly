@@ -1,202 +1,204 @@
 import MCQGroup from '@/components/MCQGroup'
 import { Callout } from 'nextra/components'
 
-# Electrocardiography: Techniques and Interpretation
+# Understanding Electrocardiography (ECG)
 
-Electrocardiography (ECG) is a diagnostic technique that allows visualization of the **electrical activity of the heart** over time, enabling the interpretation of cardiac rhythm and detection of various abnormalities including:
-
-- Myocardial ischemia and infarction
-- Arrhythmias
-- Electrolyte abnormalities
-- Hypertrophy
-
-The most common types are the **12-lead electrocardiogram** which utilizes 10 electrodes and rhythm strips.
+Electrocardiography is a diagnostic tool that visualizes the heart's electrical activity over time. It assists in interpreting cardiac rhythms and identifying abnormalities such as myocardial ischemia and infarction, arrhythmias, electrolyte imbalances, and hypertrophy. The most common form is the 12-lead electrocardiogram.
 
 ## Technique
 
-In a standard `12-lead ECG`, the patient should lie down in a supine position. The following 10 electrodes should be attached as depicted below:
+In a standard 12-lead ECG, the patient should lie in a supine position. Ten electrodes are used: six precordial leads and four limb leads, arranged as follows:
 
-![Electrode Placement](https://medibuddy.co.uk/wp-content/uploads/2020/07/ECG1.png)
+![ECG Electrode Placement](https://medibuddy.co.uk/wp-content/uploads/2020/07/ECG1.png)
 
-| Lead | Placement |
-|------|-----------|
-| V1   | 4th intercostal space, right sternal edge |
-| V2   | 4th intercostal space, left sternal edge |
-| V3   | Between V2 and V4 |
-| V4   | 5th intercostal space, midclavicular line |
-| V5   | Anterior axillary line at the same level as V4 |
-| V6   | Midaxillary line at the same level as V4 and V5 |
+- `V1`: 4th intercostal space, right sternal edge
+- `V2`: 4th intercostal space, left sternal edge
+- `V3`: Between `V2` and `V4`
+- `V4`: 5th intercostal space, midclavicular line
+- `V5`: Anterior axillary line, same level as `V4`
+- `V6`: Midaxillary line, same level as `V4` and `V5`
 
 ## Describing ECG
 
-![ECG Interpretation](https://medibuddy.co.uk/wp-content/uploads/2020/07/ECG2.png)
+![ECG Analysis](https://medibuddy.co.uk/wp-content/uploads/2020/07/ECG2.png)
 
-1. **Rate** - Normal rate is `60-100 bpm`.
-   - If **regular**: Measure the distance between two consecutive R-waves.
-     - On `25 mm/s` paper: Divide `1500` by the R-R distance (number of small squares).
-     - On `50 mm/s` paper: Divide `3000` by the R-R distance.
-   - If **irregular**: Count the number of QRS complexes on a `6-second strip` (15 cm on `25 mm/s` paper) and multiply by `10`.
+### Rate
 
-2. **Rhythm** - Regularity: If regular, it could be:
-   - **Regular**
-   - **Regularly Irregular**
-   - **Irregularly Irregular**
+- **Normal:** `60-100 bpm`
+- For regular rhythm, measure the distance between two consecutive P-waves (atrial rate) and R-waves (ventricular rate). 
+  - On `25 mm/s` paper, divide `1500` by the R-R interval (in small squares).
+  - On `50 mm/s` paper, divide `3000` by the R-R interval.
+- For irregular rhythm, count the QRS complexes in a `6-second strip` and multiply by `10`.
 
-   Types include:
-   - **Sinus** 
-   - **Atrial**
-   - **Ventricular Rhythm**
+### Rhythm
 
-   **Normal Sinus Rhythm** features:
-   - Regular rate, `60-100 bpm`
-   - P-wave before each QRS complex
-   - P-wave duration `0.06-0.12 seconds`
-   - Positive in leads I, II, aVF and V2-V6; negative in aVR, amplitudes `≤3 mm`
-   - QRS complexes similar in shape, duration `<0.12 seconds`
-   - PR intervals (from start of the P wave to start of the QRS complex) – duration `0.12-0.2 seconds`
-   - T wave upright in leads I and II, amplitude up to `10 mm` in precordial leads
-   - QT intervals usually `0.38-0.42 seconds`
+- **Types:** Sinus, atrial, or ventricular rhythm.
+- **Normal Sinus Rhythm:**
+  - Regular, `60-100 bpm`
+  - P wave precedes each QRS complex, is regular, `0.06-0.12s`, positive in leads I, II, aVF, and V2-V6; negative in aVR, amplitude `≤3mm`
+- **QRS Complexes:** Consistent shape, duration `<0.12s`
+- **PR Intervals:** `0.12-0.2s`
+- **T Wave:** Upright, round in leads I and II, amplitude `0.5 mm` in leads I, II, III; up to `10mm` in precordial leads
+- **QT Intervals:** Typically `0.38-0.42s`
 
-3. **Axis** - Normal axis is between `-30 to +90`. 
-   - Left-deviated: `<-30`
-   - Right-deviated: `>+90`
-   - Approximate assessment:
-     - If both leads I and aVF are positive: normal axis.
-     - If lead I is positive and aVF negative: left-deviated axis.
-     - If lead I is negative and aVF positive: right-deviated axis.
-     - If both negative: indeterminate axis.
+### Axis
+
+- **Normal:** Between `-30` to `+90`
+- **Left Deviation:** `<-30`
+- **Right Deviation:** `>+90`
+- **Assessment:** Evaluate net QRS deflection in leads I and aVF. If both are positive, the axis is normal. If lead I is positive and aVF is negative, it's left-deviated. If lead I is negative and aVF is positive, it's right-deviated. If both are negative, the axis is indeterminate.
 
 ## Abnormal ECG
 
-1. **Sinus Rhythm Abnormalities**
-   - **Sinus Tachycardia**:
-     - Normal P wave and PR interval
-     - Rate `>100 bpm`
-   - **Sinus Bradycardia**:
-     - Normal P wave and PR interval
-     - Rate `<60 bpm`
+### Sinus Rhythm Abnormalities
 
-2. **Other Rhythms**
-   - **Atrial Fibrillation (AF)**:
-     - Irregular rhythm, absent P waves, replaced by uneven baseline F waves
-     - If ventricular rate `>100 bpm`: uncontrolled AF; if `<100 bpm`: controlled AF
-     - Atrial rate `>400 bpm`
+- **Sinus Tachycardia:** Normal P wave and PR interval, rate `>100 bpm`
+- **Sinus Bradycardia:** Normal P wave and PR interval, rate `<60 bpm`
 
-   - **Atrial Flutter (AFl)**:
-     - Regular rhythm, atrial rate `250-400 bpm`, abnormal P waves with a “saw-toothed” shape.
+### Other Rhythms
 
-   - **Ventricular Tachycardia**:
-     - Wide, regular QRS complexes `>0.12 seconds`, ventricular rate `100-250 bpm`, with indiscernible P waves.
-     - If pulseless - shockable rhythm, requires defibrillation.
+#### Atrial Fibrillation (AF)
 
-   - **Ventricular Fibrillation**:
-     - Wide, irregular QRS `>0.12 seconds`, chaotic and rapid rhythm, P waves indiscernible.
-     - Shockable rhythm, requires defibrillation.
+![AF](https://medibuddy.co.uk/wp-content/uploads/2020/07/ECG3.png)
 
-   - **WPW – Wolff-Parkinson-White Syndrome**:
-     - Wide QRS `>0.12 seconds`, shortened PR interval `<0.12 seconds`, slurred R wave (delta wave).
+- Irregular rhythm, absent P waves replaced by uneven baseline F waves, irregularly irregular QRS complexes
+- **Ventricular Rate:** `>100 bpm` (uncontrolled AF), `<100 bpm` (controlled AF)
+- **Atrial Rate:** `>400 bpm`
+- T waves, PR, and QT intervals not discernible
 
-3. **Blocks**
-   - **Right Bundle Branch Block (RBBB)**:
-     - Wide QRS `>0.12 seconds`, rsR' waves with T-wave inversion in V1.
-   - **Left Bundle Branch Block (LBBB)**:
-     - Wide QRS `>0.12 seconds`, wide, deep S wave in V1 and slurred, wide R wave with T-wave inversion in V6.
-   - **1st Degree AV Block**:
-     - Regular rhythm, PR `>0.2 seconds`, normal P waves and QRS complexes.
-   - **2nd Degree AV Block Type I (Mobitz I = Wenckebach Phenomenon)**:
-     - Progressive elongation of PR interval until a P wave appears without a QRS complex (“missed beat”).
-   - **2nd Degree AV Block Type II (Mobitz II)**:
-     - Regular atrial rhythm with missed QRS complexes at a fixed ratio.
-   - **3rd Degree AV Block**:
-     - Complete heart block with independent P waves and QRS complexes.
+#### Atrial Flutter (AFl)
 
-4. **Hypertrophy**
-   - **Left Ventricular Hypertrophy (LVH)**:
-     - Sum of amplitudes of S wave in V1/V2 and R wave in V5/V6/aVR `≥35 mm` or R wave `≥12 mm` in aVL.
-   - **Right Atrial Hypertrophy**:
-     - Positive P wave `>3 mm` in leads I/II/III (P pulmonale).
-   - **Left Atrial Hypertrophy**:
-     - Negative P wave `>1 mm` in lead V1 (P cardiale).
+![AFl](https://medibuddy.co.uk/wp-content/uploads/2020/07/ECG4.png)
 
-5. **Metabolic Disturbances**
-   - **Hypokalaemia**: Flattened T wave, prominent U waves, peaked P waves.
-   - **Hyperkalaemia**: Peaked T wave, widened QRS, flattened or absent P waves.
-   - **Hypercalcaemia**: Shortened QT interval.
-   - **Hypocalcaemia**: Prolonged QT interval, small T waves.
+- Regular rhythm, atrial rate `250-400 bpm`
+- Abnormal P waves with "saw-toothed" F waves
 
-6. **Myocardial Infarction (Typical Findings)**
-   - Peaked T wave.
-   - ST elevation in 2 contiguous leads; `>1.5-2.5 mm` in V2-V3 and `>1 mm` in other leads.
-   - Reciprocal change: ST depression `>0.5 mm` in 2 contiguous leads check opposite leads (right-side view: rV3-rV4, posterior view: V7-V8).
-   - Pathological Q waves (`>40 ms` and deep and wide).
+#### Ventricular Tachycardia
 
-   **Location of ischemia based on ECG changes**:
-   - V1-V4: Anteroseptal
-   - V1-V2: Septum, right atrium
-   - V3-V4: Anterior wall (left ventricle)
-   - V5-V6, I, aVL: Lateral wall (left ventricle)
-   - II, III, aVF: Inferior wall (left ventricle)
-   - rV3-rV4: Right ventricle
+![Ventricular Tachycardia](https://medibuddy.co.uk/wp-content/uploads/2020/07/ECG5.png)
+
+- Wide, regular QRS complexes `>0.12s`, ventricular rate `100-250 bpm`
+- P waves not discernible
+- If pulseless, it's a shockable rhythm requiring defibrillation
+
+#### Ventricular Fibrillation
+
+![Ventricular Fibrillation](https://medibuddy.co.uk/wp-content/uploads/2020/07/ECG6.png)
+
+- Wide, irregular QRS `>0.12s`, chaotic rapid rhythm
+- P waves not discernible
+- Shockable rhythm needing defibrillation
+
+#### Wolff-Parkinson-White (WPW) Syndrome
+
+![WPW](https://medibuddy.co.uk/wp-content/uploads/2020/07/ECG7.png)
+
+- Wide QRS `>0.12s`, shortened PR interval `<0.12s`, slurred R wave (delta wave)
+- Diagnosis requires a history of confirmed tachyarrhythmia episodes
+
+### Blocks
+
+![Blocks](https://medibuddy.co.uk/wp-content/uploads/2020/07/ECG8.png)
+
+- **RBBB (Right Bundle Branch Block):** Wide QRS `>0.12s`, rsR’ waves with T-wave inversion in V1, widened S waves with positive T waves in V6
+- **LBBB (Left Bundle Branch Block):** Wide QRS `>0.12s`, wide, deep S wave in V1, slurred, wide R wave with T-wave inversion in V6, often elevated ST segments in V1-V4
+
+![AV Block](https://medibuddy.co.uk/wp-content/uploads/2020/07/ECG9-714x1024.png)
+
+- **1st Degree AV Block:** Regular rhythm, PR `>0.2s`, normal P waves and QRS complexes
+- **2nd Degree AV Block Type I (Mobitz I/Wenckebach):** Regular atrial rhythm with longer PR intervals until a P wave without a QRS complex appears ("missed beat"), then repeats
+- **2nd Degree AV Block Type II (Mobitz II):** Regular atrial rhythm with missed QRS complexes at a fixed ratio; may progress to complete block
+- **3rd Degree AV Block (Complete Heart Block):** Regular atrial and ventricular rhythms with no relationship, independent P waves and QRS complexes; ventricular rhythm depends on impulse origin (AV node `40-60 bpm`, Purkinje system `<40 bpm`)
+
+### Hypertrophy
+
+- **Left Ventricular Hypertrophy (LVH):** Sum of S wave in V1/V2 and R wave in V5/V6/aVR `≥35mm` or R wave `≥12mm` in aVL
+- **Right Atrial Hypertrophy:** Positive P wave `>3mm` in I/II/III leads (P pulmonale)
+- **Left Atrial Hypertrophy:** Negative P wave `>1mm` in V1 lead (P cardiale)
+
+### Metabolic Disturbance
+
+- **Hypokalemia:** Flattened T wave, prominent U waves, peaked P waves
+- **Hyperkalemia:** Peaked T wave, widened QRS, flattened or absent P waves
+- **Hypercalcemia:** Shortened QT interval
+- **Hypocalcemia:** Prolonged QT interval, small T waves
+
+### Myocardial Infarction
+
+- **Typical Findings:**
+  - Peaked T wave
+  - ST elevation in 2 contiguous leads: `>1.5-2.5mm` in V2-V3 and `>1mm` in other leads
+
+#### Reciprocal Change
+
+- ST depression `>0.5mm` in two contiguous leads
+  - **Location of Ischemia Based on ECG Changes:**
+    - V1-V4: Anteroseptal
+      - V1-V2: Septum, right atrium
+      - V3-V4: Anterior wall (left ventricle)
+    - V5-V6, I, aVL: Lateral wall (left ventricle)
+    - II, III, aVF: Inferior wall (left ventricle)
+    - rV3-rV4: Right ventricle
 
 **References**
 
-- ECG made incredibly easy 5th Ed.
-- Oxford Handbook for Clinical Medicine 10th Ed.
-- Pictures – en.wikipedia.org
+- [ECG Made Incredibly Easy, 5th Edition](https://www.wolterskluwer.com/en/solutions/lippincott-ecg-made-incredibly-easy)
+- [Oxford Handbook for Clinical Medicine, 10th Edition](https://global.oup.com/academic/product/oxford-handbook-of-clinical-medicine-9780199689903)
+- Images sourced from [Wikipedia](https://en.wikipedia.org/)
 
 ---
 
 <MCQGroup questions={[
   {
-    question: "During the interpretation of a 12-lead ECG, which of the following findings is characteristic of Atrial Fibrillation?",
+    question: "A 45-year-old male presents with palpitations and dizziness. His ECG shows an irregularly irregular rhythm with absent P waves and irregular QRS complexes. What is the most likely diagnosis?",
     options: [
-      "Regular rhythm with prominent P waves",
-      "Irregular rhythm with absent P waves and uneven baseline F waves",
-      "Regularly irregular rhythm with saw-toothed P waves",
-      "Wide, irregular QRS complexes greater than 0.12 seconds",
-      "Pulseless electrical activity with no identifiable rhythm"
+      "Atrial Flutter",
+      "Atrial Fibrillation",
+      "Ventricular Tachycardia",
+      "Wolff-Parkinson-White Syndrome",
+      "Sinus Tachycardia"
     ],
     correctAnswer: 1,
-    correctFeedback: "Correct! Atrial Fibrillation is characterized by an irregular rhythm and the absence of distinct P waves, which are replaced by an uneven baseline with F waves. This reflects chaotic atrial electrical activity. The other options describe different arrhythmias.",
-    incorrectFeedback: "Think about the distinct features of Atrial Fibrillation. Consider how P waves appear (or don't appear) and the nature of the rhythm. Compare it to the characteristics of other arrhythmias you know."
+    correctFeedback: "Correct! The features described are characteristic of Atrial Fibrillation, which is known for an irregularly irregular rhythm and absent P waves.",
+    incorrectFeedback: "Consider the description of the rhythm. An irregularly irregular rhythm with absence of P waves is a hallmark of Atrial Fibrillation, not the other options."
   },
   {
-    question: "A 70-year-old male presents with a wide QRS complex (>0.12 seconds) and a ventricular rate of 120 bpm. The rhythm is regular and he is conscious but reports feeling palpitations. Which abnormal rhythm is most likely present?",
+    question: "A 60-year-old female with a history of hypertension presents with chest pain. Her ECG shows ST-segment elevation in leads II, III, and aVF. Which area of the heart is most likely affected?",
     options: [
-      "Sinus Tachycardia",
-      "Atrial Flutter",
-      "Ventricular Tachycardia",
-      "Atrial Fibrillation",
-      "First Degree AV Block"
+      "Anterior wall",
+      "Lateral wall",
+      "Inferior wall",
+      "Septal wall",
+      "Right atrium"
     ],
     correctAnswer: 2,
-    correctFeedback: "Correct! The description of a wide QRS complex greater than 0.12 seconds with a rapid ventricular rate suggests Ventricular Tachycardia. This rhythm is characterized by ventricular depolarization occurring at a rapid rate without identifiable P waves. Other options either describe narrower QRS complexes or regular rhythms that do not match this presentation.",
-    incorrectFeedback: "Consider the criteria that define Ventricular Tachycardia, particularly the appearance of the QRS complex. Think about the implications of a wide QRS in a patient with palpitations and how it could affect their management."
+    correctFeedback: "Correct! ST-segment elevation in leads II, III, and aVF indicates an Inferior wall myocardial infarction, which is typically supplied by the right coronary artery.",
+    incorrectFeedback: "Review the ECG lead correlations. ST-segment elevation in leads II, III, and aVF is indicative of an Inferior wall infarction."
   },
   {
-    question: "In assessing myocardial infarction using ECG findings, which of the following indicates a possible inferior wall MI?",
+    question: "A 72-year-old man with a history of coronary artery disease presents with syncope. His ECG shows wide QRS complexes at a regular rate of 150 bpm with no visible P waves. What is the most appropriate immediate intervention?",
     options: [
-      "ST elevation in leads V1-V2",
-      "ST elevation in leads II, III, and aVF",
-      "Reciprocal changes seen in leads V7-V8",
-      "Pathological Q waves in leads V3-V4",
-      "Peaked T waves in anterior leads"
+      "Start intravenous amiodarone",
+      "Perform synchronized cardioversion",
+      "Administer epinephrine",
+      "Begin chest compressions",
+      "Administer adenosine"
     ],
     correctAnswer: 1,
-    correctFeedback: "Correct! ST elevation in leads II, III, and aVF corresponds to an inferior wall myocardial infarction, often involving right coronary artery occlusion. The other options refer to various locations or signs of ischemia that do not indicate an inferior wall MI.",
-    incorrectFeedback: "Think about the standard leads used to assess different walls of the heart in an electrocardiogram. Review how ST elevations relate to specific walls of the heart and the corresponding leads associated with them."
+    correctFeedback: "Correct! The patient is likely experiencing Ventricular Tachycardia, and intravenous amiodarone is appropriate for stable VT. If the patient were unstable, synchronized cardioversion would be indicated.",
+    incorrectFeedback: "Consider the diagnosis of Ventricular Tachycardia and the stability of the patient. In stable VT, antiarrhythmic medications like amiodarone are typically used."
   },
   {
-    question: "What is the most common characteristic of Left Bundle Branch Block (LBBB) on an ECG?",
+    question: "A 30-year-old female presents with palpitations. Her ECG shows a short PR interval, a delta wave, and a wide QRS complex. What is the most likely underlying condition?",
     options: [
-      "Wide QRS complex greater than 0.12 seconds",
-      "Saw-toothed P waves in the inferior leads",
-      "Heart rate less than 60 bpm",
-      "Shortened QT interval",
-      "Presence of U waves"
+      "First-degree AV block",
+      "Wolff-Parkinson-White Syndrome",
+      "Left Bundle Branch Block",
+      "Right Bundle Branch Block",
+      "Atrial Flutter"
     ],
-    correctAnswer: 0,
-    correctFeedback: "Correct! The hallmark feature of Left Bundle Branch Block (LBBB) is a wide QRS complex greater than 0.12 seconds, indicating a delay in left ventricular depolarization. The other options describe various features that are not associated specifically with LBBB.",
-    incorrectFeedback: "Consider the effect of a block in the conduction system on the ECG. Review the characteristics that differentiate LBBB from other conduction abnormalities."
+    correctAnswer: 1,
+    correctFeedback: "Correct! The presence of a short PR interval, delta wave, and wide QRS complex are classic signs of Wolff-Parkinson-White Syndrome, a pre-excitation syndrome.",
+    incorrectFeedback: "Review the ECG characteristics. A short PR interval, delta wave, and wide QRS complex suggest Wolff-Parkinson-White Syndrome, not a block or flutter."
   }
 ]} />

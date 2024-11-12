@@ -17,11 +17,14 @@ Using the provided unstructured article content, create a comprehensive medical 
      ```mdx
      import MCQGroup from '@/components/MCQGroup'
      import { Callout } from 'nextra/components'
+
+    // .. rest of the article below
+
      ```
 
 2. **Article Title:**
 
-   - Assign an appropriate and simple title to the article that reflects its main topic.
+   - Assign a short and appropriate title to the article as per the topic for example "Pulmonary Embolism".
    - Use `#` for the main title (top-level heading).
 
 3. **Content Structure and Formatting:**
@@ -38,7 +41,7 @@ Using the provided unstructured article content, create a comprehensive medical 
      - Do not omit any details, data, or nuances present in the source material.
    - **Formatting:**
      - Use bullet points and numbered lists to break down information as much as possible.
-     - **Bold** key terms or important concepts to emphasize them except for numericals and special characters, there you must use backticks.
+     - **Bold** key terms or important concepts to emphasize them, except for numericals and special characters, there you must use backticks.
      - *Italicize* notes, exceptions, or terms that need emphasis.
      - Use inline code formatting (backticks) to escape special characters like `<` or `>` while also highlighting specific terms (e.g., `SpO2 <94%`, `<12 hours`, `>55 years`, `MCV > 100fL`. This is incorrect **<12 hours** as it does not escape the special character).
      - Present data using Markdown tables where appropriate for better organization.
@@ -86,7 +89,7 @@ Using the provided unstructured article content, create a comprehensive medical 
    - **Accuracy:**
      - Ensure all medical information is accurate, up-to-date, and evidence-based.
    - **Quality Assurance:**
-     - Review the final MDX file for syntax errors, typos, and formatting issues before publication.
+     - Ensure your response contains only the final MDX file without syntax errors, typos, and formatting issues ready for publication.
      - Verify that all MDX and Markdown syntax renders correctly.
    - **Consistency:**
      - Maintain consistent formatting and style throughout the document.
@@ -113,4 +116,4 @@ Using the provided unstructured article content, create a comprehensive medical 
 *Paraphrased and Formatted:*
 
 - **Oxygen Therapy**
-  - Initiate oxygen administration for patients with ``SpO2 <94%`` to prevent hypoxia.
+  - Initiate oxygen administration for patients with `SpO2 <94%` to prevent hypoxia.
