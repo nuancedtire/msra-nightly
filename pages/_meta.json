@@ -8,11 +8,10 @@
         "breadcrumb": false
     }
   },
-  "sjt": {
+  "professional-dilemmas": {
     "title": "🤔 Professional Dilemmas",
     "theme": {
-      "typesetting": "article",
-      "breadcrumb": false
+      "toc": false
     }
   },
   "---": {

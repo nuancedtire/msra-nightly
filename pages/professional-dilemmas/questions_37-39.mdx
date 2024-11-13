@@ -1,0 +1,252 @@
+## Questions 37-39
+
+import RankingQuestion from '@/components/RankingQuestion'
+
+### Question 37
+
+At the end of your shift you ordered a blood test and CT* scan for one of your patients, Mrs Tao, who was complaining of feeling faint and confused following surgery. The investigation results need to be reviewed tonight, otherwise Mrs Tao’s treatment may be delayed. You have just arrived home and realise you forgot to hand over the need to review the investigation results to the FY1 doctor taking over your shift. You have been unable to contact the FY1 taking over directly.
+
+**Rank in order the appropriateness of the following actions in response to this situation (1= Most appropriate; 5= Least appropriate).**
+
+<RankingQuestion
+  question=""
+  options={[
+    {
+      id: 'A',
+      text: 'Telephone the ward nursing staff and ask them to get the FY1 taking over your shift to look up the investigation results',
+      principle: 'Domain 2: Teamwork - Utilizing the ward nursing staff to ensure that necessary tasks are completed can be effective, but does not guarantee that the task will be performed by a specific doctor.',
+    },
+    {
+      id: 'B',
+      text: 'Contact the on-call specialty trainee* and explain the situation',
+      principle: 'Domain 1: Patient Safety - Directly contacting the on-call specialty trainee ensures that the task is handed over to a specific doctor, thereby ensuring patient safety.',
+    },
+    {
+      id: 'C',
+      text: 'Go back to the hospital and look up the investigation results yourself',
+      principle: 'Domain 1: Patient Safety - Although this action ensures patient safety, it fails to respect professional boundaries and personal time.',
+    },
+    {
+      id: 'D',
+      text: 'Contact an FY1 colleague working on another ward to ask her to look up the investigation results for you',
+      principle: 'Domain 2: Teamwork - Involving a colleague from another ward may compromise patient safety as they have no ongoing responsibility for this patient.',
+    },
+    {
+      id: 'E',
+      text: 'Review the investigation results first thing in the morning when your shift starts',
+      principle: 'Domain 1: Patient Safety - This action could delay treatment and compromise patient safety.',
+    },
+  ]}
+  correctOrder={['B', 'A', 'D', 'C', 'E']}
+  hints={[
+    'Consider the importance of ensuring patient safety.',
+    'Think about the effectiveness of the communication channel you choose.',
+    'Reflect on professional boundaries and personal time.',
+    'Consider the reliability of the person you are handing over the task to.',
+    'Evaluate the risk of delaying treatment.',
+  ]}
+  correctExplanation="Contacting the on-call specialty trainee (Option B) is the most appropriate action as it ensures that the task is handed over to a specific doctor, increasing the likelihood that it will be performed. Telephoning the ward nursing staff (Option A) is less reliable as it doesn't guarantee that the task will be performed by a specific doctor. Contacting a colleague from another ward (Option D) is less appropriate as they have no ongoing responsibility for this patient. Going back to the hospital yourself (Option C) ensures patient safety but fails to respect professional boundaries and personal time. Reviewing the investigation results the next morning (Option E) is the least appropriate action as it could delay treatment and compromise patient safety."
+/>
+
+---
+
+<details>
+<summary>Reflections</summary>
+
+**If you ranked Option A higher**
+
+Consider the reliability of the communication channel you choose. Handing over a task to a specific doctor tends to be more reliable than asking nursing staff to do so.
+
+**If you ranked Option C higher**
+
+Think about the importance of respecting professional boundaries and personal time. Although patient safety is paramount, it's also crucial to balance professional and personal life.
+
+**If you ranked Option E higher**
+
+Reflect on the potential risk to the patient. Delaying treatment could compromise patient safety, which should always be a top priority.
+
+</details>
+
+<details>
+<summary>What If Scenarios</summary>
+
+**What if the on-call specialty trainee was also unreachable?**
+
+In this case, you may consider contacting the ward's nursing staff or a senior nurse, who can ensure that a doctor checks the investigation results. 
+
+**What if the FY1 doctor taking over your shift was known to be unreliable?**
+
+In such a situation, it might be better to relay the information to a more reliable colleague or directly to the on-call specialty trainee, stressing the importance of the task.
+
+**What if you were called in for an emergency at another hospital?**
+
+This would make returning to the hospital yourself impossible. In such a case, it would be even more critical to relay the information to a reliable colleague or the on-call specialty trainee.
+
+</details>
+
+### Question 38
+
+A patient with a complex medical history dies on the ward after a prolonged period of investigation and treatment. Although enough is known to be able to complete a death certificate, your consultant is keen to arrange a post-mortem to find out more. He gains the consent of the patient’s family for this. However, shortly afterwards the family speak to you as you are passing on the ward. They tell you they felt coerced into saying ‘yes’ to the post-mortem and are upset about the request.
+
+**Rank in order the appropriateness of the following actions in response to this situation (1 = Most appropriate; 5 = Least appropriate).**
+
+<RankingQuestion
+  question=""
+  options={[
+    {
+      id: 'A',
+      text: 'Refer the family’s request back to your consultant and ask him to speak to them again',
+      principle: 'Domain 4: Trust & Professionalism - Doctors have a duty to act with honesty and integrity and maintain professional boundaries.',
+    },
+    {
+      id: 'B',
+      text: 'Ask your consultant for his reasons for requesting the post-mortem',
+      principle: 'Domain 1: Knowledge, Skills & Performance - Doctors should maintain competence in all aspects of work and provide evidence-based care.',
+    },
+    {
+      id: 'C',
+      text: 'Ask another senior colleague within the team to meet with the family to discuss their concerns',
+      principle: 'Domain 3: Safety & Quality - Doctors should report concerns promptly and participate in investigations.',
+    },
+    {
+      id: 'D',
+      text: 'Explore the family’s concerns with them',
+      principle: 'Domain 2: Communication & Partnership - Doctors should treat patients with dignity & respect and support informed decision-making.',
+    },
+    {
+      id: 'E',
+      text: 'Reassure the family that post-mortems are standard practice in situations like these',
+      principle: 'Domain 2: Communication & Partnership - Doctors should provide clear, accurate information and respect privacy & autonomy.',
+    },
+  ]}
+  correctOrder={['D', 'A', 'C', 'B', 'E']}
+  hints={[
+    'Consider the importance of addressing the family’s concerns directly.',
+    'Think about the importance of open communication and transparency.',
+    'Reflect on the need for informed consent and the right of the family to change their decision.',
+    'Evaluate the potential impact on the family’s trust in the medical team.',
+    'Consider the potential learning opportunities for the medical team.'
+  ]}
+  correctExplanation="Exploring the family’s concerns (Option D) is the most appropriate action as it addresses the issue directly and shows empathy. Referring the family’s request back to the consultant (Option A) is the next best option as it maintains professional boundaries and allows the consultant to clarify his intentions. Asking another senior colleague within the team to discuss with the family (Option C) may also be helpful but is less direct. Asking the consultant for his reasons for requesting the post-mortem (Option B) is useful for your learning but does not directly address the family’s concerns. Reassuring the family that post-mortems are standard practice (Option E) is the least appropriate as it dismisses the family’s concerns and could be seen as coercive."
+/>
+
+---
+
+<details>
+<summary>Reflections</summary>
+
+**If you ranked Option A higher**
+
+Consider the importance of addressing the family's concerns directly and showing empathy in difficult situations. How might a direct discussion with the family foster trust and openness?
+
+**If you ranked Option B higher**
+
+Consider why it might be more appropriate to focus on the family's concerns rather than your own learning in this situation. How could you balance both needs?
+
+**If you ranked Option E higher**
+
+Reflect on the importance of informed consent and respecting autonomy. Why might reassuring the family that post-mortems are standard practice be seen as dismissive or coercive?
+
+</details>
+
+<details>
+<summary>What If Scenarios</summary>
+
+**What if the family refuses a post-mortem despite your consultant's insistence?**
+
+It's important to respect the family's decision and their right to refuse. In this scenario, you would need to communicate this to your consultant and discuss any alternative options for learning from the case.
+
+**What if the consultant is not available to discuss with the family again?**
+
+In this case, you might need to involve another senior colleague or the hospital's patient liaison service to discuss the family's concerns.
+
+**What if you are not comfortable discussing this sensitive issue with the family?**
+
+While it might be difficult, it's important to develop the skills and confidence to handle sensitive conversations. However, if you feel unable to do so, you should seek support from a senior colleague.
+
+</details>
+
+---
+
+### Question 39
+
+You are working on a busy surgical ward and are on your way to speak to a patient on another ward about their elective surgery. Mrs Hill, who is the wife of one of your patients, approaches you. She tells you that her husband was meant to be discharged today but that no-one seems to be doing anything. She is very upset as she had made plans for his discharge and she begins to shout at you. Your consultant told you earlier today that Mr Hill will need to be observed for a further two days before he can be discharged.
+
+**Rank in order the appropriateness of the following actions in response to this situation (1= Most appropriate; 5= Least appropriate).**
+
+<RankingQuestion
+  question=""
+  options={[
+    {
+      id: 'A',
+      text: 'Ask your specialty trainee to explain to Mrs Hill why her husband is not being discharged today',
+      principle: 'Domain 2: Seeking guidance - Consulting with senior colleagues can provide support and advice in handling difficult situations.',
+    },
+    {
+      id: 'B',
+      text: 'Tell Mrs Hill that you will speak to her when you return to the ward',
+      principle: 'Domain 3: Communication - Ensuring that patients and their families are informed and understand the situation is critical.',
+    },
+    {
+      id: 'C',
+      text: 'Take Mrs Hill into a side room with a nurse to discuss why her husband is not being discharged today',
+      principle: 'Domain 1: Patient care - Addressing concerns directly with patients and their families promotes effective patient care.',
+    },
+    {
+      id: 'D',
+      text: 'Explain to both Mrs Hill and her husband why he is not being discharged today',
+      principle: 'Domain 1: Patient care - Clear communication with patients and their families can alleviate concerns and prevent misunderstandings.',
+    },
+    {
+      id: 'E',
+      text: 'Inform Mrs Hill that you cannot speak with her until she has calmed down',
+      principle: 'Domain 2: Professionalism - Maintaining professionalism in all interactions with patients and their families is necessary.',
+    },
+  ]}
+  correctOrder={['D', 'C', 'A', 'B', 'E']}
+  hints={[
+    'Consider the importance of addressing concerns directly with patients and their families.',
+    'Think about the role of communication in managing patient and family expectations.',
+    'Reflect on the appropriate channels for seeking guidance and support.',
+    'Consider the potential impact on professional relationships.',
+    'Evaluate the situation and the urgency of the response required.',
+  ]}
+  correctExplanation="Apologizing for any confusion and explaining to Mrs Hill and her husband why the discharge has been cancelled (Option D) is the most appropriate action, as it provides immediate clarification and alleviates concerns. Moving the conversation to a quieter place for the discussion while having a chaperone present if patients and relatives are upset is the next best step (Option C). If the explanation does not resolve the situation and Mrs Hill remains unhappy or you are needed urgently on another ward then it would be appropriate to involve a more senior doctor on your team (Option A). Making Mrs Hill wait (Option B) can further upset her and is less appropriate except when you cannot attend to her immediately due to urgent care needs of other patients. Refusing to speak to Mrs Hill until she has calmed down (Option E) is least appropriate as it is likely to cause distress to your patient and others who are on the ward including the staff."
+/>
+
+---
+
+<details>
+<summary>Reflections</summary>
+
+**If you ranked Option A higher**
+
+Consider how immediate direct communication can alleviate concerns and prevent misunderstandings. Reflect on the role of seeking guidance and support in handling difficult situations.
+
+**If you ranked Option B higher**
+
+Think about the impact of making a distressed family member wait on their emotional state. Prompt intervention and communication is often necessary.
+
+**If you ranked Option E higher than B or C**
+
+While maintaining professionalism is necessary, consider whether refusing to communicate until Mrs Hill has calmed down helps in resolving the situation or exacerbates it.
+
+</details>
+
+<details>
+<summary>What If Scenarios</summary>
+
+**What if Mrs Hill remains upset despite your explanation?**
+
+In such a situation, involving a senior colleague or a patient liaison officer can be beneficial to provide further support and explanation.
+
+**What if Mr Hill is also upset about the change in discharge plans?**
+
+Acknowledging their feelings, apologizing for any confusion, and providing clear explanation can help. If the situation remains unresolved, it may be beneficial to involve a senior colleague.
+
+**What if other family members are also upset about the situation?**
+
+Addressing the concerns of all family members directly and providing clear explanation can help manage their expectations. Involving a senior colleague or a patient liaison officer can provide further support.
+
+</details>
+

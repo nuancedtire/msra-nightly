@@ -134,4 +134,5 @@ dist
 .config
 .replit
 lib/msranotes/
+lib/sjt-answers/
 pages/

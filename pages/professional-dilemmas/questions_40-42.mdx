@@ -1,0 +1,253 @@
+## Questions 40-42
+
+import RankingQuestion from '@/components/RankingQuestion'
+
+### Question 40
+
+It is 5pm and you are on-call. A nurse from another ward brings you a prescription chart. She tells you that one of her patients has not opened her bowels for five days and, because of this, is very uncomfortable and disturbing other patients. She asks you to sign a laxative prescription as the FY1 doctor on her ward has just refused to do so.
+
+Rank in order the appropriateness of the following actions in response to this situation (1 = Most appropriate; 5 = Least appropriate).
+
+<RankingQuestion
+  question=""
+  options={[
+    {
+      id: 'A',
+      text: 'Agree to prescribe a laxative',
+      principle: 'Domain 1: Working within competence limits - As a doctor, it is crucial not to prescribe medication without a proper patient assessment.',
+    },
+    {
+      id: 'B',
+      text: 'Attend to the patient and make an assessment',
+      principle: 'Domain 1: Patient care is FIRST priority - Doctors must ensure they have a thorough understanding of a patient’s condition before making any medical decisions.',
+    },
+    {
+      id: 'C',
+      text: 'Explain to the nurse that if another doctor has told her that a laxative is not required, then that must be the correct decision',
+      principle: 'Domain 4: Trust and Professionalism - Doctors must not make assumptions about the decision of other doctors without understanding the context.',
+    },
+    {
+      id: 'D',
+      text: 'Speak to the other FY1 doctor about why he refused to prescribe a laxative',
+      principle: 'Domain 2: Communication and teamwork - Doctors should communicate with their colleagues to understand the rationale behind their decisions.',
+    },
+    {
+      id: 'E',
+      text: 'Consult with your specialty trainee about whether you should prescribe a laxative',
+      principle: 'Domain 2: Seeking guidance - Doctors should seek advice from more experienced colleagues when they are unsure about a decision.',
+    },
+  ]}
+  correctOrder={['D', 'B', 'E', 'C', 'A']}
+  hints={[
+    'Consider the need for understanding the context before making a decision.',
+    'Reflect on the importance of direct patient assessment.',
+    'Think about the value of seeking advice from more experienced colleagues.',
+    'Avoid making assumptions about the decisions of other doctors.',
+    'Prescribing medication without patient assessment could pose risks.',
+  ]}
+  correctExplanation="Speaking to the other FY1 doctor (Option D) would provide the background information necessary for understanding the situation. It is also important to assess the patient yourself (Option B) to make an informed decision. If you are still unsure, consult with your specialty trainee (Option E). Simply accepting the other doctor's decision without understanding it (Option C) or prescribing a laxative without a proper assessment (Option A) are both inappropriate actions."
+/>
+
+---
+
+<details>
+<summary>Reflections</summary>
+
+**If you ranked Option A higher**
+
+Think about the potential risks of prescribing a medication without conducting a proper patient assessment. What if the patient has a condition that contraindicates the use of a laxative?
+
+**If you ranked Option C higher**
+
+Reflect on the dangers of blindly accepting another doctor's decision without understanding the context. How might this impact patient care and safety?
+
+**If you ranked Option B lower**
+
+Consider the importance of direct patient assessment in formulating medical decisions. How would seeing the patient yourself contribute to a better understanding of the situation?
+
+</details>
+
+<details>
+<summary>What If Scenarios</summary>
+
+**What if the other FY1 doctor isn't available for a conversation?**
+
+In this case, checking the patient’s medical records for any notes or indications about the refusal to prescribe a laxative and conducting your own patient assessment would be important. You may also consider consulting with your specialty trainee about the situation.
+
+**What if the nurse insists that you prescribe the laxative immediately because the patient is very uncomfortable?**
+
+While it's important to alleviate patient discomfort, it's crucial to ensure that the medication prescribed is safe and appropriate. Conducting your own patient assessment and understanding the context from the other doctor or medical records is still necessary.
+
+**What if you find out that the patient has a history of abusing laxatives?**
+
+This information changes the situation significantly. It reiterates the importance of understanding the context and patient history before making a decision. Consider discussing the situation with your specialty trainee and the patient’s primary care team to develop a suitable management plan.
+
+</details>
+
+---
+
+### Question 41
+
+You work on a ward with a nurse, Suzanne, who is also your friend. Suzanne’s mother, Belinda, is a hospital outpatient, whom you have examined previously. Following a discussion with the consultant, you are aware that the results of Belinda’s recent CT* scan suggest pancreatic cancer. The consultant told you that he has asked Belinda to meet with him later on today to discuss the results and has said that her family may attend. Suzanne approaches you later on in the corridor and asks if the meeting has been scheduled because the results suggest bad news.
+
+**Rank in order the appropriateness of the following actions in response to this situation (1= Most appropriate; 5= Least appropriate).**
+
+<RankingQuestion
+  question=""
+  options={[
+    {
+      id: 'A',
+      text: 'Explore with Suzanne any anxiety she may have about her mother’s results',
+      principle: 'Domain 1: Communication and teamwork - Empathy is an important skill, but care should be taken to maintain professional boundaries and respect patient confidentiality.',
+    },
+    {
+      id: 'B',
+      text: 'Confirm the results, advising Suzanne not to tell her mother before the meeting',
+      principle: 'Domain 4: Trust and Professionalism - Sharing confidential patient information without consent is a serious breach of trust and professional standards.',
+    },
+    {
+      id: 'C',
+      text: 'Tell Suzanne politely, but clearly, that you cannot tell her the results because of patient confidentiality',
+      principle: 'Domain 4: Trust and Professionalism - Maintaining patient confidentiality is a core responsibility of doctors.',
+    },
+    {
+      id: 'D',
+      text: 'Advise Suzanne to wait until the meeting as a senior colleague will be better able to explain the results',
+      principle: 'Domain 2: Patients, Partnership and Communication - Ensuring patients and their families receive clear and accurate information from appropriate sources supports informed decision-making.',
+    },
+    {
+      id: 'E',
+      text: 'Ask Suzanne whether she has her mother’s permission to discuss the results before responding',
+      principle: 'Domain 4: Trust and Professionalism - Verifying consent before sharing confidential information is important, but it can be complex in situations involving family members who are also healthcare professionals.',
+    },
+  ]}
+  correctOrder={['C', 'D', 'A', 'E', 'B']}
+  hints={[
+    'Consider the importance of maintaining patient confidentiality.',
+    'Reflect on the potential impact of revealing sensitive information to a family member without the patient’s consent.',
+    'Think about the role of senior colleagues in communicating complex medical information.',
+    'Consider the potential difficulties of discussing a patient’s health with a family member who is also a healthcare professional.',
+  ]}
+  correctExplanation="Reminding Suzanne of the requirement for confidentiality (Option C) is the most appropriate action, respecting Belinda's right to privacy. Advising her to wait for the meeting (Option D) is also appropriate, as a senior colleague will be able to explain the results more thoroughly. Exploring Suzanne’s anxieties (Option A) shows empathy, but could risk breaching confidentiality. Asking Suzanne about her mother's consent (Option E) is less appropriate as it assumes that Suzanne's request reflects her mother's wishes. Confirming the results to Suzanne (Option B) is least appropriate as it breaches confidentiality and could place Suzanne in a difficult position."
+/>
+
+---
+
+<details>
+<summary>Reflections</summary>
+
+**If you ranked Option B higher**
+
+Remember that it is never appropriate to share confidential patient information without consent, regardless of who is asking. Consider the potential harm to Belinda and Suzanne in this scenario.
+
+**If you ranked Option E higher**
+
+While it's important to verify consent before sharing information, in this case it could lead to potential misunderstandings. Reflect on how this might have played out differently.
+
+**If you ranked Option A lower**
+
+Exploring Suzanne's anxieties shows empathy, but could risk breaching confidentiality. Reflect on the importance of maintaining professional boundaries, even in challenging situations.
+
+</details>
+
+<details>
+<summary>What If Scenarios</summary>
+
+**What if Suzanne insists on knowing the results?**
+
+Reiterate the importance of patient confidentiality and advise her to wait for the meeting. If she remains insistent, consider involving a senior colleague or the clinical governance team.
+
+**What if Suzanne discloses that Belinda has given her permission to discuss the results?**
+
+If possible, verify this with Belinda directly, or consult with a senior colleague or the clinical governance team for advice.
+
+**What if Suzanne becomes upset or angry?**
+
+Stay professional, offer to involve a senior colleague, and consider involving the pastoral care team to provide support.
+
+</details>
+
+---
+
+### Question 42
+
+A pharmacist approaches you on the ward and queries the dose prescribed to a patient. The dose is twice the normal dosage for that particular drug. You know that the drug was prescribed by the consultant, but do not know the reason why. The pharmacist explains that he has seen the dose prescribed at that level for particular cases previously, but wanted to double check as it is quite unusual. The consultant is currently not on the ward.
+
+**Rank in order the appropriateness of the following actions in response to this situation (1= Most appropriate; 5= Least appropriate).**
+
+<RankingQuestion
+  question=""
+  options={[
+    {
+      id: 'A',
+      text: 'Telephone the consultant to find out the reason why the dose is higher than normal',
+      principle: 'Domain 1: Knowledge, Skills & Development - Seeking clarification and guidance is crucial when unsure about a patient treatment plan.',
+    },
+    {
+      id: 'B',
+      text: 'Explain to the pharmacist that you do not know why the dose is higher and politely request that he checks with the consultant if he is concerned',
+      principle: 'Domain 3: Colleagues, Culture & Safety - It is important to work collaboratively with other healthcare professionals like pharmacists.',
+    },
+    {
+      id: 'C',
+      text: 'Change the dosage to the normal amount given until you are able to discuss it with your consultant',
+      principle: 'Domain 4: Trust & Professionalism - It is inappropriate to change a prescription without knowing the rationale behind it.',
+    },
+    {
+      id: 'D',
+      text: 'Ask the patient if he knows why he is on a higher dose of the drug than normal',
+      principle: 'Domain 2: Patients, Partnership & Communication - Engaging the patient in their care and understanding their treatment plan is crucial.',
+    },
+    {
+      id: 'E',
+      text: 'Explain to the pharmacist that you would like to keep the dosage as prescribed by the consultant',
+      principle: 'Domain 1: Knowledge, Skills & Development - It is important to address any concerns or queries about patient treatment directly with the prescriber.',
+    },
+  ]}
+  correctOrder={['A', 'B', 'D', 'C', 'E']}
+  hints={[
+    'Consider the importance of understanding the treatment plan for a patient.',
+    'Think about the role of different healthcare professionals in patient care.',
+    'Reflect on the dangers of changing a prescription without understanding the rationale.',
+    'Consider how the patient may be involved in understanding their own treatment.',
+    'Evaluate the risk of ignoring a concern raised by a healthcare professional.',
+  ]}
+  correctExplanation="Telephoning the consultant (Option A) is the most appropriate action, as it ensures that you understand the patient's treatment plan and can safely administer care. If the consultant is not available, explaining the situation to the pharmacist and asking him to check with the consultant (Option B) is appropriate, as it utilizes the knowledge and expertise of the pharmacist. Asking the patient about their understanding of the dosage (Option D) may provide additional information but is not as reliable as speaking to the prescriber. Changing the dosage without understanding the rationale (Option C) could risk patient safety. Ignoring the pharmacist's concern and insisting on keeping the dosage as is (Option E) disregards the role of the pharmacist and could potentially risk patient safety."
+/>
+
+---
+
+<details>
+<summary>Reflections</summary>
+
+**If you ranked Option E higher**
+
+Reflect on the importance of addressing and acting on concerns raised by healthcare professionals. Ignoring a concern could potentially risk patient safety.
+
+**If you ranked Option C higher**
+
+Consider the risks involved in changing a prescription without understanding the rationale behind it. Always seek clarification when unsure.
+
+**If you ranked Option D lower than B or C**
+
+While speaking to the patient can provide additional information, it is not as reliable as speaking directly to the prescriber. Consider the importance of understanding the treatment plan from the prescriber's perspective.
+
+</details>
+
+<details>
+<summary>What If Scenarios</summary>
+
+**What if the consultant cannot be reached immediately?**
+
+Consider working with the pharmacist to ensure patient safety until the consultant can be reached. The pharmacist's expertise and knowledge can be invaluable in such situations.
+
+**What if the patient does not understand why they are on a higher dosage?**
+
+This highlights the importance of patient education and understanding their own treatment plan. Consider discussing this with the consultant and ensuring the patient is fully informed.
+
+**What if the pharmacist insists on changing the dosage?**
+
+Reiterate the importance of understanding the rationale behind the prescription. If necessary, involve other members of the healthcare team and seek advice from a senior colleague.
+
+</details>
+

@@ -1,0 +1,239 @@
+## Questions 16-18
+
+import RankingQuestion from '@/components/RankingQuestion'
+
+### Question 16
+
+You are working with Dr. Kitson, who is a specialty trainee* and a good friend of yours. On a particular day, she sends you a text, informing you that she would be 30 minutes late for work and asks you to cover for her. A patient on the ward, Mr. Bradley, informs you that Dr. Kitson was supposed to discharge him first thing in the morning. It's already 9am, and he is supposed to be at his workplace by 10am, which is a 45-minute journey away.
+
+**Rank in order the appropriateness of the following actions in response to this situation (1= Most appropriate; 5= Least appropriate)**
+
+<RankingQuestion
+  question=""
+  options={[
+    {
+      id: 'A',
+      text: 'Sign Mr Bradley’s discharge paperwork yourself',
+      principle: 'Domain 1: Patient care - It is important to work within competence limits and ensure patient safety.',
+    },
+    {
+      id: 'B',
+      text: 'Explain to Mr Bradley that Dr Kitson has been delayed so he may want to contact his work and let them know the situation',
+      principle: 'Domain 2: Communication - Providing clear and accurate information to patients is crucial.',
+    },
+    {
+      id: 'C',
+      text: 'Contact Dr Kitson and find out whether she can give verbal approval to the discharge',
+      principle: 'Domain 3: Teamwork - Collaborating with and seeking guidance from senior colleagues can facilitate efficient patient care.',
+    },
+    {
+      id: 'D',
+      text: 'Find another senior colleague in your team to review and discharge Mr Bradley',
+      principle: 'Domain 4: Patient care and teamwork - Seeking help from a senior colleague ensures patient safety and proper care.',
+    },
+    {
+      id: 'E',
+      text: 'Offer Mr Bradley the option of signing a self-discharge form',
+      principle: 'Domain 2: Patient autonomy - It is important to respect patient autonomy, but safety should not be compromised.',
+    },
+  ]}
+  correctOrder={['D', 'C', 'B', 'E', 'A']}
+  hints={[
+    'Consider the immediate need of the patient and the urgency of the situation.',
+    'Think about the boundaries of your competence and responsibility.',
+    'Reflect on the role of effective communication in patient care.',
+    'Evaluate the potential impact on patient safety.',
+  ]}
+  correctExplanation="Finding another senior colleague on your team to review and discharge Mr Bradley (Option D) is the most appropriate action as it ensures patient safety. If a senior colleague is not immediately available, contacting Dr Kitson for verbal approval (Option C) is an acceptable course of action. It's important to keep Mr Bradley informed about the delay (Option B), but this does not address the urgency of the situation. Offering Mr Bradley the option of self-discharge (Option E) should only be done when other options have been exhausted and he has been informed about the potential risks. As an FY1, signing the discharge paperwork yourself (Option A) is inappropriate and outside the limits of your competence."
+/>
+
+---
+
+<details>
+<summary>Reflections</summary>
+
+**If you ranked Option A higher**
+
+Consider the importance of working within your competence limits. As an FY1 doctor, you should not discharge patients without proper supervision. Reflect on the potential risks to patient safety in this scenario.
+
+**If you ranked Option E higher**
+
+Reflect on the importance of patient safety. While respecting patient autonomy is crucial, it is also important to ensure that patients are fully aware of the potential risks associated with self-discharge.
+
+</details>
+
+<details>
+<summary>What If Scenarios</summary>
+
+**What if Mr Bradley insists on leaving immediately?**
+
+In this scenario, you would need to explain the potential risks associated with leaving without proper discharge. If he still insists on leaving, you should offer him the option of signing a self-discharge form.
+
+**What if there are no other senior colleagues available to review and discharge Mr Bradley?**
+
+In this case, contacting Dr Kitson for verbal approval would be the next best option. If she is not reachable or unable to provide approval, consider consulting with other team members or hospital staff to determine the best course of action.
+
+</details>
+
+### Question 17
+
+A patient, Mrs Mathews, has been admitted for investigation of abdominal pain, which her husband is aware of. You are asked to take a telephone call from him (Mr Mathews), who is asking for an update on his wife’s condition. You have just found out from a urine test that Mrs Mathews is pregnant.
+
+**Rank in order the appropriateness of the following actions in response to this situation (1= Most appropriate; 5= Least appropriate).**
+
+<RankingQuestion
+  question=""
+  options={[
+    {
+      id: 'A',
+      text: 'Tell Mr Mathews that he will need to speak to Mrs Mathews directly about her condition',
+      principle: 'Domain 2: Patients, Partnership & Communication - While direct communication between patients and their families is crucial, it should not be the first step in sharing sensitive information, especially when the patient may not yet be aware.',
+    },
+    {
+      id: 'B',
+      text: 'Tell Mr Mathews that you would like to obtain Mrs Mathews’ permission to speak to him first',
+      principle: 'Domain 2: Patients, Partnership & Communication - Doctors must respect patient confidentiality and involve patients in decisions about their care, including who is privy to their medical information.',
+    },
+    {
+      id: 'C',
+      text: 'Tell Mr Mathews that you would like to discuss Mrs Mathews’ case with a senior colleague before speaking with him',
+      principle: 'Domain 1: Knowledge, Skills & Development - Consulting with a senior colleague may be helpful in complex or sensitive cases, but it should not be used as an excuse to delay communication.',
+    },
+    {
+      id: 'D',
+      text: 'Tell Mr Mathews that you are currently investigating Mrs Mathews’ abdominal pain',
+      principle: 'Domain 2: Patients, Partnership & Communication - Providing general updates without revealing confidential or sensitive information respects patient privacy while maintaining open communication.',
+    },
+    {
+      id: 'E',
+      text: 'Inform Mr Mathews that Mrs Mathews has had a urine test with a positive result',
+      principle: 'Domain 2: Patients, Partnership & Communication - Disclosing confidential information without patient consent is a serious breach of trust and professional guidelines.',
+    },
+  ]}
+  correctOrder={['B', 'D', 'A', 'C', 'E']}
+  hints={[
+    'Consider the importance of maintaining patient confidentiality.',
+    'Think about the need for informed patient consent before sharing medical information.',
+    'Reflect on the potential impact on patient trust and respect.',
+    'Consider the role of senior colleagues in decision-making.',
+    'Evaluate the potential emotional impact on the patient and their family.',
+  ]}
+  correctExplanation="Obtaining Mrs Mathews’ permission before discussing her condition with Mr Mathews (Option B) is the most appropriate action, as it respects patient confidentiality and involves the patient in decisions about sharing her medical information. Providing a general update about the ongoing investigation (Option D) maintains open communication without breaching confidentiality. Asking Mr Mathews to speak directly to Mrs Mathews (Option A) could add unnecessary stress. Saying you need to discuss the case with a senior colleague (Option C) is evasive and does not establish patient consent to discuss the results. Informing Mr Mathews about the positive urine test (Option E) without Mrs Mathews’ consent is the least desirable option as it breaks patient confidentiality."
+/>
+
+---
+
+<details>
+<summary>Reflections</summary>
+
+**If you ranked Option A higher**
+
+Reflect on the potential stress and anxiety this could cause for both Mr and Mrs Mathews. It's important to balance the needs of the family with the responsibility to maintain patient confidentiality.
+
+**If you ranked Option C higher**
+
+Consider why you felt the need to consult with a senior colleague. While their guidance can be valuable, it's crucial to communicate effectively with patients and their families in a timely manner.
+
+**If you ranked Option E higher**
+
+Think about the importance of patient consent and confidentiality. Releasing sensitive information without the patient’s permission can undermine their trust in the medical profession and potentially cause unnecessary distress.
+
+</details>
+
+<details>
+<summary>What If Scenarios</summary>
+
+**What if Mr Mathews becomes frustrated and demands to know the test results?**
+
+Maintain professionalism and explain the importance of patient confidentiality. Reiterate that you need Mrs Mathews' consent to share this information.
+
+**What if Mrs Mathews has previously given general consent for her husband to be informed about her medical condition?**
+
+Even with general consent, it's important to confirm with Mrs Mathews before sharing new or sensitive information. This respects her autonomy and ensures she's comfortable with her husband knowing about her pregnancy.
+
+**What if Mrs Mathews is unconscious or unable to provide consent?**
+
+In such cases, you would need to consider what's in the best interest of the patient and potentially consult with a senior colleague or the hospital's legal team.
+
+</details>
+
+### Question 18
+
+You are on the ward round with your consultant and attend to a patient who is complaining of a severe headache and neck stiffness. Before the consultation has finished, a nurse interrupts to inform the consultant that he is needed urgently to see another patient. The consultant asks you to conduct a lumbar puncture whilst he is away. You have not done or observed this procedure before.
+
+**Rank in order the appropriateness of the following actions in response to this situation (1= Most appropriate; 5= Least appropriate).**
+
+<RankingQuestion
+  question=""
+  options={[
+    {
+      id: 'A',
+      text: 'Conduct the procedure to the best of your ability',
+      principle: 'Domain 1: Knowledge, Skills & Development - Doctors should work within their competence limits and not undertake procedures they are not confident or trained to perform.',
+    },
+    {
+      id: 'B',
+      text: 'Find another colleague to conduct the procedure whilst you observe',
+      principle: 'Domain 2: Patients, Partnership & Communication - Doctors should ensure patient safety by involving trained colleagues when needed.',
+    },
+    {
+      id: 'C',
+      text: 'Telephone the neurology specialty trainee for advice on how to conduct the procedure',
+      principle: 'Domain 4: Trust & Professionalism - Doctors should seek guidance when facing challenges. However, telephonic instructions for an unfamiliar procedure might not be sufficiently safe or clear.',
+    },
+    {
+      id: 'D',
+      text: 'Inform the consultant, away from the patient, that you have not conducted this procedure before',
+      principle: 'Domain 3: Colleagues, Culture & Safety - Doctors should communicate effectively with colleagues and be honest about their limitations.',
+    },
+    {
+      id: 'E',
+      text: 'Find a senior colleague to supervise you conducting the procedure',
+      principle: 'Domain 1: Knowledge, Skills & Development - Doctors should seek supervised learning opportunities to enhance their skills, while ensuring patient safety.',
+    },
+  ]}
+  correctOrder={['D', 'B', 'E', 'C', 'A']}
+  hints={[
+    'Consider the importance of working within your competence limits.',
+    'Reflect on the importance of prioritizing patient safety.',
+    'Think about the appropriateness of seeking guidance or help from seniors.',
+    'Contemplate the effectiveness of different ways to seek help.',
+  ]}
+  correctExplanation="The most appropriate action is to inform the consultant that you are not competent to perform the procedure (Option D). This upholds honesty and ensures patient safety. If the consultant is unavailable, finding a trained colleague to perform the procedure while you observe (Option B) is a good alternative. If both these options are unavailable, finding a senior colleague to supervise you (Option E) is a safer option than merely seeking telephonic advice (Option C). Conducting the procedure without adequate training or supervision (Option A) is the least appropriate and could endanger the patient."
+/>
+
+---
+
+<details>
+<summary>Reflections</summary>
+
+**If you ranked Option A higher**
+
+Reflect on the importance of recognizing your limitations and not risking patient safety. Consider the potential consequences of performing a procedure without adequate training or supervision.
+
+**If you ranked Option C higher**
+
+While seeking advice is important, consider whether verbal instructions for an unfamiliar procedure would be sufficient or safe. Would it be better to seek direct supervision or have a trained colleague perform the procedure?
+
+**If you ranked Option E higher than B**
+
+Both options involve seeking help from a senior colleague, but why might it be more appropriate to observe the procedure before performing it yourself?
+
+</details>
+
+<details>
+<summary>What If Scenarios</summary>
+
+**What if your consultant insists on you conducting the procedure?**
+
+You should reaffirm your lack of competence and suggest alternatives such as observing a colleague or performing the procedure under direct supervision. Remember that patient safety is paramount.
+
+**What if you have observed the procedure several times but never performed it?**
+
+You should still inform your consultant of your inexperience. If supervision is available and you feel confident, you might then safely conduct the procedure.
+
+**What if no senior colleagues are available to supervise or perform the procedure?**
+
+If the patient's condition is urgent, you might need to seek telephonic guidance while arranging for a trained colleague to arrive as quickly as possible. Patient safety and appropriate clinical care must remain your priorities.
+
+</details>
