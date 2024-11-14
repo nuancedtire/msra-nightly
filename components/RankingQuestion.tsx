@@ -1,7 +1,8 @@
 // components/RankingQuestion.tsx
-import { useState, useEffect } from "react";
+
+import { useState } from "react";
 import { useTheme } from "nextra-theme-docs";
-import { Info, GripVertical } from "lucide-react";
+import { Info } from "lucide-react";
 import { motion, AnimatePresence, Reorder } from "framer-motion";
 import {
   HoverCard,
@@ -17,12 +18,12 @@ interface Option {
 }
 
 interface RankingQuestionProps {
-  question: string;
-  options: Option[];
-  correctOrder: string[];
-  hints: string[];
-  correctExplanation: string;
-  onAnswer?: () => void;
+  question: string;             // The main question text
+  options: Option[];             // List of answer options
+  correctOrder: string[];        // Expected correct order for validation
+  hints: string[];               // List of hints for the user to improve their answer
+  correctExplanation: string;    // Explanation displayed when user gets correct order
+  onAnswer?: () => void;         // Optional callback executed on correct answer
 }
 
 const RankingQuestion = ({
@@ -33,47 +34,52 @@ const RankingQuestion = ({
   correctExplanation,
   onAnswer,
 }: RankingQuestionProps) => {
-  const { resolvedTheme } = useTheme();
-  const isDark = resolvedTheme === "dark";
-  const isMobile = useMediaQuery("(max-width: 768px)");
 
-  const [userOrder, setUserOrder] = useState<Option[]>([]);
-  const [submitted, setSubmitted] = useState(false);
-  const [isCorrectOrder, setIsCorrectOrder] = useState(false);
-  const [showHints, setShowHints] = useState(false);
-  const [expandedOption, setExpandedOption] = useState<string | null>(null);
-  const [score, setScore] = useState<number | null>(null);
-  const [maxScore, setMaxScore] = useState<number>(0);
+  // State variables to manage user interactions and feedback
+  const [userOrder, setUserOrder] = useState<Option[]>(options);  // Tracks user's current answer order
+  const [submitted, setSubmitted] = useState(false);              // Tracks if answer is submitted
+  const [isCorrectOrder, setIsCorrectOrder] = useState(false);    // Indicates if user's order matches the correct one
+  const [expandedOption, setExpandedOption] = useState<string | null>(null); // Stores option ID for showing extra info
+  const [score, setScore] = useState<number>(0);                  // Tracks user's score based on answer accuracy
 
-  const maxPointsPerOption = options.length - 1; // For 5 options, max points per option is 4
+  // Theme and responsive detection
+  const { resolvedTheme } = useTheme();                           // Detects if current theme is dark or light
+  const isDark = resolvedTheme === "dark";                        // Boolean for conditional styling in dark theme
+  const isMobile = useMediaQuery("(max-width: 768px)");           // Responsive check for mobile view
 
-  useEffect(() => {
-    setUserOrder(options);
+  // Calculates the maximum achievable score based on the number of options
+  const maxScore = (options.length - 1) * options.length;
 
-    // Calculate maximum possible score
-    const totalMaxScore = options.length * maxPointsPerOption;
-    setMaxScore(totalMaxScore);
-  }, [options, maxPointsPerOption]);
-
-  const resetQuestion = () => {
-    setUserOrder(options);
-    setSubmitted(false);
-    setIsCorrectOrder(false);
-    setShowHints(false);
-    setExpandedOption(null);
-    setScore(null);
+  // Animation variants for progress bar to reflect score dynamically
+  const progressVariants = {
+    initial: { width: 0 },                                        // Starting width of progress bar
+    animate: (currentScore: number) => ({                         // Animates width based on current score
+      width: `${(currentScore / maxScore) * 100}%`,               // Calculated percentage of maxScore
+      transition: { duration: 1 },
+    }),
   };
 
+  // Resets the question state, preparing for a new attempt
+  const resetQuestion = () => {
+    setUserOrder(options);                                        // Reset user answer order
+    setSubmitted(false);                                          // Set submission state to false
+    setIsCorrectOrder(false);                                     // Reset order correctness
+    setExpandedOption(null);                                      // Close any expanded info
+    setScore(0);                                                  // Reset score to 0
+  };
+
+  // Updates userOrder based on drag-and-drop reordering, if not yet submitted
   const handleReorder = (newOrder: Option[]) => {
-    if (!submitted) {
-      setUserOrder(newOrder);
+    if (!submitted) {                                             // Prevents reorder after submission
+      setUserOrder(newOrder);                                     // Sets user answer order to new arrangement
     }
   };
 
+  // Returns CSS classes for styling options based on theme and correctness after submission
   const getOptionStyle = (index: number) => {
     if (submitted) {
-      const isOptionCorrect = userOrder[index].id === correctOrder[index];
-      if (isDark) {
+      const isOptionCorrect = userOrder[index].id === correctOrder[index]; // Checks if user's answer matches correct order
+      if (isDark) {                                               // Applies conditional styling based on theme and correctness
         return isOptionCorrect
           ? "bg-green-700/10 border-green-800/50 text-green-200"
           : "bg-red-900/30 border-red-800/50 text-red-200";
@@ -82,170 +88,104 @@ const RankingQuestion = ({
         ? "bg-green-100 border-green-300 text-green-800"
         : "bg-red-100 border-red-300 text-red-800";
     }
-    return isDark
-      ? "bg-neutral-900 border-neutral-700 text-neutral-200 hover:bg-neutral-800/50 cursor-grab active:cursor-grabbing"
-      : "bg-white border-gray-200 text-gray-800 hover:bg-gray-50 cursor-grab active:cursor-grabbing";
+    return isDark                                                 // Default styling before submission
+      ? "bg-neutral-900 border-neutral-700 text-neutral-200 hover:bg-neutral-800/50"
+      : "bg-white border-gray-200 text-gray-800 hover:bg-gray-50";
   };
 
+  // Handles answer submission and score calculation
   const handleSubmit = () => {
-    const userOrderIds = userOrder.map((option) => option.id);
-    const isAnswerCorrect =
-      JSON.stringify(userOrderIds) === JSON.stringify(correctOrder);
-    setIsCorrectOrder(isAnswerCorrect);
-    setSubmitted(true);
+    const userOrderIds = userOrder.map((option) => option.id);    // Maps userOrder to array of IDs
+    const isAnswerCorrect = JSON.stringify(userOrderIds) === JSON.stringify(correctOrder); // Checks for exact match with correctOrder
+    setIsCorrectOrder(isAnswerCorrect);                           // Sets correct order state based on match result
+    setSubmitted(true);                                           // Marks submission as true
 
-    // Calculate the score
+    // Score calculation based on difference in position for each item
     let totalScore = 0;
     userOrder.forEach((option, index) => {
-      const optionId = option.id;
-      const correctIndex = correctOrder.indexOf(optionId);
-      const difference = Math.abs(correctIndex - index);
-      const optionScore = maxPointsPerOption - difference;
-      totalScore += optionScore;
+      const correctIndex = correctOrder.indexOf(option.id);       // Finds correct index for current option
+      const difference = Math.abs(correctIndex - index);          // Calculates distance from correct position
+      totalScore += (options.length - 1) - difference;            // Scores higher for positions closer to correct
     });
-    setScore(totalScore);
+    setScore(totalScore);                                         // Sets score based on totalScore
 
-    if (isAnswerCorrect) {
+    if (isAnswerCorrect) {                                        // Executes callback if answer is correct
       onAnswer?.();
-    } else {
-      setShowHints(true);
     }
   };
 
-  const handlePrincipleClick = (principle: string) => {
-    if (isMobile) {
-      setExpandedOption(expandedOption === principle ? null : principle);
-    }
-  };
-
-  // Progress bar animation variants
-  const progressVariants = {
-    initial: { width: 0 },
-    animate: (score: number) => ({
-      width: `${(score / maxScore) * 100}%`,
-      transition: { duration: 1 },
-    }),
-    reset: { width: 0, transition: { duration: 0.5 } },
-  };
-
+  // Renders an information button for each option, displaying additional details on hover
+  const renderInfoButton = (option: Option) => (
+    <HoverCard>
+      <HoverCardTrigger asChild>
+        <button 
+          className="p-1 rounded-full hover:bg-black/5 dark:hover:bg-white/10"
+          onClick={(e) => e.preventDefault()}                     // Prevents click default behavior
+        >
+          <Info size={16} className="text-gray-500 dark:text-gray-400" />
+        </button>
+      </HoverCardTrigger>
+      <HoverCardContent className="w-80">
+        <p className="text-base leading-relaxed">{option.principle}</p>
+      </HoverCardContent>
+    </HoverCard>
+  ); // Displays principle text for context
+  // Renders the question and options, including drag-and-drop reordering and feedback
   return (
     <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      className={`mt-4 p-3 border rounded-xl transition-all duration-200 ${
+      initial={{ opacity: 0, y: 20 }}                             // Initial animation state
+      animate={{ opacity: 1, y: 0 }}                              // Target animation state on mount
+      className={`mt-4 p-3 border rounded-xl ${
         isDark
-          ? "bg-neutral-950 border-neutral-800 hover:border-neutral-700"
-          : "bg-gray-50 border-gray-200 hover:border-gray-300"
+          ? "bg-neutral-950 border-neutral-800"
+          : "bg-gray-50 border-gray-200"
       }`}
     >
-      <h3
-        className={`text-base font-medium mb-2 ${
-          isDark ? "text-neutral-200" : "text-gray-800"
-        }`}
-      >
+      <h3 className={`text-base font-medium mb-2 ${isDark ? "text-neutral-200" : "text-gray-800"}`}>
         {question}
       </h3>
 
       <Reorder.Group
-        axis="y"
-        values={userOrder}
-        onReorder={handleReorder}
+        axis="y"                                                   // Enables vertical drag-and-drop
+        values={userOrder}                                         // Ordered list of options
+        onReorder={handleReorder}                                  // Handler for updating order on drag
         className="space-y-2"
       >
-        <AnimatePresence>
-          {userOrder.map((option, index) => (
-            <div key={option.id}>
-              <Reorder.Item
-                value={option}
-                style={{ 
-                  pointerEvents: submitted ? 'none' : 'auto',
-                  opacity: submitted ? 0.7 : 1
-                }}
-                whileDrag={{
-                  scale: 1.02,
-                  boxShadow: "0px 3px 8px rgba(0,0,0,0.1)",
-                }}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -20 }}
-                className={`
-                  relative py-2 px-3 border rounded-lg flex items-center justify-between
-                  ${getOptionStyle(index)}
-                  transition-colors duration-200
-                `}
-              >
-                <span className="font-medium ml-1 mr-1 flex-shrink-0">{option.id}. 
-                </span>
-                <span className="flex-1">{option.text}</span>
-                <div className="flex items-center space-x-2">
-                {!submitted && (
-                <GripVertical
-                  size={16}
-                  className="text-gray-400 dark:text-gray-600 flex-shrink-0"
-                />
-                )}
-                  {submitted && (
-                    isMobile ? (
-                      <button
-                        onClick={() => handlePrincipleClick(option.principle)}
-                        className="p-1 rounded-full hover:bg-black/5 dark:hover:bg-white/10"
-                      >
-                        <Info size={16} className="text-gray-500 dark:text-gray-400" />
-                      </button>
-                    ) : (
-                      <HoverCard>
-                        <HoverCardTrigger asChild>
-                          <button className="p-1 rounded-full hover:bg-black/5 dark:hover:bg-white/10">
-                            <Info size={16} className="text-gray-500 dark:text-gray-400" />
-                          </button>
-                        </HoverCardTrigger>
-                        <HoverCardContent className="w-80">
-                          <p className="text-base leading-relaxed">{option.principle}</p>
-                        </HoverCardContent>
-                      </HoverCard>
-                    )
-                  )}
-                </div>
-              </Reorder.Item>
-              {isMobile && expandedOption === option.principle && (
-                <motion.div
-                  initial={{ opacity: 0, height: 0 }}
-                  animate={{ opacity: 1, height: "auto" }}
-                  exit={{ opacity: 0, height: 0 }}
-                  className={`mt-1 mb-2 p-3 rounded-sm ${
-                    isDark
-                      ? "bg-neutral-800 text-neutral-200"
-                      : "bg-white text-gray-800 border border-gray-200"
-                  }`}
-                >
-                  <p className="text-sm">{option.principle}</p>
-                </motion.div>
-              )}
-            </div>
-          ))}
-        </AnimatePresence>
+        {userOrder.map((option, index) => (
+          <Reorder.Item
+            key={option.id}
+            value={option}
+            className={`
+              py-2 px-3 border rounded-lg flex items-center justify-between
+              ${getOptionStyle(index)}
+              transition-colors duration-200
+            `}                                                    // Dynamically applies option style based on state
+            dragListener={!submitted}                             // Disables drag after submission
+          >
+            <span className="font-medium ml-1 mr-1">{option.id}.</span>
+            <span className="flex-1">{option.text}</span>
+            {renderInfoButton(option)}                            
+          </Reorder.Item>
+        ))}
       </Reorder.Group>
 
-      <div className="mt-3 space-x-2">
+      {/* Action buttons */}
+      <div className="mt-3">
         {!submitted ? (
-          <motion.button
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
+          <button
             onClick={handleSubmit}
-            className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 ${
+            className={`px-4 py-2 rounded-lg font-medium ${
               isDark
                 ? "bg-indigo-500/20 text-indigo-200 hover:bg-indigo-500/30"
                 : "bg-indigo-50 text-indigo-600 hover:bg-indigo-100"
             }`}
           >
             Submit
-          </motion.button>
+          </button>
         ) : (
-          <motion.button
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
+          <button
             onClick={resetQuestion}
-            className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 ${
+            className={`px-4 py-2 rounded-lg font-medium ${
               isCorrectOrder
                 ? isDark
                   ? "bg-green-500/20 text-green-200 hover:bg-green-500/30"
@@ -256,10 +196,11 @@ const RankingQuestion = ({
             }`}
           >
             Try Again
-          </motion.button>
+          </button>
         )}
       </div>
 
+      {/* Feedback section */}
       <AnimatePresence>
         {submitted && (
           <motion.div
@@ -268,77 +209,48 @@ const RankingQuestion = ({
             exit={{ opacity: 0, y: 10 }}
             className="mt-3"
           >
-            {/* Progress Bar */}
             <div className="mb-4">
-              <div
-                className={`w-full h-2 rounded-full overflow-hidden ${
-                  isDark ? "bg-neutral-800" : "bg-gray-200"
-                }`}
-              >
+              <div className={`w-full h-2 rounded-full ${isDark ? "bg-neutral-800" : "bg-gray-200"}`}>
                 <motion.div
                   className={`h-full rounded-full ${
-                    isCorrectOrder
-                      ? isDark
-                        ? "bg-green-500"
-                        : "bg-green-500"
-                      : isDark
-                      ? "bg-blue-400/80"
-                      : "bg-blue-400"
+                    isCorrectOrder ? "bg-green-500" : "bg-blue-400"
                   }`}
                   variants={progressVariants}
                   initial="initial"
                   animate="animate"
-                  custom={score || 0}
+                  custom={score}
                 />
               </div>
               <div className="mt-2 text-sm text-center">
-                {isCorrectOrder ? (
-                  <span
-                    className={`font-medium ${
-                      isDark ? "text-green-400" : "text-green-700"
-                    }`}
-                  >
-                    Excellent! You achieved the maximum score.
-                  </span>
-                ) : (
-                  <span
-                    className={`font-medium ${
-                      isDark ? "text-blue-400" : "text-blue-700"
-                    }`}
-                  >
-                    Your score: {score} / {maxScore}
-                  </span>
-                )}
+                <span className={isDark ? "text-blue-400" : "text-blue-700"}>
+                  {isCorrectOrder
+                    ? "Perfect score!"                        // Displays message based on correctness
+                    : `Score: ${score}/${maxScore}`}
+                </span>
               </div>
             </div>
 
-            {/* Feedback */}
-            {isCorrectOrder ? (
-              <div
-                className={`p-3 rounded-lg ${
-                  isDark
+            <div
+              className={`p-3 rounded-lg ${
+                isCorrectOrder
+                  ? isDark
                     ? "bg-green-900/30 text-green-200"
                     : "bg-green-100 text-green-800"
-                }`}
-              >
-                <p className="text-sm">{correctExplanation}</p>
-              </div>
-            ) : (
-              <div
-                className={`p-3 rounded-lg ${
-                  isDark
-                    ? "bg-amber-900/30 text-amber-200"
-                    : "bg-amber-100 text-amber-800"
-                }`}
-              >
-                <p className="text-sm font-medium mb-2">Hints:</p>
+                  : isDark
+                  ? "bg-amber-900/30 text-amber-200"
+                  : "bg-amber-100 text-amber-800"
+              }`}
+            >
+              {isCorrectOrder ? (
+                <p className="text-sm">{correctExplanation}</p>  // Displays correct explanation if answer is right
+              ) : (
                 <ul className="list-disc list-inside text-sm space-y-1">
                   {hints.map((hint, index) => (
-                    <li key={index}>{hint}</li>
+                    <li key={index}>{hint}</li>                  // Shows hints for improvement if answer is incorrect
                   ))}
                 </ul>
-              </div>
-            )}
+              )}
+            </div>
           </motion.div>
         )}
       </AnimatePresence>
